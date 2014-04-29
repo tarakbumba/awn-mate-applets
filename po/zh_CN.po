@@ -1,0 +1,688 @@
+# Simplified Chinese translation for awn-mate-applets
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-mate-applets package.
+# Aron Xu <Unknown>, 2008.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:16+0300\n"
+"PO-Revision-Date: 2010-03-25 15:44+0000\n"
+"Last-Translator: Michal Hruby <michal.mhr@gmail.com>\n"
+"Language-Team: Simplified Chinese <zh_CN@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "最近的文档"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+msgid "A Mate Main Menu."
+msgstr ""
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "锁定屏幕"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "计算机"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "回收站"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "网络"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+msgid "Awn Mate MainMenu"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "锁定屏幕"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+msgid "Show Docklet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "注销"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+msgid "Shut Down"
+msgstr ""
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Log Out..."
+#~ msgstr "注销"
+
+#~ msgid "Preferences"
+#~ msgstr "首选项"
+
+#~ msgid "General"
+#~ msgstr "常规"
+
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Login to "
+#~ msgstr "登录到 "
+
+#~ msgid "Online Calendar"
+#~ msgstr "在线日历"
+
+#~ msgid "Calendar Username"
+#~ msgstr "日历用户名"
+
+#~ msgid "Calendar Password"
+#~ msgstr "日历密码"
+
+#~ msgid "Save Password"
+#~ msgstr "保存密码"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "您已选择保存密码。尽管密码会以加密形式储存，如果您的电脑安全防线被突破，它"
+#~ "仍有被解密和盗窃的潜在风险。您依然确信要保存密码吗？"
+
+#~ msgid "Classic LCD"
+#~ msgstr "传统液晶屏"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "发光液晶屏"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "琥珀色背光液晶屏"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "绿色背光液晶屏"
+
+#~ msgid "Green LED"
+#~ msgstr "绿色LED"
+
+#~ msgid "Red LED"
+#~ msgstr "红色LED"
+
+#~ msgid "Blue LED"
+#~ msgstr "蓝色LED"
+
+#~ msgid "Plain White"
+#~ msgstr "白色"
+
+#~ msgid "Plain Black"
+#~ msgstr "黑色"
+
+#~ msgid "Red"
+#~ msgstr "红色"
+
+#~ msgid "Green"
+#~ msgstr "绿色"
+
+#~ msgid "Blue"
+#~ msgstr "蓝色"
+
+#~ msgid "Gray"
+#~ msgstr "灰色"
+
+#~ msgid "Black"
+#~ msgstr "黑色"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "12小时时钟"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "时钟外观"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "日历外观"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Google日历"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "网络访问 Outlook"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "日历整合"
+
+#~ msgid "Calendar URL"
+#~ msgstr "日历URL"
+
+#~ msgid "Calendar"
+#~ msgstr "日历"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "您想从日历小部件中清除日历密码吗？如果您选择了清除自己的密码，将会重新被提"
+#~ "示进行日历登录认证。"
+
+#~ msgid "Open in "
+#~ msgstr "打开于 "
+
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "无法从外部的源中读取日历数据。"
+
+#~ msgid "No appointments."
+#~ msgstr "没有约会。"
+
+#~ msgid "No appointments"
+#~ msgstr "无约会"
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr "下载%s失败。点击“下一步”再试一次。"
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr "该 URL 不是一个有效的漫画源。按“继续”重试"
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "正在连接 <i>%s</i>..."
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "保存<i>%s</i>失败。"
+
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "Username:"
+#~ msgstr "用户名："
+
+#~ msgid "Password:"
+#~ msgstr "密码："
+
+#~ msgid "Filesystem"
+#~ msgstr "文件系统"
+
+#~ msgid "Empty Trash"
+#~ msgstr "清空回收站"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_清空回收站"
+
+#~ msgid "Mail Applet"
+#~ msgstr "邮件小程序"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "你有 %d 条新消息"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d 条未读消息"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "邮件小程序（点击登录）"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "以 %s 身份登录"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "新邮件 - 邮件小程序"
+
+#~ msgid "Log In"
+#~ msgstr "登录"
+
+#~ msgid "Backend"
+#~ msgstr "后端"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[无主题]"
+
+#~ msgid "Domain:"
+#~ msgstr "域："
+
+#~ msgid "Server:"
+#~ msgstr "服务器："
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "使用SSL加密"
+
+#~ msgid "Could not log in"
+#~ msgstr "无法登录"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "文件夹不存在"
+
+#~ msgid "Folder:"
+#~ msgstr "文件夹："
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "一个检查电子邮件的小程序"
+
+#~ msgid "Custom"
+#~ msgstr "自定义"
+
+#~ msgid "Current Theme"
+#~ msgstr "当前主题"
+
+#~ msgid "Orange"
+#~ msgstr "橙色"
+
+#~ msgid "Sky Blue"
+#~ msgstr "天蓝色"
+
+#~ msgid "Plum"
+#~ msgstr "浅紫色"
+
+#~ msgid "Chocolate"
+#~ msgstr "巧克力色"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "绯红色"
+
+#~ msgid "Progress"
+#~ msgstr "进度"
+
+#~ msgid "Priority"
+#~ msgstr "优先级"
+
+#~ msgid "Icon"
+#~ msgstr "图标"
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "删除时需确认..."
+
+#~ msgid "Low Priority"
+#~ msgstr "低优先级"
+
+#~ msgid "Medium Priority"
+#~ msgstr "中优先级"
+
+#~ msgid "High Priority"
+#~ msgstr "高优先级"
+
+#~ msgid "Icon Color"
+#~ msgstr "图标颜色"
+
+#~ msgid "Custom Colors"
+#~ msgstr "自定义颜色"
+
+#~ msgid "Outer Border"
+#~ msgstr "外边框"
+
+#~ msgid "Inner Border"
+#~ msgstr "内边框"
+
+#~ msgid "Text"
+#~ msgstr "文本"
+
+#~ msgid "Icon Type"
+#~ msgstr "图标类型"
+
+#~ msgid "Remove item"
+#~ msgstr "删除项目"
+
+#~ msgid "Priority: "
+#~ msgstr "优先级： "
+
+#~ msgid "_Low"
+#~ msgstr "_低"
+
+#~ msgid "_Medium"
+#~ msgstr "_中"
+
+#~ msgid "_High"
+#~ msgstr "_高"
+
+#~ msgid "Progress(%): "
+#~ msgstr "进度（%）： "
+
+#~ msgid "Don't show this again."
+#~ msgstr "不再显示。"
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "您确定要移除这个项目吗？"
+
+#~ msgid "Forecast"
+#~ msgstr "天气预报"
+
+#~ msgid "Tomorrow"
+#~ msgstr "明天"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "说明"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "气象数据由weather.com提供"
+
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "Hurricane"
+#~ msgstr "飓风"
+
+#~ msgid "Thunderstorms"
+#~ msgstr "暴风雨"
+
+#~ msgid "Tropical Storm"
+#~ msgstr "热带暴雨"
+
+#~ msgid "Monday"
+#~ msgstr "星期一"
+
+#~ msgid "Tuesday"
+#~ msgstr "星期二"
+
+#~ msgid "Wednesday"
+#~ msgstr "星期三"
+
+#~ msgid "Thursday"
+#~ msgstr "星期四"
+
+#~ msgid "Friday"
+#~ msgstr "星期五"
+
+#~ msgid "Saturday"
+#~ msgstr "星期六"
+
+#~ msgid "Sunday"
+#~ msgstr "星期日"
+
+#~ msgid "Searching..."
+#~ msgstr "搜索中..."

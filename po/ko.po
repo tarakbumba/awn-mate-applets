@@ -1,0 +1,2444 @@
+# Korean translation for awn-mate-applets
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2010-11-03 23:26+0000\n"
+"Last-Translator: Para <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "위치"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "최근 문서"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr "세션"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr "아이콘 제거"
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr "주 메뉴"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+#, fuzzy
+msgid "Cairo Mate Menu"
+msgstr "카이로 주메뉴"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate Main Menu."
+msgstr "주메뉴"
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr "로그아웃"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "화면 잠금"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr "절전 모드"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr "최대 절전 모드"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "컴퓨터 끄기"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "컴퓨터"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "홈"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "데스크톱"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "휴지통"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr "파일 시스템"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr "이동식 미디어"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "네트워크"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "서버에 연결"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr "%s을(를) 마운트 할 수 없습니다"
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr "최근 문서 목록을 지우시겠습니까?"
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+"최근 문서 목록을 지우면, 다음이 지워집니다:\n"
+"• 위치 → 최근 문서에 있는 모든 항목.\n"
+"• 모든 프로그램의 최근 문서 목록에 들어 있는 모든 항목."
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr "최근 문서 지우기"
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+#, fuzzy
+msgid "Awn Mate MainMenu"
+msgstr "Awn 주 메뉴"
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate main menu for Awn"
+msgstr "AWN을 위한 주 메뉴"
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+#, fuzzy
+msgid "Action to perform when left clicking on the icon."
+msgstr "왼쪽 클릭에 행할 작업"
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "화면 잠금"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+#, fuzzy
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr "비정상적인 사용으로부터 컴퓨터를 보호합니다"
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+#, fuzzy
+msgid "Log out of this Mate session to log in as a different user"
+msgstr "다른 사용자가 로그인하기 위해 이 세션을 로그아웃합니다"
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr "컴퓨터 시스템 끄기"
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+#, fuzzy
+msgid "Show Docklet"
+msgstr "바탕 화면 보기"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "로그아웃"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+#, fuzzy
+msgid "Shut Down"
+msgstr "컴퓨터 끄기..."
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr "컴퓨터 끄기..."
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+#, fuzzy
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr "좀 색다른 메뉴 애플릿"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr "비정상적인 사용으로부터 컴퓨터를 보호합니다"
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr "홈 폴더"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr "서버에 연결..."
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#~ msgid "Log Out..."
+#~ msgstr "로그아웃..."
+
+#~ msgid "Animal Farm"
+#~ msgstr "애니멀 팜(속담)"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "속담 메시지 표시"
+
+#~ msgid "Applet that displays fortune messages"
+#~ msgstr "점괘를 보여주는 애플릿"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "터미널 활성시 전체적인 핫키를 사용"
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr "포커스를 잃었을 때 날씨 애플릿의 스스로  숨김 여부 설정"
+
+#~ msgid "The applet's background image."
+#~ msgstr "애플릿 배경 이미지"
+
+#~ msgid "The applet's opacity level."
+#~ msgstr "애플릿 불투명도 단계"
+
+#~ msgid "The default external terminal application."
+#~ msgstr "기본 확장 터미널 프로그램"
+
+#~ msgid "Disabled"
+#~ msgstr "사용 안 함"
+
+#~ msgid "Preferences"
+#~ msgstr "기본 설정"
+
+#~ msgid "Behavior"
+#~ msgstr "행동"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "포커스 잃었을때 숨김"
+
+#~ msgid "Action"
+#~ msgstr "동작"
+
+#~ msgid "Shortcut"
+#~ msgstr "바로 가기"
+
+#~ msgid "Activate"
+#~ msgstr "활성화"
+
+#~ msgid "Background image"
+#~ msgstr "배경 그림"
+
+#~ msgid "Select a file"
+#~ msgstr "파일을 선택하십시오"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "터미널 불투명도"
+
+#~ msgid "External Terminal"
+#~ msgstr "확장 터미널"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "심플한 팝업 터미널"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "터미널 애플릿"
+
+#~ msgid ""
+#~ "Adds or removes 5px to the value of the AWN setting \"Size of Icons\""
+#~ msgstr "AWN 설정 중 \"아이콘 크기\" 값을 5px씩 늘리거나 줄입니다."
+
+#~ msgid "Color to draw the background"
+#~ msgstr "배경에 그릴 색상"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "색으로 그릴 테두리"
+
+#~ msgid "Desired applet font size"
+#~ msgstr "원하는 애플릿 글꼴 크기"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "모양을 위한 값 표시"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "애플릿  배경 그리기"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "애플릿 테두리 그리기"
+
+#~ msgid ""
+#~ "If enabled this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn"
+#~ msgstr ""
+#~ "활성화된 후 값이 0이면 그래프의 밑에 선을 그릴 것이고 같이 1이면 그리지 않"
+#~ "습니다."
+
+#~ msgid "Minimum threshold to draw meter (dependent upon DEFAULT/unit)"
+#~ msgstr "계기에 표시할 최소 경계값 (기본값/단위에 좌우됨)"
+
+#~ msgid "The base display unit for transfer speed (0: bits, 1: bytes)"
+#~ msgstr "전송 속도의 기본 표시 단위 (0: bits, 1: bytes)"
+
+#~ msgid "The interface currently selected"
+#~ msgstr "현재 선택한 모양"
+
+#~ msgid "Throughput label control - 0: no label, 1: Sum, 2: Upload/Download"
+#~ msgstr "처리량 라벨 제어 - 0: 라벨 없음, 1: 합계, 2: 업로드/다운로드"
+
+#~ msgid ""
+#~ "Type of graph to use for wireless devices - area: Area chart, area_bar: "
+#~ "Area chart with colored bars, bar: Bar chart, fan: Waving chart with "
+#~ "density, fan_bar: Waving Bar chart with density"
+#~ msgstr ""
+#~ "무선 장치에 사용할 그래프 형식 - 영역: 영역 차트, 영역_막대: 유색 막대기"
+#~ "로 그린 영역 차트, 막대: 막대 그래프, 팬: 밀도 표시한 파동 차트, 팬_막대: "
+#~ "밀도 표시한 파동 막대"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "대여폭 모니터"
+
+#~ msgid "Network Bandwidth monitor"
+#~ msgstr "네트워크 대여폭 모니터"
+
+#~ msgid "Scanning"
+#~ msgstr "스캐닝"
+
+#~ msgid "Devices"
+#~ msgstr "장치들"
+
+#~ msgid "KBps"
+#~ msgstr "KB초"
+
+#~ msgid "Kbps"
+#~ msgstr "Kb초"
+
+#~ msgid "Interfaces"
+#~ msgstr "인터페이스"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "유효한 네트워크 장치를 선택 하십시오"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr "총 보내기: %s - 총 받기: %s (모든 상황)"
+
+#~ msgid "No Device"
+#~ msgstr "장치 없음"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "유효한 창치를 선택하십시오"
+
+#~ msgid "A Network Bandwidth monitor for AWN"
+#~ msgstr "AWN 네트워크 모니터링"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>화면</b>"
+
+#~ msgid "Background Color"
+#~ msgstr "배경 색"
+
+#~ msgid "Border Color"
+#~ msgstr "테두리 색"
+
+#~ msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+#~ msgstr "Mbps/Kbps (bits) 대신 MBps/KBps (bytes)로 표시합니다."
+
+#~ msgid "Display Speed Text"
+#~ msgstr "문자로 속도 표시"
+
+#~ msgid "Draw 0 bps in graphs"
+#~ msgstr "0 bps를 그래프에 표시합니다."
+
+#~ msgid "Draw Background"
+#~ msgstr "배경을 표시합니다."
+
+#~ msgid "Draw Border"
+#~ msgstr "테두리 그리기"
+
+#~ msgid "General"
+#~ msgstr "일반"
+
+#~ msgid "Graph Only"
+#~ msgstr "그래프"
+
+#~ msgid "If this is checked, the common display unit will be Bytes"
+#~ msgstr "체크하시면, 공통 표시 단위를 Bytes로 설정합니다."
+
+#~ msgid "Minimum Scaling threshold"
+#~ msgstr "최소 크기 조정 한계치"
+
+#~ msgid "Sum"
+#~ msgstr "합계"
+
+#~ msgid "Device"
+#~ msgstr "장치"
+
+#~ msgid "Multi"
+#~ msgstr "멀티"
+
+#~ msgid "Upload Color"
+#~ msgstr "업로드 색"
+
+#~ msgid "Download Color"
+#~ msgstr "다운로드 색"
+
+#~ msgid "Upload"
+#~ msgstr "업로드"
+
+#~ msgid "Download"
+#~ msgstr "다운로드"
+
+#~ msgid "%s %s Color"
+#~ msgstr "%s %s 색"
+
+#~ msgid "Options/Info"
+#~ msgstr "선택사항/정보"
+
+#~ msgid "Back to Graph"
+#~ msgstr "그래프로 돌아가기"
+
+#~ msgid "Change Unit"
+#~ msgstr "단위 바꾸기"
+
+#~ msgid "None"
+#~ msgstr "없음"
+
+#~ msgid "Wireless graph type"
+#~ msgstr "무선랜 그래프 형식"
+
+#~ msgid "HAL UDI of battery."
+#~ msgstr "HAL UDI의 배터리."
+
+#~ msgid ""
+#~ "If charge level drops below this threadhold, a warning will be displayed."
+#~ msgstr "충전 수준이 이 한계치 이하로 떨어지면 경고를 표시할 것입니다."
+
+#~ msgid "If charge level reaches this threshold, a notification will be sent."
+#~ msgstr "충전 수준이 이 한계치에 도달하면, 알려드립니다."
+
+#~ msgid "If enabled, notify when the charge level reaches the high level."
+#~ msgstr "활성화되면, 충전 수준이 고수준으로 도달하면 알려드립니다."
+
+#~ msgid ""
+#~ "If enabled, warn when the charge level drops below the warning threshold."
+#~ msgstr "활성화되면, 충전 수준이 경고 한계치 이하로 떨어지면 경고합니다."
+
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "아이콘 테마의 이름"
+
+#~ msgid "Unit of low level threshold (Percent or Time Remaining)."
+#~ msgstr "저수준 한계치의 단위 (퍼센트 또는 남은 시간)"
+
+#~ msgid "Battery"
+#~ msgstr "배터리"
+
+#~ msgid "Display battery state"
+#~ msgstr "배터리 상황 표시"
+
+#~ msgid "Battery Status"
+#~ msgstr "배터리 상태"
+
+#~ msgid "An applet which displays battery information"
+#~ msgstr "배터리 정보를 표시하는 애플릿"
+
+#~ msgid "No batteries"
+#~ msgstr "배터리 없음"
+
+#~ msgid "Percent"
+#~ msgstr "퍼센트"
+
+#~ msgid "AC"
+#~ msgstr "AC"
+
+#~ msgid "battery"
+#~ msgstr "배터리"
+
+#~ msgid "Computer running on %s power"
+#~ msgstr "컴퓨터가 %s 전원을 사용합니다."
+
+#~ msgid "Battery charged"
+#~ msgstr "배터리를 충전하였습니다."
+
+#~ msgid "until charged"
+#~ msgstr "충전될 때까지"
+
+#~ msgid "remaining"
+#~ msgstr "남은 시간"
+
+#~ msgid "Time Remaining"
+#~ msgstr "남은 시간"
+
+#~ msgid "%d hours"
+#~ msgstr "%d 시간"
+
+#~ msgid "%d hour"
+#~ msgstr "%d 시간"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d 분"
+
+#~ msgid "%d minute"
+#~ msgstr "%d 분"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>일반 설정</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>알림</b>"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge level reaches a certain "
+#~ "percentage"
+#~ msgstr "활성화가 되면, 충전 수준이 일정 퍼센트에 도달하면 알려드립니다."
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge levels drops too low"
+#~ msgstr "활성화가 되면, 충전 수준이 너무 낮은 경우 알려드립니다."
+
+#~ msgid "_Battery:"
+#~ msgstr "배터리(_B):"
+
+#~ msgid "_Notify when charge level reaches:"
+#~ msgstr "변경할 수준에 도달하면 알림(_N):"
+
+#~ msgid "_Theme:"
+#~ msgstr "테마(_T):"
+
+#~ msgid "_Warn when charge level drops to:"
+#~ msgstr "경고할 방전 수준(_W):"
+
+#~ msgid "A custom time format (strftime()), used if not empty."
+#~ msgstr "사용자 지정 시각 형식 (strftime()). 입력시 사용합니다."
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too."
+#~ msgstr "활성화되면 시분뿐만 아니라 초도 표시합니다."
+
+#~ msgid "If enabled, displays the weather as an overlay on top of the clock."
+#~ msgstr "활성화하면, 시계 위에 날씨를 겹쳐서 표시합니다."
+
+#~ msgid "If enabled, the date will be shown in the title."
+#~ msgstr "활성화하면, 날짜를 제목에 표시합니다."
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock."
+#~ msgstr "활성화하면, 시계의 초침을 표시합니다."
+
+#~ msgid "List of cities and timezones separated by a '#' character."
+#~ msgstr "'#' 문자로 도시와 시간대를 목록을 구별합니다."
+
+#~ msgid ""
+#~ "Show time in 24 hour format if enabled, or 12 hour format when disabled."
+#~ msgstr "활성화하면 24시간제로 비활성화하면 12시간제로 시각을 표시합니다."
+
+#~ msgid "Temperature unit (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+#~ msgstr "온도 단위 (0: 섭씨, 1: 화씨, 2: 켈빈)."
+
+#~ msgid "The name of the theme of the analog clock."
+#~ msgstr "아날로그 시계 테마의 이름"
+
+#~ msgid "Wind speed unit (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+#~ msgstr "풍속 단위 (0: m/s, 1: km/h, 2: mph, 3: 노트, 4: 보퍼트)."
+
+#~ msgid "Cairo Clock"
+#~ msgstr "카이로 시계"
+
+#~ msgid ""
+#~ "Displays an analog clock and supports additional clocks for different "
+#~ "locations"
+#~ msgstr "아날로그 시계를 표시하고 다른 지역의 시계의 추가도 지원합니다."
+
+#~ msgid ""
+#~ "Applet that displays an analog clock and supports additional clocks for "
+#~ "different locations"
+#~ msgstr "아날로그 시계를 표시하고 다른 지역의 시계의 추가도 지원하는 애플릿"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "12 _hour format"
+#~ msgstr "12시간 형식(_H)"
+
+#~ msgid "24 h_our format"
+#~ msgstr "24시간 형식(_O)"
+
+#~ msgid "<b>Clock Display</b>"
+#~ msgstr "<b>시계 표시</b>"
+
+#~ msgid "<b>Title Options</b>"
+#~ msgstr "<b>제목 속성</b>"
+
+#~ msgid "Beaufort"
+#~ msgstr "보퍼트"
+
+#~ msgid "Celsius"
+#~ msgstr "섭씨"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "화씨"
+
+#~ msgid "Find _Next"
+#~ msgstr "다음 찾기(_N)"
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too"
+#~ msgstr "활성화하면, 시분뿐만 아니라 초도 표시합니다."
+
+#~ msgid "If enabled, the date will be shown in the title"
+#~ msgstr "활성화하면, 제목에 날짜를 표시합니다."
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock"
+#~ msgstr "활성화하면, 시계에 초침을 표시합니다."
+
+#~ msgid "If enabled, time will be shown like 1:23 AM"
+#~ msgstr "활성하면, 시간이 오전 1시 23분 같이 표시됩니다"
+
+#~ msgid "If enabled, time will be shown like 23:45"
+#~ msgstr "활성 하면, 시간은 23시 45분 같이 표시됩니다"
+
+#~ msgid "Kelvin"
+#~ msgstr "켈빈"
+
+#~ msgid "Location Name:"
+#~ msgstr "위치 이름:"
+
+#~ msgid "Show _seconds"
+#~ msgstr "초 보기(_S)"
+
+#~ msgid "Show seco_nds hand"
+#~ msgstr "초침을 보여줍니다.(_N)"
+
+#~ msgid "Show the _date"
+#~ msgstr "날짜 표시(_D)"
+
+#~ msgid "_Show weather of current location"
+#~ msgstr "현재 위치의 날씨 표시(_S)"
+
+#~ msgid "_Temperature unit:"
+#~ msgstr "온도 단위(_T):"
+
+#~ msgid "_Wind speed unit:"
+#~ msgstr "풍속 단위(_W):"
+
+#~ msgid "km/h"
+#~ msgstr "km/h"
+
+#~ msgid "knots"
+#~ msgstr "노트"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "mph"
+#~ msgstr "mph"
+
+#~ msgid "Locations"
+#~ msgstr "위치"
+
+#~ msgid "Edit"
+#~ msgstr "편집"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Clock/Calendar Applet"
+#~ msgstr "시계/달력 애플릿"
+
+#~ msgid "Watch appointments on your dock"
+#~ msgstr "독에서 약속을 지켜볼 수 있습니다."
+
+#~ msgid "Login to "
+#~ msgstr "로그인 "
+
+#~ msgid "Online Calendar"
+#~ msgstr "온라인 달력"
+
+#~ msgid "Calendar Username"
+#~ msgstr "달력 사용자 이름"
+
+#~ msgid "Calendar Password"
+#~ msgstr "달력 암호"
+
+#~ msgid "Save Password"
+#~ msgstr "암호 저장"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "암호를 저장할 것을 선택하셨습니다. 암호는 암호화하여 저장하지만 누군가 원"
+#~ "격으로 컴퓨터의 보안을 뚫고 침입하여 암호를 훔치고 해독할 가능성이 항상 있"
+#~ "습니다. 암호를 저장하시겠습니까?"
+
+#~ msgid "Classic LCD"
+#~ msgstr "예전 LCD"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "청백색 LCD"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "미색 백라이트 LCD"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "녹색 백라이트 LCD"
+
+#~ msgid "Green LED"
+#~ msgstr "녹색 LED"
+
+#~ msgid "Red LED"
+#~ msgstr "적색 LED"
+
+#~ msgid "Blue LED"
+#~ msgstr "청색 LED"
+
+#~ msgid "Plain White"
+#~ msgstr "백색"
+
+#~ msgid "Plain Black"
+#~ msgstr "흑색"
+
+#~ msgid "Red"
+#~ msgstr "빨강"
+
+#~ msgid "Green"
+#~ msgstr "녹색"
+
+#~ msgid "Blue"
+#~ msgstr "파랑"
+
+#~ msgid "Gray"
+#~ msgstr "회색"
+
+#~ msgid "Black"
+#~ msgstr "검은색"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "12시간 시계"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "시계 모양"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "달력 모양"
+
+#~ msgid "Evolution"
+#~ msgstr "에볼루션"
+
+#~ msgid "Google Calendar"
+#~ msgstr "구글 달력"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "아웃룩 웹 허용"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "달력 통합"
+
+#~ msgid "Calendar URL"
+#~ msgstr "달력 URL"
+
+#~ msgid "Calendar"
+#~ msgstr "달력"
+
+#~ msgid "Forget Password"
+#~ msgstr "암호 분실"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "달력 애플릿에서 달력 암호를 지우시겠습니까? 암호를 제거하시면, 달력 로그"
+#~ "인 증명을 위해서 암호를 요구할 것입니다."
+
+#~ msgid "Avant Calendar Applet"
+#~ msgstr "아반트 달력 애플릿"
+
+#~ msgid "A Calendar Applet for the Avant Window Navigator. Images by Deleket."
+#~ msgstr "아반트 윈도우 네비게이터용 달력 애플릿, Deleket의 제안"
+
+#~ msgid "%x %X"
+#~ msgstr "%x %X"
+
+#~ msgid "Today"
+#~ msgstr "오늘"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "외부 소스에서 달력 자료를 읽을 수 없습니다."
+
+#~ msgid "No appointments."
+#~ msgstr "약속 없음"
+
+#~ msgid "No appointments"
+#~ msgstr "약속 없음"
+
+#~ msgid "The user agent to send when retrieving comics."
+#~ msgstr "만화를 받을 때 보내는 인터넷 브라우저 식별값"
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr ""
+#~ "%s을(를) 다운받는데 실패하였습니다. \"다음\" 버튼을 눌러 다시 시도하십시"
+#~ "오."
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr "이 URL은 잘못된 만화 피드입니다. \"다음\"을 눌러 다시 시도하십시오."
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "<i>%s</i>로 연결 중..."
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "이 가이드를 종료합니다.\n"
+#~ "\n"
+#~ "<i>%s</i>.을(를) 추가하시려면 \"적용\" 버튼을 누르십시오."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "<b>%(name)s</b> 발견!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Comics!"
+#~ msgstr "만화!"
+
+#~ msgid "View your favourite comics on your desktop"
+#~ msgstr "컴퓨터에서  유명한 만화들을 보기"
+
+#~ msgid "Shared comics"
+#~ msgstr "코믹 공유"
+
+#~ msgid "Your comics"
+#~ msgstr "보유한 코믹"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "<i>%s</i> 제거 실패"
+
+#~ msgid "Error"
+#~ msgstr "오류"
+
+#~ msgid "Comics"
+#~ msgstr "코믹"
+
+#~ msgid "Manage Comics"
+#~ msgstr "코믹 관리"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A %d %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "<i>%s</i> 저장 실패"
+
+#~ msgid "Add Comic"
+#~ msgstr "코믹 추가"
+
+#~ msgid "Downloading Comic"
+#~ msgstr "코믹 다운로드 중"
+
+#~ msgid "Enter the URL of the RSS feed:"
+#~ msgstr "코믹 RSS 피드 주소를 입력:"
+
+#~ msgid "Ready to add comic!"
+#~ msgstr "코믹 추가 준비"
+
+#~ msgid "Select Comic"
+#~ msgstr "코밀 선택"
+
+#~ msgid "Select Image"
+#~ msgstr "이미지 선택"
+
+#~ msgid "The guide found more than one image. Please select which one to use."
+#~ msgstr ""
+#~ "이 가이드가 한 개이상의 이미지를 발견하였습니다. 사용하려는 이미지를 선택"
+#~ "하십시오."
+
+#~ msgid ""
+#~ "This guide will help you to add a new comic.\n"
+#~ "\n"
+#~ "To find comics suitable for adding, you may search the Internet for "
+#~ "\"comics rss\".\n"
+#~ "\n"
+#~ "Press \"next\" to proceed."
+#~ msgstr ""
+#~ "이 가이드는 새로운 만화의 추가를 도와드립니다.\n"
+#~ "\n"
+#~ "추가하기에 알맞은 만화를 발견하시려면, 인터넷에서 \"comics rss\"를 검색해 "
+#~ "보십시오.\n"
+#~ "\n"
+#~ "다음을 누르시면 진행합니다."
+
+#~ msgid "Manage comics"
+#~ msgstr "코믹 관리"
+
+#~ msgid "Show link"
+#~ msgstr "링크 보기"
+
+#~ msgid "Size"
+#~ msgstr "크기"
+
+#~ msgid "Index of processor."
+#~ msgstr "목차 정리 중"
+
+#~ msgid "<b>Monitored CPU</b>"
+#~ msgstr "<b>CPU 모니터</b>"
+
+#~ msgid "_Processor:"
+#~ msgstr "진행중(_P):"
+
+#~ msgid "System List"
+#~ msgstr "시스템 목록"
+
+#~ msgid "User List"
+#~ msgstr "사용자 목록"
+
+#~ msgid "Appearance"
+#~ msgstr "모양"
+
+#~ msgid "Toggle 12-hour mode."
+#~ msgstr "12시간 모드로 바꾸기"
+
+#~ msgid "12 hour format"
+#~ msgstr "12시간 형식"
+
+#~ msgid "24 hour format"
+#~ msgstr "24시간 형식"
+
+#~ msgid "<b>Clock Format</b>"
+#~ msgstr "<b>시간 형식t</b>"
+
+#~ msgid "Commands"
+#~ msgstr "명령"
+
+#~ msgid "Date below time"
+#~ msgstr "시간 밑에 날짜"
+
+#~ msgid "Digital Clock Preferences"
+#~ msgstr "디지털 시계 기본 설정"
+
+#~ msgid "Run Calendar:"
+#~ msgstr "댤력 실행:"
+
+#~ msgid "Run Time Admin:"
+#~ msgstr "관리자로 시간 설정:"
+
+#~ msgid "Show the date"
+#~ msgstr "날짜 보기"
+
+#~ msgid "Use default Awn colors"
+#~ msgstr "기본 AWN 색 사용"
+
+#~ msgid "Digital Clock"
+#~ msgstr "디지털 시계"
+
+#~ msgid "Copy Time"
+#~ msgstr "시간 복사"
+
+#~ msgid "Copy Date"
+#~ msgstr "날짜 복사"
+
+#~ msgid "Adjust Date & Time"
+#~ msgstr "시간/날짜 조정"
+
+#~ msgid "Displays digital clock."
+#~ msgstr "디지털 시계 표시"
+
+#~ msgid "Google"
+#~ msgstr "구글"
+
+#~ msgid "Google Reader"
+#~ msgstr "구글 리더"
+
+#~ msgid "Google Wave"
+#~ msgstr "구글 웨이브"
+
+#~ msgid "Reddit Inbox"
+#~ msgstr "레딧"
+
+#~ msgid "Twitter"
+#~ msgstr "트위터"
+
+#~ msgid "Untitled"
+#~ msgstr "제목 없음"
+
+#~ msgid "Feeds Applet"
+#~ msgstr "피드 애플릿"
+
+#~ msgid "Loading feeds..."
+#~ msgstr "피드 불러오는 중..."
+
+#~ msgid ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s More)\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s More)\n"
+
+#~ msgid "_Add Feed"
+#~ msgstr "피드 추가(_A)"
+
+#~ msgid "Open this feed's website"
+#~ msgstr "이 피드 웹사이트 열기"
+
+#~ msgid "Loading..."
+#~ msgstr "불러오는 중..."
+
+#~ msgid "Add Feed"
+#~ msgstr "피드 추가"
+
+#~ msgid "OPML Import"
+#~ msgstr "OPML 가져오기"
+
+#~ msgid "Feeds Applet Preferences"
+#~ msgstr "피드 애플릿 기본 설정"
+
+#~ msgid "Feeds"
+#~ msgstr "피드"
+
+#~ msgid "Updating"
+#~ msgstr "업데이트"
+
+#~ msgid "_Show website icons"
+#~ msgstr "웹사이트 아이콘 보기(_S)"
+
+#~ msgid "Import"
+#~ msgstr "가져오기"
+
+#~ msgid "Export"
+#~ msgstr "내보내기"
+
+#~ msgid "_Notify for updated feeds"
+#~ msgstr "피드 업데이트시 알림(_N)"
+
+#~ msgid "_Update automatically"
+#~ msgstr "자동으로 업데이트(_U)"
+
+#~ msgid "Update every "
+#~ msgstr "다음 시간마다 업데이트 "
+
+#~ msgid " minutes"
+#~ msgstr " 분"
+
+#~ msgid "Open OPML File"
+#~ msgstr "OPML 파일 열기"
+
+#~ msgid "Save OPML File"
+#~ msgstr "OPML 파일 저장"
+
+#~ msgid "feeds.opml"
+#~ msgstr "feeds.opml"
+
+#~ msgid "Awn Feeds Applet Items"
+#~ msgstr "AWN 피드 애플릿 항목"
+
+#~ msgid "Source:"
+#~ msgstr "소스:"
+
+#~ msgid "Search"
+#~ msgstr "검색"
+
+#~ msgid "You must sign in to a Google service to search for feeds."
+#~ msgstr "구글 서비스에서 피드를 찾으려면 구글에 등록되어 있어야 합니다."
+
+#~ msgid "RSS/Atom"
+#~ msgstr "RSS/Atom"
+
+#~ msgid "Timeline"
+#~ msgstr "타임라인"
+
+#~ msgid "Replies"
+#~ msgstr "답글"
+
+#~ msgid "Search for"
+#~ msgstr "찾을 내용"
+
+#~ msgid "URL:"
+#~ msgstr "주소:"
+
+#~ msgid "Username:"
+#~ msgstr "사용자 이름:"
+
+#~ msgid "Password:"
+#~ msgstr "암호:"
+
+#~ msgid "Feed search by "
+#~ msgstr "피드 검색 "
+
+#~ msgid "_Search"
+#~ msgstr "검색(_S)"
+
+#~ msgid ""
+#~ "There was an error while searching.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "검색중 오류 발생\n"
+#~ "나중에 다시 시도 바랍니다."
+
+#~ msgid ""
+#~ "No results found.\n"
+#~ "Try checking your spelling or using different search terms."
+#~ msgstr ""
+#~ "결과가 없습니다.\n"
+#~ "맞춤법을 확인하거나 다른 검색어를 사용해보십시오."
+
+#~ msgid "The action to perform on middle click"
+#~ msgstr "가운데 클릭에 행할 작업"
+
+#~ msgid "The file browser to use"
+#~ msgstr "파일 열람기 사용"
+
+#~ msgid "The path to use on left click"
+#~ msgstr "왼쪽 클릭시 사용할 경로"
+
+#~ msgid "Whether or not to display Connect to server"
+#~ msgstr "서버에 연결 표시할지 여부"
+
+#~ msgid "Whether or not to display bookmarks"
+#~ msgstr "책갈피를 표시할지 여부"
+
+#~ msgid "Whether or not to display local drives"
+#~ msgstr "로컬 드라이브를 표시할지 여부"
+
+#~ msgid "Whether or not to display network drives"
+#~ msgstr "네트워크 드라이브를 표시할지 여부"
+
+#~ msgid "Whether or not to display the Filesystem"
+#~ msgstr "파일 시스탬을 표시할지 여부"
+
+#~ msgid "Whether or not to display the home folder"
+#~ msgstr "홈 폴더를 표시할지 여부"
+
+#~ msgid "File Browser Launcher"
+#~ msgstr "파일 열람기"
+
+#~ msgid "Filesystem"
+#~ msgstr "파일 시스템"
+
+#~ msgid "CD/DVD Burner"
+#~ msgstr "CD/DVD 굽기"
+
+#~ msgid "Fonts"
+#~ msgstr "글꼴"
+
+#~ msgid "Folder"
+#~ msgstr "폴더"
+
+#~ msgid "DVD Drive"
+#~ msgstr "DVD 드라이브"
+
+#~ msgid "CD Drive"
+#~ msgstr "CD 드라이브"
+
+#~ msgid "Eject"
+#~ msgstr "꺼내기"
+
+#~ msgid "A customizable launcher for browsing your files."
+#~ msgstr "파일 열람을 위한 사용자 지정 열람기"
+
+#~ msgid "File Browser Launcher Preferences"
+#~ msgstr "파일 열람기 기본 설정"
+
+#~ msgid "File Browser"
+#~ msgstr "파일 열람기"
+
+#~ msgid "System Default"
+#~ msgstr "시스템 기본값"
+
+#~ msgid "Other"
+#~ msgstr "그 외"
+
+#~ msgid "One icon with dialog"
+#~ msgstr "하나의 아이콘 창"
+
+#~ msgid "One icon with docklet"
+#~ msgstr "독에 아이콘 여러개"
+
+#~ msgid "Multiple icons"
+#~ msgstr "멀티플 아이콘(다중 보이기)"
+
+#~ msgid "Focus text entry"
+#~ msgstr "텍스트 입력"
+
+#~ msgid "Open place when clicked"
+#~ msgstr "클릭했을때 위치 열기"
+
+#~ msgid "Show all places"
+#~ msgstr "모든 위치 보기"
+
+#~ msgid "Home folder"
+#~ msgstr "홈 폴더"
+
+#~ msgid "Mounted local drives"
+#~ msgstr "마운트된 로컬 드라이브"
+
+#~ msgid "Mounted network drives"
+#~ msgstr "마운트된 네트워크 드라이브"
+
+#~ msgid "Connect to server"
+#~ msgstr "서버에 연결"
+
+#~ msgid "Bookmarks"
+#~ msgstr "책갈피"
+
+#~ msgid "Display dialog/docklet"
+#~ msgstr "독렛 창으로 보기"
+
+#~ msgid "Open the folder"
+#~ msgstr "폴더 열기"
+
+#~ msgid "Nothing"
+#~ msgstr "없음"
+
+#~ msgid "Middle Click"
+#~ msgstr "가운데 클릭"
+
+#~ msgid "Choose a folder"
+#~ msgstr "폴더 선택"
+
+#~ msgid "Garbage"
+#~ msgstr "휴지통"
+
+#~ msgid "Could not open the trash folder with your file manager: %s"
+#~ msgstr "당신의 파일 관리자는 휴지통을 비울 수 없습니다: %s"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "휴지통 비우기(_E)"
+
+#~ msgid ""
+#~ "Are you sure you want to empty your trash? It currently contains %u "
+#~ "item(s)."
+#~ msgstr ""
+#~ "당신은 당신의 휴지통을 비우시겠습니까? 그것은 현재 %u개 항목들이 포함되어 "
+#~ "있습니다."
+
+#~ msgid "Could not send the dragged file(s) to the trash: %s"
+#~ msgstr "휴지통에 파일들을 버릴 수 없습니다: %s"
+
+#~ msgid "%s Preferences"
+#~ msgstr "%s 기본 설정"
+
+#~ msgid "Applet theme."
+#~ msgstr "애플릿 테마"
+
+#~ msgid "Hardware Sensors"
+#~ msgstr "하드웨어 센서"
+
+#~ msgid "Small"
+#~ msgstr "작게"
+
+#~ msgid "Medium"
+#~ msgstr "중간"
+
+#~ msgid "Large"
+#~ msgstr "크게"
+
+#~ msgid "Sensors"
+#~ msgstr "센서"
+
+#~ msgid "Interface"
+#~ msgstr "모양새"
+
+#~ msgid "Name"
+#~ msgstr "이름"
+
+#~ msgid "Label"
+#~ msgstr "레이블"
+
+#~ msgid "In dialog"
+#~ msgstr "창"
+
+#~ msgid "properties"
+#~ msgstr "속성"
+
+#~ msgid "<b>Alarms</b>"
+#~ msgstr "<b>알람</b>"
+
+#~ msgid "<b>Sensor value limits</b>"
+#~ msgstr "<b>센서 한계 값</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>업데이트</b>"
+
+#~ msgid "Add"
+#~ msgstr "추가"
+
+#~ msgid "Enable high alarm"
+#~ msgstr "높을때 알람 가능"
+
+#~ msgid "Enable low alarm"
+#~ msgstr "낮을때 알람 가능"
+
+#~ msgid "Font size:"
+#~ msgstr "글꼴 크기:"
+
+#~ msgid "Meter hand color:"
+#~ msgstr "미터 바늘 색:"
+
+#~ msgid "Remove"
+#~ msgstr "제거"
+
+#~ msgid "Sensor high value"
+#~ msgstr "높은 수치"
+
+#~ msgid "Sensor low value"
+#~ msgstr "낮은 수치"
+
+#~ msgid "Show value in icon"
+#~ msgstr "값 아이콘 보기"
+
+#~ msgid "Temperature unit:"
+#~ msgstr "온도 단위:"
+
+#~ msgid "Theme:"
+#~ msgstr "테마:"
+
+#~ msgid "Update interval:"
+#~ msgstr "업데이트 간격:"
+
+#~ msgid "seconds"
+#~ msgstr "초"
+
+#~ msgid "Volt"
+#~ msgstr "볼트"
+
+#~ msgid "rpm"
+#~ msgstr "rpm"
+
+#~ msgid "Display any network errors"
+#~ msgstr "네트워크 오류 표시"
+
+#~ msgid "Check Your Email from AWN"
+#~ msgstr "AWN에서 메일을 체크"
+
+#~ msgid "Mail Applet"
+#~ msgstr "메일 애플릿"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "%d개의 새 메시지가 있습니다."
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d개의 읽지 않은 메시지"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "메일 애플릿(클릭으로 로그인)"
+
+#~ msgid "Network error - Mail Applet"
+#~ msgstr "네트워크 오류 - 메일 애플릿"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "새 메일 - 메일 애플릿"
+
+#~ msgid "Mail"
+#~ msgstr "메일"
+
+#~ msgid "Open Web Mail"
+#~ msgstr "웹 메일 열기"
+
+#~ msgid "Open Desktop Client"
+#~ msgstr "데스크톱 프로그램"
+
+#~ msgid "Refresh"
+#~ msgstr "새로고침"
+
+#~ msgid "No unread messages"
+#~ msgstr "읽지 않은 메일 없음"
+
+#~ msgid "No new messages"
+#~ msgstr "새 메일 없음"
+
+#~ msgid "Wrong username or password"
+#~ msgstr "잘못된 사용자 이름이나 암호"
+
+#~ msgid "Log In"
+#~ msgstr "로그인"
+
+#~ msgid "Type:"
+#~ msgstr "종류:"
+
+#~ msgid "Backend"
+#~ msgstr "백엔드"
+
+#~ msgid "Could not log in: No username"
+#~ msgstr "로그인 불가: 사용자 이름이 없음"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[제목 없음]"
+
+#~ msgid "Google Apps"
+#~ msgstr "구글 어플"
+
+#~ msgid "Could not log in: No username or domain"
+#~ msgstr "로그인 불가: 사용자 이름 또는 도메인이 없음"
+
+#~ msgid "Domain:"
+#~ msgstr "도메인:"
+
+#~ msgid "Unix Spool"
+#~ msgstr "유닉스 스폴:"
+
+#~ msgid "Spool Path:"
+#~ msgstr "스폴 경로:"
+
+#~ msgid "Could not log in: "
+#~ msgstr "로그인 불가: "
+
+#~ msgid "Could not log in: Username or password incorrect"
+#~ msgstr "로그인 불가: 잘못된 사용자 이름 또는 암호"
+
+#~ msgid "Server:"
+#~ msgstr "서버:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "SSL 암호화 사용"
+
+#~ msgid "Could not log in"
+#~ msgstr "로그인을 할 수 없음"
+
+#~ msgid "Get messages from only one folder"
+#~ msgstr "하나의 폴더에서만 메시지 가져오기"
+
+#~ msgid "Folder:"
+#~ msgstr "폴더:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "이메일 확인을 위한 애플릿"
+
+#~ msgid "_Alert on network errors"
+#~ msgstr "네트워크 오류 경고(_A)"
+
+#~ msgid "_Email client:"
+#~ msgstr "이메일 클라이언트(_E):"
+
+#~ msgid "_Hide applet if no new messages"
+#~ msgstr "새 메시지 없을시에 애플릿 숨김(_H)"
+
+#~ msgid "minutes"
+#~ msgstr "분"
+
+#~ msgid "Display docklet instead of standard applet dialog."
+#~ msgstr "독렛 대신에 표준 애플릿 창으로 보기"
+
+#~ msgid "Size of the album art."
+#~ msgstr "앨범 표지 그림의 크기."
+
+#~ msgid "Tooltip format to use."
+#~ msgstr "툴팁 형식 사용."
+
+#~ msgid "Control your music player"
+#~ msgstr "당신의 음악 플레이어를 조정"
+
+#~ msgid "Media Control"
+#~ msgstr "미디어 콘트롤"
+
+#~ msgid "Title - Artist"
+#~ msgstr "제목 - 음악가"
+
+#~ msgid "Artist - Title"
+#~ msgstr "음악가 - 제목"
+
+#~ msgid "Close docklet when mouse leaves it"
+#~ msgstr "마우스가 떠났을떄 독렛 닫기"
+
+#~ msgid "Display _docklet instead of dialog"
+#~ msgstr "독렛 대신에 표준 애플릿 창으로 보기(_D)"
+
+#~ msgid "Media-control preferences"
+#~ msgstr "미디어-콘트롤 기본 설정"
+
+#~ msgid "Show _album art when available"
+#~ msgstr "사용 중일 때 앨범 표지 보기(_A)"
+
+#~ msgid "_Size of the album art:"
+#~ msgstr "앨범 표지의 크기(_S):"
+
+#~ msgid "_Tooltip format:"
+#~ msgstr "풍선 도움말 형식(_T):"
+
+#~ msgid "pixels"
+#~ msgstr "픽셀"
+
+#~ msgid "A media-control applet (Next Track)"
+#~ msgstr "미디어 콘트롤 애플릿 (다음 트랙)"
+
+#~ msgid "Media Icons Next"
+#~ msgstr "다음 미디어 아이콘"
+
+#~ msgid "A media-control applet (Previous Track)"
+#~ msgstr "미디어 콘트롤 애플릿 (이전 트랙)"
+
+#~ msgid "Media Icons Previous"
+#~ msgstr "이전 미디어 아이콘"
+
+#~ msgid "A media-control applet (Play/Pause)"
+#~ msgstr "미디어 콘트롤 애플릿(재생/일시중지)"
+
+#~ msgid "Media Icons Play/Pause"
+#~ msgstr "미디어 아이콘 재생/일시중지"
+
+#~ msgid "Next"
+#~ msgstr "다음"
+
+#~ msgid "Previous"
+#~ msgstr "이전"
+
+#~ msgid "Play/Pause"
+#~ msgstr "재생/일시정지"
+
+#~ msgid "Audio sink to use."
+#~ msgstr "오디오 싱크 사용."
+
+#~ msgid "Height of the video window."
+#~ msgstr "비디오 창의 너비"
+
+#~ msgid "Width of the video window."
+#~ msgstr "비디오 창 높이"
+
+#~ msgid "Media Player"
+#~ msgstr "미디어 플레이어"
+
+#~ msgid "Plays any media files you drop on the applet"
+#~ msgstr "어떤 미디어 파일이든 애플릿에 드롭하여 재생"
+
+#~ msgid "<b>GStreamer properties</b>"
+#~ msgstr "<b>GStreamer 속성</b>"
+
+#~ msgid "<b>Video size</b>"
+#~ msgstr "<b>비디오 크기</b>"
+
+#~ msgid "Media Player Preferences"
+#~ msgstr "미디어 플레이어 기본 설정"
+
+#~ msgid "_Audiosink:"
+#~ msgstr "오디오싱크(_A):"
+
+#~ msgid "_Height:"
+#~ msgstr "세로(_H):"
+
+#~ msgid "_Videosink:"
+#~ msgstr "비디오 싱크(_V):"
+
+#~ msgid "_Width:"
+#~ msgstr "가로(_W):"
+
+#~ msgid "Mount Applet"
+#~ msgstr "마운트 애플릿"
+
+#~ msgid "<i><b>Note:</b> use %D for the mountpoint</i>"
+#~ msgstr "<i><b>참고:</b> 마운트포인트를 위해 %D 사용</i>"
+
+#~ msgid "_Execute command after successful mount:"
+#~ msgstr "실행 명령 이후에 성공적으로 마운트(_E):"
+
+#~ msgid "_Hidden mountpoints:"
+#~ msgstr "숨길 마운트포인트(_H):"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "<b>Background Color</b>"
+#~ msgstr "<b>배경색</b>"
+
+#~ msgid "<b>Border Color</b>"
+#~ msgstr "<b>테두리 색</b>"
+
+#~ msgid "Automatic"
+#~ msgstr "자동"
+
+#~ msgid "Custom:"
+#~ msgstr "사용자 정의:"
+
+#~ msgid "Icon _size:"
+#~ msgstr "아이콘 크기(_S):"
+
+#~ msgid "Notification Area Preferences"
+#~ msgstr "알림 영역 기본 설정"
+
+#~ msgid "_Number of icon rows:"
+#~ msgstr "아이콘 행의 갯수(_N):"
+
+#~ msgid "A Notification Area (systray)"
+#~ msgstr "알림 영역 (시스템트레이)"
+
+#~ msgid "Notification Area"
+#~ msgstr "알림 영역"
+
+#~ msgid "Background colour in the form (Hex) rrggbbaa"
+#~ msgstr "(Hex) rrggbbaa 로 부터의 배경색"
+
+#~ msgid "Sound."
+#~ msgstr "소리."
+
+#~ msgid ""
+#~ "The default sound file used unless a notification supplies the 'sound-"
+#~ "file' or 'suppress-sound' hint. Leave empty for no default sound."
+#~ msgstr ""
+#~ "알림창에 'sound-file' 혹은 'suppress-sound' 힌트를 주지 않는 한 기본 소리 "
+#~ "파일이 사용됩니다. 비워두면 소리가 나지 않습니다."
+
+#~ msgid "Use bold text."
+#~ msgstr "굵은 글씨 사용:"
+
+#~ msgid "%u is not a valid notification ID"
+#~ msgstr "%u은(는) 유효한 알림 ID가 아닙니다"
+
+#~ msgid "<b>Background transparency</b>"
+#~ msgstr "<b>배경 투명도</b>"
+
+#~ msgid "<b>Background</b>"
+#~ msgstr "<b>배경색</b>"
+
+#~ msgid "<b>Icon transparency</b>"
+#~ msgstr "<b>아이콘 투명도</b>"
+
+#~ msgid "<b>Timers</b>"
+#~ msgstr "<b>테마</b>"
+
+#~ msgid "<b>Windows</b>"
+#~ msgstr "<b>창</b>"
+
+#~ msgid "Active window:"
+#~ msgstr "활성 창:"
+
+#~ msgid "Active workspace"
+#~ msgstr "활성 작업 공간"
+
+#~ msgid "Active workspace:"
+#~ msgstr "활성 작업 공간:"
+
+#~ msgid "All window"
+#~ msgstr "모든 창"
+
+#~ msgid "All windows"
+#~ msgstr "모든 창"
+
+#~ msgid "B_order color:"
+#~ msgstr "테두리 색(_O):"
+
+#~ msgid "Border _size:"
+#~ msgstr "테두리 크기(_S):"
+
+#~ msgid "C_ustom color:"
+#~ msgstr "사용자 색(_U):"
+
+#~ msgid "Cache expiration:"
+#~ msgstr "캐시 만료:"
+
+#~ msgid "Center"
+#~ msgstr "가운데"
+
+#~ msgid "Co_lumns:"
+#~ msgstr "열(_L):"
+
+#~ msgid "Icon _display:"
+#~ msgstr "아이콘 표시(_D):"
+
+#~ msgid "Icon _scaling:"
+#~ msgstr "아이콘 크기 조정(_S):"
+
+#~ msgid "Inactive window:"
+#~ msgstr "비활성 창:"
+
+#~ msgid "Inactive windows"
+#~ msgstr "비활성 창"
+
+#~ msgid "Inactive workspace:"
+#~ msgstr "비활성 작업공간:"
+
+#~ msgid "Inactive workspaces"
+#~ msgstr "비활성 작업공간"
+
+#~ msgid "Look"
+#~ msgstr "모양"
+
+#~ msgid "Lower left"
+#~ msgstr "좌하단"
+
+#~ msgid "Lower right"
+#~ msgstr "우하단"
+
+#~ msgid "Never"
+#~ msgstr "하지 않음"
+
+#~ msgid "Only active window"
+#~ msgstr "오직 활성 창만"
+
+#~ msgid "Render update:"
+#~ msgstr "랜더 업데이트:"
+
+#~ msgid "Scale _amount:"
+#~ msgstr "크기 조정 양(_A):"
+
+#~ msgid "Scaled icon _position:"
+#~ msgstr "크기 조정된 아이콘 위치(_P):"
+
+#~ msgid "Upper left"
+#~ msgstr "좌상단"
+
+#~ msgid "Upper right"
+#~ msgstr "우상단"
+
+#~ msgid "Use _desktop background"
+#~ msgstr "데스크톱 배경 사용(_D)"
+
+#~ msgid "_Applet size:"
+#~ msgstr "애플릿 크기(_A):"
+
+#~ msgid "_Rows:"
+#~ msgstr "행(_R):"
+
+#~ msgid "_Thumbnailing:"
+#~ msgstr "썸네일(_T):"
+
+#~ msgid "Hides your windows and shows your desktop."
+#~ msgstr "창을 숨기고 바탕 화면 보이기"
+
+#~ msgid "Hide windows and show desktop"
+#~ msgstr "창을 숨기고 바탕 화면 보이기"
+
+#~ msgid "The background color of the dialog"
+#~ msgstr "알림창의 배경 색"
+
+#~ msgid "The border color of a drawn window"
+#~ msgstr "그려진 창의 테두리 색"
+
+#~ msgid "The border color of the dialog"
+#~ msgstr "알림창의 테두리 색"
+
+#~ msgid "SlickSwitcher Preferences"
+#~ msgstr "SlickSwitcher 기본 설정"
+
+#~ msgid "Border Colors"
+#~ msgstr "테두리 색"
+
+#~ msgid "Icon border:"
+#~ msgstr "아이콘 태두리:"
+
+#~ msgid "Normal border:"
+#~ msgstr "일반 테두리:"
+
+#~ msgid "Hovered border:"
+#~ msgstr "덮었을때 테두리:"
+
+#~ msgid "Window Colors"
+#~ msgstr "창 색"
+
+#~ msgid "Main color:"
+#~ msgstr "주요 색:"
+
+#~ msgid "Border color:"
+#~ msgstr "테두리 색:"
+
+#~ msgid "Dialog colors"
+#~ msgstr "알림 창 색"
+
+#~ msgid "Use custom colors"
+#~ msgstr "사용자 정의 색 사용"
+
+#~ msgid "Background color:"
+#~ msgstr "배경색:"
+
+#~ msgid "Colors"
+#~ msgstr "색상"
+
+#~ msgid "Number Colors"
+#~ msgstr "숫자의 색"
+
+#~ msgid "Shine Colors"
+#~ msgstr "햇빛 색"
+
+#~ msgid "Top color:"
+#~ msgstr "위 색:"
+
+#~ msgid "Bottom color:"
+#~ msgstr "단추 색:"
+
+#~ msgid "Hover top color:"
+#~ msgstr "덥었을때 위의 색:"
+
+#~ msgid "Hover bottom color:"
+#~ msgstr "덥었을때 단추 색:"
+
+#~ msgid "Other colors"
+#~ msgstr "그외 색"
+
+#~ msgid "Width:"
+#~ msgstr "넓이:"
+
+#~ msgid "Height:"
+#~ msgstr "높이:"
+
+#~ msgid "Workspace Size"
+#~ msgstr "작업 공간"
+
+#~ msgid "Mode:"
+#~ msgstr "모드:"
+
+#~ msgid "GNOME"
+#~ msgstr "그놈"
+
+#~ msgid "File"
+#~ msgstr "파일"
+
+#~ msgid "File:"
+#~ msgstr "파일:"
+
+#~ msgid "Choose a Background Image"
+#~ msgstr "배경 이미지에서 선택"
+
+#~ msgid "Pictures"
+#~ msgstr "사진"
+
+#~ msgid "Background"
+#~ msgstr "배경"
+
+#~ msgid "Advanced"
+#~ msgstr "고급 설정"
+
+#~ msgid "A visual workspace switcher"
+#~ msgstr "가상 작업공간 스위치"
+
+#~ msgid "SlickSwitcher"
+#~ msgstr "SlickSwitcher"
+
+#~ msgid "List of icons"
+#~ msgstr "아이콘 목록"
+
+#~ msgid "Render background."
+#~ msgstr "배경 나타냄"
+
+#~ msgid "Manage system activity"
+#~ msgstr "시스템 움직임 관리"
+
+#~ msgid "System Monitor"
+#~ msgstr "시스템 감시"
+
+#~ msgid "The icon's opacity (10-100)"
+#~ msgstr "아이콘 불투명도 (10-100)"
+
+#~ msgid "Custom"
+#~ msgstr "사용자 지정"
+
+#~ msgid "Current Theme"
+#~ msgstr "현재 테마"
+
+#~ msgid "Progress"
+#~ msgstr "진행률"
+
+#~ msgid "Both"
+#~ msgstr "둘다"
+
+#~ msgid "To-Do List Preferences"
+#~ msgstr "할-일 목록 기본 설정"
+
+#~ msgid "Priority"
+#~ msgstr "우선 순위"
+
+#~ msgid "Icon"
+#~ msgstr "아이콘"
+
+#~ msgid "Title"
+#~ msgstr "제목"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "제거 할때 확인..."
+
+#~ msgid "_Items"
+#~ msgstr "항목(_I)"
+
+#~ msgid "C_ategories"
+#~ msgstr "범주(_A)"
+
+#~ msgid "Width"
+#~ msgstr "너비"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "사용자 너비 사용(_U)"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "너비 (픽셀)"
+
+#~ msgid "Low Priority"
+#~ msgstr "낮은 우선 순위"
+
+#~ msgid "Medium Priority"
+#~ msgstr "중간 우선 순위"
+
+#~ msgid "High Priority"
+#~ msgstr "높은 우선 순위"
+
+#~ msgid "Icon Color"
+#~ msgstr "아이콘 색"
+
+#~ msgid "Custom Colors"
+#~ msgstr "사용자 지정 색"
+
+#~ msgid "Outer Border"
+#~ msgstr "바깥 테두리"
+
+#~ msgid "Inner Border"
+#~ msgstr "안쪽 테두리"
+
+#~ msgid "Main"
+#~ msgstr "기본"
+
+#~ msgid "Text"
+#~ msgstr "글자"
+
+#~ msgid "Icon Type"
+#~ msgstr "아이콘 형태"
+
+#~ msgid "Manage a simple To-Do list"
+#~ msgstr "간편한 할-일 목록 관리자"
+
+#~ msgid "To-Do List"
+#~ msgstr "할-일 목록"
+
+#~ msgid "A simple To-Do List"
+#~ msgstr "간편한 할-일 목록"
+
+#~ msgid "Remove item"
+#~ msgstr "항목 제거"
+
+#~ msgid "Remove category"
+#~ msgstr "카테고리 제거"
+
+#~ msgid "View/Edit details"
+#~ msgstr "보기/편집 자세히"
+
+#~ msgid "_To-Do item"
+#~ msgstr "할-일 항목(_D)"
+
+#~ msgid "Priority: "
+#~ msgstr "중요 순서: "
+
+#~ msgid "_Neutral"
+#~ msgstr "애매한(_N)"
+
+#~ msgid "_Low"
+#~ msgstr "낮음(_L)"
+
+#~ msgid "_Medium"
+#~ msgstr "보통(_M)"
+
+#~ msgid "_High"
+#~ msgstr "높음(_H)"
+
+#~ msgid "Progress(%): "
+#~ msgstr "진행율(%): "
+
+#~ msgid ""
+#~ "Are you sure you want to remove the category \"%s?\"\n"
+#~ "All of its items will be removed."
+#~ msgstr ""
+#~ "카테고리  \"%s\"을(를) 제거 하시겠습니까?\"\n"
+#~ "제거하는 카테고리의 모든 항목은 함께 제거됩니다."
+
+#~ msgid "Don't show this again."
+#~ msgstr "다시 보지 않음"
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "정말 이 항목을 제거 하시겠습니까?"
+
+#~ msgid "Control Tomboy with D-Bus"
+#~ msgstr "D-Bus로 함께 톰보이 조정"
+
+#~ msgid "Tomboy Applet"
+#~ msgstr "톰보이 애플릿"
+
+#~ msgid "Select a tag:"
+#~ msgstr "태그 선택:"
+
+#~ msgid "No tags were created yet"
+#~ msgstr "아직 만들어진 태그가 없습니다."
+
+#~ msgid "Select a note:"
+#~ msgstr "쪽지 선택:"
+
+#~ msgid "Version: %s"
+#~ msgstr "버전: %s"
+
+#~ msgid "New Note"
+#~ msgstr "새 쪽지"
+
+#~ msgid "New Tagged Note"
+#~ msgstr "새 태그 쪽지"
+
+#~ msgid "View Tagged Note"
+#~ msgstr "태그 쪽지 보기"
+
+#~ msgid "Name of the device."
+#~ msgstr "장치의 이름"
+
+#~ msgid "Name of the mixer track."
+#~ msgstr "믹서 트렉의 이름"
+
+#~ msgid "Control your computer's volume"
+#~ msgstr "컴퓨터의 볼륨을 조정합니다."
+
+#~ msgid "Volume Control"
+#~ msgstr "볼륨 조정"
+
+#~ msgid "<b>Audio Options</b>"
+#~ msgstr "<b>오디오 속성</b>"
+
+#~ msgid "_Device:"
+#~ msgstr "장치(_D):"
+
+#~ msgid "_Mixer track:"
+#~ msgstr "믹서 트렉(_M):"
+
+#~ msgid "City, and country of the weather location."
+#~ msgstr "날씨 위치의 국가와 도시"
+
+#~ msgid "Maximum width of map in pixels."
+#~ msgstr "지도의  최대 너비."
+
+#~ msgid "Forecast"
+#~ msgstr "날씨 예보"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "WEEKDAY"
+
+#~ msgid "Tomorrow"
+#~ msgstr "내일"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "날씨 정보 weather.com 제공"
+
+#~ msgid "Display the local weather"
+#~ msgstr "지역 날씨 보기"
+
+#~ msgid "Weather Applet"
+#~ msgstr "날씨 애플릿"
+
+#~ msgid "Show _Map"
+#~ msgstr "기상 지도 보기(_M)"
+
+#~ msgid "No records found"
+#~ msgstr "녹음기를 찾을 수 없음"
+
+#~ msgid "Searching..."
+#~ msgstr "찾는 중..."
+
+#~ msgid "<b>Icon Display</b>"
+#~ msgstr "<b>아이콘 표시</b>"
+
+#~ msgid ""
+#~ "<i><b>Examples:</b> Boston; Portland, ME, Amsterdam; or Osaka, Japan.</i>"
+#~ msgstr ""
+#~ "<i><b>예:</b>Seoul, South Korea; Cheju, South Korea; 혹은 Inc'on, South "
+#~ "Korea.</i>"
+
+#~ msgid "Current _location:"
+#~ msgstr "현재 위치(_L):"
+
+#~ msgid ""
+#~ "If enabled, the dialog will be transparent, and the five days of the "
+#~ "forecast will be curved"
+#~ msgstr "체크하면, 알림창이 투명하고  5일의 날씨를 곡선으로 보여줍니다"
+
+#~ msgid "If enabled, the temperature will be displayed in the icon"
+#~ msgstr "체크하면, 아이콘에 온도가 표시 됩니다"
+
+#~ msgid "Maximum _map width:"
+#~ msgstr "최대 지도  너비(_M):"
+
+#~ msgid "Show temperature in _icon"
+#~ msgstr "아이콘에 온도 표시(_I)"
+
+#~ msgid "Temperature _unit:"
+#~ msgstr "온도 단위(_U):"
+
+#~ msgid "Temperature font _size:"
+#~ msgstr "온도 글자 크기(_S):"
+
+#~ msgid "Use transparent/curved _forecast dialog"
+#~ msgstr "날씨 알림창에 투명도/곡선 사용(_F)"
+
+#~ msgid "_Location Name:"
+#~ msgstr "위치 이름(_L):"
+
+#~ msgid "Open Location"
+#~ msgstr "위치 열기"
+
+#~ msgid "Set as new _Home Page"
+#~ msgstr "새 홈페이지 설정(_H)"
+
+#~ msgid "Web Applet"
+#~ msgstr "웹 애플릿"
+
+#~ msgid "HTML engine to use."
+#~ msgstr "HTML 엔진 사용."
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "Applet for Websites"
+#~ msgstr "웹사이트를 위한 애플릿"
+
+#~ msgid "Awn System Monitor"
+#~ msgstr "Awn 시스템 감시"
+
+#~ msgid " Upload/Download"
+#~ msgstr " 업로드/다운로드"
+
+#~ msgid " bytes)"
+#~ msgstr " 바이트)"
+
+#~ msgid "Unable to caclulate statistics"
+#~ msgstr "통계 계산 사용불가능"
+
+#~ msgid "Sent"
+#~ msgstr "보내기"
+
+#~ msgid "Received"
+#~ msgstr "받음"
+
+#~ msgid "Sending"
+#~ msgstr "보내는 중"
+
+#~ msgid "Receiving"
+#~ msgstr "받는 중"
+
+#~ msgid "No"
+#~ msgstr "아니오"
+
+#~ msgid " 0.9)."
+#~ msgstr " 0.9)."
+
+#~ msgid "Mouse Actions"
+#~ msgstr "마우스 동작"
+
+#~ msgid "Menu"
+#~ msgstr "메뉴"
+
+#~ msgid "Previous Layout"
+#~ msgstr "이전 레이아웃"
+
+#~ msgid "%s New Item%s - Feeds Applet"
+#~ msgstr "%s 새 항목%s - 피드 애플릿"
+
+#~ msgid "Monitor Web Feeds"
+#~ msgstr "웹 피드 모니터"
+
+#~ msgid "Do you want to add these %s feeds?"
+#~ msgstr "이 %s  피드에 추가하기를 원하십니까?"
+
+#~ msgid "Do you want to add this feed?"
+#~ msgstr "이 피드를 추가하기 원하십니까?"
+
+#~ msgid " persistent docklet"
+#~ msgstr " 영구 독렛"
+
+#~ msgid "Templates"
+#~ msgstr "템플리트"
+
+#~ msgid "Videos"
+#~ msgstr "비디오"
+
+#~ msgid "Downloads"
+#~ msgstr "다운로드"
+
+#~ msgid "Documents"
+#~ msgstr "문서"
+
+#~ msgid "Music"
+#~ msgstr "음악"
+
+#~ msgid "%s: %u item"
+#~ msgid_plural "%s: %u items"
+#~ msgstr[0] "%s: %u 개"
+
+#~ msgid "Confirm when emptying the trash"
+#~ msgstr "휴지통을 비우기 확인"
+
+#~ msgid "Show the item count on the icon"
+#~ msgstr "휴지통의 항목 개수 보이기"
+
+#~ msgid " gdk."
+#~ msgstr " gdk."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "Tooltip border color."
+#~ msgstr "풍선도움말 테두리 색."
+
+#~ msgid "Stacks backend file/directory."
+#~ msgstr "스택 백엔드 파일/폴더."
+
+#~ msgid "Sort folders before files."
+#~ msgstr "폴더 후에 파일 정렬"
+
+#~ msgid "Stack tooltip description."
+#~ msgstr "스택 풍선도움말 설명."
+
+#~ msgid "Size of the icons inside stack."
+#~ msgstr "스택 안의 아이콘 크기"
+
+#~ msgid "Sort direction of the items."
+#~ msgstr "항목 정렬 방향"
+
+#~ msgid "Tooltip background color 2."
+#~ msgstr "풍선도움말 2번째 배경 색."
+
+#~ msgid "Tooltip font name."
+#~ msgstr "풍선도움말 글꼴 이름."
+
+#~ msgid "Tooltip text color."
+#~ msgstr "풍선도움말 글자 색."
+
+#~ msgid "Tooltip background color 1."
+#~ msgstr "풍선도움말 1번째 배경 색."
+
+#~ msgid "Whether tooltips are enabled."
+#~ msgstr "풍선도움말이 활성 되어있는지 여부."
+
+#~ msgid "Use Awn's tooltip font."
+#~ msgstr "AWN의 풍선도움말 글꼴 사용."
+
+#~ msgid "Type of UI used for the stack."
+#~ msgstr "스택을 위한 UI 종류"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "업로드 및 다운로드의 합계를 표시"
+
+#~ msgid "Whether to browse stack contents."
+#~ msgstr "스택으로 내용을 찾아볼 수 있는지 여부"
+
+#~ msgid "Display upload and download text representation of speed"
+#~ msgstr "업로드와 다운로드 속도에 수치를 표시합니다."
+
+#~ msgid "Do not display the speed as text, only draw the graph"
+#~ msgstr "속도를 수치없이 그래프로만 표시합니다."
+
+#~ msgid ""
+#~ "If this is checked the applet background will use the selected color. If "
+#~ "unchecked, background will be transparent"
+#~ msgstr ""
+#~ "활성화되면 애플릿 배경은 선택한 색상을 사용합니다. 비활성화되면 배경은 투"
+#~ "명하게 됩니다."
+
+#~ msgid ""
+#~ "If this is checked the applet border will use the selected color. If "
+#~ "unchecked, border will be transparent"
+#~ msgstr ""
+#~ "활성화되면 애플릿 외곽선은 선택한 색상을 사용합니다. 비활성화되면 외곽선"
+#~ "은 투명하게 됩니다."
+
+#~ msgid ""
+#~ "If enabled, this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn in the graph."
+#~ msgstr ""
+#~ "활성화되면, 값이 0이라도 그래프 밑에 선을 그립니다. 비활성화 되면, 1 미만"
+#~ "의 값은 그래프에 그리지 않습니다."
+
+#~ msgid "IP Address"
+#~ msgstr "IP 주소"
+
+#~ msgid "Status"
+#~ msgstr "상태"
+
+#~ msgid "Subnet Mask"
+#~ msgstr "서브넷 마스크"
+
+#~ msgid ""
+#~ "Sets the minimum threshold for scaling to not show large spikes for small "
+#~ "amounts of traffic. e.g.: Setting to 32.0 KBps will cause the graph to "
+#~ "only draw if throughput exceeds 32.0 KBps"
+#~ msgstr ""
+#~ "적은 양의 트래픽에서 급격한 변동량을 보여주지 않기 위한 크기 조정용 최소 "
+#~ "한계값을 설정하십시오. 예: 32.0 KBps로 설정하였다면 그래프에서는 32.0 KBps"
+#~ "를 초과하는 처리량만을 표시합니다."
+
+#~ msgid "Search\\u2026"
+#~ msgstr "검색\\u2026"
+
+#~ msgid "Launch\\u2026"
+#~ msgstr "실행\\u2026"

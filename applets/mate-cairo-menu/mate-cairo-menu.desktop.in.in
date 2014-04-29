@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-AWN-Type=Applet
+X-AWN-AppletType=C
+_Name=Cairo Mate Menu
+_Comment=A Mate Main Menu.
+Exec=awn-applet -p %k
+X-AWN-AppletExec=@LIBDIR@/awn/applets/mate-cairo-menu/mate-cairo-menu.so
+Icon=gnome-main-menu
+X-AWN-AppletCategory=Utility

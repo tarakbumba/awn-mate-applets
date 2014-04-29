@@ -1,0 +1,1623 @@
+# Brazilian Portuguese translation for awn-mate-applets
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:16+0300\n"
+"PO-Revision-Date: 2011-01-13 04:22+0000\n"
+"Last-Translator: Fitoschido <Unknown>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Launchpad-Export-Date: 2011-01-14 04:47+0000\n"
+"X-Generator: Launchpad (build 12177)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "Lugares"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "Documentos Recentes"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr "Sessão"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr "Remover ícone"
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+#, fuzzy
+msgid "Cairo Mate Menu"
+msgstr "Cairo Menu Principal"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate Main Menu."
+msgstr "Um Menu Principal."
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr "Encerrar sessão"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "Travar Tela"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr "Suspender o Sistema"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr "Hibernar o Sistema"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "Desligar"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "Computador"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "Pasta do usuário"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "Área de trabalho"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "Lixeira"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr "Sistema de arquivos"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr "Mídia removível"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "Rede"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "Conectar ao servidor"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr "Pesquisar..."
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr "Não foi possível montar %s"
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr "Limpar a lista de documentos recentes?"
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+"Se você limpar a lista de documentos recentes, você limpará:\n"
+"• Todos os itens do menu Locais → Documentos recentes.\n"
+"• Todos os itens da lista de documentos recentes em todas as aplicações."
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr "Limpar documentos recentes"
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+#, fuzzy
+msgid "Awn Mate MainMenu"
+msgstr "Um Menu Principal."
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "Travar Tela"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+msgid "Show Docklet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "Sair"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+#, fuzzy
+msgid "Shut Down"
+msgstr "Desligar"
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr "Pasta pessoal"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Log Out..."
+#~ msgstr "Sair"
+
+#~ msgid "Animal Farm"
+#~ msgstr "Animal da Fazenda"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "Exibir mensagens de fortuna"
+
+#~ msgid "Applet that displays fortune messages"
+#~ msgstr "Miniaplicativo que exibe mensagens de fortuna"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "Tecla de atalho global usada para ativar o terminal."
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr "Defina se o miniaplicativo deve esconder-se quando se perde o foco."
+
+#~ msgid "The applet's background image."
+#~ msgstr "A imagem de fundo dos miniaplicativos."
+
+#~ msgid "The applet's opacity level."
+#~ msgstr "O nível de opacidade dos miniaplicativos."
+
+#~ msgid "The default external terminal application."
+#~ msgstr "O aplicativo padrão do terminal externo."
+
+#~ msgid "Disabled"
+#~ msgstr "Desabilitado"
+
+#~ msgid "Preferences"
+#~ msgstr "Perferências"
+
+#~ msgid "Behavior"
+#~ msgstr "Comportamento"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "Ocultar quando perdido o foco"
+
+#~ msgid "Action"
+#~ msgstr "Ação"
+
+#~ msgid "Shortcut"
+#~ msgstr "Atalho"
+
+#~ msgid "Activate"
+#~ msgstr "Ativar"
+
+#~ msgid "Background image"
+#~ msgstr "Imagem de fundo"
+
+#~ msgid "Select a file"
+#~ msgstr "Selecione um arquivo"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "Opacidade do terminal"
+
+#~ msgid "External Terminal"
+#~ msgstr "Terminal Externo"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "Um simples terminal popup"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "Miniaplicativo Terminal"
+
+#~ msgid "Color to draw the background"
+#~ msgstr "Cor para do plano de fundo"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "Cor da borda"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "Parâmetros de exibição da interface"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "Desenho do plano de fundo do miniaplicativo"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "Desenho da borda do miniaplicativo"
+
+#~ msgid ""
+#~ "If enabled this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn"
+#~ msgstr ""
+#~ "Se ativado este irá desenhar uma linha na parte inferior do gráfico, "
+#~ "mesmo que o valor seja 0. Se nada for feito, os valores abaixo de 1 não "
+#~ "são desenhados"
+
+#~ msgid "Minimum threshold to draw meter (dependent upon DEFAULT/unit)"
+#~ msgstr ""
+#~ "Limite mínimo do contador para desenhar (dependente da unidade/PADRÃO)"
+
+#~ msgid "Sets the width of the applet icon"
+#~ msgstr "Definir a largura do ícone do miniaplicativo"
+
+#~ msgid "The base display unit for transfer speed (0: bits, 1: bytes)"
+#~ msgstr ""
+#~ "A unidade de base para mostrar a velocidade de transferência (0: bits, 1: "
+#~ "bytes)"
+
+#~ msgid "The interface currently selected"
+#~ msgstr "Interface atual selecionada"
+
+#~ msgid "Throughput label control - 0: no label, 1: Sum, 2: Upload/Download"
+#~ msgstr ""
+#~ "Através do controle do rótulo colocado - 0: sem rótulo, 1: Soma, 2: "
+#~ "Upload/Download"
+
+#~ msgid ""
+#~ "Type of graph to use for wireless devices - area: Area chart, area_bar: "
+#~ "Area chart with colored bars, bar: Bar chart, fan: Waving chart with "
+#~ "density, fan_bar: Waving Bar chart with density"
+#~ msgstr ""
+#~ "Tipo de gráfico a ser usado para dispositivos sem fio - area: Gráfico da "
+#~ "área,barra_área:  Área do gráfico com barras coloridas, barra:  Gráfico "
+#~ "Barra, leque: Mostrando gráfico com densidade, barra_leque: Mostrando "
+#~ "gráfico de barras com densidade"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "Monitor de Largura de Banda"
+
+#~ msgid "Network Bandwidth monitor"
+#~ msgstr "Monitor de Largura de rede"
+
+#~ msgid "Scanning"
+#~ msgstr "Digitalizando"
+
+#~ msgid "Devices"
+#~ msgstr "Dispositivos"
+
+#~ msgid "KBps"
+#~ msgstr "KBps"
+
+#~ msgid "Kbps"
+#~ msgstr "Kbps"
+
+#~ msgid "Interfaces"
+#~ msgstr "Interfaces"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "Por favor, selecione um Dispositivo de Rede válido"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr "Toal Enviado: %s - Total Recebido: %s (Todas as Interfaces)"
+
+#~ msgid "No Device"
+#~ msgstr "Nenhum Dispositivo"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "Por favor, selecione um dispositivo válido"
+
+#~ msgid "Bps"
+#~ msgstr "Bps"
+
+#~ msgid "MBps"
+#~ msgstr "MBps"
+
+#~ msgid "GBps"
+#~ msgstr "GBps"
+
+#~ msgid "TBps"
+#~ msgstr "TBps"
+
+#~ msgid "bps"
+#~ msgstr "bps"
+
+#~ msgid "Mbps"
+#~ msgstr "Mbps"
+
+#~ msgid "Gbps"
+#~ msgstr "Gbps"
+
+#~ msgid "Tbps"
+#~ msgstr "Tbps"
+
+#~ msgid "A Network Bandwidth monitor for AWN"
+#~ msgstr "Um Monitor de Largura de Banda da Rede para AWN"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>Exibir</b>"
+
+#~ msgid "Applet"
+#~ msgstr "Miniaplicativo"
+
+#~ msgid "Background Color"
+#~ msgstr "Cor do plano de fundo"
+
+#~ msgid "Border Color"
+#~ msgstr "Cor da Borda"
+
+#~ msgid "Dialog"
+#~ msgstr "Diálogo"
+
+#~ msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+#~ msgstr "Exibir MBps/KBps (bytes) em vez de Mbps/Kbps (bits)"
+
+#~ msgid "Display Speed Text"
+#~ msgstr "Exibir Velocidade do Texto"
+
+#~ msgid "Draw 0 bps in graphs"
+#~ msgstr "Mostrar 0 bps em gráficos"
+
+#~ msgid "Draw Background"
+#~ msgstr "Desenhar Plano de Fundo"
+
+#~ msgid "Draw Border"
+#~ msgstr "Desenhar Borda"
+
+#~ msgid "General"
+#~ msgstr "Geral"
+
+#~ msgid "Graph Only"
+#~ msgstr "Somente Gráfico"
+
+#~ msgid "If this is checked, the common display unit will be Bytes"
+#~ msgstr "Se esta opção estiver marcada, a exibição comum será Bytes"
+
+#~ msgid "Minimum Scaling threshold"
+#~ msgstr "Limite Mínimo de dimensionamento"
+
+#~ msgid "Sum"
+#~ msgstr "Soma"
+
+#~ msgid "Device"
+#~ msgstr "Dispositivo"
+
+#~ msgid "Multi"
+#~ msgstr "Multi"
+
+#~ msgid "Upload Color"
+#~ msgstr "Cor para Upload"
+
+#~ msgid "Download Color"
+#~ msgstr "Cor para Download"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "%s %s Color"
+#~ msgstr "%s %s Cor"
+
+#~ msgid "SSID:"
+#~ msgstr "SSID:"
+
+#~ msgid "TX:"
+#~ msgstr "TX:"
+
+#~ msgid "RX:"
+#~ msgstr "RX:"
+
+#~ msgid "Status:"
+#~ msgstr "Estado:"
+
+#~ msgid "IP Address:"
+#~ msgstr "Endereço IP:"
+
+#~ msgid "Subnet Mask:"
+#~ msgstr "Máscara de subrede:"
+
+#~ msgid "RUNNING"
+#~ msgstr "EXECUTANDO"
+
+#~ msgid "None"
+#~ msgstr "Nenhum"
+
+#~ msgid "Wireless graph type"
+#~ msgstr "Modo de gráfico wireless"
+
+#~ msgid "HAL UDI of battery."
+#~ msgstr "HAL UDI da bateria."
+
+#~ msgid ""
+#~ "If charge level drops below this threadhold, a warning will be displayed."
+#~ msgstr "Se o nível de carga cair abaixo deste valor, um aviso será exibido."
+
+#~ msgid "If charge level reaches this threshold, a notification will be sent."
+#~ msgstr ""
+#~ "Se o nível de carga chegar a este limite, uma notificação será enviada."
+
+#~ msgid "If enabled, notify when the charge level reaches the high level."
+#~ msgstr ""
+#~ "Se ativado, notificar quando o nível de carga atingir um nível alto."
+
+#~ msgid ""
+#~ "If enabled, warn when the charge level drops below the warning threshold."
+#~ msgstr ""
+#~ "Se ativado, avisar quando o nível de carga cair abaixo do limite de "
+#~ "alerta."
+
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "O nome do tema do ícone."
+
+#~ msgid "Unit of low level threshold (Percent or Time Remaining)."
+#~ msgstr "Unidade de limite baixo nível (Percentual ou o Tempo Restante)."
+
+#~ msgid "Battery"
+#~ msgstr "Bateria"
+
+#~ msgid "Display battery state"
+#~ msgstr "Exibir estado da bateria"
+
+#~ msgid "An applet which displays battery information"
+#~ msgstr "Um miniaplicativo que exibe informações da bateria"
+
+#~ msgid "No batteries"
+#~ msgstr "Nenhuma bateria"
+
+#~ msgid "Percent"
+#~ msgstr "Por cento"
+
+#~ msgid "AC"
+#~ msgstr "AC"
+
+#~ msgid "battery"
+#~ msgstr "bateria"
+
+#~ msgid "remaining"
+#~ msgstr "restando"
+
+#~ msgid "Time Remaining"
+#~ msgstr "Tempo Restante"
+
+#~ msgid "%d hours"
+#~ msgstr "%d horas"
+
+#~ msgid "%d hour"
+#~ msgstr "%d hora"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minutos"
+
+#~ msgid "%d minute"
+#~ msgstr "%d minuto"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>Opções gerais</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>Notificações</b>"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge level reaches a certain "
+#~ "percentage"
+#~ msgstr ""
+#~ "Se ativado, mostra uma notificação quando o nível de carga atinge uma "
+#~ "determinada percentagem"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge levels drops too low"
+#~ msgstr ""
+#~ "Se ativado, mostra uma notificação quando a taxa cai níveis muito baixos"
+
+#~ msgid "_Battery:"
+#~ msgstr "_Bateria:"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tema:"
+
+#~ msgid "Battery is charged"
+#~ msgstr "A bateria está carregada"
+
+#~ msgid "A custom time format (strftime()), used if not empty."
+#~ msgstr ""
+#~ "Um formato de tempo personalizado (strftime ()), usado se não está vazio."
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too."
+#~ msgstr ""
+#~ "Se ativado, além de horas e minutos, os segundos serão visíveis também."
+
+#~ msgid "If enabled, displays the weather as an overlay on top of the clock."
+#~ msgstr ""
+#~ "Se ativado, mostra o tempo como uma sobreposição na parte superior do "
+#~ "relógio."
+
+#~ msgid "If enabled, the date will be shown in the title."
+#~ msgstr "Se ativado, a data será mostrada no título."
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock."
+#~ msgstr "Se ativado, o ponteiro dos segundos será visível no relógio."
+
+#~ msgid "List of cities and timezones separated by a '#' character."
+#~ msgstr "Lista das cidades e fusos horários separados por um caractere '#'."
+
+#~ msgid ""
+#~ "Show time in 24 hour format if enabled, or 12 hour format when disabled."
+#~ msgstr ""
+#~ "Mostrar a hora no formato 24 horas, se habilitado, ou formato de 12 "
+#~ "horas, quando desabilitado."
+
+#~ msgid "Temperature unit (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+#~ msgstr "Unidade de temperatura (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+
+#~ msgid "The name of the theme of the analog clock."
+#~ msgstr "Nome do tema do relógio analógico."
+
+#~ msgid "Wind speed unit (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+#~ msgstr ""
+#~ "Unidade de velocidade do vento (0: m/s, 1: km/h, 2: mph, 3: nós, 4: "
+#~ "Beaufort)."
+
+#~ msgid "Cairo Clock"
+#~ msgstr "Cairo Clock"
+
+#~ msgid ""
+#~ "Displays an analog clock and supports additional clocks for different "
+#~ "locations"
+#~ msgstr ""
+#~ "Exibe um relógio analógico e suporta relógios adicionais para diferentes "
+#~ "locais"
+
+#~ msgid ""
+#~ "Applet that displays an analog clock and supports additional clocks for "
+#~ "different locations"
+#~ msgstr ""
+#~ "Miniaplicativo que exibe um relógio analógico e suporta relógios "
+#~ "adicionais para diferentes locais"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "12 _hour format"
+#~ msgstr "Formato 12 _horas"
+
+#~ msgid "24 h_our format"
+#~ msgstr "Formato 24 h_oras"
+
+#~ msgid "<b>Clock Display</b>"
+#~ msgstr "<b>Visor do Relógio</b>"
+
+#~ msgid "<b>Title Options</b>"
+#~ msgstr "<b>Opções do Título</b>"
+
+#~ msgid "Beaufort"
+#~ msgstr "Beaufort"
+
+#~ msgid "Celsius"
+#~ msgstr "Celsius"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "Fahrenheit"
+
+#~ msgid "Find _Next"
+#~ msgstr "Localizar _Próximo"
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too"
+#~ msgstr ""
+#~ "Se ativado, além de horas e minutos, os segundos serão visíveis também"
+
+#~ msgid "If enabled, the date will be shown in the title"
+#~ msgstr "Se ativado, a data será mostrada no título"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock"
+#~ msgstr "Se ativado, o ponteiro dos segundos será visível no relógio"
+
+#~ msgid "If enabled, time will be shown like 1:23 AM"
+#~ msgstr "Se ativado, a hora será mostrada como 1:23 AM"
+
+#~ msgid "If enabled, time will be shown like 23:45"
+#~ msgstr "Se ativoado, a hora será mostrada como 23:45"
+
+#~ msgid "Kelvin"
+#~ msgstr "Kelvin"
+
+#~ msgid "Location Name:"
+#~ msgstr "Nome do local:"
+
+#~ msgid "Show _seconds"
+#~ msgstr "Mostrar _segundos"
+
+#~ msgid "Show seco_nds hand"
+#~ msgstr "Mostrar ponteiro de segund_os"
+
+#~ msgid "Show the _date"
+#~ msgstr "Mostrar a _data"
+
+#~ msgid "_Show weather of current location"
+#~ msgstr "_Mostrar clima do local atual"
+
+#~ msgid "_Temperature unit:"
+#~ msgstr "Unidade de _temperatura:"
+
+#~ msgid "_Wind speed unit:"
+#~ msgstr "Unidade de velocidade do _vento:"
+
+#~ msgid "km/h"
+#~ msgstr "km/h"
+
+#~ msgid "knots"
+#~ msgstr "nós"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "mph"
+#~ msgstr "mph"
+
+#~ msgid "Locations"
+#~ msgstr "Locais"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Clock/Calendar Applet"
+#~ msgstr "Miniaplicativo Relógio/Calendário"
+
+#~ msgid "Watch appointments on your dock"
+#~ msgstr "Ver compromissos na sua tela"
+
+#~ msgid "Login to "
+#~ msgstr "Iniciar sessão no "
+
+#~ msgid "Online Calendar"
+#~ msgstr "Calendário online"
+
+#~ msgid "Calendar Username"
+#~ msgstr "Nome de usuário no Calendário"
+
+#~ msgid "Calendar Password"
+#~ msgstr "Senha no Calendário"
+
+#~ msgid "Save Password"
+#~ msgstr "Salvar senha"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "Você escolheu salvar sua senha. Embora a senha seja salva em um formato "
+#~ "criptografado, há sempre uma possibilidade remota de que sua senha seja "
+#~ "roubada e descriptografada se a segurança do seu computador for violada. "
+#~ "Você tem realmente certeza que deseja salvar sua senha?"
+
+#~ msgid "Classic LCD"
+#~ msgstr "LCD clássico"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "LCD de Brilho Indy"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "LCD de Âmbar Retroiluminado"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "LCD de Verde Retroiluminado"
+
+#~ msgid "Green LED"
+#~ msgstr "LED verde"
+
+#~ msgid "Red LED"
+#~ msgstr "LED vermelho"
+
+#~ msgid "Blue LED"
+#~ msgstr "LED azul"
+
+#~ msgid "Plain White"
+#~ msgstr "Branco puro"
+
+#~ msgid "Plain Black"
+#~ msgstr "Preto puro"
+
+#~ msgid "Red"
+#~ msgstr "Vermelho"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "Blue"
+#~ msgstr "Azul"
+
+#~ msgid "Gray"
+#~ msgstr "Cinza"
+
+#~ msgid "Black"
+#~ msgstr "Preto"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "Relógio 12 horas"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "Aparência do Relógio"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "Aparência do Calendário"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Google Calendar"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Outlook Web Access"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "Integração do Calendário"
+
+#~ msgid "Calendar URL"
+#~ msgstr "URL do Calendário"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendário"
+
+#~ msgid "Forget Password"
+#~ msgstr "Esquecer a Senha"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "Você deseja remover a senha do seu calendário do miniaplicativo? Se você "
+#~ "escolher apagar sua senha, você será questionado novamente por suas "
+#~ "credenciais do calendário."
+
+#~ msgid "Avant Calendar Applet"
+#~ msgstr "Miniaplicativo Calendário Avant"
+
+#~ msgid "A Calendar Applet for the Avant Window Navigator. Images by Deleket."
+#~ msgstr ""
+#~ "Um Miniaplicativo Calendário para o Avant Window Navigator. Imagens por "
+#~ "Deleket."
+
+#~ msgid "%x %X"
+#~ msgstr "%x %X"
+
+#~ msgid "Open in "
+#~ msgstr "Abrir em "
+
+#~ msgid "Today"
+#~ msgstr "Hoje"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "Impossível ler dados do calendário de fonte externa."
+
+#~ msgid "No appointments."
+#~ msgstr "Nenhuma tarefa hoje."
+
+#~ msgid "No appointments"
+#~ msgstr "Nenhuma tarefa."
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr ""
+#~ "Falha no download de %s. Clique em \"Próximo\" para tentar novamente."
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr ""
+#~ "A URL não é um feed de comic válido. Clique em \"Próximo\" para tentar "
+#~ "novamente"
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "Conectando a <i>%s</i>..."
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "Este guia foi concluído.\n"
+#~ "\n"
+#~ "Clique em \"aplicar\" para adicionar <i>%s</i>."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "Achado <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Shared comics"
+#~ msgstr "Quadrinhos compartilhados"
+
+#~ msgid "Your comics"
+#~ msgstr "Seus quadrinhos"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "Falha ao remover <i>%s</i>."
+
+#~ msgid "Error"
+#~ msgstr "Erro"
+
+#~ msgid "Comics"
+#~ msgstr "Quadrinhos"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "Existe uma nova tira de %s!"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A %d %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "Falha ao salvar <i>%s</i>."
+
+#~ msgid "Select Image"
+#~ msgstr "Selecionar imagem"
+
+#~ msgid "Size"
+#~ msgstr "Tamanho"
+
+#~ msgid "GHz"
+#~ msgstr "GHz"
+
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgid "small"
+#~ msgstr "pequeno"
+
+#~ msgid "large"
+#~ msgstr "grande"
+
+#~ msgid "transparent"
+#~ msgstr "transparente"
+
+#~ msgid "opaque"
+#~ msgstr "opaco"
+
+#~ msgid "User List"
+#~ msgstr "Lista de usuários"
+
+#~ msgid "<b>Keyboard</b>"
+#~ msgstr "<b>Teclado</b>"
+
+#~ msgid "Appearance"
+#~ msgstr "Aparência"
+
+#~ msgid "Layouts"
+#~ msgstr "Disposições"
+
+#~ msgid "_Add"
+#~ msgstr "_Adicionar"
+
+#~ msgid "Digital Clock"
+#~ msgstr "Relógio digital"
+
+#~ msgid "%b %d"
+#~ msgstr "%d %b"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Google Reader"
+#~ msgstr "Google Reader"
+
+#~ msgid "Google Wave"
+#~ msgstr "Google Wave"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Untitled"
+#~ msgstr "Sem título"
+
+#~ msgid "Loading..."
+#~ msgstr "Carregando..."
+
+#~ msgid "Add Feed"
+#~ msgstr "Adicionar fonte de notícias"
+
+#~ msgid "_About %s"
+#~ msgstr "_Sobre %s"
+
+#~ msgid "Could not open '%s'"
+#~ msgstr "Não foi possível abrir '%s'"
+
+#~ msgid "Could not save '%s'"
+#~ msgstr "Não foi possível salvar '%s'"
+
+#~ msgid "Feeds"
+#~ msgstr "Fontes de Notícias"
+
+#~ msgid "Updating"
+#~ msgstr "Atualizando"
+
+#~ msgid "Import"
+#~ msgstr "Importar"
+
+#~ msgid "Export"
+#~ msgstr "Exportar"
+
+#~ msgid "Update every "
+#~ msgstr "Atualizar a cada "
+
+#~ msgid " minutes"
+#~ msgstr " minutos"
+
+#~ msgid "feeds.opml"
+#~ msgstr "fontes.opml"
+
+#~ msgid "Source:"
+#~ msgstr "Fonte:"
+
+#~ msgid "Search"
+#~ msgstr "Procurar"
+
+#~ msgid "RSS/Atom"
+#~ msgstr "RSS/Atom"
+
+#~ msgid "Timeline"
+#~ msgstr "Linha do tempo"
+
+#~ msgid "Replies"
+#~ msgstr "Respostas"
+
+#~ msgid "Search for"
+#~ msgstr "Pesquisar por"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Username:"
+#~ msgstr "Nome de usuário:"
+
+#~ msgid "Password:"
+#~ msgstr "Senha:"
+
+#~ msgid "_Search"
+#~ msgstr "Pe_squisar"
+
+#~ msgid "Filesystem"
+#~ msgstr "Sistema de Arquivos"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Lixeira Vazia"
+
+#~ msgid "Garbage"
+#~ msgstr "Lixeira"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Esvaziar Lixeira"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Miniaplicativo de Correio"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "Você tem %d nova mensagem"
+#~ msgstr[1] "Você tem %d novas mensagens"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d mensagem não lida"
+#~ msgstr[1] "%d mensagens não lidas"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Miniaplicativo de Correio (clique para entrar)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Entrando como %s"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Nova mensagem - Miniaplicativo de Correio"
+
+#~ msgid "Log In"
+#~ msgstr "Entrar"
+
+#~ msgid "Backend"
+#~ msgstr "Infra-estrutura"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[Sem Assunto]"
+
+#~ msgid "Domain:"
+#~ msgstr "Domínio:"
+
+#~ msgid "Spool Path:"
+#~ msgstr "Diretório de Spool:"
+
+#~ msgid "Server:"
+#~ msgstr "Servidor:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "Usar criptografia SSL"
+
+#~ msgid "Could not log in"
+#~ msgstr "Não foi possível entrar"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "A pasta não existe"
+
+#~ msgid "Get messages from only one folder"
+#~ msgstr "Recuperar mensagens de somente uma pasta"
+
+#~ msgid "Folder:"
+#~ msgstr "Pasta:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Um miniaplicativo para checar email"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientação"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "A orientação da bandeja."
+
+#~ msgid "Width:"
+#~ msgstr "Largura:"
+
+#~ msgid "Height:"
+#~ msgstr "Altura:"
+
+#~ msgid "Background"
+#~ msgstr "Plano de Fundo"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizado"
+
+#~ msgid "Current Theme"
+#~ msgstr "Tema Atual"
+
+#~ msgid "Butter"
+#~ msgstr "Manteiga"
+
+#~ msgid "Chameleon"
+#~ msgstr "Camaleão"
+
+#~ msgid "Orange"
+#~ msgstr "Laranja"
+
+#~ msgid "Sky Blue"
+#~ msgstr "Azul Céu"
+
+#~ msgid "Plum"
+#~ msgstr "Ameixa"
+
+#~ msgid "Chocolate"
+#~ msgstr "Chocolate"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "Vermelho Escarlate"
+
+#~ msgid "Aluminium 1"
+#~ msgstr "Alumínio 1"
+
+#~ msgid "Aluminium 2"
+#~ msgstr "Alumínio 2"
+
+#~ msgid "Number of Items"
+#~ msgstr "Número de Itens"
+
+#~ msgid "Progress"
+#~ msgstr "Progresso"
+
+#~ msgid "Both"
+#~ msgstr "Ambos"
+
+#~ msgid "To-Do List Preferences"
+#~ msgstr "Preferências da Lista de Afazeres"
+
+#~ msgid "Priority"
+#~ msgstr "Prioridade"
+
+#~ msgid "Icon"
+#~ msgstr "Ícone"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "Confirme quando estiver removendo..."
+
+#~ msgid "_Items"
+#~ msgstr "_Itens"
+
+#~ msgid "C_ategories"
+#~ msgstr "C_ategorias"
+
+#~ msgid "Width"
+#~ msgstr "Largura"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "_Use largura personalizada"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "Largura (pixels)"
+
+#~ msgid "Low Priority"
+#~ msgstr "Prioridade Baixa"
+
+#~ msgid "Medium Priority"
+#~ msgstr "Prioridade Média"
+
+#~ msgid "High Priority"
+#~ msgstr "Prioridade Alta"
+
+#~ msgid "Icon Color"
+#~ msgstr "Cor do Ícone"
+
+#~ msgid "Custom Colors"
+#~ msgstr "Cores Personalizadas"
+
+#~ msgid "Outer Border"
+#~ msgstr "Borda Externa"
+
+#~ msgid "Inner Border"
+#~ msgstr "Borda Interna"
+
+#~ msgid "Main"
+#~ msgstr "Principal"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Icon Type"
+#~ msgstr "Tipo do Ícone"
+
+#~ msgid "To-Do List"
+#~ msgstr "Lista de Afazeres"
+
+#~ msgid "A simple To-Do List"
+#~ msgstr "Uma lista simples de afazeres"
+
+#~ msgid "Remove item"
+#~ msgstr "Remover item"
+
+#~ msgid "Remove category"
+#~ msgstr "Remover categoria"
+
+#~ msgid "View/Edit details"
+#~ msgstr "Visualizar/Alterar detalhes"
+
+#~ msgid "_Uncategorized"
+#~ msgstr "Nenh_uma Categoria"
+
+#~ msgid "_Category"
+#~ msgstr "_Categoria"
+
+#~ msgid "_To-Do item"
+#~ msgstr "I_tem da Lista de Afazeres"
+
+#~ msgid "Priority: "
+#~ msgstr "Prioridade: "
+
+#~ msgid "_Neutral"
+#~ msgstr "_Neutro"
+
+#~ msgid "_Low"
+#~ msgstr "_Baixa"
+
+#~ msgid "_Medium"
+#~ msgstr "_Média"
+
+#~ msgid "_High"
+#~ msgstr "_Alta"
+
+#~ msgid "Progress(%): "
+#~ msgstr "Progresso(%): "
+
+#~ msgid ""
+#~ "Are you sure you want to remove the category \"%s?\"\n"
+#~ "All of its items will be removed."
+#~ msgstr ""
+#~ "Você tem certeza que deseja remover a categoria \"%s?\"\n"
+#~ "Todos os seus itens serão removidos."
+
+#~ msgid "Don't show this again."
+#~ msgstr "Não exibir novamente."
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "Você tem certeza que deseja remover este item?"
+
+#~ msgid "Forecast"
+#~ msgstr "Previsão"
+
+#~ msgid "for"
+#~ msgstr "para"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "DIA DA SEMANA"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Amanhã"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "DESCRIÇÃO"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "Dados sobre o clima fornecidos por weather.com"
+
+#~ msgid "Blowing Snow"
+#~ msgstr "Nevando"
+
+#~ msgid "Blustery"
+#~ msgstr "Rajadas de vento"
+
+#~ msgid "Clear"
+#~ msgstr "Limpo"
+
+#~ msgid "Cloudy"
+#~ msgstr "Nublado"
+
+#~ msgid "Cold"
+#~ msgstr "Frio"
+
+#~ msgid "Drizzle"
+#~ msgstr "Chuvisco"
+
+#~ msgid "Dust"
+#~ msgstr "Poeira"
+
+#~ msgid "Fair"
+#~ msgstr "Agradável"
+
+#~ msgid "Fog"
+#~ msgstr "Nevoeiro"
+
+#~ msgid "Freezing Drizzle"
+#~ msgstr "Chuvisco Congelante"
+
+#~ msgid "Freezing Rain"
+#~ msgstr "Chuva Congelante"
+
+#~ msgid "Hail"
+#~ msgstr "Granizo"
+
+#~ msgid "Haze"
+#~ msgstr "Neblina"
+
+#~ msgid "Heavy Snow"
+#~ msgstr "Neve Pesada"
+
+#~ msgid "Hot"
+#~ msgstr "Quente"
+
+#~ msgid "Hurricane"
+#~ msgstr "Furacão"
+
+#~ msgid "Isolated Thunderstorms"
+#~ msgstr "Tempestades Isoladas"
+
+#~ msgid "Mixed Precipitation"
+#~ msgstr "Precipitação Mista"
+
+#~ msgid "Mixed Rain and Hail"
+#~ msgstr "Chuva com Granizo"
+
+#~ msgid "Mixed Rain and Sleet"
+#~ msgstr "Chuva Mista e Chuva com Neve"
+
+#~ msgid "Mixed Rain and Snow"
+#~ msgstr "Chuva Mista e Neve"
+
+#~ msgid "Mostly Cloudy"
+#~ msgstr "Nublado"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "Partly Cloudy"
+#~ msgstr "Parcialmente Nublado"
+
+#~ msgid "Scattered Showers"
+#~ msgstr "Pancadas de Chuva Dispersas"
+
+#~ msgid "Scattered Snow Showers"
+#~ msgstr "Pancadas de Neve Esparsas"
+
+#~ msgid "Scattered Thunderstorms"
+#~ msgstr "Trovoadas Esparsas"
+
+#~ msgid "Severe Thunderstorms"
+#~ msgstr "Tempestades Fortes"
+
+#~ msgid "Showers"
+#~ msgstr "Pancadas de Chuva"
+
+#~ msgid "Sleet"
+#~ msgstr "Chuva com Neve"
+
+#~ msgid "Smoke"
+#~ msgstr "Fumaça"
+
+#~ msgid "Snow"
+#~ msgstr "Neve"
+
+#~ msgid "Snow Flurries"
+#~ msgstr "Flocos de Neve"
+
+#~ msgid "Snow Showers"
+#~ msgstr "Chuvas de Neve"
+
+#~ msgid "Thunder Showers"
+#~ msgstr "Chuvas com Raios"
+
+#~ msgid "Thunderstorms"
+#~ msgstr "Tempestades"
+
+#~ msgid "Tornado"
+#~ msgstr "Tornado"
+
+#~ msgid "Tropical Storm"
+#~ msgstr "Tempestade Tropical"
+
+#~ msgid "Windy"
+#~ msgstr "Vento"
+
+#~ msgid "Monday"
+#~ msgstr "Segunda-feira"
+
+#~ msgid "Tuesday"
+#~ msgstr "Terça-feira"
+
+#~ msgid "Wednesday"
+#~ msgstr "Quarta-feira"
+
+#~ msgid "Thursday"
+#~ msgstr "Quinta-feira"
+
+#~ msgid "Friday"
+#~ msgstr "Sexta-feira"
+
+#~ msgid "Saturday"
+#~ msgstr "Sábado"
+
+#~ msgid "Sunday"
+#~ msgstr "Domingo"
+
+#~ msgid "Fetching conditions for"
+#~ msgstr "Recuperando condições para"
+
+#~ msgid "Searching..."
+#~ msgstr "Procurando..."
+
+#~ msgid "Open Location"
+#~ msgstr "Abrir Localização"
+
+#~ msgid ""
+#~ "There seem to be problems with our                     connection to your "
+#~ "account. Your best bet is probably                     to log out and try "
+#~ "again."
+#~ msgstr ""
+#~ "Parece haver problemas com nossa conexão à sua conta. Sua melhor opção é "
+#~ "provavelmente sair e tentar novamente."
+
+#~ msgid "No"
+#~ msgstr "Não"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "Exibir a soma de upload e download"
+
+#~ msgid "Display upload and download text representation of speed"
+#~ msgstr "Exibir o texto de representação da velocidade de download e upload"
+
+#~ msgid "Do not display the speed as text, only draw the graph"
+#~ msgstr "Não exibir a velocidade como o texto, só desenhar o gráfico"
+
+#~ msgid "Search\\u2026"
+#~ msgstr "Procurar\\u2026"
+
+#~ msgid "Launch\\u2026"
+#~ msgstr "Lançar\\u2026"
+
+#~ msgid "IP Address"
+#~ msgstr "Endereço IP"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Subnet Mask"
+#~ msgstr "Máscara"
+
+#~ msgid "Confirm when emptying the trash"
+#~ msgstr "Confirme quando esvaziar a lixeira"
+
+#~ msgid "Show the item count on the icon"
+#~ msgstr "Mostrar a contagem de itens sobre o ícone"

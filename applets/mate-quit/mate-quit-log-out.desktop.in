@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+_Name=Log out from Mate Session...
+Type=Application
+X-AWN-Type=Applet
+X-AWN-AppletType=Python
+_Comment=Log out of this Mate session to log in as a different user
+Exec=awn-applet -p %k
+X-AWN-AppletExec=mate-quit/mate-quit.py --logout
+Icon=system-log-out
+X-AWN-AppletCategory=System

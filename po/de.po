@@ -1,0 +1,5199 @@
+# German translation for awn-mate-applets
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-mate-applets package.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2010-12-01 20:11+0000\n"
+"Last-Translator: cmdrhenner <cmdrhenner@gmail.com>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "Orte"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "Zuletzt geöffnete Dokumente"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr "Sitzung"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr "Symbol entfernen"
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr "Hauptmenü"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+#, fuzzy
+msgid "Cairo Mate Menu"
+msgstr "Cairo-Hauptmenü"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate Main Menu."
+msgstr "Ein Hauptmenü"
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr "Abmelden"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "Bildschirm sperren"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr "Bereitschaft"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr "Ruhezustand"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "Ausschalten"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "Rechner"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "Persönlicher Ordner"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "Arbeitsfläche"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "Mülleimer"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr "Dateisystem"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr "Wechselmedium"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "Netzwerk"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "Verbindung zu Server"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr "Suchen …"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr "Ausführen …"
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr "%s konnte nicht eingehängt werden"
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr "Liste der zuletzt geöffneten Dokumente löschen?"
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+"Das Leeren der Liste der zuletzt verwendeten Dokumente betrifft:\n"
+"• Alle Einträge im Menü Orte → Zuletzt geöffnete Dokumente.\n"
+"• Die Liste der zuletzt geöffneten Dokumente in allen Anwendungen."
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr "Liste der zuletzt geöffneten Dokumente löschen"
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+#, fuzzy
+msgid "Awn Mate MainMenu"
+msgstr "AWN Hauptmenü"
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr "Zeigt eine Liste Ihrer Anwendungen"
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate main menu for Awn"
+msgstr "Ein Hauptmenü für AWN"
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+"Aktion, die bei einem Linksklick auf das Symbol ausgeführt werden soll."
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+#, fuzzy
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+"Der auszuführende Befehl, falls org.gnome.SessionManager nicht verfügbar ist."
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+#, fuzzy
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+"Der auszuführende Befehl, falls org.gnome.ScreenSaver nicht verfügbar ist."
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+#, fuzzy
+msgid "MATE Quit-Log Out applet"
+msgstr "Applet zum Ausschalten/Abmelden"
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+#, fuzzy
+msgid "Exit or log out from your MATE session"
+msgstr "Ein Applet zum Ausschalten und Abmelden"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "Bildschirm sperren"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+#, fuzzy
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr "Den Rechner vor unbefugtem Zugriff schützen"
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+#, fuzzy
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+"Von dieser Sitzung abmelden, um sich als ein anderer Benutzer anzumelden"
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr "Den Rechner herunterfahren"
+
+#: ../applets/mate-quit/mate-quit.py:34
+#, fuzzy
+msgid "Mate Quit/Log Out"
+msgstr "Ausschalten/Abmelden"
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+"Ein Applet, um den Bildschirm zu sperren, sich abzumelden oder den Rechner "
+"auszuschalten"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+msgid "Show Docklet"
+msgstr "Docklet zeigen"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "Abmelden"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+msgid "Shut Down"
+msgstr "Ausschalten"
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr "%s abmelden …"
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr "Ausschalten …"
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr "Linksklick-_Aktion:"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+#, fuzzy
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr "Noch ein weiteres Menü-Applet"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr "Hauptmenü mit Orten und Dokumentenverlauf"
+
+#: ../applets/mate-yama/mate-yama.py:52
+#, fuzzy
+msgid "MATE-YAMA"
+msgstr "YAMA"
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr "Den Rechner vor unbefugtem Zugriff schützen"
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+"%s von dieser Sitzung abmelden, um sich als ein anderer Benutzer anzumelden"
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr "Menüs _bearbeiten"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr "Persönlicher Ordner"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr "Persönlichen Ordner öffnen"
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr "Die Inhalte Ihrer Arbeitsfläche in einem Ordner öffnen"
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr "Verbindung zu Server …"
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+"Zu einem entfernten Rechner oder einer gemeinsamen Festplatte verbinden"
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr "Alle Objekte aus der Liste der zuletzt verwendeten Dokumente leeren"
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr "»%s« öffnen"
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr "%s einhängen"
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+"Das Leeren der Liste der zuletzt verwendeten Dokumente betrifft:\n"
+"  Alle Einträge im Menü Orte → Zuletzt geöffnete Dokumente.\n"
+"  Die Liste der zuletzt geöffneten Dokumente in allen Anwendungen."
+
+#~ msgid "Log Out..."
+#~ msgstr "Abmelden …"
+
+#~ msgid "Animal Farm"
+#~ msgstr "Farm der Tiere"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "Zeigt (englische) Sprüche, Zitate und Aphorismen"
+
+#~ msgid "Applet that displays fortune messages"
+#~ msgstr ""
+#~ "Applet zum Anzeigen von (englischen) Sprüchen, Zitaten und Aphorismen"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "Globales Tastenkürzel, um das Terminal zu öffnen"
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr ""
+#~ "Bestimmt, ob das Applet versteckt werden soll, wenn es den Fokus verliert."
+
+#~ msgid "The applet's background image."
+#~ msgstr "Das Hintergrundbild des Applets."
+
+#~ msgid "The applet's opacity level."
+#~ msgstr "Die Deckkraft des Applets."
+
+#~ msgid "The default external terminal application."
+#~ msgstr "Das externe Standard-Terminal"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktiviert"
+
+#~ msgid "Preferences"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Behavior"
+#~ msgstr "Verhalten"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "Terminal verbergen, wenn es nicht mehr im Vordergrund ist"
+
+#~ msgid "Action"
+#~ msgstr "Aktion"
+
+#~ msgid "Shortcut"
+#~ msgstr "Tastenkombination"
+
+#~ msgid "Activate"
+#~ msgstr "Aktivieren"
+
+#~ msgid "Background image"
+#~ msgstr "Hintergrundbild"
+
+#~ msgid "Select a file"
+#~ msgstr "Wählen Sie eine Datei"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "Terminal-Transparenz"
+
+#~ msgid "External Terminal"
+#~ msgstr "Externes Terminal"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "Ein einfaches Popup-Terminal"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "Terminal-Applet"
+
+#~ msgid ""
+#~ "Adds or removes 5px to the value of the AWN setting \"Size of Icons\""
+#~ msgstr ""
+#~ "Fügt 5 Pixel hinzu oder zieht 5 Pixel ab vom Wert »Symbolgröße« der Awn-"
+#~ "Einstellungen"
+
+#~ msgid "Color to draw the background"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "Rahmenfarbe"
+
+#~ msgid "Desired applet font size"
+#~ msgstr "Gewünschte Schriftgröße des Applets"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "Anzeigeeinstellungen der Schnittstellen"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "Applet-Hintergrund zeichnen"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "Applet-Rahmen zeichnen"
+
+#~ msgid ""
+#~ "Enables/Disables dock reflection for this applet 0: Use awn setting, 1: "
+#~ "Show reflection in horizontal docks only, 2: show reflection in vertical "
+#~ "docks, 3: Disable reflection for all dock orientations"
+#~ msgstr ""
+#~ "Aktiviert/Deaktiviert Dock-Reflektionen für dieses Applet 0: Verwende AWN-"
+#~ "Einstellungen, 1: Zeige Reflektionen ausschließlich in horizontalen "
+#~ "Docks, 2: Zeige Reflektionen in vertikalen Docks, 3: Deaktiviere  "
+#~ "Reflektionen für Docks aller Orientierungen"
+
+#~ msgid ""
+#~ "Enbables or disables drawing the applet graph - if disabled only the "
+#~ "speed text will be displayed in the applet"
+#~ msgstr ""
+#~ "Aktiviert oder deaktiviert die Darstellung eines Gaphen - falls "
+#~ "deaktiviert, wird die Geschwindigkeit ausschließlich als Text dargestellt"
+
+#~ msgid ""
+#~ "If enabled this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn"
+#~ msgstr ""
+#~ "Wenn aktiviert, wird am unteren Rand des Graphen eine Linie auch dann "
+#~ "gezeichnet, wenn der Wert 0 ist. Andernfalls werden Werte unter 1 nicht "
+#~ "gezeichnet."
+
+#~ msgid "Minimum threshold to draw meter (dependent upon DEFAULT/unit)"
+#~ msgstr ""
+#~ "Schwelle, ab der Werte gezeichnet werden (hängt ab von DEFAULT/unit)"
+
+#~ msgid ""
+#~ "Sets the default scale of the applet traffic graph - the scale is the "
+#~ "amount of linear data to display at one time"
+#~ msgstr ""
+#~ "Setzt die Standardgröße des Graphen für das Traffic-Applet -die Größe ist "
+#~ "der Betrag der liniaren Werte die zur selben Zeit gezeigt werden sollen"
+
+#~ msgid ""
+#~ "Sets the default scale of the applet wireless signal graph - the scale is "
+#~ "the amount of linear data to display at one time"
+#~ msgstr ""
+#~ "Setzt die Standardgröße des Graphen für das Funksignal-Applet -die Größe "
+#~ "ist der Betrag der liniaren Werte die zur selben Zeit gezeigt werden "
+#~ "sollen"
+
+#~ msgid ""
+#~ "Sets the default scale of the popup-dialog traffic graph - the scale is "
+#~ "the amount of linear data to display at one time"
+#~ msgstr ""
+#~ "Setzt die Standardgröße des Graphen für den Popup-Dialog des Traffic-"
+#~ "Applets -die Größe ist der Betrag der liniaren Werte die zur selben Zeit "
+#~ "gezeigt werden sollen"
+
+#~ msgid ""
+#~ "Sets the default scale of the popup-dialog wireless signal graph - the "
+#~ "scale is the amount of linear data to display at one time"
+#~ msgstr ""
+#~ "Setzt die Standardgröße des Graphen für den Popup-Dialog des Funksignal-"
+#~ "Applets -die Größe ist der Betrag der liniaren Werte die zur selben Zeit "
+#~ "gezeigt werden sollen"
+
+#~ msgid "Sets the offset of the applet from the edge of the dock"
+#~ msgstr "Bestimmt den Abstand des Applets vom Rand des Docks"
+
+#~ msgid "Sets the width of the applet icon"
+#~ msgstr "Bestimmt die Breite des Appletsymbols"
+
+#~ msgid "The base display unit for transfer speed (0: bits, 1: bytes)"
+#~ msgstr ""
+#~ "Die Grundeinheit zum Anzeigen der Übertragungsgeschwindigkeit (0: Bits, "
+#~ "1: Bytes)"
+
+#~ msgid "The interface currently selected"
+#~ msgstr "Momentan gewählte Schnittstelle"
+
+#~ msgid "Throughput label control - 0: no label, 1: Sum, 2: Upload/Download"
+#~ msgstr ""
+#~ "Anzeige des Datendurchsatzes - 0: keine Anzeige, 1: Summe, 2: Upload/"
+#~ "Download"
+
+#~ msgid ""
+#~ "Type of graph to use for wireless devices - area: Area chart, area_bar: "
+#~ "Area chart with colored bars, bar: Bar chart, fan: Waving chart with "
+#~ "density, fan_bar: Waving Bar chart with density"
+#~ msgstr ""
+#~ "Art der Diagrammanzeige für kabellose Geräte – area: Flächendiagramm, "
+#~ "area_bar: Flächendiagramm mit farbigen Balken, bar: Balkendiagramm, fan: "
+#~ "schwingendes Diagramm mit Dichte, fan_bar: schwingendes Balkendiagramm "
+#~ "mit Dichte"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "Bandbreitenmonitor"
+
+#~ msgid "Network Bandwidth monitor"
+#~ msgstr "Netzwerk-Bandbreitenmonitor"
+
+#~ msgid "Sum Interface"
+#~ msgstr "Summen-Schnittstelle"
+
+#~ msgid "n/a"
+#~ msgstr "n/a"
+
+#~ msgid "Multi Interface"
+#~ msgstr "Multi-Schnittstelle"
+
+#~ msgid "Scanning"
+#~ msgstr "Scanne"
+
+#~ msgid "Devices"
+#~ msgstr "Geräte"
+
+#~ msgid "KBps"
+#~ msgstr "kB/s"
+
+#~ msgid "Kbps"
+#~ msgstr "kbit/s"
+
+#~ msgid "Use KBps instead of Kbps"
+#~ msgstr "kB/s statt kbit/s verwenden"
+
+#~ msgid "Interfaces"
+#~ msgstr "Schnittstellen"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "Bitte wählen Sie ein gültiges Netzwerkgerät"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr ""
+#~ "Insgesamt gesendet: %s - Insgesamt empfangen: %s (alle Schnittstellen)"
+
+#~ msgid "No Device"
+#~ msgstr "Kein Gerät"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "Bitte wählen Sie ein gültiges Gerät"
+
+#~ msgid "Bps"
+#~ msgstr "B/s"
+
+#~ msgid "MBps"
+#~ msgstr "MB/s"
+
+#~ msgid "GBps"
+#~ msgstr "GB/s"
+
+#~ msgid "TBps"
+#~ msgstr "TB/s"
+
+#~ msgid "bps"
+#~ msgstr "bit/s"
+
+#~ msgid "Mbps"
+#~ msgstr "Mbit/s"
+
+#~ msgid "Gbps"
+#~ msgstr "Gbit/s"
+
+#~ msgid "Tbps"
+#~ msgstr "Tbit/s"
+
+#~ msgid "A Network Bandwidth monitor for AWN"
+#~ msgstr "Ein Netzwerk-Bandbreitenmonitor für AWN"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>Anzeige</b>"
+
+#~ msgid "Applet"
+#~ msgstr "Applet"
+
+#~ msgid "Applet Offset"
+#~ msgstr "Applet-Abstand"
+
+#~ msgid ""
+#~ "Applet Size \n"
+#~ "Override"
+#~ msgstr ""
+#~ "Appletgröße\n"
+#~ "ändern"
+
+#~ msgid "Applet Width"
+#~ msgstr "Breite des Applets"
+
+#~ msgid "Background Color"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "Border Color"
+#~ msgstr "Rahmenfarbe"
+
+#~ msgid "Dialog"
+#~ msgstr "Dialog"
+
+#~ msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+#~ msgstr ""
+#~ "MB/s bzw. kB/s (Bytes) anstelle von Mbit/s bzw. kbit/s (Bits) anzeigen"
+
+#~ msgid "Display Speed Text"
+#~ msgstr "Übertragungsgeschwindigkeit als Text anzeigen"
+
+#~ msgid "Draw 0 bps in graphs"
+#~ msgstr "Nulllinie zeichnen"
+
+#~ msgid "Draw Applet Graph"
+#~ msgstr "Applet-Graphen darstellen"
+
+#~ msgid "Draw Background"
+#~ msgstr "Hintergrund zeichnen"
+
+#~ msgid "Draw Border"
+#~ msgstr "Rahmen zeichnen"
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Graph Only"
+#~ msgstr "Nur als Linie darstellen"
+
+#~ msgid "Icon Font Size"
+#~ msgstr "Icon Schriftgröße"
+
+#~ msgid "If this is checked, the common display unit will be Bytes"
+#~ msgstr ""
+#~ "Wenn aktiviert, wird die Übertragungsgeschwindigkeit in Bytes angezeigt"
+
+#~ msgid "Minimum Scaling threshold"
+#~ msgstr "Untere Anzeigeschwelle"
+
+#~ msgid "Signal Scale"
+#~ msgstr "Signal-Skala"
+
+#~ msgid "Sum"
+#~ msgstr "Summe"
+
+#~ msgid "Traffic Scale"
+#~ msgstr "Datenverkehrs-Skala"
+
+#~ msgid "Device"
+#~ msgstr "Gerät"
+
+#~ msgid "Multi"
+#~ msgstr "Multi"
+
+#~ msgid "Upload Color"
+#~ msgstr "Farbe für Upload"
+
+#~ msgid "Download Color"
+#~ msgstr "Farbe für Download"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "%s %s Color"
+#~ msgstr "%s %s Farbe"
+
+#~ msgid "SSID:"
+#~ msgstr "SSID:"
+
+#~ msgid "TX:"
+#~ msgstr "TX:"
+
+#~ msgid "RX:"
+#~ msgstr "RX:"
+
+#~ msgid "Options/Info"
+#~ msgstr "Optionen/Info"
+
+#~ msgid "Back to Graph"
+#~ msgstr "Zurück zum Diagramm"
+
+#~ msgid "Change Unit"
+#~ msgstr "Einheit ändern"
+
+#~ msgid "Status:"
+#~ msgstr "Status:"
+
+#~ msgid "IP Address:"
+#~ msgstr "IP-Adresse:"
+
+#~ msgid "Subnet Mask:"
+#~ msgstr "Subnetzmaske:"
+
+#~ msgid "UP"
+#~ msgstr "GESTARTET"
+
+#~ msgid "RUNNING"
+#~ msgstr "LÄUFT"
+
+#~ msgid "None"
+#~ msgstr "Keine"
+
+#~ msgid "Members:"
+#~ msgstr "Schnittstellen:"
+
+#~ msgid "Wireless graph type"
+#~ msgstr "Drahtlos-Diagrammtyp"
+
+#~ msgid "HAL UDI of battery."
+#~ msgstr "HAL UDI (eindeutige Identifizierung) des Akkus."
+
+#~ msgid ""
+#~ "If charge level drops below this threadhold, a warning will be displayed."
+#~ msgstr ""
+#~ "Wenn der Ladezustand unter diesen Wert fällt, wird eine Warnung angezeigt"
+
+#~ msgid "If charge level reaches this threshold, a notification will be sent."
+#~ msgstr ""
+#~ "Wenn der Ladezustand diesen Schwellenwert erreicht, wird eine "
+#~ "Benachrichtigung gesendet"
+
+#~ msgid "If enabled, notify when the charge level reaches the high level."
+#~ msgstr ""
+#~ "Wenn aktiviert, erscheint eine Benachrichtigung bei vollständig "
+#~ "aufgeladenem Akku."
+
+#~ msgid ""
+#~ "If enabled, warn when the charge level drops below the warning threshold."
+#~ msgstr ""
+#~ "Bei Aktivierung warne, wenn der Ladezustand unterhalb des "
+#~ "Warnschwellenwertes sinkt"
+
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "Themenname des Symbols"
+
+#~ msgid "Unit of low level threshold (Percent or Time Remaining)."
+#~ msgstr "Einheit des Warnschwellenwertes (Prozent oder verbleibende Zeit)"
+
+#~ msgid "Battery"
+#~ msgstr "Akku"
+
+#~ msgid "Display battery state"
+#~ msgstr "Zeigt den Ladezustand des Akkus"
+
+#~ msgid "Battery Status"
+#~ msgstr "Akku-Status"
+
+#~ msgid "An applet which displays battery information"
+#~ msgstr "Ein Applet zum Anzeigen von Informationen über den Akku"
+
+#~ msgid "No batteries"
+#~ msgstr "Kein Akku"
+
+#~ msgid "Percent"
+#~ msgstr "Prozent"
+
+#~ msgid "AC"
+#~ msgstr "Netzbetrieb"
+
+#~ msgid "battery"
+#~ msgstr "Akkubetrieb"
+
+#~ msgid "Computer running on %s power"
+#~ msgstr "Rechner läuft im %s"
+
+#~ msgid "Battery charged"
+#~ msgstr "Akku geladen"
+
+#~ msgid "until charged"
+#~ msgstr "bis geladen"
+
+#~ msgid "remaining"
+#~ msgstr "verbleibend"
+
+#~ msgid "Time Remaining"
+#~ msgstr "Verbleibende Zeit"
+
+#~ msgid "%d hours"
+#~ msgstr "%d Stunden"
+
+#~ msgid "%d hour"
+#~ msgstr "%d Stunde"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d Minuten"
+
+#~ msgid "%d minute"
+#~ msgstr "%d Minute"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>Allgemeine Einstellungen</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>Benachrichtigungen</b>"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge level reaches a certain "
+#~ "percentage"
+#~ msgstr ""
+#~ "Wenn aktiviert, wird eine Benachrichtigung gezeigt, sobald der "
+#~ "Ladezustand einen bestimmten Prozentwert erreicht"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge levels drops too low"
+#~ msgstr ""
+#~ "Wenn aktiviert, wird eine Benachrichtigung gezeigt, dass Ladezustand "
+#~ "kritisch wird."
+
+#~ msgid "_Battery:"
+#~ msgstr "_Akku:"
+
+#~ msgid "_Notify when charge level reaches:"
+#~ msgstr "_Benachrichtigen, wenn der Ladezustand diesen Wert erreicht:"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Thema:"
+
+#~ msgid "_Warn when charge level drops to:"
+#~ msgstr "_Warnen, wenn der Ladezustand unter diesen Wert fällt:"
+
+#~ msgid "Battery is running low"
+#~ msgstr "Akku-Ladezustand ist niedrig"
+
+#~ msgid "You have approximately <b>%s</b> of remaining battery power (%d%%)."
+#~ msgstr "Die restliche Akkulaufzeit beträgt etwa <b>%s</b> (%d %%)."
+
+#~ msgid "Battery is critically low"
+#~ msgstr "Akku-Ladezustand ist kritisch."
+
+#~ msgid "Battery is charged"
+#~ msgstr "Akku ist aufgeladen"
+
+#~ msgid "Your battery is fully charged."
+#~ msgstr "Ihr Akku ist vollständig geladen."
+
+#~ msgid "Your battery is charged to <b>%d%%</b>."
+#~ msgstr "Ihr Akku ist zu <b>%d %%</b> geladen."
+
+#~ msgid "A custom time format (strftime()), used if not empty."
+#~ msgstr ""
+#~ "Ein benutzerdefiniertes Zeitformat (strftime()), wird benutzt, falls "
+#~ "nicht leer."
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too."
+#~ msgstr ""
+#~ "Wenn aktiviert, werden, neben Stunden und Minuten, auch die Sekunden "
+#~ "angezeigt."
+
+#~ msgid "If enabled, displays the weather as an overlay on top of the clock."
+#~ msgstr "Wenn aktiviert, wird das Wetter auf der Uhr angezeigt."
+
+#~ msgid "If enabled, the date will be shown in the title."
+#~ msgstr "Wenn aktiviert, wird das Datum im Titel angezeigt."
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock."
+#~ msgstr "Wenn aktiviert, wird der Sekundenzeiger auf der Uhr angezeigt."
+
+#~ msgid "List of cities and timezones separated by a '#' character."
+#~ msgstr "Liste der Städte und Zeitzonen, getrennt durch #"
+
+#~ msgid ""
+#~ "Show time in 24 hour format if enabled, or 12 hour format when disabled."
+#~ msgstr ""
+#~ "Zeige Zeit im 24-Stunden-Format, wenn aktiviert, oder im 12-Stunden-"
+#~ "Format, wenn deaktiviert."
+
+#~ msgid "Temperature unit (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+#~ msgstr ""
+#~ "Temperaturmaßeinheit (0: Grad Celsius, 1: Grad Fahrenheit, 2: Kelvin)."
+
+#~ msgid "The name of the theme of the analog clock."
+#~ msgstr "Name des Themas für die analoge Uhr"
+
+#~ msgid "Wind speed unit (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+#~ msgstr ""
+#~ "Maßeinheit der Windgeschwindigkeit (0: m/s, 1: km/h, 2: mph, 3: Knoten, "
+#~ "4: Beaufort)"
+
+#~ msgid "Cairo Clock"
+#~ msgstr "Cairo-Uhr"
+
+#~ msgid ""
+#~ "Displays an analog clock and supports additional clocks for different "
+#~ "locations"
+#~ msgstr ""
+#~ "Zeigt eine analoge Uhr und bietet zusätzliche Uhren für unterschiedliche "
+#~ "Standorte"
+
+#~ msgid ""
+#~ "Applet that displays an analog clock and supports additional clocks for "
+#~ "different locations"
+#~ msgstr ""
+#~ "Ein Applet, das eine analoge Uhr anzeigt und zusätzliche Uhren für "
+#~ "verschiedene Orte unterstützt"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "12 _hour format"
+#~ msgstr "12-_Stunden-Format"
+
+#~ msgid "24 h_our format"
+#~ msgstr "24-S_tunden-Format"
+
+#~ msgid "<b>Clock Display</b>"
+#~ msgstr "<b>Uhr-Anzeige</b>"
+
+#~ msgid "<b>Title Options</b>"
+#~ msgstr "<b>Titel-Einstellungen</b>"
+
+#~ msgid "Beaufort"
+#~ msgstr "Beaufort"
+
+#~ msgid "Celsius"
+#~ msgstr "Grad Celsius"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "Grad Fahrenheit"
+
+#~ msgid "Find _Next"
+#~ msgstr "_Weitersuchen"
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too"
+#~ msgstr ""
+#~ "Wenn aktiviert, werden neben Stunden und Minuten auch die Sekunden "
+#~ "angezeigt"
+
+#~ msgid "If enabled, the date will be shown in the title"
+#~ msgstr "Wenn aktiviert, wird das Datum im Titel angezeigt"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock"
+#~ msgstr "Wenn aktiviert, wird der Sekundenzeiger der Uhr mitangezeigt"
+
+#~ msgid "If enabled, time will be shown like 1:23 AM"
+#~ msgstr "Wenn aktiviert, wird die Uhrzeit als 1:23 AM angezeigt"
+
+#~ msgid "If enabled, time will be shown like 23:45"
+#~ msgstr "Wenn aktiviert, wird die Zeit angezeigt wie 23:45"
+
+#~ msgid "Kelvin"
+#~ msgstr "Kelvin"
+
+#~ msgid "Location Name:"
+#~ msgstr "Name des Ortes:"
+
+#~ msgid "Show _seconds"
+#~ msgstr "_Sekunden anzeigen"
+
+#~ msgid "Show seco_nds hand"
+#~ msgstr "Sekunden_zeiger anzeigen"
+
+#~ msgid "Show the _date"
+#~ msgstr "_Datum anzeigen"
+
+#~ msgid "_Show weather of current location"
+#~ msgstr "_Wetter des gegenwärtigen Standortes anzeigen"
+
+#~ msgid "_Temperature unit:"
+#~ msgstr "_Temperatureinheit:"
+
+#~ msgid "_Wind speed unit:"
+#~ msgstr "_Windgeschwindigkeitseinheit:"
+
+#~ msgid "km/h"
+#~ msgstr "km/h"
+
+#~ msgid "knots"
+#~ msgstr "Knoten"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "mph"
+#~ msgstr "mph"
+
+#~ msgid "Locations"
+#~ msgstr "Orte"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Clock/Calendar Applet"
+#~ msgstr "Uhr/Kalender-Applet"
+
+#~ msgid "Watch appointments on your dock"
+#~ msgstr "Behalten Sie Ihre Termine im Auge"
+
+#~ msgid "Login to "
+#~ msgstr "Anmelden bei "
+
+#~ msgid "Online Calendar"
+#~ msgstr "Online Kalender"
+
+#~ msgid "Calendar Username"
+#~ msgstr "Kalender Benutzername"
+
+#~ msgid "Calendar Password"
+#~ msgstr "Kalender Passwort"
+
+#~ msgid "Save Password"
+#~ msgstr "Passwort speichern"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "Sie haben Passwort speichern gewählt. Das Passwort wird verschlüsselt "
+#~ "gespeichert. Trotzdem besteht immer die Möglichkeit, dass Ihr Passwort "
+#~ "nach einem Einbruch in Ihren Computer gestohlen oder entschlüsselt wird. "
+#~ "Möchten sie ihr Passwort immer noch speichern?"
+
+#~ msgid "Classic LCD"
+#~ msgstr "Klassisches LCD"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "Indy-glühende LCD-Anzeige"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "Bernsteinfarben hinterleuchtete LCD-Anzeige"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "Grün hinterleuchtete LCD-Anzeige"
+
+#~ msgid "Green LED"
+#~ msgstr "Grüne LED"
+
+#~ msgid "Red LED"
+#~ msgstr "Rote LED"
+
+#~ msgid "Blue LED"
+#~ msgstr "Blaue LED"
+
+#~ msgid "Plain White"
+#~ msgstr "Einfach weiß"
+
+#~ msgid "Plain Black"
+#~ msgstr "Einfach schwarz"
+
+#~ msgid "Red"
+#~ msgstr "Rot"
+
+#~ msgid "Green"
+#~ msgstr "Grün"
+
+#~ msgid "Blue"
+#~ msgstr "Blau"
+
+#~ msgid "Gray"
+#~ msgstr "Grau"
+
+#~ msgid "Black"
+#~ msgstr "Schwarz"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "12 Stunden Uhr"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "Aussehen der Uhr"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "Aussehen des Kalenders"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Google Kalender"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Outlook Webzugang"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "Kalenderintegration"
+
+#~ msgid "Calendar URL"
+#~ msgstr "Kalender URL"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalender"
+
+#~ msgid "Forget Password"
+#~ msgstr "Passwort vergessen"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "Möchten Sie Ihr Passwort für den Kalender aus dem Applet löschen? Wenn "
+#~ "Sie sich für das Löschen entscheiden, werden Sie jedes Mal nach den "
+#~ "Zugangsdaten für Ihren Kalendar gefragt."
+
+#~ msgid "Avant Calendar Applet"
+#~ msgstr "Avant-Kalender-Applet"
+
+#~ msgid "A Calendar Applet for the Avant Window Navigator. Images by Deleket."
+#~ msgstr ""
+#~ "Ein Kalender-Applet für den Avant Window Navigator. Bilder von Deleket."
+
+#~ msgid "%x %X"
+#~ msgstr "%x %X"
+
+#~ msgid "Open in "
+#~ msgstr "Öffnen in "
+
+#~ msgid "Today"
+#~ msgstr "Heute"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "Lesen der Kalenderdaten von der externen Quelle nicht möglich."
+
+#~ msgid "No appointments."
+#~ msgstr "Keine Termine."
+
+#~ msgid "No appointments"
+#~ msgstr "Keine Termine"
+
+#~ msgid "The user agent to send when retrieving comics."
+#~ msgstr "Der übermittelte User Agent beim Herunterladen der Comics."
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr ""
+#~ "Download von %s fehlgeschlagen. Klicken Sie auf \"Weiter\", um den "
+#~ "Vorgang zu wiederholen."
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr ""
+#~ "Die URL ist kein gültiger Comic-Feed. Drücken Sie auf »Vor« für einen "
+#~ "neuen Versuch."
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "Verbinde zu <i>%s</i>"
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "Der Assistent ist beendet.\n"
+#~ "\n"
+#~ "Drücken Sie auf »Anwenden«, um <i>%s</i> hinzuzufügen."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "<b>%(name)s</b> gefunden!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Comics!"
+#~ msgstr "Comics!"
+
+#~ msgid "View your favourite comics on your desktop"
+#~ msgstr "Ihre Lieblingscomics auf dem Desktop"
+
+#~ msgid "Shared comics"
+#~ msgstr "Gemeinsame Comics"
+
+#~ msgid "Your comics"
+#~ msgstr "Eigene Comics"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "Löschen von <i>%s</i> fehlgeschlagen."
+
+#~ msgid "Error"
+#~ msgstr "Fehler"
+
+#~ msgid "Comics"
+#~ msgstr "Comics"
+
+#~ msgid "Manage Comics"
+#~ msgstr "Comics verwalten"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "Es gibt eine neue Folge von %s!"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A, %d. %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "Speichern von <i>%s</i> fehlgeschlagen."
+
+#~ msgid "Add Comic"
+#~ msgstr "Comic hinzufügen"
+
+#~ msgid "Downloading Comic"
+#~ msgstr "Comic downloaden"
+
+#~ msgid "Enter the URL of the RSS feed:"
+#~ msgstr "Geben Sie die URL des RSS-Feeds ein:"
+
+#~ msgid "Ready to add comic!"
+#~ msgstr "Fertig! Der Comic kann hinzugefügt werden."
+
+#~ msgid "Select Comic"
+#~ msgstr "Comic auswählen"
+
+#~ msgid "Select Image"
+#~ msgstr "Bild auswählen"
+
+#~ msgid "The guide found more than one image. Please select which one to use."
+#~ msgstr ""
+#~ "Der Assistent fand mehr als ein Bild. Bitte wählen Sie das zu benutzende "
+#~ "aus."
+
+#~ msgid ""
+#~ "This guide will help you to add a new comic.\n"
+#~ "\n"
+#~ "To find comics suitable for adding, you may search the Internet for "
+#~ "\"comics rss\".\n"
+#~ "\n"
+#~ "Press \"next\" to proceed."
+#~ msgstr ""
+#~ "Dieser Assistent hilft Ihnen, einen neuen Comic hinzuzufügen.\n"
+#~ "\n"
+#~ "Um dafür geeignete Comics zu finden, können Sie im Internet nach den "
+#~ "Stichworten »comics rss« suchen.\n"
+#~ "\n"
+#~ "Drücken Sie auf »Vor«, um fortzufahren."
+
+#~ msgid "Manage comics"
+#~ msgstr "Comics verwalten"
+
+#~ msgid "The following comics are installed:"
+#~ msgstr "Folgende Comics sind installiert:"
+
+#~ msgid "Show link"
+#~ msgstr "Zeige Link"
+
+#~ msgid "Size"
+#~ msgstr "Größe"
+
+#~ msgid "Unknown command sent: %s"
+#~ msgstr "Unbekannter Befehl: %s"
+
+#~ msgid "Common Folder Launcher"
+#~ msgstr "Starter für bekannte Ordner"
+
+#~ msgid "Launcher for common folders and bookmarks"
+#~ msgstr "Starter für bekannte Ordner und für Lesezeichen"
+
+#~ msgid "Applet to launch common folders and bookmarks"
+#~ msgstr "Applet zum Öffnen von bekannten Ordnern und Lesezeichen"
+
+#~ msgid "Index of processor."
+#~ msgstr "Prozessorindex"
+
+#~ msgid "An applet to monitor and control the CPU frequency"
+#~ msgstr "Ein Applet zur Beobachtung und Überwachung der CPU-Frequenz"
+
+#~ msgid "CPU Frequency Monitor"
+#~ msgstr "CPU-Frequenz-Monitor"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>Scaling unavailable</b></span>\n"
+#~ "\n"
+#~ "Frequency scaling is not\n"
+#~ "available for the selected CPU."
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Abstufung nicht verfügbar</b></span>\n"
+#~ "\n"
+#~ "Das Abstufen der Taktfrequenz ist für\n"
+#~ "die gewählte CPU nicht verfügbar."
+
+#~ msgid "GHz"
+#~ msgstr "GHz"
+
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgid "<b>Monitored CPU</b>"
+#~ msgstr "<b>Überwachte CPU</b>"
+
+#~ msgid "_Processor:"
+#~ msgstr "_Prozessor:"
+
+#~ msgid "Can change layout with scroll wheel."
+#~ msgstr "Tastaturbelegung mit dem Scrollrad ändern"
+
+#~ msgid "Flag opacity (min: 0.0, max: 0.9)."
+#~ msgstr "Flaggendeckkraft (min. 0,0, max. 0,9)."
+
+#~ msgid "Flag size compared to icon (min: 0.1, max: 0.9)."
+#~ msgstr "Flaggengröße im Vergleich zum Symbol (min. 0,1, max. 0,9)."
+
+#~ msgid ""
+#~ "Keyboard toggle to change selected layout (see prefs dialog for values)."
+#~ msgstr ""
+#~ "Tastatur-Umschalter, um ausgewählte Belegung zu ändern (siehe "
+#~ "Einstellungen-Dialog für Werte)."
+
+#~ msgid "Left click action (0: previous, 1: menu, 2: next, 3: none)."
+#~ msgstr ""
+#~ "Aktion bei Linksklick (0: vorherige, 1: Menü, 2: nächste, 3: keine)."
+
+#~ msgid "Middle click action (0: previous, 1: menu, 2: next, 3: none)."
+#~ msgstr ""
+#~ "Aktion bei Mittelklick (0: vorherige, 1: Menü, 2: nächste, 3: keine)."
+
+#~ msgid "Overlay selected layout flag on icon."
+#~ msgstr "Flagge der gewählten Belegung über das Symbol legen."
+
+#~ msgid "User selected layouts."
+#~ msgstr "Vom Benutzer gewählte Tastaturbelegungen."
+
+#~ msgid "User selected variants."
+#~ msgstr "Vom Benutzer gewählte Varianten."
+
+#~ msgid " Dialect Applet"
+#~ msgstr " Dialekt-Applet"
+
+#~ msgid "Change your keyboard input layout from Awn."
+#~ msgstr "Tastaturbelegung von AWN aus ändern"
+
+#~ msgid "Dialect Applet"
+#~ msgstr "»Dialekt«-Applet"
+
+#~ msgid ""
+#~ "<b>User List:</b> The list of layouts you commonly use. The maximum "
+#~ "number of layouts is restricted by the X11 xkb system (currently 4). "
+#~ "Select an item and click the remove button to delete from your user list. "
+#~ "You can order the list by drag and drop.\n"
+#~ "<b>System List:</b> The complete list of layouts and variants available. "
+#~ "Select an item and click the add button to include in your user list."
+#~ msgstr ""
+#~ "<b>Benutzerliste:</b> Liste der häufig benutzten Tastaturbelegungen. Die "
+#~ "maximale Anzahl der Belegungen ist beschränkt durch das X11-xkb-System "
+#~ "(derzeit 4). Wählen Sie einen Eintrag und drücken Sie auf »Entfernen«, um "
+#~ "ihn von Ihrer Liste zu löschen. Sie können die Liste durch Ziehen und "
+#~ "Ablegen ordnen.\n"
+#~ "<b>Systemliste:</b> Die vollständige Liste aller verfügbaren "
+#~ "Tastaturbelegungen und Varianten. Wählen Sie einen Eintrag aus und "
+#~ "drücken Sie auf »Hinzufügen«, um ihn in Ihre Benutzerliste aufzunehmen."
+
+#~ msgid "small"
+#~ msgstr "klein"
+
+#~ msgid "large"
+#~ msgstr "groß"
+
+#~ msgid "transparent"
+#~ msgstr "transparent"
+
+#~ msgid "opaque"
+#~ msgstr "deckend"
+
+#~ msgid "System List"
+#~ msgstr "Systemliste"
+
+#~ msgid "User List"
+#~ msgstr "Benutzerliste"
+
+#~ msgid "<b>Flag on Applet Icon</b>"
+#~ msgstr "<b>Flagge auf dem Appletsymbol</b>"
+
+#~ msgid "<b>Keyboard</b>"
+#~ msgstr "<b>Tastatur</b>"
+
+#~ msgid "<b>Mouse Actions</b>"
+#~ msgstr "<b>Mausaktionen</b>"
+
+#~ msgid "About Dialect Applet"
+#~ msgstr "Über Dialekt-Applet"
+
+#~ msgid "Appearance"
+#~ msgstr "Darstellung"
+
+#~ msgid "Change your keyboard layout from Awn."
+#~ msgstr "Tastaturbelegung von Awn aus ändern"
+
+#~ msgid "Control"
+#~ msgstr "Steuerung"
+
+#~ msgid "Dialect Applet Preferences"
+#~ msgstr "Einstellungen für das Dialekt-Applet"
+
+#~ msgid "Flag _Opacity:"
+#~ msgstr "_Deckkraft der Flagge:"
+
+#~ msgid "Flag _Size:"
+#~ msgstr "_Größe der Flagge:"
+
+#~ msgid ""
+#~ "If selected, scrolling up or down with your mouse wheel will select the "
+#~ "next or previous layout in your user list"
+#~ msgstr ""
+#~ "Falls ausgewählt, können Sie durch Bewegen des Mausrades die vorherige "
+#~ "oder nächste Belegung in der Liste auswählen."
+
+#~ msgid "Layouts"
+#~ msgstr "Tastaturbelegungen"
+
+#~ msgid "Selects the hot key combination used to change layouts"
+#~ msgstr "Wählt die Tastenkombination zum Wechseln der Tastaturbelegungen"
+
+#~ msgid "Show _Flag"
+#~ msgstr "_Flagge zeigen"
+
+#~ msgid "Show menu with layouts"
+#~ msgstr "Auswahlmenü mit Tastaturbelegungen zeigen"
+
+#~ msgid "Switch to next layout in list"
+#~ msgstr "Zur nächsten Tastaturbelegung in der Liste wechseln"
+
+#~ msgid "Switch to previous layout in list"
+#~ msgstr "Zur vorigen Tastaturbelegung in der Liste wechseln"
+
+#~ msgid "_Add"
+#~ msgstr "_Hinzufügen"
+
+#~ msgid "_Allow scroll wheel to change layout"
+#~ msgstr "Wechsel der Belegung mit M_ausrad aktivieren"
+
+#~ msgid "_Keyboard Toggle:"
+#~ msgstr "_Tastaturumschalter:"
+
+#~ msgid "_Left Click:"
+#~ msgstr "_Linksklick:"
+
+#~ msgid "_Middle Click:"
+#~ msgstr "_Mittelklick:"
+
+#~ msgid "Command to execute when a calendar day is double-clicked."
+#~ msgstr ""
+#~ "Auszuführender Befehl, wenn ein Kalendertag doppelt angeklickt wird."
+
+#~ msgid "Command to execute when the user wishes to adjust the date/time."
+#~ msgstr ""
+#~ "Auszuführender Befehl, wenn der Benutzer Zeit/Datum einstellen möchte."
+
+#~ msgid "Show the date before the time."
+#~ msgstr "Zeige Datum vor der Zeit."
+
+#~ msgid "The color of the clock text."
+#~ msgstr "Farbe des Uhrtextes."
+
+#~ msgid "The font face of the clock text."
+#~ msgstr "Schriftart der Uhr."
+
+#~ msgid "The shadow color of the clock text."
+#~ msgstr "Die Schattenfarbe des Uhrzeittextes."
+
+#~ msgid "Toggle 12-hour mode."
+#~ msgstr "Schalter für das 12-Stunden-Format"
+
+#~ msgid "12 hour format"
+#~ msgstr "12-Stunden-Format"
+
+#~ msgid "24 hour format"
+#~ msgstr "24-Stunden-Format"
+
+#~ msgid "<b>Clock Format</b>"
+#~ msgstr "<b>Uhrformat</b>"
+
+#~ msgid "Commands"
+#~ msgstr "Befehle"
+
+#~ msgid "Date below time"
+#~ msgstr "Datum unter Uhrzeit"
+
+#~ msgid "Digital Clock Preferences"
+#~ msgstr "Digitaluhr-Einstellungen"
+
+#~ msgid "Run Calendar:"
+#~ msgstr "Kalender:"
+
+#~ msgid "Run Time Admin:"
+#~ msgstr "Zeit- und Datumseinstellungen:"
+
+#~ msgid "Show the date"
+#~ msgstr "Datum anzeigen"
+
+#~ msgid "Use default Awn colors"
+#~ msgstr "AWN Standardfarben verwenden"
+
+#~ msgid "A clock and calendar in one."
+#~ msgstr "Uhr und Kalendar in einem"
+
+#~ msgid "Digital Clock"
+#~ msgstr "Digitale Uhr"
+
+#~ msgid "%b %d"
+#~ msgstr "%d. %b."
+
+#~ msgid "Copy Time"
+#~ msgstr "Uhrzeit kopieren"
+
+#~ msgid "Copy Date"
+#~ msgstr "Datum kopieren"
+
+#~ msgid "Adjust Date & Time"
+#~ msgstr "Datum & Zeit einstellen"
+
+#~ msgid "Displays digital clock."
+#~ msgstr "Zeigt eine digitale Uhr."
+
+#~ msgid "Hide feeds which do not have any new items"
+#~ msgstr "Feeds verbergen, die keine neuen Inhalte haben"
+
+#~ msgid "If false, all previous items will be marked as read when updating"
+#~ msgstr ""
+#~ "Wenn »false«, werden alle vorigen Inhalte beim Aktualisieren als gelesen "
+#~ "markiert"
+
+#~ msgid "Notify if any feeds have new items"
+#~ msgstr "Benachrichtigen, wenn Feeds neue Inhalte haben."
+
+#~ msgid "Show each feed's website's icon in the dialog"
+#~ msgstr "Das Webseitensymbol jedes Feeds im Dialog anzeigen"
+
+#~ msgid "The interval (in minutes) at which to update (3-60)"
+#~ msgstr "Zeitintervall (in Minuten), in dem aktualisiert wird (3–60)"
+
+#~ msgid "Update automatically at a configurable interval"
+#~ msgstr "In einem einstellbaren Intervall automatisch aktualisieren"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Google Reader"
+#~ msgstr "Google Reader"
+
+#~ msgid "Google Wave"
+#~ msgstr "Google Wave"
+
+#~ msgid "Reddit Inbox"
+#~ msgstr "Reddit Inbox"
+
+#~ msgid "Comment reply from %s"
+#~ msgstr "Antwort auf einen Kommentar von %s"
+
+#~ msgid "Post reply from %s"
+#~ msgstr "Antwort auf ein Posting von %s"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Untitled"
+#~ msgstr "Ohne Titel"
+
+#~ msgid "Feeds Applet"
+#~ msgstr "Feeds-Applet"
+
+#~ msgid "Monitor web feeds"
+#~ msgstr "Web-Feeds beobachten"
+
+#~ msgid "Loading feeds..."
+#~ msgstr "Lade Feeds …"
+
+#~ msgid "You don't have any feeds."
+#~ msgstr "Sie haben keine Feeds."
+
+#~ msgid ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s More)\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s mehr)\n"
+
+#~ msgid "%s New Item - Feeds Applet"
+#~ msgid_plural "%s New Items - Feeds Applet"
+#~ msgstr[0] "%s neue Nachricht – Feeds-Applet"
+#~ msgstr[1] "%s neue Nachrichten – Feeds-Applet"
+
+#~ msgid "_Add Feed"
+#~ msgstr "Feed _hinzufügen"
+
+#~ msgid "Open this feed's website"
+#~ msgstr "Die Website dieses Feeds öffnen"
+
+#~ msgid "Loading..."
+#~ msgstr "Wird geladen ..."
+
+#~ msgid "Show this feed's items"
+#~ msgstr "Die Inhalte dieses Feeds anzeigen"
+
+#~ msgid "Hide this feed's items"
+#~ msgstr "Die Inhalte dieses Feeds verbergen"
+
+#~ msgid "Add Feed"
+#~ msgstr "Feed hinzufügen"
+
+#~ msgid "Show Only _New Feeds"
+#~ msgstr "Nur Feeds mit _neuen Inhalten zeigen"
+
+#~ msgid "_About %s"
+#~ msgstr "_Über %s"
+
+#~ msgid "Applet to monitor web feeds"
+#~ msgstr "Ein Applet zum Beobachten von Web-Feeds"
+
+#~ msgid "OPML Import"
+#~ msgstr "OPML importieren"
+
+#~ msgid "Do you want to add %d feed?"
+#~ msgid_plural "Do you want to add %d feeds?"
+#~ msgstr[0] "Wollen Sie %d Feed hinzufügen?"
+#~ msgstr[1] "Wollen Sie %d Feeds hinzufügen?"
+
+#~ msgid "Could not open '%s'"
+#~ msgstr "»%s« konnte nicht geöffnet werden"
+
+#~ msgid "Could not save '%s'"
+#~ msgstr "»%s« konnte nicht gespeichert werden"
+
+#~ msgid "Feeds Applet Preferences"
+#~ msgstr "Einstellungen für das Feeds-Applet"
+
+#~ msgid "Feeds"
+#~ msgstr "Feeds"
+
+#~ msgid "Updating"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "_Show website icons"
+#~ msgstr "Websitesymbole _zeigen"
+
+#~ msgid "Show _only new feeds"
+#~ msgstr "_Nur Feeds mit neuen Inhalten zeigen"
+
+#~ msgid "Import"
+#~ msgstr "Importieren"
+
+#~ msgid "Export"
+#~ msgstr "Exportieren"
+
+#~ msgid "_Notify for updated feeds"
+#~ msgstr "Bei aktualisierten Feeds be_nachrichtigen"
+
+#~ msgid "_Update automatically"
+#~ msgstr "_Automatisch aktualisieren"
+
+#~ msgid "Update every "
+#~ msgstr "Aktualisiere alle "
+
+#~ msgid " minutes"
+#~ msgstr " Minuten"
+
+#~ msgid "Keep items unread when updating"
+#~ msgstr "Inhalte beim Aktualisieren als ungelesen markiert lassen"
+
+#~ msgid "Open OPML File"
+#~ msgstr "OPML-Datei öffnen"
+
+#~ msgid "Save OPML File"
+#~ msgstr "OPML-Datei speichern"
+
+#~ msgid "feeds.opml"
+#~ msgstr "feeds.opml"
+
+#~ msgid "Awn Feeds Applet Items"
+#~ msgstr "Inhalte des Awn Feeds-Applets"
+
+#~ msgid "Source:"
+#~ msgstr "Quelle:"
+
+#~ msgid "Search"
+#~ msgstr "Suchen"
+
+#~ msgid "You must sign in to a Google service to search for feeds."
+#~ msgstr ""
+#~ "Sie müssen sich bei einem Google-Service anmelden, um nach Feeds zu suchen"
+
+#~ msgid "RSS/Atom"
+#~ msgstr "RSS/Atom"
+
+#~ msgid "Timeline"
+#~ msgstr "Zeitleiste"
+
+#~ msgid "Replies"
+#~ msgstr "Antworten"
+
+#~ msgid "Search for"
+#~ msgstr "Suche nach"
+
+#~ msgid "URL:"
+#~ msgstr "Adresse (URL):"
+
+#~ msgid "Username:"
+#~ msgstr "Benutzername:"
+
+#~ msgid "Password:"
+#~ msgstr "Kennwort:"
+
+#~ msgid "Feed search by "
+#~ msgstr "Suche Feeds nach "
+
+#~ msgid "_Search"
+#~ msgstr "_Suchen"
+
+#~ msgid ""
+#~ "There was an error while searching.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "Ein Fehler ist während der Suche aufgetreten.\n"
+#~ "Probieren Sie es später noch einmal."
+
+#~ msgid ""
+#~ "No results found.\n"
+#~ "Try checking your spelling or using different search terms."
+#~ msgstr ""
+#~ "Keine Ergebnisse gefunden.\n"
+#~ "Überprüfen Sie die Schreibweise oder verwenden Sie andere Suchbegriffe."
+
+#~ msgid ""
+#~ "0: one icon with dialog; 1: one icon with docklet on click; 2: persistent "
+#~ "docklet"
+#~ msgstr ""
+#~ "0: ein Symbol mit Dialog; 1: ein Symbol mit Docklet beim Klicken; 2: "
+#~ "ständiges Docklet"
+
+#~ msgid "The action to perform on left click"
+#~ msgstr "Die Aktion, die bei einem Linksklick ausgeführt wird"
+
+#~ msgid "The action to perform on middle click"
+#~ msgstr "Die Aktion, die bei einem Mittelklick ausgeführt wird"
+
+#~ msgid "The file browser to use"
+#~ msgstr "Der verwendete Datei-Browser"
+
+#~ msgid "The path to use on left click"
+#~ msgstr "Der Ordner, der bei einem Linksklick geöffnet wird"
+
+#~ msgid "The path to use on middle click"
+#~ msgstr "Der Ordner, der bei einem Mittelklick geöffnet wird"
+
+#~ msgid "Whether or not to display Connect to server"
+#~ msgstr "Ob »Verbindung zu Server« angezeigt wird oder nicht"
+
+#~ msgid "Whether or not to display bookmarks"
+#~ msgstr "Lesezeichen anzeigen oder nicht"
+
+#~ msgid "Whether or not to display local drives"
+#~ msgstr "Lokale Laufwerke anzeigen oder nicht"
+
+#~ msgid "Whether or not to display network drives"
+#~ msgstr "Netzlaufwerke anzeigen oder nicht"
+
+#~ msgid "Whether or not to display the Filesystem"
+#~ msgstr "Dateisystem anzeigen oder nicht"
+
+#~ msgid "Whether or not to display the Trash"
+#~ msgstr "Mülleimer anzeigen oder nicht"
+
+#~ msgid "Whether or not to display the computer"
+#~ msgstr "Rechner anzeigen oder nicht"
+
+#~ msgid "Whether or not to display the home folder"
+#~ msgstr "Persönlichen Ordner anzeigen oder nicht"
+
+#~ msgid "Whether or not to focus the location text box"
+#~ msgstr "Das Textfeld des Standortes fokussieren oder nicht"
+
+#~ msgid "Whether or not to open the place when clicked"
+#~ msgstr "Orte öffnen wenn geklickt oder nicht"
+
+#~ msgid "A launcher for your file manager"
+#~ msgstr "Ein Starter für Ihren Dateimanager"
+
+#~ msgid "File Browser Launcher"
+#~ msgstr "Datei-Browser-Starter"
+
+#~ msgid "Filesystem"
+#~ msgstr "Dateisystem"
+
+#~ msgid "CD/DVD Burner"
+#~ msgstr "CD/DVD-Brenner"
+
+#~ msgid "Fonts"
+#~ msgstr "Schriften"
+
+#~ msgid "Folder"
+#~ msgstr "Ordner"
+
+#~ msgid "Trash (%d)"
+#~ msgstr "Mülleimer (%d)"
+
+#~ msgid "DVD Drive"
+#~ msgstr "DVD-Laufwerk"
+
+#~ msgid "CD Drive"
+#~ msgstr "CD-Laufwerk"
+
+#~ msgid "Eject"
+#~ msgstr "Auswerfen"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Mülleimer leeren"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Löschen bestätigen"
+
+#~ msgid ""
+#~ "<big><b>Are you sure you want to delete\n"
+#~ "every item from the trash?</b></big>"
+#~ msgstr ""
+#~ "<big><b>Sind Sie sicher, dass Sie alle Objekt\n"
+#~ "im Müll löschen wollen?</b></big>"
+
+#~ msgid "This action cannot be undone."
+#~ msgstr "Diese Aktion kann nicht rückgängig gemacht werden."
+
+#~ msgid "A customizable launcher for browsing your files."
+#~ msgstr "Ein konfigurierbarer Starter zum Durchstöbern Ihrer Dateien."
+
+#~ msgid "File Browser Launcher Preferences"
+#~ msgstr "Einstellungen für den Datei-Browser-Starter"
+
+#~ msgid "File Browser"
+#~ msgstr "Datei-Browser"
+
+#~ msgid "System Default"
+#~ msgstr "Vorgabe"
+
+#~ msgid "Other"
+#~ msgstr "Anderer Datei-Browser:"
+
+#~ msgid "One icon with dialog"
+#~ msgstr "Ein Symbol mit Dialog"
+
+#~ msgid "One icon with docklet"
+#~ msgstr "Ein Symbol mit Docklet"
+
+#~ msgid "Multiple icons"
+#~ msgstr "Mehrere Symbole"
+
+#~ msgid "Focus text entry"
+#~ msgstr "Textfeld fokussieren"
+
+#~ msgid "Open place when clicked"
+#~ msgstr "Ort öffnen, wenn angeklickt"
+
+#~ msgid "Show all places"
+#~ msgstr "Alle Orte anzeigen"
+
+#~ msgid "Home folder"
+#~ msgstr "Persönlicher Ordner"
+
+#~ msgid "Mounted local drives"
+#~ msgstr "Eingehängte Laufwerke"
+
+#~ msgid "Mounted network drives"
+#~ msgstr "Eingehängte Netzlaufwerke"
+
+#~ msgid "Connect to server"
+#~ msgstr "Verbindung zu Server"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Lesezeichen"
+
+#~ msgid "Display dialog/docklet"
+#~ msgstr "Dialog/Docklet anzeigen"
+
+#~ msgid "Open the folder"
+#~ msgstr "Ordner öffnen"
+
+#~ msgid "Nothing"
+#~ msgstr "Nichts"
+
+#~ msgid "Left Click"
+#~ msgstr "Linksklick"
+
+#~ msgid "Middle Click"
+#~ msgstr "Mittelklick"
+
+#~ msgid "Choose a folder"
+#~ msgstr "Ordner wählen"
+
+#~ msgid "Garbage"
+#~ msgstr "Mülleimer"
+
+#~ msgid "%u item"
+#~ msgid_plural "%u items"
+#~ msgstr[0] "%u Objekt"
+#~ msgstr[1] "%u Objekte"
+
+#~ msgid "Could not open the trash folder with your file manager: %s"
+#~ msgstr ""
+#~ "Der Müllordner konnte mit Ihrem Dateimanager (%s) nicht geöffnet werden."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Mülleimer l_eeren"
+
+#~ msgid "A lightweight, cross-desktop trash applet"
+#~ msgstr "Ein leichtgewichtiges, Desktop-übergreifendes Mülleimerapplet"
+
+#~ msgid ""
+#~ "Are you sure you want to empty your trash? It currently contains %u "
+#~ "item(s)."
+#~ msgstr ""
+#~ "Sind Sie sicher, dass Sie den Müll leeren wollen? Er enthält momentan %u "
+#~ "Objekt(e)."
+
+#~ msgid "Could not send the dragged file(s) to the trash: %s"
+#~ msgstr "Die Datei(en) konnten nicht in den Mülleimer gezogen werden: %s"
+
+#~ msgid ""
+#~ "Enable the confirmation dialog form when one wishes to empty the trash."
+#~ msgstr "Bestätigungsdialog anzeigen, bevor der Mülleimer geleert wird"
+
+#~ msgid "Show the number of items in the trash on top of the icon."
+#~ msgstr "Anzahl der Objekte im Müll auf dem Symbol anzeigen"
+
+#~ msgid "%s Preferences"
+#~ msgstr "%s-Einstellungen"
+
+#~ msgid "Confirm when _emptying the trash"
+#~ msgstr "_Leeren des Mülleimers bestätigen"
+
+#~ msgid "Show the _item count on the icon"
+#~ msgstr "_Anzahl der Objekte auf dem Symbol anzeigen"
+
+#~ msgid "Applet theme."
+#~ msgstr "Das Thema des Applets."
+
+#~ msgid "For each sensor, whether to show it in main dialog or not."
+#~ msgstr "Für jeden Sensor, ob er im Hauptfenster gezeigt wird oder nicht"
+
+#~ msgid "High value limit (at which alarm triggers) for each sensor."
+#~ msgstr ""
+#~ "Oberes Limit für jeden Sensor (bei dem eine Warnung ausgelöst wird)."
+
+#~ msgid "If enabled, show sensor value(s) as an overlay in the icon."
+#~ msgstr "Wenn aktiviert, zeige Sensorwert(e) auf dem Symbol"
+
+#~ msgid "In what row of dialog is the sensor shown."
+#~ msgstr "In welcher Reihe des Dialogs der Sensor angezeigt wird"
+
+#~ msgid "Low value limit (at which alarm triggers) for each sensor."
+#~ msgstr "Unteres Limit für jeden Sensor (bei dem Warnung ausgelöst wird)."
+
+#~ msgid "Sensor ids."
+#~ msgstr "Sensor-IDs."
+
+#~ msgid "Sensor labels."
+#~ msgstr "Sensor-Bezeichnungen"
+
+#~ msgid "Size of value overlay in the icon (0: small, 1: medium, 2: large)."
+#~ msgstr ""
+#~ "Größe der Einblendung des Werts im Symbol (0: klein, 1: mittel, 2: groß)."
+
+#~ msgid "The color (RGBA) of the meter hand/needle."
+#~ msgstr "Die Farbe (RGBA) des Zeigers."
+
+#~ msgid "Timeout between two value updates (in seconds)."
+#~ msgstr "Zeit bis zur Auffrischung der Werte (in Sekunden)"
+
+#~ msgid "Whether alarm should trigger at high value limit or not."
+#~ msgstr "Ob beim oberen Limit Alarm ausgelöst werden soll oder nicht."
+
+#~ msgid "Whether alarm should trigger at low value limit or not."
+#~ msgstr "Ob beim unteren Limit Alarm ausgelöst werden soll oder nicht."
+
+#~ msgid "Whether to show a sensor in applet icon or not."
+#~ msgstr "Ob der Sensor im Appletsymbol angezeigt werden soll oder nicht."
+
+#~ msgid "Applet to show the hw sensors readouts"
+#~ msgstr "Applet zum Auslesen der Hardwaresensoren"
+
+#~ msgid "Hardware Sensors"
+#~ msgstr "Hardware-Sensoren"
+
+#~ msgid "Applet to show the hardware sensors readouts"
+#~ msgstr "Applet zum Auslesen der Hardwaresensoren"
+
+#~ msgid "Small"
+#~ msgstr "Klein"
+
+#~ msgid "Medium"
+#~ msgstr "Mittel"
+
+#~ msgid "Large"
+#~ msgstr "Groß"
+
+#~ msgid "Warning from Hardware Sensors: No sensors found"
+#~ msgstr "Warnung von »Hardware-Sensoren«: Keine Sensoren gefunden"
+
+#~ msgid ""
+#~ "Install one or more of ACPI, HDDTemp, LM-Sensors, nvidia-settings or "
+#~ "nvclock and restart the applet."
+#~ msgstr ""
+#~ "Installieren Sie zumindest eines der Pakete ACPI, HDDTemp, LM-Sensors, "
+#~ "nvidia-settings oder nvclock und starten Sie danach wieder das Applet."
+
+#~ msgid "Sensors"
+#~ msgstr "Sensoren"
+
+#~ msgid "Interface"
+#~ msgstr "Schnittstelle"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Label"
+#~ msgstr "Bezeichnung"
+
+#~ msgid "In dialog"
+#~ msgstr "Im Dialog"
+
+#~ msgid "Sensors displayed in icon"
+#~ msgstr "Im Symbol angezeigte Sensoren"
+
+#~ msgid "properties"
+#~ msgstr "Eigenschaften"
+
+#~ msgid "<b>Alarms</b>"
+#~ msgstr "<b>Warnungen</b>"
+
+#~ msgid "<b>Sensor value limits</b>"
+#~ msgstr "<b>Sensorgrenzwerte</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Aktualisierung</b>"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Enable high alarm"
+#~ msgstr "Bei hohen Werten warnen"
+
+#~ msgid "Enable low alarm"
+#~ msgstr "Bei niedrigen Werten warnen"
+
+#~ msgid "Font size:"
+#~ msgstr "Schriftgröße:"
+
+#~ msgid "Meter hand color:"
+#~ msgstr "Farbe des Zeigers:"
+
+#~ msgid "Remove"
+#~ msgstr "Entfernen"
+
+#~ msgid "Sensor high value"
+#~ msgstr "Oberes Limit:"
+
+#~ msgid "Sensor low value"
+#~ msgstr "Unteres Limit:"
+
+#~ msgid "Show value in icon"
+#~ msgstr "Wert im Symbol anzeigen"
+
+#~ msgid "Temperature unit:"
+#~ msgstr "Temperatureinheit:"
+
+#~ msgid "Theme:"
+#~ msgstr "Thema:"
+
+#~ msgid "Update interval:"
+#~ msgstr "Aktualisierungsintervall:"
+
+#~ msgid "seconds"
+#~ msgstr "Sekunden"
+
+#~ msgid "Volt"
+#~ msgstr "Volt"
+
+#~ msgid "rpm"
+#~ msgstr "U/min"
+
+#~ msgid "Indicator Applet"
+#~ msgstr "Indicator-Applet"
+
+#~ msgid "An applet to hold all of the system indicators"
+#~ msgstr "Ein Applet, das alle Systemanzeigen bereithält"
+
+#~ msgid "Indicator Applet Preferences"
+#~ msgstr "Einstellungen für das Indicator-Applet"
+
+#~ msgid "Enabled Entries"
+#~ msgstr "Aktivierte Einträge"
+
+#~ msgid "Indicator Applet Session (Quit)"
+#~ msgstr "Indicator-Applet für Sitzung (Ausschalten)"
+
+#~ msgid "Me Menu"
+#~ msgstr "MeMenu"
+
+#~ msgid "Messaging Menu"
+#~ msgstr "Messagingmenü"
+
+#~ msgid "Network Menu"
+#~ msgstr "Netzwerkmenü"
+
+#~ msgid "Sound Control Menu"
+#~ msgstr "Soundsteuerungsmenü"
+
+#~ msgid "Other Menus"
+#~ msgstr "Andere Menüs"
+
+#~ msgid "Options"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Number of rows:"
+#~ msgstr "Anzahl der Reihen:"
+
+#~ msgid "Number of columns:"
+#~ msgstr "Anzahl der Spalten:"
+
+#~ msgid "Enable Applet Icon mode"
+#~ msgstr "Appletsymbol-Modus aktivieren"
+
+#~ msgid "Me menu"
+#~ msgstr "MeMenu"
+
+#~ msgid "Messaging menu"
+#~ msgstr "Messagingmenü"
+
+#~ msgid "Network menu"
+#~ msgstr "Netzwerkmenü"
+
+#~ msgid "Indicator Applet Session"
+#~ msgstr "Indicator-Applet für Sitzung"
+
+#~ msgid "Sound Menu"
+#~ msgstr "Soundmenü"
+
+#~ msgid "If true, show any other menus"
+#~ msgstr "Wenn »true«, alle anderen Menüs anzeigen"
+
+#~ msgid "If true, show the Me menu (chat, microblogging, etc)"
+#~ msgstr "Wenn »true«, das MeMenu (Chat, Microblogging etc.) anzeigen"
+
+#~ msgid "If true, show the Messaging icon"
+#~ msgstr "Wenn »true«, das Messagingsymbol anzeigen"
+
+#~ msgid "If true, show the Network menu"
+#~ msgstr "Wenn »true«, das Netzwerkmenü anzeigen"
+
+#~ msgid "If true, show the Sound control menu"
+#~ msgstr "Wenn »true«, das Soundsteuerungsmenü anzeigen"
+
+#~ msgid "If true, show the indicator applet icons"
+#~ msgstr "Wenn »true«, die Indicator-Applet-Symbole anzeigen"
+
+#~ msgid ""
+#~ "If true, show the indicator applet session icon (lock screen, switch "
+#~ "users, etc)"
+#~ msgstr ""
+#~ "Wenn »true«, das Indicator-Applet-Symbol für Sitzung (Bildschirm sperren, "
+#~ "Benutzer wechseln etc.) anzeigen"
+
+#~ msgid "If true, use an Awn applet icon instead"
+#~ msgstr "Wenn »true«, stattdessen ein Awn-Applet-Symbol anzeigen"
+
+#~ msgid "The number of rows (top and bottom edge) or columns (side edges)"
+#~ msgstr ""
+#~ "Anzahl der Reihen (oberer und unterer Bildschirmrand) oder Spalten "
+#~ "(seitliche Ränder)"
+
+#~ msgid "Display any network errors"
+#~ msgstr "Zeige jeden Netzwerkfehler"
+
+#~ msgid "Hide the icon if there is no new mail"
+#~ msgstr "Symbol ausblenden, wenn keine neue Mail vorhanden ist"
+
+#~ msgid "The Desktop Email client to use"
+#~ msgstr "Das Desktop-Mailprogramm, das verwendet werden soll"
+
+#~ msgid "The Email backend to use"
+#~ msgstr "Das Mail-Backend, das verwendet werden soll."
+
+#~ msgid "The theme to use for the icon"
+#~ msgstr "Das Thema des Symbols"
+
+#~ msgid "Timeout between two value updates (in minutes)."
+#~ msgstr "Zeit, bis die Werte aufgefrischt werden (in Minuten)"
+
+#~ msgid "Used for logging in; do not touch"
+#~ msgstr "Wird für die Anmeldung benutzt, nicht ändern"
+
+#~ msgid "Check Your Email from AWN"
+#~ msgstr "Behalten Sie Ihre Mails mit AWN im Blick"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Mail-Applet"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "Sie haben %d neue Nachricht"
+#~ msgstr[1] "Sie haben %d neue Nachrichten"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d ungelesene Nachricht"
+#~ msgstr[1] "%d ungelesene Nachrichten"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Mail-Applet (Klicken zum Anmelden)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Anmelden als %s"
+
+#~ msgid "Network error - Mail Applet"
+#~ msgstr "Netzwerkfehler – Mail-Applet"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Neue Nachrichten - Mail-Applet"
+
+#~ msgid "Mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "Open Web Mail"
+#~ msgstr "Webmail öffnen"
+
+#~ msgid "Open Desktop Client"
+#~ msgstr "Desktop-Mailprogramm öffnen"
+
+#~ msgid "Refresh"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "No unread messages"
+#~ msgstr "Keine ungelesenen Nachrichten"
+
+#~ msgid "No new messages"
+#~ msgstr "Keine neuen Nachrichten"
+
+#~ msgid "Wrong username or password"
+#~ msgstr "Benutzername oder Passwort falsch"
+
+#~ msgid "Log In"
+#~ msgstr "Anmelden"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#~ msgid "Backend"
+#~ msgstr "Backend"
+
+#~ msgid "Could not log in: No username"
+#~ msgstr "Anmeldefehler: kein Benutzername"
+
+#~ msgid ""
+#~ "There seem to be problems with our connection to your account. Your best "
+#~ "bet is probably to log out and try again."
+#~ msgstr ""
+#~ "Es scheinen Probleme mit der Verbindung zu Ihrem Konto aufgetreten zu "
+#~ "sein. Am besten melden Sie sich ab und versuchen es dann erneut."
+
+#~ msgid "[No Subject]"
+#~ msgstr "Ohne Betreff"
+
+#~ msgid "[Unknown]"
+#~ msgstr "[Unbekannt]"
+
+#~ msgid "Google Apps"
+#~ msgstr "Google Apps"
+
+#~ msgid "Could not log in: No username or domain"
+#~ msgstr "Anmeldefehler: Benutzername oder Domäne nicht angegeben"
+
+#~ msgid "Domain:"
+#~ msgstr "Domain:"
+
+#~ msgid "Unix Spool"
+#~ msgstr "Unix Spool"
+
+#~ msgid "Spool Path:"
+#~ msgstr "Spool-Pfad:"
+
+#~ msgid "Could not log in: "
+#~ msgstr "Anmeldefehler: "
+
+#~ msgid "Could not log in: Username or password incorrect"
+#~ msgstr "Anmeldefehler: Benutzername oder Passwort falsch"
+
+#~ msgid "Server:"
+#~ msgstr "Server:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "SSL-Verschlüsselung verwenden"
+
+#~ msgid "Could not log in"
+#~ msgstr "Anmeldung nicht möglich"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "Ordner existiert nicht"
+
+#~ msgid "Get messages from only one folder"
+#~ msgstr "Nachrichten nur von einem einzigen Ordner empfangen"
+
+#~ msgid "Folder:"
+#~ msgstr "Ordner:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Ein Applet zum Abrufen Ihrer E-Mails"
+
+#~ msgid "<b>Mail</b>"
+#~ msgstr "<b>E-Mail</b>"
+
+#~ msgid "Update _interval:"
+#~ msgstr "Aktualisierungs_intervall:"
+
+#~ msgid "_Alert on network errors"
+#~ msgstr "Bei Netzwerkfehlern benachrichtigen"
+
+#~ msgid "_Email client:"
+#~ msgstr "_E-Mail-Programm:"
+
+#~ msgid "_Hide applet if no new messages"
+#~ msgstr "Applet ausblenden, wenn keine neuen Nachrichten vorhanden sind"
+
+#~ msgid "minutes"
+#~ msgstr "Minuten"
+
+#~ msgid "Close the docklet when mouse moves out from it."
+#~ msgstr "Docklet schließen, wenn die Maus es verlässt."
+
+#~ msgid "Display album art if available."
+#~ msgstr "Albumcover anzeigen, wenn verfügbar."
+
+#~ msgid "Display docklet instead of standard applet dialog."
+#~ msgstr "Docklet statt des Standard-Appletdialogs anzeigen."
+
+#~ msgid "Size of the album art."
+#~ msgstr "Größe des Albumcovers."
+
+#~ msgid "Tooltip format to use."
+#~ msgstr "Benutztes Format im Titel."
+
+#~ msgid "Control your music player"
+#~ msgstr "Kontrolliere dein Musikprogramm"
+
+#~ msgid "Media Control"
+#~ msgstr "Mediensteuerung"
+
+#~ msgid "Media Control Applet"
+#~ msgstr "Mediensteuerungs-Applet"
+
+#~ msgid "by"
+#~ msgstr "von"
+
+#~ msgid "from"
+#~ msgstr "aus"
+
+#~ msgid "Title - Artist"
+#~ msgstr "Titel – Interpret"
+
+#~ msgid "Artist - Title"
+#~ msgstr "Interpret – Titel"
+
+#~ msgid "Controls your favourite music player."
+#~ msgstr "Steuert dein Lieblingsmusikprogramm."
+
+#~ msgid "Close docklet when mouse leaves it"
+#~ msgstr "Docklet schließen, wenn die Maus es verlässt"
+
+#~ msgid "Display _docklet instead of dialog"
+#~ msgstr "_Docklet statt Dialog anzeigen"
+
+#~ msgid "Media-control preferences"
+#~ msgstr "Einstellungen für Mediensteuerung"
+
+#~ msgid "Show _album art when available"
+#~ msgstr "Cover _anzeigen, falls vorhanden"
+
+#~ msgid "_Size of the album art:"
+#~ msgstr "_Größe des Covers:"
+
+#~ msgid "_Tooltip format:"
+#~ msgstr "_Titelanzeige:"
+
+#~ msgid "pixels"
+#~ msgstr "Pixel"
+
+#~ msgid "A media-control applet (Next Track)"
+#~ msgstr "Ein Mediensteuerungs-Applet (Nächster Titel)"
+
+#~ msgid "Media Icons Next"
+#~ msgstr "Mediensymbol »Nächster«"
+
+#~ msgid "A media-control applet (Previous Track)"
+#~ msgstr "Ein Mediensteuerungs-Applet (Vorheriger Titel)"
+
+#~ msgid "Media Icons Previous"
+#~ msgstr "Mediensymbol »Vorheriger«"
+
+#~ msgid "A media-control applet (Play/Pause)"
+#~ msgstr "Ein Mediensteuerungs-Applet (Wiedergabe/Pause)"
+
+#~ msgid "Media Icons Play/Pause"
+#~ msgstr "Mediensymbol »Wiedergabe/Pause«"
+
+#~ msgid "Next"
+#~ msgstr "Nächster"
+
+#~ msgid "Previous"
+#~ msgstr "Vorheriger"
+
+#~ msgid "Play/Pause"
+#~ msgstr "Wiedergabe/Pause"
+
+#~ msgid "Audio sink to use."
+#~ msgstr "Audioausgabe (sink), die verwendet werden soll."
+
+#~ msgid "Height of the video window."
+#~ msgstr "Höhe des Videofensters"
+
+#~ msgid "List of recently played URLs."
+#~ msgstr "Verlaufsliste zuletzt gespielter URLs."
+
+#~ msgid "Video sink to use."
+#~ msgstr "Videoausgabe (sink), die verwendet werden soll."
+
+#~ msgid "Width of the video window."
+#~ msgstr "Breite des Videofensters"
+
+#~ msgid "Media Player"
+#~ msgstr "Medienwiedergabe"
+
+#~ msgid "Plays any media files you drop on the applet"
+#~ msgstr "Spielt jede Mediendatei ab, die Sie auf das Applet ziehen"
+
+#~ msgid "Media Player Applet"
+#~ msgstr "Medienwiedergabe"
+
+#~ msgid "Recent items"
+#~ msgstr "Zuletzt verwendete Dokumente"
+
+#~ msgid "Please restart the applet to apply changes to sinks."
+#~ msgstr ""
+#~ "Bitte starten Sie das Applet neu, um die Änderungen an den Geräten "
+#~ "(sinks) vorzunehmen."
+
+#~ msgid "Plays any media files you drop on the applet."
+#~ msgstr "Spielt jede Mediendatei ab, die Sie auf das Applet ziehen"
+
+#~ msgid "<b>GStreamer properties</b>"
+#~ msgstr "<b>GStreamer-Eigenschaften</b>"
+
+#~ msgid "<b>Video size</b>"
+#~ msgstr "<b>Videogröße</b>"
+
+#~ msgid "Media Player Preferences"
+#~ msgstr "Einstellungen für Medienwiedergabe"
+
+#~ msgid "_Audiosink:"
+#~ msgstr "_Audioausgabe (sink):"
+
+#~ msgid "_Height:"
+#~ msgstr "_Höhe:"
+
+#~ msgid "_Videosink:"
+#~ msgstr "_Videoausgabe (sink):"
+
+#~ msgid "_Width:"
+#~ msgstr "_Breite:"
+
+#~ msgid "Command to execute after mounting a mountpoint."
+#~ msgstr "Auszuführender Befehl nach dem Einhängen"
+
+#~ msgid "List of mountpoints that should remain hidden in the UI."
+#~ msgstr ""
+#~ "Liste von Einhängepunkten, die in der Benutzeroberfläche nicht angezeigt "
+#~ "werden sollen."
+
+#~ msgid "An applet to (un)mount devices"
+#~ msgstr "Ein Applet zum Ein- und Aushängen von Geräten"
+
+#~ msgid "Mount Applet"
+#~ msgstr "Mount-Applet"
+
+#~ msgid "<i><b>Note:</b> use %D for the mountpoint</i>"
+#~ msgstr "<i><b>Hinweis:</b> Für den Einhängepunkt %D einsetzen</i>"
+
+#~ msgid "List of hidden mountpoints, separated by a space"
+#~ msgstr "Liste der versteckten Einhängepunkte, durch Leerzeichen getrennt"
+
+#~ msgid "_Execute command after successful mount:"
+#~ msgstr "Nach erfolgreichem Einhängen diesen _Befehl ausführen:"
+
+#~ msgid "_Hidden mountpoints:"
+#~ msgstr "_Versteckte Einhängepunkte:"
+
+#~ msgid "Extra offset from the panel's egde."
+#~ msgstr "Zusätzlicher Abstand zum Panelrand."
+
+#~ msgid ""
+#~ "Maximum number of rows (or columns depending on the orientation of the "
+#~ "panel) of the tray icons in the applet."
+#~ msgstr ""
+#~ "Maximale Anzahl von Reihen (bzw. Spalten, abhängig von der Ausrichtung "
+#~ "des Panels) für die Benachrichtigungssymbole im Applet."
+
+#~ msgid "Size of the icons (in percent of applet size)."
+#~ msgstr "Größe der Symbole (in Prozent der Appletgröße)."
+
+#~ msgid "The background color of the notification-area."
+#~ msgstr "Die Hintergrundfarbe des Benachrichtigungsbereiches."
+
+#~ msgid "The border color of the notification-area."
+#~ msgstr "Die Rahmenfarbe des Benachrichtigungsbereiches."
+
+#~ msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+#~ msgstr ""
+#~ "Benachrichtigungssymbol wollte die Größe (%i x %i), passe die Größe an "
+#~ "auf (%i x %i)"
+
+#~ msgid "Orientation"
+#~ msgstr "Ausrichtung"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "Die Ausrichtung des Benachrichtigungfeldes."
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "<b>Background Color</b>"
+#~ msgstr "<b>Hintergrundfarbe</b>"
+
+#~ msgid "<b>Border Color</b>"
+#~ msgstr "<b>Rahmenfarbe</b>"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisch"
+
+#~ msgid "Custom:"
+#~ msgstr "Benutzerdefiniert:"
+
+#~ msgid "Extra _offset:"
+#~ msgstr "Zusätzlicher _Abstand:"
+
+#~ msgid "Icon _size:"
+#~ msgstr "Symbol_größe:"
+
+#~ msgid "Notification Area Preferences"
+#~ msgstr "Einstellungen für das Benachrichtigungsfeld"
+
+#~ msgid "_Number of icon rows:"
+#~ msgstr "_Anzahl der Symbol-Reihen:"
+
+#~ msgid "A Notification Area (systray)"
+#~ msgstr "Ein Benachrichtigungsfeld (Systray)"
+
+#~ msgid "Notification Area"
+#~ msgstr "Benachrichtigungsfeld"
+
+#~ msgid "There is already another notification area running on this screen!"
+#~ msgstr "Eine andere Benachrichtigungsanzeige ist bereits aktiv!"
+
+#~ msgid ""
+#~ "Please remove the existing notification area and then restart the applet."
+#~ msgstr ""
+#~ "Bitte entfernen Sie die vorhandene Benachrichtigungsanzeige und starten "
+#~ "Sie das Applet neu."
+
+#~ msgid "Background colour in the form (Hex) rrggbbaa"
+#~ msgstr "Hintergrundfarbe in der Form (Hex) RRGGBBAA"
+
+#~ msgid "Border Width. A value of 0 indicates that is should not be drawn."
+#~ msgstr ""
+#~ "Rahmenbreite. Ein Wert von 0 gibt an, dass kein Rahmen gezeichnet werden "
+#~ "soll."
+
+#~ msgid ""
+#~ "Border colour in the form (Hex) rrggbbaa.  Also use for the timer widget"
+#~ msgstr ""
+#~ "Rahmenfarbe in der Form (Hex) rrggbbaa. Wird auch für das Timer-Widget "
+#~ "verwendet"
+
+#~ msgid ""
+#~ "Display icon for awn notification daemon.  Allows toggling of "
+#~ "notification display"
+#~ msgstr ""
+#~ "Icon für den Awn Notification Daemon anzeigen. Ermöglicht das Umschalten "
+#~ "der Benachrichtigungsanzeige"
+
+#~ msgid ""
+#~ "Gradient Factor applied to the notification window. Range of 0 to 1. The "
+#~ "lower the number the more noticeable the effect."
+#~ msgstr ""
+#~ "Farbverlauf-Faktor des Benachrichtigungsfensters. Wertebereich von 0 bis "
+#~ "1. Je niedriger der Wert, desto deutlicher der Effekt."
+
+#~ msgid ""
+#~ "If the value is >0.0 then this opacity value will be applied to window "
+#~ "instead of hiding."
+#~ msgstr ""
+#~ "Bei einem Wert größer 0.0 wird dieser Deckkraftwert auf das Fenster "
+#~ "angewendet, anstatt es zu verbergen."
+
+#~ msgid ""
+#~ "NOTE:  This key should not be considered stable... it is likely to "
+#~ "change.  Arbitrary X position for notification window.  Default is -1 "
+#~ "which signifies awn-notification-daemon should place windows relative to "
+#~ "its position in the bar."
+#~ msgstr ""
+#~ "HINWEIS: Dieser Schlüssel ist als vorläufig zu betrachten und wird sich "
+#~ "voraussichtlich noch ändern. Frei wählbare x-Position des "
+#~ "Benachrichtigungsfensters. Die Vorgabe ist -1, was bedeutet, dass der Awn "
+#~ "Notification Daemon die Fenster relativ zu seiner Position in der Leiste "
+#~ "platzieren soll."
+
+#~ msgid ""
+#~ "NOTE:  This key should not be considered stable... it is likely to "
+#~ "change.  Arbitrary Y position for notification window.  Default is -1 "
+#~ "which signifies awn-notification-daemon should place windows relative to "
+#~ "its position in the bar."
+#~ msgstr ""
+#~ "HINWEIS: Dieser Schlüssel ist als vorläufig zu betrachten und wird sich "
+#~ "voraussichtlich noch ändern. Frei wählbare y-Position des "
+#~ "Benachrichtigungsfensters. Die Vorgabe ist -1, was bedeutet, dass der Awn "
+#~ "Notification Daemon die Fenster relativ zu seiner Position in der Leiste "
+#~ "platzieren soll."
+
+#~ msgid "Sound."
+#~ msgstr "Klang."
+
+#~ msgid ""
+#~ "Text colour in the form (Hex) rrggbbaa. Currently the alpha component is "
+#~ "ignored"
+#~ msgstr ""
+#~ "Schriftfarbe in der Kodierung rrggbbaa (hexadezimal). Die Alpha-"
+#~ "Komponente wird derzeit ignoriert."
+
+#~ msgid ""
+#~ "The default sound file used unless a notification supplies the 'sound-"
+#~ "file' or 'suppress-sound' hint. Leave empty for no default sound."
+#~ msgstr ""
+#~ "Vorgegebene Klangdatei, die verwendet wird, solange eine Benachrichtigung "
+#~ "keine eigenen Werte für »sound-file« oder »suppress-sound« liefert. "
+#~ "Lassen Sie das Feld leer, wenn Sie keinen Standardklang wünschen."
+
+#~ msgid ""
+#~ "This will override the client and default timeout periods for all "
+#~ "notification windows with a timeout.  Value is in ms. A value less than "
+#~ "or equal to 0 indicates that client and default values should be honoured."
+#~ msgstr ""
+#~ "Dies hebt die vorgegebenen Timeouts bzw. die des Clients für "
+#~ "Benachrichtigungsfenster mit einem Timeout auf. Wert in ms. Ein Wert "
+#~ "kleiner oder gleich 0 zeigt an, dass die Client- und Vorgabewerte "
+#~ "berücksichtigt werden sollen."
+
+#~ msgid "Use bold text."
+#~ msgstr "Fetten Text verwenden."
+
+#~ msgid "Whether to attempt to kill any running notification-daemons."
+#~ msgstr ""
+#~ "Ob versucht werden soll, eventuell laufende Benachrichtigungs-Daemons zu "
+#~ "beenden."
+
+#~ msgid "Whether to honour client notification window positioning requests."
+#~ msgstr ""
+#~ "Bestimmt, ob Client-Anforderungen an die Positionierung der "
+#~ "Benachrichtigungsfenster berücksichtigt werden sollen."
+
+#~ msgid "Whether to the use configured awn theme color values for xxxx."
+#~ msgstr ""
+#~ "Bestimmt, ob benutzerdefinierte Awn-Themen-Farbwerte für xxxx verwendet "
+#~ "werden sollen."
+
+#~ msgid ""
+#~ "A replacement for the standard notification daemon and notify-osd. This "
+#~ "will disable existing notification daemons while the applet is active."
+#~ msgstr ""
+#~ "Ein Ersatz für den Standard-Benachrichtigungsdienst und notify-osd. Wenn "
+#~ "dieses Applet aktiv ist, werden andere Benachrichtigungsdienste "
+#~ "deaktiviert."
+
+#~ msgid "Notification Daemon"
+#~ msgstr "Benachrichtigungsdienst"
+
+#~ msgid "%u is not a valid notification ID"
+#~ msgstr "%u ist keine gültige Benachrichtigungs-ID"
+
+#~ msgid "Whether to show tooltips when hovering over a place.);"
+#~ msgstr ""
+#~ "Ob eine Minihilfe gezeigt werden soll, wenn die Maus über einen Ort "
+#~ "fährt.);"
+
+#~ msgid "The width of the menu's border.);"
+#~ msgstr "Die Breite des Menürahmens.);"
+
+#~ msgid "The size of the text in the menu, in pixels.);"
+#~ msgstr "Die Schriftgröße im Menü in Pixeln.);"
+
+#~ msgid "The icon theme name of the applet's icon.);"
+#~ msgstr "Der Symbolthemen-Name des Applet-Symbols.);"
+
+#~ msgid "The file manager that shows the contents of the places.);"
+#~ msgstr "Der Dateimanager, der den Inhalt der Orte anzeigt.);"
+
+#~ msgid ""
+#~ "The colour (RGBA) of the text when a place is selected or the mouse "
+#~ "hovers over it.);"
+#~ msgstr ""
+#~ "Die Schriftfarbe (RGBA), wenn ein Ort markiert ist oder die Maus "
+#~ "darüberfährt.);"
+
+#~ msgid "The colour (RGBA) of the text in the menu.);"
+#~ msgstr "Die Schriftfarbe (RGBA) im Menü.);"
+
+#~ msgid ""
+#~ "The colour (RGBA) of the menu's border, if the border width is greater "
+#~ "than zero.);"
+#~ msgstr ""
+#~ "Die Rahmenfarbe (RGBA) des Menüs, wenn die Rahmenbreite größer null ist.);"
+
+#~ msgid ""
+#~ "The color (RGBA) of the text when a place is selected or the mouse hovers "
+#~ "over it.);"
+#~ msgstr ""
+#~ "Die Textfarbe (RGBA), wenn ein Ort markiert ist oder die Maus "
+#~ "darüberfährt.);"
+
+#~ msgid "The color (RGBA) of the text in the menu.);"
+#~ msgstr "Die Textfarbe (RGBA) im Menü.);"
+
+#~ msgid ""
+#~ "The color (RGBA) of the menu's border, if the border width is greater "
+#~ "than zero.);"
+#~ msgstr ""
+#~ "The Rahmenfarbe (RGBA) des Menüs, wenn der Rahmen breiter als null ist.);"
+
+#~ msgid "The background colour (RGBA) of the menu.);"
+#~ msgstr "Die Hintergrundfarbe (RGBA) des Menüs.);"
+
+#~ msgid ""
+#~ "The background colour (RGBA) of an entry in the menu when it is selected "
+#~ "or the mouse hovers over it.);"
+#~ msgstr ""
+#~ "Die Hintergrundfarbe (RGBA) eines Menüeintrags, wenn er markiert ist oder "
+#~ "die Maus darüberfährt.);"
+
+#~ msgid "The background color (RGBA) of the menu.);"
+#~ msgstr "Die Hintergrundfarbe (RGBA) des Menüs.);"
+
+#~ msgid ""
+#~ "The background color (RGBA) of an entry in the menu when it is selected "
+#~ "or the mouse hovers over it.);"
+#~ msgstr ""
+#~ "Die Hintergrundfarbe (RGBA) eines Eintrags im Menü, wenn er markiert ist "
+#~ "oder die Maus darüberfährt.);"
+
+#~ msgid ""
+#~ "Determines whether to use the current Gtk+ theme's colour/font settings, "
+#~ "or the applet-specific style settings.);"
+#~ msgstr ""
+#~ "Legt fest, ob die Farb-/Schrifteinstellungen des aktuellen GTK-Themas "
+#~ "verwendet werden sollen oder Applet-spezifische Einstellungen."
+
+#~ msgid ""
+#~ "Determines whether to use the current Gtk+ theme's color/font settings, "
+#~ "or the applet-specific style settings.);"
+#~ msgstr ""
+#~ "Bestimmt, ob die Farb-/Schrifteinstellungen des benutzten Gtk+-Themas "
+#~ "verwendet werden oder Applet-spezifische.);"
+
+#~ msgid ""
+#~ "Creates an alpha gradient in the menu item background.  At the top and "
+#~ "bottom of the menu, the alpha value is the background color's alpha value "
+#~ "multiplied by this value.  At 20 percent from the top of the menu, the "
+#~ "alpha value is the background color's alpha value.);"
+#~ msgstr ""
+#~ "Erstellt einen Alphakanal-Farbverlauf im Hintergrund des Menüeintrags. Am "
+#~ "oberen und unteren Rand des Menüeintrags ergibt sich der Alpha-Wert aus "
+#~ "dem Alphakanal der Hintergrundfarbe multipliziert mit diesem Wert. Ab 20 "
+#~ "Prozent vom oberen Rand des Menüeintrags entspricht der Alpha-Wert dem "
+#~ "Alphakanal der Hintergrundfarbe.);"
+
+#~ msgid "Launch your folder bookmarks"
+#~ msgstr "Öffnet Ihre Lesezeichen"
+
+#~ msgid "A simple applet to test python support"
+#~ msgstr "Ein einfaches Applet zum Testen der Python-Unterstützung"
+
+#~ msgid "Test Python Applet"
+#~ msgstr "Python-Testapplet"
+
+#~ msgid "Applet displaying related items by talking to Zeitgeist"
+#~ msgstr ""
+#~ "Applet zum Anzeigen von zugehörigen Objekten mithilfe von »Zeitgeist«"
+
+#~ msgid "Related applet"
+#~ msgstr "Related-Applet"
+
+#~ msgid " The color (RGBA) applet border."
+#~ msgstr " Die Rahmenfarbe (RGBA) des Applets."
+
+#~ msgid " The color of the desktop (RGBA) if grab_wallpaper is FALSE."
+#~ msgstr " Die Farbe (RGBA) der Arbeitsfläche, wenn grab_wallpaper FALSE ist."
+
+#~ msgid "0... centre  1 NW    2 NE   3 SE  4 SW\t"
+#~ msgstr "0 … zentriert, 1 … NW, 2 … NO, 3 … SO, 4 … SW\t"
+
+#~ msgid "Alpha to apply to icon overlayed on active window."
+#~ msgstr ""
+#~ "Alphawert, der auf das Symbol angewendet wird, das auf dem aktiven "
+#~ "Fenster platziert ist."
+
+#~ msgid "Alpha to apply to icon overlayed on inactive window."
+#~ msgstr ""
+#~ "Alphawert, der auf das Symbol angewendet wird, das auf dem inaktiven "
+#~ "Fenster platziert ist."
+
+#~ msgid "Alpha value to apply to active workspace background."
+#~ msgstr ""
+#~ "Alphawert, der auf den Hintergrund der aktiven Arbeitsfläche angewendet "
+#~ "wird."
+
+#~ msgid "Alpha value to apply to inactive workspace background."
+#~ msgstr ""
+#~ "Alphawert, der auf den Hintergrund der inaktiven Arbeitsfläche angewendet "
+#~ "wird."
+
+#~ msgid "Applet border width.  0 indicates no border."
+#~ msgstr "Rahmenbreite es Applets. 0 bedeutet kein Rahmen."
+
+#~ msgid ""
+#~ "Factor to scale icons as specified by scale_icon_mode.  range greater 0, "
+#~ "less or equal 1"
+#~ msgstr ""
+#~ "Faktor zum Skalieren der Symbole, wie es in »scale_icon_mode« festgelegt "
+#~ "ist. Bandbreite größer 0, kleiner gleich 1."
+
+#~ msgid "Method to grab windows.  0...gdk."
+#~ msgstr "Methode zum Auslesen der Fenster. 0…gdk."
+
+#~ msgid ""
+#~ "Mousewheel  0. off. 1 up left, down right. 2 Opposite direction of 1. 3 "
+#~ "Same as 1 no wrap. 4 opposite direction of 3."
+#~ msgstr ""
+#~ "Mausrad: 0: aus; 1: nach oben = links, nach unten = rechts; 2: anders "
+#~ "herum als bei 1; 3: wie bei 1, wechselt nach der letzten aber nicht zur "
+#~ "ersten Arbeitsfläche; 4: anders herum als bei 3."
+
+#~ msgid ""
+#~ "Number of seconds before a cached window surface is considered to be "
+#~ "expired.  After this duration it will be updated when needed if it "
+#~ "possible to do so."
+#~ msgstr ""
+#~ "Anzahl der Sekunden, bis eine zwischengespeicherte Fensteroberfläche als "
+#~ "nicht mehr aktuell angesehen wird. Danach wird sie aktualisiert, wenn das "
+#~ "nötig und möglich ist."
+
+#~ msgid ""
+#~ "Queued render timer. Number of milliseconds between queued render "
+#~ "updates. The smaller the number the less lag will be apparent on "
+#~ "shinyswitcher updates.  Multiples of 1000 are more power and CPU "
+#~ "efficient."
+#~ msgstr ""
+#~ "Zeitintervall für Vorschau. Anzahl der Millisekunden zwischen dem "
+#~ "Aktualisieren der Vorschau. Je kleiner die Zahl, desto weniger "
+#~ "Verzögerung ist beim Aktualisieren des ShinySwitcher sichtbar. Vielfache "
+#~ "von 1000 sind im Hinblick auf Stromverbrauch und Prozessorauslastung "
+#~ "effizienter."
+
+#~ msgid "Scales the applet size relative to the maximum icon size"
+#~ msgstr "Skaliert die Appletgröße relativ zur maximalen Symbolgröße"
+
+#~ msgid "The colour (RGBA) of the applet border."
+#~ msgstr "Die Rahmenfarbe (RGBA) des Applets."
+
+#~ msgid "The colour of the desktop (RGBA) if grab_wallpaper is FALSE."
+#~ msgstr "Die Farbe (RGBA) der Arbeitsfläche, wenn grab_wallpaper FALSE ist."
+
+#~ msgid "The number of columns in the pager."
+#~ msgstr "Anzahl der Spalten in der Vorschau."
+
+#~ msgid "The number of rows in the pager."
+#~ msgstr "Anzahl der Reihen in der Vorschau."
+
+#~ msgid ""
+#~ "When to  overly the app icon:  0...no\t1...on inactive workspace onlt"
+#~ "\t2...all but active win\t3..all."
+#~ msgstr ""
+#~ "Anwendungssymbole anzeigen:  0 … nein, 1 … nur auf inaktiver "
+#~ "Arbeitsfläche, 2 … alle außer dem aktiven Fenster, 3 … alle."
+
+#~ msgid ""
+#~ "When to scale icons:  0...none  1...on all active ws  2...on_active_win "
+#~ "3...all"
+#~ msgstr ""
+#~ "Symbole skalieren: 0 … nein, 1 … alle auf aktiver Arbeitsfläche, 2 … auf "
+#~ "aktivem Fenster, 3 … alle"
+
+#~ msgid "Whether to grab wallpaper."
+#~ msgstr "Bestimmt, ob der Hintergrund der Arbeitsfläche angezeigt wird."
+
+#~ msgid ""
+#~ "Win grabs:  0...none\t1...all (grab method may override) 2..active ws "
+#~ "(and sticky)  3...active win"
+#~ msgstr ""
+#~ "Fenster anzeigen: 0 … keine, 1 … alle (kann durch Anzeigemethode "
+#~ "aufgehoben werden), 2 … aktive Arbeitsfläche (und immer sichtbare "
+#~ "Fenster), 3 … aktives Fenster"
+
+#~ msgid "<b>Background transparency</b>"
+#~ msgstr "<b>Hintergrund-Transparenz</b>"
+
+#~ msgid "<b>Background</b>"
+#~ msgstr "<b>Hintergrund</b>"
+
+#~ msgid "<b>Icon transparency</b>"
+#~ msgstr "<b>Symbol-Transparenz</b>"
+
+#~ msgid "<b>Timers</b>"
+#~ msgstr "<b>Zeitabstände</b>"
+
+#~ msgid "<b>Viewport size</b>"
+#~ msgstr "<b>Größe des Darstellungsfelds</b>"
+
+#~ msgid "<b>Windows</b>"
+#~ msgstr "<b>Fenster</b>"
+
+#~ msgid "Active window:"
+#~ msgstr "Aktives Fenster:"
+
+#~ msgid "Active workspace"
+#~ msgstr "Aktive Arbeitsfläche"
+
+#~ msgid "Active workspace:"
+#~ msgstr "Aktive Arbeitsfläche:"
+
+#~ msgid "All window"
+#~ msgstr "Alle Fenster"
+
+#~ msgid "All windows"
+#~ msgstr "Alle Fenster"
+
+#~ msgid "B_order color:"
+#~ msgstr "_Rahmenfarbe"
+
+#~ msgid "Border _size:"
+#~ msgstr "Rahmen_größe:"
+
+#~ msgid "C_ustom color:"
+#~ msgstr "_Benutzerdefinierte Farbe:"
+
+#~ msgid "Cache expiration:"
+#~ msgstr "Zwischenspeicher läuft ab nach:"
+
+#~ msgid "Center"
+#~ msgstr "Zentriert"
+
+#~ msgid "Co_lumns:"
+#~ msgstr "_Spalten:"
+
+#~ msgid "Icon _display:"
+#~ msgstr "Symbol _anzeigen:"
+
+#~ msgid "Icon _scaling:"
+#~ msgstr "Symbol s_kalieren:"
+
+#~ msgid "Inactive window:"
+#~ msgstr "Inaktives Fenster:"
+
+#~ msgid "Inactive windows"
+#~ msgstr "Inaktive Fenster"
+
+#~ msgid "Inactive workspace:"
+#~ msgstr "Inaktive Arbeitsfläche:"
+
+#~ msgid "Inactive workspaces"
+#~ msgstr "Inaktive Arbeitsflächen"
+
+#~ msgid "Look"
+#~ msgstr "Aussehen"
+
+#~ msgid "Lower left"
+#~ msgstr "Unten links"
+
+#~ msgid "Lower right"
+#~ msgstr "Unten rechts"
+
+#~ msgid "Never"
+#~ msgstr "Nie"
+
+#~ msgid "Only active window"
+#~ msgstr "Nur aktives Fenster"
+
+#~ msgid "Render update:"
+#~ msgstr "Vorschau aktualisieren nach:"
+
+#~ msgid "Scale _amount:"
+#~ msgstr "Skalieren _auf:"
+
+#~ msgid "Scaled icon _position:"
+#~ msgstr "_Position des skalierten Symbols:"
+
+#~ msgid "Shiny Switcher Preferences"
+#~ msgstr "Einstellungen für Shiny Switcher"
+
+#~ msgid "Upper left"
+#~ msgstr "Oben links"
+
+#~ msgid "Upper right"
+#~ msgstr "Oben rechts"
+
+#~ msgid "Use _desktop background"
+#~ msgstr "_Hintergrund der Arbeitsfläche verwenden"
+
+#~ msgid "_Applet size:"
+#~ msgstr "_Größe des Applets:"
+
+#~ msgid "_Rows:"
+#~ msgstr "_Zeilen:"
+
+#~ msgid "_Thumbnailing:"
+#~ msgstr "_Vorschau:"
+
+#~ msgid "A prettier desktop switcher"
+#~ msgstr "Der schönere Arbeitsflächenumschalter"
+
+#~ msgid "Shiny Switcher"
+#~ msgstr "Shiny Switcher"
+
+#~ msgid "Applet Preferences"
+#~ msgstr "Applet-Einstellungen"
+
+#~ msgid "Show Desktop"
+#~ msgstr "Arbeitsfläche anzeigen"
+
+#~ msgid "Hides your windows and shows your desktop."
+#~ msgstr "Verbirgt Ihre Fenster und zeigt Ihre Arbeitsfläche an"
+
+#~ msgid "Show hidden windows"
+#~ msgstr "Verborgene Fenster anzeigen"
+
+#~ msgid "Hide windows and show desktop"
+#~ msgstr "Fenster verbergen und Arbeitsfläche anzeigen"
+
+#~ msgid "The background color of the dialog"
+#~ msgstr "Die Hintergrundfarbe des Dialogs"
+
+#~ msgid "The border color of a drawn window"
+#~ msgstr "Die Rahmenfarbe eines gezeichneten Fensters"
+
+#~ msgid "The border color of the dialog"
+#~ msgstr "Die Rahmenfarbe des Dialogs"
+
+#~ msgid "The bottom part of the shiny gradient"
+#~ msgstr "Die untere Farbe des Farbverlaufs im Glanzeffekt"
+
+#~ msgid "The bottom part of the shiny gradient when hovered"
+#~ msgstr ""
+#~ "Die untere Farbe des Farbverlaufs im Glanzeffekt, wenn die Maus "
+#~ "darüberfährt"
+
+#~ msgid "The drop shadow color of the drawn number"
+#~ msgstr "Die Schlagschattenfarbe der dargestellten Nummer"
+
+#~ msgid "The file to use as the background image"
+#~ msgstr "Die Datei, die als Hintergrundbild verwendet werden soll"
+
+#~ msgid "The height of a workspace widget"
+#~ msgstr "Die Höhe des Arbeitsflächen-Widgets"
+
+#~ msgid "The hovered border color of a workspace widget"
+#~ msgstr ""
+#~ "Die Rahmenfarbe des Arbeitsflächen-Widgets, wenn die Maus darüberfährt"
+
+#~ msgid "The icon's border color"
+#~ msgstr "Die Rahmenfarbe des Symbols"
+
+#~ msgid "The main color of a drawn window"
+#~ msgstr "Die Hauptfarbe eines gezeichneten Fensters"
+
+#~ msgid "The main color of the drawn number"
+#~ msgstr "Die Hauptfarbe der dargestellten Nummer"
+
+#~ msgid "The normal border color of a workspace widget"
+#~ msgstr "Die normale Rahmenfarbe eines Arbeitsflächen-Widgets"
+
+#~ msgid "The top part of the shiny gradient"
+#~ msgstr "Die obere Farbe des Farbverlauft für den Glanzeffekt"
+
+#~ msgid "The top part of the shiny gradient when hovered"
+#~ msgstr ""
+#~ "Die obere Farbe den Farbverlaufs für den Glanzeffekt, wenn die Maus "
+#~ "darüberfährt"
+
+#~ msgid "The width of a workspace widget"
+#~ msgstr "Die Breite eines Arbeitsflächen-Widgets"
+
+#~ msgid "Whether or not to use custom colors for the dialog"
+#~ msgstr ""
+#~ "Ob für den Dialog benutzerdefinierte Farben verwendet werden sollen oder "
+#~ "nicht"
+
+#~ msgid "Whether or not to use the standard text overlay"
+#~ msgstr ""
+#~ "Bestimmt, ob Standard-Textüberlagerung angewendet werden soll oder nicht"
+
+#~ msgid "Which background image(s) source to use: gnome, compiz, file"
+#~ msgstr ""
+#~ "Welche Hintergrundbild-Quelle verwendet werden soll: gnome, compiz, file "
+#~ "(d.h. GNOME, Compiz oder eine Datei)"
+
+#~ msgid "SlickSwitcher Preferences"
+#~ msgstr "Einstellungen für SlickSwitcher"
+
+#~ msgid "Border Colors"
+#~ msgstr "Rahmenfarben"
+
+#~ msgid "Icon border:"
+#~ msgstr "Rahmen des Symbols:"
+
+#~ msgid "Normal border:"
+#~ msgstr "Normaler Rahmen:"
+
+#~ msgid "Hovered border:"
+#~ msgstr "Rahmen bei Hervorhebung:"
+
+#~ msgid "Window Colors"
+#~ msgstr "Fensterfarben"
+
+#~ msgid "Main color:"
+#~ msgstr "Hauptfarbe:"
+
+#~ msgid "Border color:"
+#~ msgstr "Rahmenfarbe:"
+
+#~ msgid "Dialog colors"
+#~ msgstr "Dialogfarben"
+
+#~ msgid "Use custom colors"
+#~ msgstr "Benutzerdefinierte Farben verwenden"
+
+#~ msgid "Background color:"
+#~ msgstr "Hintergrundfarbe:"
+
+#~ msgid "Colors"
+#~ msgstr "Farben"
+
+#~ msgid "Number Colors"
+#~ msgstr "Farben für die Arbeitsflächen-Nummer"
+
+#~ msgid "Drop-shadow color:"
+#~ msgstr "Schlagschatten:"
+
+#~ msgid "Shine Colors"
+#~ msgstr "Farben für den Glanzeffekt"
+
+#~ msgid "Top color:"
+#~ msgstr "Obere Farbe:"
+
+#~ msgid "Bottom color:"
+#~ msgstr "Untere Farbe:"
+
+#~ msgid "Hover top color:"
+#~ msgstr "Obere Farbe bei Hervorhebung:"
+
+#~ msgid "Hover bottom color:"
+#~ msgstr "Untere Farbe bei Hervorhebung:"
+
+#~ msgid "Other colors"
+#~ msgstr "Andere Farben"
+
+#~ msgid "Width:"
+#~ msgstr "Breite:"
+
+#~ msgid "Height:"
+#~ msgstr "Höhe:"
+
+#~ msgid "Workspace Size"
+#~ msgstr "Arbeitsflächen-Größe"
+
+#~ msgid "Mode:"
+#~ msgstr "Typ:"
+
+#~ msgid "GNOME"
+#~ msgstr "GNOME"
+
+#~ msgid "Compiz Wallpaper Plugin"
+#~ msgstr "Compiz Hintergrundbild-Plugin"
+
+#~ msgid "File"
+#~ msgstr "Datei"
+
+#~ msgid "File:"
+#~ msgstr "Datei:"
+
+#~ msgid "Choose a Background Image"
+#~ msgstr "Ein Hintergrundbild wählen"
+
+#~ msgid "Pictures"
+#~ msgstr "Bilder"
+
+#~ msgid "Background"
+#~ msgstr "Hintergrund"
+
+#~ msgid "Advanced"
+#~ msgstr "Erweitert"
+
+#~ msgid "A visual workspace switcher"
+#~ msgstr "Ein visueller Arbeitsflächenumschalter"
+
+#~ msgid "SlickSwitcher"
+#~ msgstr "SlickSwitcher"
+
+#~ msgid ""
+#~ "CPU graph type to use.  Note that some Icons do not support all graph "
+#~ "types.  If this occurs an icon will revert to it's own default (value of "
+#~ "0)."
+#~ msgstr ""
+#~ "Verwendeter CPU-Diagrammtyp. Beachten Sie, dass manche Symbole nicht alle "
+#~ "Diagrammtypen unterstützen. Wenn das eintritt, wird das Symbol seine "
+#~ "Standardeinstellung (den Wert 0) verwenden."
+
+#~ msgid "If the updates are time based then how frequently to update in ms."
+#~ msgstr ""
+#~ "Wie oft aktualisiert werden soll (in ms), wenn die Aktualisierung "
+#~ "zeitbasiert ist."
+
+#~ msgid "Just a dummy key.. this will be removed later."
+#~ msgstr "Ein Platzhalterschlüssel, wird später entfernt."
+
+#~ msgid "List of icons"
+#~ msgstr "Symbolliste"
+
+#~ msgid "Render background."
+#~ msgstr "Hintergrund zeichnen."
+
+#~ msgid "CPU: %2.0lf%%"
+#~ msgstr "CPU: %2.0lf %%"
+
+#~ msgid "CPU"
+#~ msgstr "CPU"
+
+#~ msgid "Graph Type"
+#~ msgstr "Diagrammtyp"
+
+#~ msgid "Area"
+#~ msgstr "Fläche"
+
+#~ msgid "Circle"
+#~ msgstr "Kreis"
+
+#~ msgid "Bars"
+#~ msgstr "Balken"
+
+#~ msgid "Default"
+#~ msgstr "Vorgabe"
+
+#~ msgid "Render Background"
+#~ msgstr "Hintergrund zeichnen"
+
+#~ msgid "PID"
+#~ msgstr "PID"
+
+#~ msgid "Process Name"
+#~ msgstr "Prozessname"
+
+#~ msgid "Manage system activity"
+#~ msgstr "Überwacht den Systemzustand"
+
+#~ msgid "System Monitor"
+#~ msgstr "Systemüberwachung"
+
+#~ msgid "Applet that shows the shock protection status of your disks"
+#~ msgstr "Zeigt den Status des Aufprallschutzes Ihrer Festplatten"
+
+#~ msgid "ThinkHDAPS"
+#~ msgstr "ThinkHDAPS"
+
+#~ msgid "%s protected from shocks"
+#~ msgstr "%s ist vor Aufprall geschützt"
+
+#~ msgid "%s not protected from shocks"
+#~ msgstr "%s ist vor Aufprall nicht geschützt"
+
+#~ msgid "No hard disk found"
+#~ msgstr "Keine Festplatte gefunden"
+
+#~ msgid "Background color for high priority items"
+#~ msgstr "Hintergrundfarbe für Aufgaben mit hoher Priorität"
+
+#~ msgid "Background color for low priority items"
+#~ msgstr "Hintergrundfarbe für Aufgaben mit niedriger Priorität"
+
+#~ msgid "Background color for medium priority items"
+#~ msgstr "Hintergrundfarbe für Aufgaben mit mittlerer Priorität"
+
+#~ msgid "List of colors to use for the custom color"
+#~ msgstr ""
+#~ "Liste der Farben, die für die benutzerdefinierte Farbe verwendet werden"
+
+#~ msgid "List of items' details"
+#~ msgstr "Liste der Details der Aufgaben"
+
+#~ msgid "List of items' names"
+#~ msgstr "Liste der Namen der Aufgaben"
+
+#~ msgid "List of items' priorities (0-3)"
+#~ msgstr "Liste der Aufgabenprioritäten (0–3)"
+
+#~ msgid "List of items' progresses in percent (0-100)"
+#~ msgstr "Liste der Aufgabenfortschritte in Prozent (0–100)"
+
+#~ msgid "Text color for high priority items"
+#~ msgstr "Textfarbe für Aufgaben mit hoher Priorität"
+
+#~ msgid "Text color for low priority items"
+#~ msgstr "Textfarbe für Aufgaben mit niedriger Priorität"
+
+#~ msgid "Text color for medium priority items"
+#~ msgstr "Textfarbe für Aufgaben mit mittlerer Priorität"
+
+#~ msgid "The color to use for the icon"
+#~ msgstr "Die für das Symbol verwendete Farbe"
+
+#~ msgid "The custom width for the item entries"
+#~ msgstr "Die benutzerdefinierte Breite für Aufgabeneinträge"
+
+#~ msgid "The icon's opacity (10-100)"
+#~ msgstr "Die Symboldeckkraft (10–100)"
+
+#~ msgid "The list of categories that are expanded"
+#~ msgstr "Liste der Kategorien, die ausgeklappt werden"
+
+#~ msgid "The list of categories' names"
+#~ msgstr "Liste der Kategorienamen"
+
+#~ msgid "The list of items' categories"
+#~ msgstr "Liste der Kategorien der Aufgaben"
+
+#~ msgid "The title to display"
+#~ msgstr "Der Titel, der angezeigt wird"
+
+#~ msgid "What type of icon to display (progress, progress-items, items)"
+#~ msgstr ""
+#~ "Welcher Symboltyp angezeigt werden soll (Fortschritt, Fortschritt-"
+#~ "Aufgaben, Aufgaben)"
+
+#~ msgid "Whether or not to confirm the deletion of categories"
+#~ msgstr "Ob das Löschen von Kategorien bestätigt werden soll oder nicht"
+
+#~ msgid "Whether or not to confirm the deletion of items"
+#~ msgstr "Ob das Löschen von Aufgaben bestätigt werden soll oder nicht"
+
+#~ msgid "Whether or not to use a custom width for the entries"
+#~ msgstr ""
+#~ "Ob eine benutzerdefinierte Breite für die Einträge benutzt werden soll "
+#~ "oder nicht"
+
+#~ msgid "Custom"
+#~ msgstr "Benutzerdefiniert"
+
+#~ msgid "Current Theme"
+#~ msgstr "Aktuelles Theme"
+
+#~ msgid "Butter"
+#~ msgstr "Butter"
+
+#~ msgid "Chameleon"
+#~ msgstr "Chamäleon"
+
+#~ msgid "Orange"
+#~ msgstr "Orange"
+
+#~ msgid "Sky Blue"
+#~ msgstr "Himmelblau"
+
+#~ msgid "Plum"
+#~ msgstr "Pflaume"
+
+#~ msgid "Chocolate"
+#~ msgstr "Schokoladen-braun"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "Scharlachrot"
+
+#~ msgid "Aluminium 1"
+#~ msgstr "Aluminium 1"
+
+#~ msgid "Aluminium 2"
+#~ msgstr "Aluminium 2"
+
+#~ msgid "Number of Items"
+#~ msgstr "Anzahl an Elementen"
+
+#~ msgid "Progress"
+#~ msgstr "Fortschritt"
+
+#~ msgid "Both"
+#~ msgstr "Beides"
+
+#~ msgid "To-Do List Preferences"
+#~ msgstr "Einstellungen für die To-do-Liste"
+
+#~ msgid "Priority"
+#~ msgstr "Priorität"
+
+#~ msgid "Icon"
+#~ msgstr "Symbol"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "Bestätigen beim Entfernen von ..."
+
+#~ msgid "_Items"
+#~ msgstr "_Aufgaben"
+
+#~ msgid "C_ategories"
+#~ msgstr "_Kategorien"
+
+#~ msgid "Width"
+#~ msgstr "Breite"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "Benutzerdefinierte Breite verwenden"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "Breite (Pixel)"
+
+#~ msgid "Low Priority"
+#~ msgstr "Niedrige Priorität"
+
+#~ msgid "Medium Priority"
+#~ msgstr "Mittlere Priorität"
+
+#~ msgid "High Priority"
+#~ msgstr "Hohe Priorität"
+
+#~ msgid "Icon Color"
+#~ msgstr "Symbolfarbe"
+
+#~ msgid "Custom Colors"
+#~ msgstr "Eigene Farben"
+
+#~ msgid "Outer Border"
+#~ msgstr "Äußerer Rahmen"
+
+#~ msgid "Inner Border"
+#~ msgstr "Innerer Rahmen"
+
+#~ msgid "Main"
+#~ msgstr "Hintergrund"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Icon Type"
+#~ msgstr "Symboltyp"
+
+#~ msgid "Manage a simple To-Do list"
+#~ msgstr "Managt eine einfache To-do-Liste"
+
+#~ msgid "To-Do List"
+#~ msgstr "To-do-Liste"
+
+#~ msgid "A simple To-Do List"
+#~ msgstr "Eine einfache To-do-Liste"
+
+#~ msgid "Remove item"
+#~ msgstr "Aufgabe entfernen"
+
+#~ msgid "Remove category"
+#~ msgstr "Kategorie entfernen"
+
+#~ msgid "View/Edit details"
+#~ msgstr "Details anzeigen/bearbeiten"
+
+#~ msgid "_Uncategorized"
+#~ msgstr "_Ohne Kategorie"
+
+#~ msgid "_Category"
+#~ msgstr "_Kategorie"
+
+#~ msgid "_To-Do item"
+#~ msgstr "_Aufgabe"
+
+#~ msgid "Priority: "
+#~ msgstr "Priorität: "
+
+#~ msgid "_Neutral"
+#~ msgstr "_Neutral"
+
+#~ msgid "_Low"
+#~ msgstr "N_iedrig"
+
+#~ msgid "_Medium"
+#~ msgstr "_Mittel"
+
+#~ msgid "_High"
+#~ msgstr "_Hoch"
+
+#~ msgid "Progress(%): "
+#~ msgstr "Fortschritt(%): "
+
+#~ msgid ""
+#~ "Are you sure you want to remove the category \"%s?\"\n"
+#~ "All of its items will be removed."
+#~ msgstr ""
+#~ "Möchten Sie die Kategorie \"%s\" wirklich löschen?\n"
+#~ "Alle ihre Einträge werden mitgelöscht."
+
+#~ msgid "Don't show this again."
+#~ msgstr "Diese Nachricht nicht wieder anzeigen."
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "Möchten Sie diese Aufgabe wirklich löschen?"
+
+#~ msgid "%d%% done"
+#~ msgstr "%d %% erledigt"
+
+#~ msgid "Control Tomboy with D-Bus"
+#~ msgstr "Tomboy über D-Bus ansprechen"
+
+#~ msgid "Tomboy Applet"
+#~ msgstr "Tomboy-Applet"
+
+#~ msgid "Select a tag:"
+#~ msgstr "Wählen Sie ein Stichwort:"
+
+#~ msgid "No tags were created yet"
+#~ msgstr "Es wurden noch keine Stichworte angelegt."
+
+#~ msgid "Select a note:"
+#~ msgstr "Wählen Sie eine Notiz:"
+
+#~ msgid "Version: %s"
+#~ msgstr "Version: %s"
+
+#~ msgid "New Note"
+#~ msgstr "Neue Notiz"
+
+#~ msgid "New Tagged Note"
+#~ msgstr "Neue Notiz mit Stichwort"
+
+#~ msgid "View Tagged Note"
+#~ msgstr "Notiz mit Stichwort ansehen"
+
+#~ msgid "A simple applet to test vala support"
+#~ msgstr "Ein einfaches Applet zum Testen der Vala-Unterstützung"
+
+#~ msgid "Test Vala Applet"
+#~ msgstr "Vala-Testapplet"
+
+#~ msgid "Name of the device."
+#~ msgstr "Gerätebezeichnung"
+
+#~ msgid "Name of the mixer track."
+#~ msgstr "Name der Mixerspur."
+
+#~ msgid "Control your computer's volume"
+#~ msgstr "Regelt die Lautstärke an Ihrem Computer"
+
+#~ msgid "Volume Control"
+#~ msgstr "Lautstärkeregler"
+
+#~ msgid "Applet to control your computer's volume"
+#~ msgstr "Applet zum Regeln der Lautstärke an Ihrem Computer"
+
+#~ msgid "System theme"
+#~ msgstr "System-Thema"
+
+#~ msgid ""
+#~ "Install the appropriate plug-ins for one or more of the following "
+#~ "GStreamer elements: %s."
+#~ msgstr ""
+#~ "Installieren Sie die entsprechenden Plugins für eines oder mehrere der "
+#~ "folgenden GStreamer-Elemente: %s."
+
+#~ msgid "Could not find any devices."
+#~ msgstr "Konnte keine Geräte finden."
+
+#~ msgid "_Open Volume Control"
+#~ msgstr "Audio-_Einstellungen öffnen"
+
+#~ msgid "No GStreamer mixer found"
+#~ msgstr "Kein GStreamer-Mixer gefunden"
+
+#~ msgid "No devices found"
+#~ msgstr "Keine Geräte gefunden"
+
+#~ msgid "100%"
+#~ msgstr "100 %"
+
+#~ msgid "<b>Audio Options</b>"
+#~ msgstr "<b>Audio-Einstellungen</b>"
+
+#~ msgid "_Device:"
+#~ msgstr "_Gerät:"
+
+#~ msgid "_Mixer track:"
+#~ msgstr "_Mixerspur:"
+
+#~ msgid "_Mute"
+#~ msgstr "_Stumm"
+
+#~ msgid "City, and country of the weather location."
+#~ msgstr "Stadt und Land des Wetterortes"
+
+#~ msgid "Code that identifies the weather location."
+#~ msgstr "Code, der den Wetterort identifiziert."
+
+#~ msgid "If enabled, show the temperature as an overlay in the icon."
+#~ msgstr "Wenn aktiviert, zeige die Temperatur als Einblendung im Symbol."
+
+#~ msgid "Maximum width of map in pixels."
+#~ msgstr "Maximale Kartenbreite in Pixeln."
+
+#~ msgid "Show days of forecast in a transparent, curved dialog."
+#~ msgstr "Zeige Wettervorhersage in einem transparenten, gekrümmten Dialog"
+
+#~ msgid ""
+#~ "Size of the temperature overlay in the icon (0: small, 1: medium, 2: "
+#~ "large)."
+#~ msgstr ""
+#~ "Größe der Temperatureinblendung im Symbol (0: klein, 1: mittel, 2: groß)."
+
+#~ msgid "Temperature unit (0: Celsius, 1: Fahrenheit)."
+#~ msgstr "Temperaturmaßeinheit (0: Grad Celsius, 1: Grad Fahrenheit)."
+
+#~ msgid "Forecast"
+#~ msgstr "Vorhersage"
+
+#~ msgid "for"
+#~ msgstr "für"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "WOCHENTAG"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Morgen"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "BESCHREIBUNG"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "Wetterdaten bereitgestellt von weather.com"
+
+#~ msgid "Blowing Snow"
+#~ msgstr "Schneetreiben"
+
+#~ msgid "Blustery"
+#~ msgstr "Stürmisch"
+
+#~ msgid "Clear"
+#~ msgstr "Heiter"
+
+#~ msgid "Cloudy"
+#~ msgstr "Bewölkt"
+
+#~ msgid "Cold"
+#~ msgstr "Kalt"
+
+#~ msgid "Drizzle"
+#~ msgstr "Sprühregen"
+
+#~ msgid "Dust"
+#~ msgstr "Staub"
+
+#~ msgid "Fair"
+#~ msgstr "Heiter"
+
+#~ msgid "Fog"
+#~ msgstr "Nebel"
+
+#~ msgid "Freezing Drizzle"
+#~ msgstr "Gefrierender Sprühregen"
+
+#~ msgid "Freezing Rain"
+#~ msgstr "Gefrierender Regen"
+
+#~ msgid "Hail"
+#~ msgstr "Hagel"
+
+#~ msgid "Haze"
+#~ msgstr "Dunst"
+
+#~ msgid "Heavy Snow"
+#~ msgstr "Starker Schneefall"
+
+#~ msgid "Hot"
+#~ msgstr "Heiß"
+
+#~ msgid "Hurricane"
+#~ msgstr "Hurrikan"
+
+#~ msgid "Isolated Thunderstorms"
+#~ msgstr "Isolierte Gewitter"
+
+#~ msgid "Light Drizzle"
+#~ msgstr "Leichter Sprühregen"
+
+#~ msgid "Light Rain Shower"
+#~ msgstr "Leichte Schauer"
+
+#~ msgid "Light Rain with Thunder"
+#~ msgstr "Leichter Regen mit Donner"
+
+#~ msgid "Light Snow Showers"
+#~ msgstr "Leichte Schneeschauer"
+
+#~ msgid "Mist"
+#~ msgstr "Leichter Nebel"
+
+#~ msgid "Mixed Precipitation"
+#~ msgstr "Gemischter Niederschlag"
+
+#~ msgid "Mixed Rain and Hail"
+#~ msgstr "Regen und Hagel gemischt"
+
+#~ msgid "Mixed Rain and Sleet"
+#~ msgstr "Regen und Graupel gemischt"
+
+#~ msgid "Mixed Rain and Snow"
+#~ msgstr "Regen und Schnee gemischt"
+
+#~ msgid "Mostly Cloudy"
+#~ msgstr "Bewölkt"
+
+#~ msgid "N/A"
+#~ msgstr "n. zutr."
+
+#~ msgid "Partly Cloudy"
+#~ msgstr "Leicht bewölkt"
+
+#~ msgid "Scattered Showers"
+#~ msgstr "Vereinzelte Schauer"
+
+#~ msgid "Scattered Snow Showers"
+#~ msgstr "Vereinzelte Schneeschauer"
+
+#~ msgid "Scattered Thunderstorms"
+#~ msgstr "Vereinzelte Gewitter"
+
+#~ msgid "Severe Thunderstorms"
+#~ msgstr "Schwere Gewitter"
+
+#~ msgid "Showers"
+#~ msgstr "Schauer"
+
+#~ msgid "Showers in the Vicinity"
+#~ msgstr "Schauer in der Umgebung"
+
+#~ msgid "Sleet"
+#~ msgstr "Graupel"
+
+#~ msgid "Smoke"
+#~ msgstr "Dunst"
+
+#~ msgid "Snow"
+#~ msgstr "Schnee"
+
+#~ msgid "Snow Flurries"
+#~ msgstr "Schneegestöber"
+
+#~ msgid "Snow Showers"
+#~ msgstr "Schneeschauer"
+
+#~ msgid "Thunder Showers"
+#~ msgstr "Gewitterschauer"
+
+#~ msgid "Thunderstorms"
+#~ msgstr "Gewitter"
+
+#~ msgid "Tornado"
+#~ msgstr "Tornado"
+
+#~ msgid "Tropical Storm"
+#~ msgstr "Tropischer Sturm"
+
+#~ msgid "Windy"
+#~ msgstr "Windig"
+
+#~ msgid "AM Clouds / PM Sun"
+#~ msgstr "Vm. Wolken/Nm. Sonne"
+
+#~ msgid "AM Drizzle"
+#~ msgstr "Vm. Sprühregen"
+
+#~ msgid "AM Drizzle / Wind"
+#~ msgstr "Vm. Sprühregen/Wind"
+
+#~ msgid "AM Fog / PM Sun"
+#~ msgstr "Vm. Nebel/Nm. Sonne"
+
+#~ msgid "AM Light Rain"
+#~ msgstr "Vm. leichter Regen"
+
+#~ msgid "AM Light Snow"
+#~ msgstr "Vm. etw. Schneefall"
+
+#~ msgid "AM Rain / Snow"
+#~ msgstr "Vm. Regen/Schnee"
+
+#~ msgid "AM Rain / Wind"
+#~ msgstr "Vm. Regen/Wind"
+
+#~ msgid "AM Showers"
+#~ msgstr "Vm. Schauer"
+
+#~ msgid "AM T-Showers"
+#~ msgstr "Vm. Gew.schauer"
+
+#~ msgid "AM T-Storms"
+#~ msgstr "Vm. Gewitter"
+
+#~ msgid "Few Showers"
+#~ msgstr "Einige Schauer"
+
+#~ msgid "Heavy Rain"
+#~ msgstr "Starker Regen"
+
+#~ msgid "Isolated T-Storms"
+#~ msgstr "Isol. Gew.schauer"
+
+#~ msgid "Light Rain"
+#~ msgstr "Leichter Regen"
+
+#~ msgid "Light Rain / Wind"
+#~ msgstr "Leichter Regen/Wind"
+
+#~ msgid "Light Snow / Fog"
+#~ msgstr "Leichter Schneefall/Nebel"
+
+#~ msgid "Mostly Sunny"
+#~ msgstr "Heiter"
+
+#~ msgid "Partly Cloudy / Wind"
+#~ msgstr "L. bewölkt/Wind"
+
+#~ msgid "PM Light Rain"
+#~ msgstr "Nm. leichter Regen"
+
+#~ msgid "PM Showers"
+#~ msgstr "Vm. Schauer"
+
+#~ msgid "PM T-Showers"
+#~ msgstr "Nm. Gew.schauer"
+
+#~ msgid "PM T-Storms"
+#~ msgstr "Nm. Gewitter"
+
+#~ msgid "Rain"
+#~ msgstr "Regen"
+
+#~ msgid "Rain / Snow Showers"
+#~ msgstr "Regen-/Schneeschauer"
+
+#~ msgid "Rain / Thunder"
+#~ msgstr "Regen/Donner"
+
+#~ msgid "Rain / Wind"
+#~ msgstr "Regen/Wind"
+
+#~ msgid "Scattered Showers / Wind"
+#~ msgstr "Vereinz. Schauer/Wind"
+
+#~ msgid "Scattered T-Storms"
+#~ msgstr "Vereinz. Gewitter"
+
+#~ msgid "Showers / Wind"
+#~ msgstr "Schauer/Wind"
+
+#~ msgid "Sunny"
+#~ msgstr "Sonnig"
+
+#~ msgid "Sunny / Wind"
+#~ msgstr "Sonnig/Wind"
+
+#~ msgid "T-Showers"
+#~ msgstr "Gew.schauer"
+
+#~ msgid "Monday"
+#~ msgstr "Montag"
+
+#~ msgid "Tuesday"
+#~ msgstr "Dienstag"
+
+#~ msgid "Wednesday"
+#~ msgstr "Mittwoch"
+
+#~ msgid "Thursday"
+#~ msgstr "Donnerstag"
+
+#~ msgid "Friday"
+#~ msgstr "Freitag"
+
+#~ msgid "Saturday"
+#~ msgstr "Samstag"
+
+#~ msgid "Sunday"
+#~ msgstr "Sonntag"
+
+#~ msgid "Display the local weather"
+#~ msgstr "Zeigt das lokale Wetter"
+
+#~ msgid "Weather Applet"
+#~ msgstr "Wetter-Applet"
+
+#~ msgid "Weather"
+#~ msgstr "Wetter"
+
+#~ msgid "Applet to display current weather and forecast"
+#~ msgstr "Applet zum Anzeigen des aktuellen Wetters und einer Vorhersage"
+
+#~ msgid ""
+#~ "Could not retrieve weather data. You may be experiencing connectivity "
+#~ "issues."
+#~ msgstr ""
+#~ "Konnte keine Wetterdaten abrufen. Sie haben möglicherweise "
+#~ "Verbindungsprobleme."
+
+#~ msgid "Network error in Weather"
+#~ msgstr "Netzwerkfehler im Wetter-Applet"
+
+#~ msgid "Fetching conditions for"
+#~ msgstr "Hole Wetterbericht für"
+
+#~ msgid "Show _Map"
+#~ msgstr "_Karte anzeigen"
+
+#~ msgid "No records found"
+#~ msgstr "Keine Einträge gefunden"
+
+#~ msgid "Searching..."
+#~ msgstr "Suche läuft ..."
+
+#~ msgid "<b>Icon Display</b>"
+#~ msgstr "<b>Symbolanzeige</b>"
+
+#~ msgid ""
+#~ "<i><b>Examples:</b> Boston; Portland, ME, Amsterdam; or Osaka, Japan.</i>"
+#~ msgstr ""
+#~ "<i><b>Beispiele:</b> Boston; Portland, ME, Amsterdam; oder Osaka, Japan.</"
+#~ "i>"
+
+#~ msgid "Current _location:"
+#~ msgstr "Aktueller _Ort:"
+
+#~ msgid ""
+#~ "If enabled, the dialog will be transparent, and the five days of the "
+#~ "forecast will be curved"
+#~ msgstr ""
+#~ "Wenn aktiviert, wird der Dialog transparent und die 5-Tage-Prognose in "
+#~ "einem Bogen angezeigt"
+
+#~ msgid "If enabled, the temperature will be displayed in the icon"
+#~ msgstr "Wenn aktiviert, wird die Temperatur im Symbol angezeigt"
+
+#~ msgid "Maximum _map width:"
+#~ msgstr "Maximale _Kartenbreite:"
+
+#~ msgid "Show temperature in _icon"
+#~ msgstr "Temperatur im _Symbol anzeigen"
+
+#~ msgid "Temperature _unit:"
+#~ msgstr "_Temperatureinheit:"
+
+#~ msgid "Temperature font _size:"
+#~ msgstr "Schrift_größe der Temperaturanzeige:"
+
+#~ msgid "Use transparent/curved _forecast dialog"
+#~ msgstr "Transparenten/gebogenen _Vorhersage-Dialog verwenden"
+
+#~ msgid "_Location Name:"
+#~ msgstr "_Name des Ortes:"
+
+#~ msgid "Open Location"
+#~ msgstr "Ort öffnen"
+
+#~ msgid "Set as new _Home Page"
+#~ msgstr "Als neue _Homepage festlegen"
+
+#~ msgid "Web Applet"
+#~ msgstr "Webapplet"
+
+#~ msgid ""
+#~ "Flag that enables usage of the \"Open Location\" dialog in the applet."
+#~ msgstr ""
+#~ "Schalter, der die Verwendung des »Ort öffnen«-Dialogs des Applets "
+#~ "ermöglicht."
+
+#~ msgid "HTML engine to use."
+#~ msgstr "Die verwendete HTML-Engine."
+
+#~ msgid "If true display location entry and website buttons"
+#~ msgstr "Wenn »true«, werden der Ort und Website-Buttons angezeigt"
+
+#~ msgid "Name of specialized website to use"
+#~ msgstr "Name der zu verwendenden spezialisierten Website"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "Width in %% or px."
+#~ msgstr "Breite in %% oder Pixel."
+
+#~ msgid "height in %% or px."
+#~ msgstr "Höhe in %% oder Pixel."
+
+#~ msgid "Applet for Websites"
+#~ msgstr "Applet für Websites"
+
+#~ msgid "A simple test animation"
+#~ msgstr "Eine einfache Testanimation"
+
+#~ msgid "Wobbly Zini"
+#~ msgstr "Wobbly Zini"
+
+#~ msgid "Awn System Monitor"
+#~ msgstr "AWN Systemüberwachung"
+
+#~ msgid "Graph update frequency, in milliseconds."
+#~ msgstr "Diagramm-Updatefrequenz, in Millisekunden"
+
+#~ msgid "Set to 1 (true) to draw the gradient overlay on the graph."
+#~ msgstr ""
+#~ "Auf 1 (TRUE) setzen, um einen Farbverlauf auf das Diagramm zu legen."
+
+#~ msgid "The color used in the applet border."
+#~ msgstr "Die Farbe des Appletrahmens"
+
+#~ msgid "The color used in the graph lines."
+#~ msgstr "In den Diagrammlinien benutzte Farbe."
+
+#~ msgid "The color used in the graph lines. Valid values are 0.0 through 1.0."
+#~ msgstr ""
+#~ "In den Diagrammlinien benutzte Farbe. Gültige Werte reichen von 0,0 bis "
+#~ "1,0."
+
+#~ msgid "The pixel width of the applet border."
+#~ msgstr "Die Breite des Appletrahmens in Pixeln."
+
+#~ msgid "The url of the Pandora mini flash player."
+#~ msgstr "Die URL des Pandora mini flash players."
+
+#~ msgid "Listen to Pandora Internet Radio"
+#~ msgstr "Pandora Internet-Radio hören"
+
+#~ msgid "Pandora Radio"
+#~ msgstr "Pandora-Radio"
+
+#~ msgid ""
+#~ "There seem to be problems with our                     connection to your "
+#~ "account. Your best bet is probably                     to log out and try "
+#~ "again."
+#~ msgstr ""
+#~ "Es scheint ein Problem mit der Verbindung zu ihrem Account zu geben. Die "
+#~ "beste Lösung ist es sich auszuloggen und es wieder zu versuchen."
+
+#~ msgid "The theme used when displaying notifications."
+#~ msgstr "Das Thema um Benachrichtigungen anzuzeigen."
+
+#~ msgid "Set your pop-up notification preferences"
+#~ msgstr "Legen Sie Ihre Popup Benachrichtigungs Einstellungen fest"
+
+#~ msgid "Statistics calculation requires read access to /proc/net/dev"
+#~ msgstr "Statistikberechnung erfordert Leseberechtigung in /proc/net/dev"
+
+#~ msgid "Sent"
+#~ msgstr "Gesendet"
+
+#~ msgid "Received"
+#~ msgstr "Empfangen"
+
+#~ msgid "Receiving"
+#~ msgstr "Empfange"
+
+#~ msgid ""
+#~ "If this is checked the applet background will use the selected color. If "
+#~ "unchecked, background will be transparent"
+#~ msgstr ""
+#~ "Wenn aktiviert, wird das Applet die ausgewählte Farbe als Hintergrund "
+#~ "benutzen. Wenn deaktiviert, bleibt der Hintergrund transparent."
+
+#~ msgid ""
+#~ "If this is checked the applet border will use the selected color. If "
+#~ "unchecked, border will be transparent"
+#~ msgstr ""
+#~ "Wenn aktiviert, wird das Applet die ausgewählte Farbe als Rahmenfarbe "
+#~ "benutzen. Wenn deaktiviert, bleibt der Rahmen transparent."
+
+#~ msgid "%s New Item%s - Feeds Applet"
+#~ msgstr "%s Neuer Inhalt%s - Feeds Applet"
+
+#~ msgid "Do you want to add these %s feeds?"
+#~ msgstr "Möchten Sie diese %s Feeds hinzufügen?"
+
+#~ msgid "Sort folders before files."
+#~ msgstr "Sortiere Ordner vor Dateien"
+
+#~ msgid "Number of rows to use."
+#~ msgstr "Anzahl der zu benutzenden Reihen"
+
+#~ msgid " sort by date)."
+#~ msgstr " nach Datum sortieren"
+
+#~ msgid "Search\\u2026"
+#~ msgstr "Suche\\u2026"
+
+#~ msgid "No"
+#~ msgstr "Nein"
+
+#~ msgid " bytes)"
+#~ msgstr " Bytes)"
+
+#~ msgid "%s: %u item"
+#~ msgid_plural "%s: %u items"
+#~ msgstr[0] "%s: %u Objekt"
+#~ msgstr[1] "%s: %u Objekte"
+
+#~ msgid "Confirm when emptying the trash"
+#~ msgstr "Leeren des Mülleimers bestätigen"
+
+#~ msgid "Show the item count on the icon"
+#~ msgstr "Anzahl der Objekte auf dem Symbol anzeigen"
+
+#~ msgid "Public"
+#~ msgstr "Öffentlich"
+
+#~ msgid "Templates"
+#~ msgstr "Vorlagen"
+
+#~ msgid "Videos"
+#~ msgstr "Videos"
+
+#~ msgid "Downloads"
+#~ msgstr "Downloads"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumente"
+
+#~ msgid "Music"
+#~ msgstr "Musik"
+
+#~ msgid "Beaufort)."
+#~ msgstr "Beaufort)."
+
+#~ msgid "Celcius"
+#~ msgstr "Grad Celsius"
+
+#~ msgid "Kelvin)."
+#~ msgstr "Kelvin)."
+
+#~ msgid " 0.9)."
+#~ msgstr " 0.9)."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Sending"
+#~ msgstr "Sende"
+
+#~ msgid "Do not display the speed as text, only draw the graph"
+#~ msgstr ""
+#~ "Übertragungsgeschwindigkeit nicht als Text anzeigen, nur grafisch "
+#~ "darstellen"
+
+#~ msgid "Display upload and download text representation of speed"
+#~ msgstr "Upload und Download als Text anzeigen"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "Die Summe aller Uploads und Downloads anzeigen"
+
+#~ msgid ""
+#~ "If enabled, this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn in the graph."
+#~ msgstr ""
+#~ "Wenn aktiviert, wird die Linie auch bei einem Wert von null gezeichnet. "
+#~ "Wenn deaktiviert, werden Werte unter 1 nicht gezeichnet."
+
+#~ msgid "Unable to caclulate statistics"
+#~ msgstr "Kann keine Statistiken erstellen"
+
+#~ msgid ""
+#~ "Sets the minimum threshold for scaling to not show large spikes for small "
+#~ "amounts of traffic. e.g.: Setting to 32.0 KBps will cause the graph to "
+#~ "only draw if throughput exceeds 32.0 KBps"
+#~ msgstr ""
+#~ "Legt die Schwelle fest, ab der die Linie ausschlägt. Dadurch werden große "
+#~ "Spitzen für kurze Datentransfers vermieden. Bei einem Wert von zum "
+#~ "Beispiel 32,0 kB/s wird nur dann etwas angezeigt, wenn die "
+#~ "Übertragungsrate 32,0 kB/s überschreitet"
+
+#~ msgid "Launch\\u2026"
+#~ msgstr "Ausführen \\u2026"
+
+#~ msgid ""
+#~ "\n"
+#~ "DIALECT APPLET v 09.12.09\n"
+#~ "\n"
+#~ "(C) 2009, Lachlan Turner (Denham 2010)\n"
+#~ "\n"
+#~ "This applet allows you to change your keyboard input language with just a "
+#~ "click of the mouse.\n"
+#~ "You can select any of the available input languages on your system, or "
+#~ "from a list you most commonly use.\n"
+#~ "\n"
+#~ "See the Mouse Actions and Layout Lists tabs for configuration options.\n"
+#~ "\n"
+#~ "The applet depends on the python xklavier module (available from http://"
+#~ "download.sugarlabs.org/sources/external/python-xklavier/python-"
+#~ "xklavier-0.1.tar.gz).\n"
+#~ "\n"
+#~ "This applet is licensed under GPL2. The flag icons distributed with this "
+#~ "applet are from the xfce4-xkb-plugin-0.5.3.3 panel applet, licensed under "
+#~ "the 2-clause BSD license. See the About dialog for licensing details.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Dialekt-Applet v 09.12.09\n"
+#~ "\n"
+#~ "(C) 2009, Lachlan Turner (Denham 2010)\n"
+#~ "\n"
+#~ "Dieses Applet erlaubt Ihnen die Tastatureingabesprache mit nur einem "
+#~ "Mausklick zu ändern.\n"
+#~ "Sie können aus jeder Sprache auswählen, die auf Ihrem System verfügbar "
+#~ "ist, oder aus einer Liste mit den von Ihnen meistgenutzten Sprachen.\n"
+#~ "\n"
+#~ "In den Reitern für Mausaktionen und Tastaturbelegungen finden Sie "
+#~ "verschiedene Einstellungsmöglichkeiten.\n"
+#~ "\n"
+#~ "Dieses Applet basiert auf dem Python-xklavier-Modul (verfügbar unter "
+#~ "http://download.sugarlabs.org/sources/external/python-xklavier/python-"
+#~ "xklavier-0.1.tar.gz).\n"
+#~ "\n"
+#~ "Dieses Applet ist unter GPL2 lizenziert. Die Flaggensymbole, die in "
+#~ "diesem Applet benutzt werden, wurden vom Panel-Applet xfce4-xkb-"
+#~ "plugin-0.5.3.3 übernommen, das unter der 2-Klausel-BSD-Lizenz "
+#~ "veröffentlicht wurde. Im Über-Dialog finden Sie weitere Lizenzdetails.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Left Click:\n"
+#~ "\n"
+#~ "\tNext Layout\t\tselects the next layout in your user list.\n"
+#~ "\tPrevious Layout\tselects the previous layout in your user list.\n"
+#~ "\tMenu\t\t\tselect a layout from a menu of your user list.\n"
+#~ "\tNone\t\t\tbutton will have no action.\n"
+#~ "\n"
+#~ "Middle Click:\n"
+#~ "\n"
+#~ "\tNext Layout\t\tselects the next layout in your user list.\n"
+#~ "\tPrevious Layout\tselects the previous layout in your user list.\n"
+#~ "\tMenu\t\t\tselect a layout from a menu of your user list.\n"
+#~ "\tNone\t\t\tbutton will have no action.\n"
+#~ "\n"
+#~ "Allow scroll wheel to change layout:\n"
+#~ "\n"
+#~ "\tIf selected, scrolling up or down with your mouse wheel will select\n"
+#~ "\tthe next or previous layout in your user list.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Linksklick:\n"
+#~ "\n"
+#~ "\tNächste Belegung\t\twählt die nächste Tastaturbelegung in Ihrer "
+#~ "Benutzerliste.\n"
+#~ "\tVorherige Belegung\twählt die vorherige Tastaturbelegung in Ihrer "
+#~ "Benutzerliste.\n"
+#~ "\tMenü\t\t\twählt eine Tastatubelegung aus Ihrer Benutzerliste.\n"
+#~ "\tNichts\t\t\tButton hat keine Aktivität.\n"
+#~ "\n"
+#~ "Mittelklick:\n"
+#~ "\n"
+#~ "\tNächste Belegung\t\twählt die nächste Tastaturbelegung in Ihrer "
+#~ "Benutzerliste.\n"
+#~ "\tVorherige Belegung\twählt die vorherige Tastaturbelegung in Ihrer "
+#~ "Benutzerliste.\n"
+#~ "\tMenü\t\t\twählt eine Tastaturbelegung aus Ihrer Benutzerliste.\n"
+#~ "\tNichts\t\t\tbutton hat keine Aktivität.\n"
+#~ "\n"
+#~ "Erlaubt das Layout mit dem Scrollrad zu ändern:\n"
+#~ "\n"
+#~ "\tWenn aktiviert, wird durch das Rauf- oder Runterrollen mit Ihrem "
+#~ "Mausrad\n"
+#~ "\tdas nächste oder vorherige Layout in Ihrer Benutzerliste ausgewählt.\n"
+
+#~ msgid "Allow scroll wheel to change layout"
+#~ msgstr "Tastaturbelegung per Mausrad ändern"
+
+#~ msgid "(C) 2009, Lachlan Turner (Denham 2010)."
+#~ msgstr "(C) 2009, Lachlan Turner (Denham 2010)."
+
+#~ msgid "Previous Layout"
+#~ msgstr "Vorige Belegung"
+
+#~ msgid "Overlay layout flag on applet icon"
+#~ msgstr "Flagge auf dem Applet-Symbol anzeigen"
+
+#~ msgid "Next Layout"
+#~ msgstr "Nächste Belegung"
+
+#~ msgid "Mouse Actions"
+#~ msgstr "Mausaktionen"
+
+#~ msgid "Menu"
+#~ msgstr "Menü"
+
+#~ msgid "-"
+#~ msgstr "−"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "Dialect Applet Help"
+#~ msgstr "Hilfe für das Dialekt-Applet"
+
+#~ msgid "Do you want to add this feed?"
+#~ msgstr "Möchten Sie diesen Feed hinzufügen?"
+
+#~ msgid "Layout Lists"
+#~ msgstr "Belegungslisten"
+
+#~ msgid "Flag Opacity"
+#~ msgstr "Flaggen-Deckkraft"
+
+#~ msgid ""
+#~ "\n"
+#~ "Overlay layout flag on applet icon:\n"
+#~ "\n"
+#~ "\tIf selected, the flag of your selected layout will overlay the applet "
+#~ "icon.\n"
+#~ "\n"
+#~ "Flag Scale:\n"
+#~ "\n"
+#~ "\tThe size of the flag in relation to the applet icon.\n"
+#~ "\tPossible values range from 0.1 to 0.9\n"
+#~ "\n"
+#~ "Flag Opacity:\n"
+#~ "\n"
+#~ "\tRanging from 0.0 (flag is not visible) to 0.9 (flag is almost opaque).\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Flagge der Belegung über das Applet-Symbol legen:\n"
+#~ "\n"
+#~ "\tWenn ausgewählt, wird die Flagge der gewählten Tastaturbelegung über "
+#~ "das Applet-Symbol gelegt.\n"
+#~ "\n"
+#~ "Flaggengröße:\n"
+#~ "\n"
+#~ "\tDie Größe der Flagge im Verhältnis zum Applet-Symbol.\n"
+#~ "\tMögliche Werte reichen von 0,1 bis 0,9.\n"
+#~ "\n"
+#~ "Flaggen-Deckkraft:\n"
+#~ "\n"
+#~ "\tVon 0,0 (Flagge ist nicht sichtbar) bis 0,9 (Flagge ist beinahe "
+#~ "deckend).\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "System List:\n"
+#~ "\n"
+#~ "\tThe complete list of layouts and variants available.\n"
+#~ "\tSelect an item and click the add button to include in your user list.\n"
+#~ "\n"
+#~ "User List:\n"
+#~ "\n"
+#~ "\tThe list of layouts you commonly use.\n"
+#~ "\tThe maximum number of layouts is restricted by the X11 xkb system "
+#~ "(currently 4).\n"
+#~ "\tSelect an item and click the remove button to delete from your user "
+#~ "list.\n"
+#~ "\tYou can order the list by drag and drop.\n"
+#~ "\n"
+#~ "Keyboard Toggle:\n"
+#~ "\tSelects the hot key combination used to change layouts.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Systemliste:\n"
+#~ "\n"
+#~ "\tDie komplette Liste aller Tastaturbelegungen und Varianten ist "
+#~ "verfügbar.\n"
+#~ "\tWählen Sie einen Eintrag aus und drücken Sie auf »Hinzufügen«, um ihn "
+#~ "in Ihre Benutzerliste aufzunehmen.\n"
+#~ "\n"
+#~ "Benutzerliste:\n"
+#~ "\n"
+#~ "\tListe der häufig benutzten Tastaturbelegungen.\n"
+#~ "\tDie maximale Anzahl der Belegungen ist beschränkt durch das X11-xkb-"
+#~ "System (augenblicklich 4).\n"
+#~ "\tWählen Sie einen Eintrag und drücken Sie auf »Entfernen«, um ihn von "
+#~ "Ihrer Liste zu löschen.\n"
+#~ "\tSie können die Liste durch Ziehen und Ablegen ordnen.\n"
+#~ "\n"
+#~ "Tastaturumschalter:\n"
+#~ "\tWählt die Tastenkombination zum Ändern der Tastaturbelegung.\n"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program; if not, write to the Free Software Foundation, Inc., "
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n"
+#~ "\n"
+#~ "\t\t    GNU GENERAL PUBLIC LICENSE\n"
+#~ "\t\t       Version 2, June 1991\n"
+#~ "\n"
+#~ " Copyright (C) 1989, 1991 Free Software Foundation, Inc.,\n"
+#~ " 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n"
+#~ " Everyone is permitted to copy and distribute verbatim copies\n"
+#~ " of this license document, but changing it is not allowed.\n"
+#~ "\n"
+#~ "\t\t\t    Preamble\n"
+#~ "\n"
+#~ "  The licenses for most software are designed to take away your freedom "
+#~ "to share and change it.  By contrast, the GNU General Public License is "
+#~ "intended to guarantee your freedom to share and change free software--to "
+#~ "make sure the software is free for all its users.  This General Public "
+#~ "License applies to most of the Free Software Foundation's software and to "
+#~ "any other program whose authors commit to using it.  (Some other Free "
+#~ "Software Foundation software is covered by the GNU Lesser General Public "
+#~ "License instead.)  You can apply it to your programs, too.\n"
+#~ "\n"
+#~ "  When we speak of free software, we are referring to freedom, not "
+#~ "price.  Our General Public Licenses are designed to make sure that you "
+#~ "have the freedom to distribute copies of free software (and charge for "
+#~ "this service if you wish), that you receive source code or can get it if "
+#~ "you want it, that you can change the software or use pieces of it in new "
+#~ "free programs; and that you know you can do these things.\n"
+#~ "\n"
+#~ "  To protect your rights, we need to make restrictions that forbid anyone "
+#~ "to deny you these rights or to ask you to surrender the rights. These "
+#~ "restrictions translate to certain responsibilities for you if you "
+#~ "distribute copies of the software, or if you modify it.\n"
+#~ "\n"
+#~ "  For example, if you distribute copies of such a program, whether gratis "
+#~ "or for a fee, you must give the recipients all the rights that you have.  "
+#~ "You must make sure that they, too, receive or can get the source code.  "
+#~ "And you must show them these terms so they know their rights.\n"
+#~ "\n"
+#~ "  We protect your rights with two steps: (1) copyright the software, and "
+#~ "(2) offer you this license which gives you legal permission to copy, "
+#~ "distribute and/or modify the software.\n"
+#~ "\n"
+#~ "  Also, for each author's protection and ours, we want to make certain "
+#~ "that everyone understands that there is no warranty for this free "
+#~ "software.  If the software is modified by someone else and passed on, we "
+#~ "want its recipients to know that what they have is not the original, so "
+#~ "that any problems introduced by others will not reflect on the original "
+#~ "authors' reputations.\n"
+#~ "\n"
+#~ "  Finally, any free program is threatened constantly by software "
+#~ "patents.  We wish to avoid the danger that redistributors of a free "
+#~ "program will individually obtain patent licenses, in effect making the "
+#~ "program proprietary.  To prevent this, we have made it clear that any "
+#~ "patent must be licensed for everyone's free use or not licensed at all.\n"
+#~ "\n"
+#~ "  The precise terms and conditions for copying, distribution and "
+#~ "modification follow.\n"
+#~ "\n"
+#~ "\t\t    GNU GENERAL PUBLIC LICENSE\n"
+#~ "   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+#~ "\n"
+#~ "  0. This License applies to any program or other work which contains a "
+#~ "notice placed by the copyright holder saying it may be distributed under "
+#~ "the terms of this General Public License.  The \"Program\", below, refers "
+#~ "to any such program or work, and a \"work based on the Program\" means "
+#~ "either the Program or any derivative work under copyright law: that is to "
+#~ "say, a work containing the Program or a portion of it, either verbatim or "
+#~ "with modifications and/or translated into another language.  "
+#~ "(Hereinafter, translation is included without limitation in the term "
+#~ "\"modification\".)  Each licensee is addressed as \"you\".\n"
+#~ "\n"
+#~ "Activities other than copying, distribution and modification are not "
+#~ "covered by this License; they are outside its scope.  The act of running "
+#~ "the Program is not restricted, and the output from the Program is covered "
+#~ "only if its contents constitute a work based on the Program (independent "
+#~ "of having been made by running the Program). Whether that is true depends "
+#~ "on what the Program does.\n"
+#~ "\n"
+#~ "  1. You may copy and distribute verbatim copies of the Program's source "
+#~ "code as you receive it, in any medium, provided that you conspicuously "
+#~ "and appropriately publish on each copy an appropriate copyright notice "
+#~ "and disclaimer of warranty; keep intact all the notices that refer to "
+#~ "this License and to the absence of any warranty; and give any other "
+#~ "recipients of the Program a copy of this License along with the Program.\n"
+#~ "\n"
+#~ "You may charge a fee for the physical act of transferring a copy, and you "
+#~ "may at your option offer warranty protection in exchange for a fee.\n"
+#~ "\n"
+#~ "  2. You may modify your copy or copies of the Program or any portion of "
+#~ "it, thus forming a work based on the Program, and copy and distribute "
+#~ "such modifications or work under the terms of Section 1 above, provided "
+#~ "that you also meet all of these conditions:\n"
+#~ "\n"
+#~ "    a) You must cause the modified files to carry prominent notices\n"
+#~ "    stating that you changed the files and the date of any change.\n"
+#~ "\n"
+#~ "    b) You must cause any work that you distribute or publish, that in\n"
+#~ "    whole or in part contains or is derived from the Program or any\n"
+#~ "    part thereof, to be licensed as a whole at no charge to all third\n"
+#~ "    parties under the terms of this License.\n"
+#~ "\n"
+#~ "    c) If the modified program normally reads commands interactively\n"
+#~ "    when run, you must cause it, when started running for such\n"
+#~ "    interactive use in the most ordinary way, to print or display an\n"
+#~ "    announcement including an appropriate copyright notice and a\n"
+#~ "    notice that there is no warranty (or else, saying that you provide\n"
+#~ "    a warranty) and that users may redistribute the program under\n"
+#~ "    these conditions, and telling the user how to view a copy of this\n"
+#~ "    License.  (Exception: if the Program itself is interactive but\n"
+#~ "    does not normally print such an announcement, your work based on\n"
+#~ "    the Program is not required to print an announcement.)\n"
+#~ "\n"
+#~ "These requirements apply to the modified work as a whole.  If "
+#~ "identifiable sections of that work are not derived from the Program, and "
+#~ "can be reasonably considered independent and separate works in "
+#~ "themselves, then this License, and its terms, do not apply to those "
+#~ "sections when you distribute them as separate works.  But when you "
+#~ "distribute the same sections as part of a whole which is a work based on "
+#~ "the Program, the distribution of the whole must be on the terms of this "
+#~ "License, whose permissions for other licensees extend to the entire "
+#~ "whole, and thus to each and every part regardless of who wrote it.\n"
+#~ "\n"
+#~ "Thus, it is not the intent of this section to claim rights or contest "
+#~ "your rights to work written entirely by you; rather, the intent is to "
+#~ "exercise the right to control the distribution of derivative or "
+#~ "collective works based on the Program.\n"
+#~ "\n"
+#~ "In addition, mere aggregation of another work not based on the Program "
+#~ "with the Program (or with a work based on the Program) on a volume of a "
+#~ "storage or distribution medium does not bring the other work under the "
+#~ "scope of this License.\n"
+#~ "\n"
+#~ "  3. You may copy and distribute the Program (or a work based on it, "
+#~ "under Section 2) in object code or executable form under the terms of "
+#~ "Sections 1 and 2 above provided that you also do one of the following:\n"
+#~ "\n"
+#~ "    a) Accompany it with the complete corresponding machine-readable\n"
+#~ "    source code, which must be distributed under the terms of Sections\n"
+#~ "    1 and 2 above on a medium customarily used for software interchange; "
+#~ "or,\n"
+#~ "\n"
+#~ "    b) Accompany it with a written offer, valid for at least three\n"
+#~ "    years, to give any third party, for a charge no more than your\n"
+#~ "    cost of physically performing source distribution, a complete\n"
+#~ "    machine-readable copy of the corresponding source code, to be\n"
+#~ "    distributed under the terms of Sections 1 and 2 above on a medium\n"
+#~ "    customarily used for software interchange; or,\n"
+#~ "\n"
+#~ "    c) Accompany it with the information you received as to the offer\n"
+#~ "    to distribute corresponding source code.  (This alternative is\n"
+#~ "    allowed only for noncommercial distribution and only if you\n"
+#~ "    received the program in object code or executable form with such\n"
+#~ "    an offer, in accord with Subsection b above.)\n"
+#~ "\n"
+#~ "The source code for a work means the preferred form of the work for "
+#~ "making modifications to it.  For an executable work, complete source code "
+#~ "means all the source code for all modules it contains, plus any "
+#~ "associated interface definition files, plus the scripts used to control "
+#~ "compilation and installation of the executable.  However, as a special "
+#~ "exception, the source code distributed need not include anything that is "
+#~ "normally distributed (in either source or binary form) with the major "
+#~ "components (compiler, kernel, and so on) of the operating system on which "
+#~ "the executable runs, unless that component itself accompanies the "
+#~ "executable.\n"
+#~ "\n"
+#~ "If distribution of executable or object code is made by offering access "
+#~ "to copy from a designated place, then offering equivalent access to copy "
+#~ "the source code from the same place counts as distribution of the source "
+#~ "code, even though third parties are not compelled to copy the source "
+#~ "along with the object code.\n"
+#~ "\n"
+#~ "  4. You may not copy, modify, sublicense, or distribute the Program "
+#~ "except as expressly provided under this License.  Any attempt otherwise "
+#~ "to copy, modify, sublicense or distribute the Program is void, and will "
+#~ "automatically terminate your rights under this License. However, parties "
+#~ "who have received copies, or rights, from you under this License will not "
+#~ "have their licenses terminated so long as such parties remain in full "
+#~ "compliance.\n"
+#~ "\n"
+#~ "  5. You are not required to accept this License, since you have not "
+#~ "signed it.  However, nothing else grants you permission to modify or "
+#~ "distribute the Program or its derivative works.  These actions are "
+#~ "prohibited by law if you do not accept this License.  Therefore, by "
+#~ "modifying or distributing the Program (or any work based on the Program), "
+#~ "you indicate your acceptance of this License to do so, and all its terms "
+#~ "and conditions for copying, distributing or modifying the Program or "
+#~ "works based on it.\n"
+#~ "\n"
+#~ "  6. Each time you redistribute the Program (or any work based on the "
+#~ "Program), the recipient automatically receives a license from the "
+#~ "original licensor to copy, distribute or modify the Program subject to "
+#~ "these terms and conditions.  You may not impose any further restrictions "
+#~ "on the recipients' exercise of the rights granted herein. You are not "
+#~ "responsible for enforcing compliance by third parties to this License.\n"
+#~ "\n"
+#~ "  7. If, as a consequence of a court judgment or allegation of patent "
+#~ "infringement or for any other reason (not limited to patent issues), "
+#~ "conditions are imposed on you (whether by court order, agreement or "
+#~ "otherwise) that contradict the conditions of this License, they do not "
+#~ "excuse you from the conditions of this License.  If you cannot distribute "
+#~ "so as to satisfy simultaneously your obligations under this License and "
+#~ "any other pertinent obligations, then as a consequence you may not "
+#~ "distribute the Program at all.  For example, if a patent license would "
+#~ "not permit royalty-free redistribution of the Program by all those who "
+#~ "receive copies directly or indirectly through you, then the only way you "
+#~ "could satisfy both it and this License would be to refrain entirely from "
+#~ "distribution of the Program.\n"
+#~ "\n"
+#~ "If any portion of this section is held invalid or unenforceable under any "
+#~ "particular circumstance, the balance of the section is intended to apply "
+#~ "and the section as a whole is intended to apply in other circumstances.\n"
+#~ "\n"
+#~ "It is not the purpose of this section to induce you to infringe any "
+#~ "patents or other property right claims or to contest validity of any such "
+#~ "claims; this section has the sole purpose of protecting the integrity of "
+#~ "the free software distribution system, which is implemented by public "
+#~ "license practices.  Many people have made generous contributions to the "
+#~ "wide range of software distributed through that system in reliance on "
+#~ "consistent application of that system; it is up to the author/donor to "
+#~ "decide if he or she is willing to distribute software through any other "
+#~ "system and a licensee cannot impose that choice.\n"
+#~ "\n"
+#~ "This section is intended to make thoroughly clear what is believed to be "
+#~ "a consequence of the rest of this License.\n"
+#~ "\n"
+#~ "  8. If the distribution and/or use of the Program is restricted in "
+#~ "certain countries either by patents or by copyrighted interfaces, the "
+#~ "original copyright holder who places the Program under this License may "
+#~ "add an explicit geographical distribution limitation excluding those "
+#~ "countries, so that distribution is permitted only in or among countries "
+#~ "not thus excluded.  In such case, this License incorporates the "
+#~ "limitation as if written in the body of this License.\n"
+#~ "\n"
+#~ "  9. The Free Software Foundation may publish revised and/or new versions "
+#~ "of the General Public License from time to time.  Such new versions will "
+#~ "be similar in spirit to the present version, but may differ in detail to "
+#~ "address new problems or concerns.\n"
+#~ "\n"
+#~ "Each version is given a distinguishing version number.  If the Program "
+#~ "specifies a version number of this License which applies to it and \"any "
+#~ "later version\", you have the option of following the terms and "
+#~ "conditions either of that version or of any later version published by "
+#~ "the Free Software Foundation.  If the Program does not specify a version "
+#~ "number of this License, you may choose any version ever published by the "
+#~ "Free Software Foundation.\n"
+#~ "\n"
+#~ "  10. If you wish to incorporate parts of the Program into other free "
+#~ "programs whose distribution conditions are different, write to the author "
+#~ "to ask for permission.  For software which is copyrighted by the Free "
+#~ "Software Foundation, write to the Free Software Foundation; we sometimes "
+#~ "make exceptions for this.  Our decision will be guided by the two goals "
+#~ "of preserving the free status of all derivatives of our free software and "
+#~ "of promoting the sharing and reuse of software generally.\n"
+#~ "\n"
+#~ "\t\t\t    NO WARRANTY\n"
+#~ "\n"
+#~ "  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO "
+#~ "WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  "
+#~ "EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR "
+#~ "OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, "
+#~ "EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED "
+#~ "WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE "
+#~ "ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH "
+#~ "YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL "
+#~ "NECESSARY SERVICING, REPAIR OR CORRECTION.\n"
+#~ "\n"
+#~ "  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN "
+#~ "WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/"
+#~ "OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR "
+#~ "DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL "
+#~ "DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING "
+#~ "BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR "
+#~ "LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO "
+#~ "OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS "
+#~ "BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+#~ msgstr ""
+#~ "This program is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program; if not, write to the Free Software Foundation, Inc., "
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n"
+#~ "\n"
+#~ "\t\t GNU GENERAL PUBLIC LICENSE\n"
+#~ "\t\t Version 2, June 1991\n"
+#~ "\n"
+#~ "Copyright (C) 1989, 1991 Free Software Foundation, Inc.,\n"
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n"
+#~ "Everyone is permitted to copy and distribute verbatim copies\n"
+#~ "of this license document, but changing it is not allowed.\n"
+#~ "\n"
+#~ "\t\t\t Preamble\n"
+#~ "\n"
+#~ "The licenses for most software are designed to take away your freedom to "
+#~ "share and change it. By contrast, the GNU General Public License is "
+#~ "intended to guarantee your freedom to share and change free software--to "
+#~ "make sure the software is free for all its users. This General Public "
+#~ "License applies to most of the Free Software Foundation's software and to "
+#~ "any other program whose authors commit to using it. (Some other Free "
+#~ "Software Foundation software is covered by the GNU Lesser General Public "
+#~ "License instead.) You can apply it to your programs, too.\n"
+#~ "\n"
+#~ "When we speak of free software, we are referring to freedom, not price. "
+#~ "Our General Public Licenses are designed to make sure that you have the "
+#~ "freedom to distribute copies of free software (and charge for this "
+#~ "service if you wish), that you receive source code or can get it if you "
+#~ "want it, that you can change the software or use pieces of it in new free "
+#~ "programs; and that you know you can do these things.\n"
+#~ "\n"
+#~ "To protect your rights, we need to make restrictions that forbid anyone "
+#~ "to deny you these rights or to ask you to surrender the rights. These "
+#~ "restrictions translate to certain responsibilities for you if you "
+#~ "distribute copies of the software, or if you modify it.\n"
+#~ "\n"
+#~ "For example, if you distribute copies of such a program, whether gratis "
+#~ "or for a fee, you must give the recipients all the rights that you have. "
+#~ "You must make sure that they, too, receive or can get the source code. "
+#~ "And you must show them these terms so they know their rights.\n"
+#~ "\n"
+#~ "We protect your rights with two steps: (1) copyright the software, and "
+#~ "(2) offer you this license which gives you legal permission to copy, "
+#~ "distribute and/or modify the software.\n"
+#~ "\n"
+#~ "Also, for each author's protection and ours, we want to make certain that "
+#~ "everyone understands that there is no warranty for this free software. If "
+#~ "the software is modified by someone else and passed on, we want its "
+#~ "recipients to know that what they have is not the original, so that any "
+#~ "problems introduced by others will not reflect on the original authors' "
+#~ "reputations.\n"
+#~ "\n"
+#~ "Finally, any free program is threatened constantly by software patents. "
+#~ "We wish to avoid the danger that redistributors of a free program will "
+#~ "individually obtain patent licenses, in effect making the program "
+#~ "proprietary. To prevent this, we have made it clear that any patent must "
+#~ "be licensed for everyone's free use or not licensed at all.\n"
+#~ "\n"
+#~ "The precise terms and conditions for copying, distribution and "
+#~ "modification follow.\n"
+#~ "\n"
+#~ "\t\t GNU GENERAL PUBLIC LICENSE\n"
+#~ "TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n"
+#~ "\n"
+#~ "0. This License applies to any program or other work which contains a "
+#~ "notice placed by the copyright holder saying it may be distributed under "
+#~ "the terms of this General Public License. The \"Program\", below, refers "
+#~ "to any such program or work, and a \"work based on the Program\" means "
+#~ "either the Program or any derivative work under copyright law: that is to "
+#~ "say, a work containing the Program or a portion of it, either verbatim or "
+#~ "with modifications and/or translated into another language. (Hereinafter, "
+#~ "translation is included without limitation in the term \"modification\".) "
+#~ "Each licensee is addressed as \"you\".\n"
+#~ "\n"
+#~ "Activities other than copying, distribution and modification are not "
+#~ "covered by this License; they are outside its scope. The act of running "
+#~ "the Program is not restricted, and the output from the Program is covered "
+#~ "only if its contents constitute a work based on the Program (independent "
+#~ "of having been made by running the Program). Whether that is true depends "
+#~ "on what the Program does.\n"
+#~ "\n"
+#~ "1. You may copy and distribute verbatim copies of the Program's source "
+#~ "code as you receive it, in any medium, provided that you conspicuously "
+#~ "and appropriately publish on each copy an appropriate copyright notice "
+#~ "and disclaimer of warranty; keep intact all the notices that refer to "
+#~ "this License and to the absence of any warranty; and give any other "
+#~ "recipients of the Program a copy of this License along with the Program.\n"
+#~ "\n"
+#~ "You may charge a fee for the physical act of transferring a copy, and you "
+#~ "may at your option offer warranty protection in exchange for a fee.\n"
+#~ "\n"
+#~ "2. You may modify your copy or copies of the Program or any portion of "
+#~ "it, thus forming a work based on the Program, and copy and distribute "
+#~ "such modifications or work under the terms of Section 1 above, provided "
+#~ "that you also meet all of these conditions:\n"
+#~ "\n"
+#~ "a) You must cause the modified files to carry prominent notices\n"
+#~ "stating that you changed the files and the date of any change.\n"
+#~ "\n"
+#~ "b) You must cause any work that you distribute or publish, that in\n"
+#~ "whole or in part contains or is derived from the Program or any\n"
+#~ "part thereof, to be licensed as a whole at no charge to all third\n"
+#~ "parties under the terms of this License.\n"
+#~ "\n"
+#~ "c) If the modified program normally reads commands interactively\n"
+#~ "when run, you must cause it, when started running for such\n"
+#~ "interactive use in the most ordinary way, to print or display an\n"
+#~ "announcement including an appropriate copyright notice and a\n"
+#~ "notice that there is no warranty (or else, saying that you provide\n"
+#~ "a warranty) and that users may redistribute the program under\n"
+#~ "these conditions, and telling the user how to view a copy of this\n"
+#~ "License. (Exception: if the Program itself is interactive but\n"
+#~ "does not normally print such an announcement, your work based on\n"
+#~ "the Program is not required to print an announcement.)\n"
+#~ "\n"
+#~ "These requirements apply to the modified work as a whole. If identifiable "
+#~ "sections of that work are not derived from the Program, and can be "
+#~ "reasonably considered independent and separate works in themselves, then "
+#~ "this License, and its terms, do not apply to those sections when you "
+#~ "distribute them as separate works. But when you distribute the same "
+#~ "sections as part of a whole which is a work based on the Program, the "
+#~ "distribution of the whole must be on the terms of this License, whose "
+#~ "permissions for other licensees extend to the entire whole, and thus to "
+#~ "each and every part regardless of who wrote it.\n"
+#~ "\n"
+#~ "Thus, it is not the intent of this section to claim rights or contest "
+#~ "your rights to work written entirely by you; rather, the intent is to "
+#~ "exercise the right to control the distribution of derivative or "
+#~ "collective works based on the Program.\n"
+#~ "\n"
+#~ "In addition, mere aggregation of another work not based on the Program "
+#~ "with the Program (or with a work based on the Program) on a volume of a "
+#~ "storage or distribution medium does not bring the other work under the "
+#~ "scope of this License.\n"
+#~ "\n"
+#~ "3. You may copy and distribute the Program (or a work based on it, under "
+#~ "Section 2) in object code or executable form under the terms of Sections "
+#~ "1 and 2 above provided that you also do one of the following:\n"
+#~ "\n"
+#~ "a) Accompany it with the complete corresponding machine-readable\n"
+#~ "source code, which must be distributed under the terms of Sections\n"
+#~ "1 and 2 above on a medium customarily used for software interchange; or,\n"
+#~ "\n"
+#~ "b) Accompany it with a written offer, valid for at least three\n"
+#~ "years, to give any third party, for a charge no more than your\n"
+#~ "cost of physically performing source distribution, a complete\n"
+#~ "machine-readable copy of the corresponding source code, to be\n"
+#~ "distributed under the terms of Sections 1 and 2 above on a medium\n"
+#~ "customarily used for software interchange; or,\n"
+#~ "\n"
+#~ "c) Accompany it with the information you received as to the offer\n"
+#~ "to distribute corresponding source code. (This alternative is\n"
+#~ "allowed only for noncommercial distribution and only if you\n"
+#~ "received the program in object code or executable form with such\n"
+#~ "an offer, in accord with Subsection b above.)\n"
+#~ "\n"
+#~ "The source code for a work means the preferred form of the work for "
+#~ "making modifications to it. For an executable work, complete source code "
+#~ "means all the source code for all modules it contains, plus any "
+#~ "associated interface definition files, plus the scripts used to control "
+#~ "compilation and installation of the executable. However, as a special "
+#~ "exception, the source code distributed need not include anything that is "
+#~ "normally distributed (in either source or binary form) with the major "
+#~ "components (compiler, kernel, and so on) of the operating system on which "
+#~ "the executable runs, unless that component itself accompanies the "
+#~ "executable.\n"
+#~ "\n"
+#~ "If distribution of executable or object code is made by offering access "
+#~ "to copy from a designated place, then offering equivalent access to copy "
+#~ "the source code from the same place counts as distribution of the source "
+#~ "code, even though third parties are not compelled to copy the source "
+#~ "along with the object code.\n"
+#~ "\n"
+#~ "4. You may not copy, modify, sublicense, or distribute the Program except "
+#~ "as expressly provided under this License. Any attempt otherwise to copy, "
+#~ "modify, sublicense or distribute the Program is void, and will "
+#~ "automatically terminate your rights under this License. However, parties "
+#~ "who have received copies, or rights, from you under this License will not "
+#~ "have their licenses terminated so long as such parties remain in full "
+#~ "compliance.\n"
+#~ "\n"
+#~ "5. You are not required to accept this License, since you have not signed "
+#~ "it. However, nothing else grants you permission to modify or distribute "
+#~ "the Program or its derivative works. These actions are prohibited by law "
+#~ "if you do not accept this License. Therefore, by modifying or "
+#~ "distributing the Program (or any work based on the Program), you indicate "
+#~ "your acceptance of this License to do so, and all its terms and "
+#~ "conditions for copying, distributing or modifying the Program or works "
+#~ "based on it.\n"
+#~ "\n"
+#~ "6. Each time you redistribute the Program (or any work based on the "
+#~ "Program), the recipient automatically receives a license from the "
+#~ "original licensor to copy, distribute or modify the Program subject to "
+#~ "these terms and conditions. You may not impose any further restrictions "
+#~ "on the recipients' exercise of the rights granted herein. You are not "
+#~ "responsible for enforcing compliance by third parties to this License.\n"
+#~ "\n"
+#~ "7. If, as a consequence of a court judgment or allegation of patent "
+#~ "infringement or for any other reason (not limited to patent issues), "
+#~ "conditions are imposed on you (whether by court order, agreement or "
+#~ "otherwise) that contradict the conditions of this License, they do not "
+#~ "excuse you from the conditions of this License. If you cannot distribute "
+#~ "so as to satisfy simultaneously your obligations under this License and "
+#~ "any other pertinent obligations, then as a consequence you may not "
+#~ "distribute the Program at all. For example, if a patent license would not "
+#~ "permit royalty-free redistribution of the Program by all those who "
+#~ "receive copies directly or indirectly through you, then the only way you "
+#~ "could satisfy both it and this License would be to refrain entirely from "
+#~ "distribution of the Program.\n"
+#~ "\n"
+#~ "If any portion of this section is held invalid or unenforceable under any "
+#~ "particular circumstance, the balance of the section is intended to apply "
+#~ "and the section as a whole is intended to apply in other circumstances.\n"
+#~ "\n"
+#~ "It is not the purpose of this section to induce you to infringe any "
+#~ "patents or other property right claims or to contest validity of any such "
+#~ "claims; this section has the sole purpose of protecting the integrity of "
+#~ "the free software distribution system, which is implemented by public "
+#~ "license practices. Many people have made generous contributions to the "
+#~ "wide range of software distributed through that system in reliance on "
+#~ "consistent application of that system; it is up to the author/donor to "
+#~ "decide if he or she is willing to distribute software through any other "
+#~ "system and a licensee cannot impose that choice.\n"
+#~ "\n"
+#~ "This section is intended to make thoroughly clear what is believed to be "
+#~ "a consequence of the rest of this License.\n"
+#~ "\n"
+#~ "8. If the distribution and/or use of the Program is restricted in certain "
+#~ "countries either by patents or by copyrighted interfaces, the original "
+#~ "copyright holder who places the Program under this License may add an "
+#~ "explicit geographical distribution limitation excluding those countries, "
+#~ "so that distribution is permitted only in or among countries not thus "
+#~ "excluded. In such case, this License incorporates the limitation as if "
+#~ "written in the body of this License.\n"
+#~ "\n"
+#~ "9. The Free Software Foundation may publish revised and/or new versions "
+#~ "of the General Public License from time to time. Such new versions will "
+#~ "be similar in spirit to the present version, but may differ in detail to "
+#~ "address new problems or concerns.\n"
+#~ "\n"
+#~ "Each version is given a distinguishing version number. If the Program "
+#~ "specifies a version number of this License which applies to it and \"any "
+#~ "later version\", you have the option of following the terms and "
+#~ "conditions either of that version or of any later version published by "
+#~ "the Free Software Foundation. If the Program does not specify a version "
+#~ "number of this License, you may choose any version ever published by the "
+#~ "Free Software Foundation.\n"
+#~ "\n"
+#~ "10. If you wish to incorporate parts of the Program into other free "
+#~ "programs whose distribution conditions are different, write to the author "
+#~ "to ask for permission. For software which is copyrighted by the Free "
+#~ "Software Foundation, write to the Free Software Foundation; we sometimes "
+#~ "make exceptions for this. Our decision will be guided by the two goals of "
+#~ "preserving the free status of all derivatives of our free software and of "
+#~ "promoting the sharing and reuse of software generally.\n"
+#~ "\n"
+#~ "\t\t\t NO WARRANTY\n"
+#~ "\n"
+#~ "11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY "
+#~ "FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN "
+#~ "OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES "
+#~ "PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER "
+#~ "EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED "
+#~ "WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE "
+#~ "ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. "
+#~ "SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY "
+#~ "SERVICING, REPAIR OR CORRECTION.\n"
+#~ "\n"
+#~ "12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING "
+#~ "WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR "
+#~ "REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR "
+#~ "DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL "
+#~ "DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING "
+#~ "BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR "
+#~ "LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO "
+#~ "OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS "
+#~ "BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+
+#~ msgid "Keyboard Toggle"
+#~ msgstr "Tastaturumschalter"
+
+#~ msgid "Flag Scale"
+#~ msgstr "Flagge skalieren"
+
+#~ msgid "Flag Overlay"
+#~ msgstr "Flagge einblenden"
+
+#~ msgid "Monitor Web Feeds"
+#~ msgstr "Web-Feeds beobachten"
+
+#~ msgid "Tooltip background color 2."
+#~ msgstr "Hintergrundfarbe 2 der Minihilfe."
+
+#~ msgid "Tooltip border color."
+#~ msgstr "Rahmenfarbe der Minihilfe."
+
+#~ msgid "Tooltip background color 1."
+#~ msgstr "Hintergrundfarbe 1 der Minihilfe."
+
+#~ msgid "Tooltip text color."
+#~ msgstr "Schriftfarbe in der Minihilfe."
+
+#~ msgid "Tooltip font name."
+#~ msgstr "Schriftart in der Minihilfe."
+
+#~ msgid "Use Awn's tooltip font."
+#~ msgstr "AWN-Minihilfenschriftart verwenden,"
+
+#~ msgid " Upload/Download"
+#~ msgstr " Hochladen/Herunterladen"
+
+#~ msgid "large)."
+#~ msgstr "groß)."
+
+#~ msgid "Fahrenheit)."
+#~ msgstr "Fahrenheit)."
+
+#~ msgid "File operation to use."
+#~ msgstr "Datei-Operation, die ausgeführt werden soll."
+
+#~ msgid "Close dialog on focusout."
+#~ msgstr "Dialog schließen, wenn der Fokus verloren geht."
+
+#~ msgid "Icon to use for empty stack."
+#~ msgstr "Symbol für leeren Stapel."
+
+#~ msgid "Icon to use for full stack."
+#~ msgstr "Symbol für vollen Stapel."
+
+#~ msgid "Label hover border color."
+#~ msgstr "Rahmenfarbe der Beschriftung, wenn die Maus darüberfährt."
+
+#~ msgid "Label hover background color."
+#~ msgstr "Hintergrundfarbe der Beschriftung, wenn die Maus darüberfährt."
+
+#~ msgid "Label border color."
+#~ msgstr "Rahmenfarbe der Beschriftung."
+
+#~ msgid "Label background color."
+#~ msgstr "Hintergrundfarbe der Beschriftung."
+
+#~ msgid "Layout direction."
+#~ msgstr "Layout-Richtung."
+
+#~ msgid "Label text hover color."
+#~ msgstr "Schriftfarbe der Beschriftung, wenn die Maus darüberfährt."
+
+#~ msgid "Label text color."
+#~ msgstr "Schriftfarbe der Beschriftung."
+
+#~ msgid "Label length."
+#~ msgstr "Länge der Beschriftung."
+
+#~ msgid "Layout radius."
+#~ msgstr "Layout-Radius."
+
+#~ msgid "Layout interval."
+#~ msgstr "Layout-Intervall."
+
+#~ msgid "Stacks backend file/directory."
+#~ msgstr "Stapel-Backend Datei/Ordner."
+
+#~ msgid "Stack tooltip description."
+#~ msgstr "Minihilfen-Beschreibung des Stapels."
+
+#~ msgid "Size of the icons inside stack."
+#~ msgstr "Größe der Symbole im Stapel."
+
+#~ msgid "Sort direction of the items."
+#~ msgstr "Sortierungsrichtung der Objekte."
+
+#~ msgid "Number of columns to use."
+#~ msgstr "Anzahl der Spalten, die benutzt werden sollen."
+
+#~ msgid "Type of UI used for the stack."
+#~ msgstr "Art der Benutzeroberfläche für den Stapel."
+
+#~ msgid ""
+#~ "Backend type for this applet (0 - file, 1 - folder, 2 - plugger, 3 - "
+#~ "trasher, 4 - recent files)."
+#~ msgstr ""
+#~ "Backend-Typ für dieses Applet (0 - Datei, 1 - Ordner, 2 - Plugger, 3 - "
+#~ "Trasher, 4 - zuletzt geöffnete Dokumente)."
+
+#~ msgid "Whether tooltips are enabled."
+#~ msgstr "Bestimmt, ob Minihilfen aktiviert sind."
+
+#~ msgid "Hoverbox background color 2."
+#~ msgstr "Hoverbox-Hintergrundfarbe 2."
+
+#~ msgid "Hoverbox border color."
+#~ msgstr "Hoverbox-Rahmenfarbe."
+
+#~ msgid "Hoverbox background color 1."
+#~ msgstr "Hoverbox-Hintergrundfarbe 1."
+
+#~ msgid "Whether hoverbox contains label."
+#~ msgstr "Bestimmt, ob die Hoverbox eine Beschriftung enthält."
+
+#~ msgid "Display number of items in the stack."
+#~ msgstr "Anzahl der Objekte im Stapel anzeigen."
+
+#~ msgid ""
+#~ "Whether to combine icons of the files inside the stacks with its icon."
+#~ msgstr ""
+#~ "Bestimmt, ob die Dateisymbole im Stapel mit seinem Symbol kombiniert "
+#~ "werden."
+
+#~ msgid "Whether to browse stack contents."
+#~ msgstr "Bestimmt, ob die Stapelinhalte durchstöbert werden können."
+
+#~ msgid "Install one or more of the following GStreamer elements: %s."
+#~ msgstr ""
+#~ "Installieren Sie eines oder mehrere der folgenden GStreamer-Elemente: %s."
+
+#~ msgid "Sort method to use (1 - sort by name, 2 - sort by date)."
+#~ msgstr "Zu verwendende Sortiermethode (1 – nach Name, 2 – nach Datum)."
+
+#~ msgid "No mixer found"
+#~ msgstr "Kein Mischer gefunden"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "IP Address"
+#~ msgstr "IP-Adresse"
+
+#~ msgid "Subnet Mask"
+#~ msgstr "Netzmaske"
+
+#~ msgid "My favourite Places"
+#~ msgstr "Meine Lieblingsorte"
+
+#~ msgid "Search for Files..."
+#~ msgstr "Nach Dateien suchen …"
+
+#~ msgid "Locate documents and folders on this computer by name or content"
+#~ msgstr ""
+#~ "Dateien und Ordner auf diesem Computer nach Namen oder Inhalt suchen"
+
+#~ msgid "Browse bookmarked and local network locations"
+#~ msgstr "Lesezeichen und lokale Netzwerke durchsuchen"
+
+#~ msgid ""
+#~ "Browse all local and remote disks and folders accessible from this "
+#~ "computer"
+#~ msgstr ""
+#~ "Alle lokalen und entfernten Datenträger und Ordner, die verfügbar sind, "
+#~ "durchsuchen"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD-Ersteller"
+
+#~ msgid "Open a folder into which you can drag files to burn to a CD or DVD"
+#~ msgstr ""
+#~ "Öffnet einen Ordner, in den Sie Dateien ziehen können, die auf eine CD "
+#~ "oder DVD gebrannt werden sollen"
+
+#~ msgid "<i><small>large</small></i>"
+#~ msgstr "<i><small>groß</small></i>"
+
+#~ msgid "<i><small>opaque</small></i>"
+#~ msgstr "<i><small>deckend</small></i>"
+
+#~ msgid "<i><small>small</small></i>"
+#~ msgstr "<i><small>klein</small></i>"
+
+#~ msgid "<i><small>transparent</small></i>"
+#~ msgstr "<i><small>transparent</small></i>"

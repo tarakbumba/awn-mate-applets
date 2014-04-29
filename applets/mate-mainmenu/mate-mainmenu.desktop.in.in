@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-AWN-Type=Applet
+X-AWN-AppletType=C
+_Name=Awn Mate MainMenu
+_Comment=A Mate main menu for Awn
+Exec=awn-applet -p %k
+X-AWN-AppletExec=@LIBDIR@/awn/applets/mate-mainmenu/mate-mainmenu.so
+Icon=gnome-main-menu
+X-AWN-AppletCategory=Utility

@@ -1,0 +1,736 @@
+# Norwegian Bokmaal translation.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Ketil Wendelbo Aanensen <ketil.w.aanensen@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:16+0300\n"
+"PO-Revision-Date: 2010-10-11 23:26+0000\n"
+"Last-Translator: Michal Hruby <michal.mhr@gmail.com>\n"
+"Language-Team: Norwegian Bokmaal <ketil.w.aanensen@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+msgid "A Mate Main Menu."
+msgstr ""
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "Slå av"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "Skrivebord"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+msgid "Awn Mate MainMenu"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+msgid "Lock MATE Screen"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+#, fuzzy
+msgid "Show Docklet"
+msgstr "Vis skrivebordet"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+#, fuzzy
+msgid "Log Out"
+msgstr "Logg inn"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+#, fuzzy
+msgid "Shut Down"
+msgstr "Slå av"
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#~ msgid "Animal Farm"
+#~ msgstr "Dyre farmen"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "Vis lykkekake beskjeder"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "Globale snarveier som brukes for å aktivere terminalen"
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr "Avgjør om appleten skal gjemme seg selv når den mister fokus."
+
+#~ msgid "The applet's background image."
+#~ msgstr "Appletens bakgrunnsbilde"
+
+#~ msgid "Disabled"
+#~ msgstr "Uaktiv"
+
+#~ msgid "Preferences"
+#~ msgstr "Innstillinger"
+
+#~ msgid "Behavior"
+#~ msgstr "Adferd"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "Gjemm når fokus mistes"
+
+#~ msgid "Action"
+#~ msgstr "Handling"
+
+#~ msgid "Shortcut"
+#~ msgstr "Snarvei"
+
+#~ msgid "Activate"
+#~ msgstr "Aktivér"
+
+#~ msgid "Background image"
+#~ msgstr "Bakgrunnsbilde"
+
+#~ msgid "Select a file"
+#~ msgstr "Velg en fil"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "Terminal opasitet"
+
+#~ msgid "External Terminal"
+#~ msgstr "Ekstern terminal"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "En enkel sprettopp-terminal"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "Terminal applet"
+
+#~ msgid "Color to draw the background"
+#~ msgstr "Farge å male bakgrunnen med"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "Farge å male rammen med"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "Vis parameterene for grensesnitt"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "Mal applet bakgrunnen"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "Mal applet rammen"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "Båndbreddeovervåker"
+
+#~ msgid "Scanning"
+#~ msgstr "Skanner"
+
+#~ msgid "Devices"
+#~ msgstr "Enheter"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>Skjerm</b>"
+
+#~ msgid "Background Color"
+#~ msgstr "Bakgrunnsfarge"
+
+#~ msgid "Border Color"
+#~ msgstr "Kantfarge"
+
+#~ msgid "Draw Border"
+#~ msgstr "Tegn kant"
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "Sum"
+#~ msgstr "Sum"
+
+#~ msgid "Device"
+#~ msgstr "Enhet"
+
+#~ msgid "Upload"
+#~ msgstr "Opplastinger"
+
+#~ msgid "Download"
+#~ msgstr "Nedlastinger"
+
+#~ msgid "Battery"
+#~ msgstr "Batteri"
+
+#~ msgid "Percent"
+#~ msgstr "Prosent"
+
+#~ msgid "Time Remaining"
+#~ msgstr "Tid som gjenstår"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>Generelle valg</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>Varslinger</b>"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tema:"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Today"
+#~ msgstr "I dag"
+
+#~ msgid "Search"
+#~ msgstr "Søk"
+
+#~ msgid "Username:"
+#~ msgstr "Brukernavn:"
+
+#~ msgid "Password:"
+#~ msgstr "Passord:"
+
+#~ msgid "Interface"
+#~ msgstr "Grensesnitt"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Miniprogram for e-post"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "Du har %d ny beskjed"
+#~ msgstr[1] "Du har %d nye beskjeder"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d ulest beskjed"
+#~ msgstr[1] "%d uleste beskjeder"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Miniprogram for e-post (klikk for å logge inn)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Logger inn som %s"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Ny e-post - Miniprogram for e-post"
+
+#~ msgid "Backend"
+#~ msgstr "Bakstykke"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[Intet emne]"
+
+#~ msgid "Domain:"
+#~ msgstr "Domene:"
+
+#~ msgid "Server:"
+#~ msgstr "Tjener:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "Bruk SSL-kryptering"
+
+#~ msgid "Could not log in"
+#~ msgstr "Kunne ikke logge inn"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Et miniprogram for å sjekke e-post"
+
+#~ msgid "Hides your windows and shows your desktop."
+#~ msgstr "Gjemmer dine vinduer og viser ditt skrivebord."
+
+#~ msgid "Hide windows and show desktop"
+#~ msgstr "Skjul vinduer og vis skrivebordet"
+
+#~ msgid "Forecast"
+#~ msgstr "Værvarsel"
+
+#~ msgid "Tomorrow"
+#~ msgstr "I morgen"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "Værdata fremskaffet av weather.com"
+
+#~ msgid "Blowing Snow"
+#~ msgstr "Blåsende snø"
+
+#~ msgid "Blustery"
+#~ msgstr "Kastevind"
+
+#~ msgid "Clear"
+#~ msgstr "Klart"
+
+#~ msgid "Cloudy"
+#~ msgstr "Skyet"
+
+#~ msgid "Cold"
+#~ msgstr "Kaldt"
+
+#~ msgid "Drizzle"
+#~ msgstr "Duskregn"
+
+#~ msgid "Dust"
+#~ msgstr "Støv"
+
+#~ msgid "Fair"
+#~ msgstr "Pent"
+
+#~ msgid "Fog"
+#~ msgstr "Tåke"
+
+#~ msgid "Freezing Drizzle"
+#~ msgstr "Frysende duskregn"
+
+#~ msgid "Freezing Rain"
+#~ msgstr "Frysende regn"
+
+#~ msgid "Hail"
+#~ msgstr "Hagl"
+
+#~ msgid "Haze"
+#~ msgstr "Dis"
+
+#~ msgid "Heavy Snow"
+#~ msgstr "Kraftig snø"
+
+#~ msgid "Hot"
+#~ msgstr "Varmt"
+
+#~ msgid "Hurricane"
+#~ msgstr "Orkan"
+
+#~ msgid "Isolated Thunderstorms"
+#~ msgstr "Lokal torden"
+
+#~ msgid "Light Snow Showers"
+#~ msgstr "Lette snøbyger"
+
+#~ msgid "Mixed Precipitation"
+#~ msgstr "Blandet nedbør"
+
+#~ msgid "Mixed Rain and Hail"
+#~ msgstr "Blandet regn og hagl"
+
+#~ msgid "Mixed Rain and Sleet"
+#~ msgstr "Blandet regn og sludd"
+
+#~ msgid "Mixed Rain and Snow"
+#~ msgstr "Blandet regn og snø"
+
+#~ msgid "Mostly Cloudy"
+#~ msgstr "For det meste skyet"
+
+#~ msgid "N/A"
+#~ msgstr "Ikke tilgjengelig"
+
+#~ msgid "Partly Cloudy"
+#~ msgstr "Delvis skyet"
+
+#~ msgid "Scattered Showers"
+#~ msgstr "Spredt nedbør"
+
+#~ msgid "Scattered Snow Showers"
+#~ msgstr "Spredte snøbyger"
+
+#~ msgid "Scattered Thunderstorms"
+#~ msgstr "Spredt torden"
+
+#~ msgid "Severe Thunderstorms"
+#~ msgstr "Voldsom torden"
+
+#~ msgid "Showers"
+#~ msgstr "Byger"
+
+#~ msgid "Sleet"
+#~ msgstr "Sludd"
+
+#~ msgid "Smoke"
+#~ msgstr "Røyk"
+
+#~ msgid "Snow"
+#~ msgstr "Snø"
+
+#~ msgid "Snow Flurries"
+#~ msgstr "Snøfokk"
+
+#~ msgid "Snow Showers"
+#~ msgstr "Snøbyger"
+
+#~ msgid "Thunder Showers"
+#~ msgstr "Tordenbyger"
+
+#~ msgid "Thunderstorms"
+#~ msgstr "Torden"
+
+#~ msgid "Tornado"
+#~ msgstr "Tornado"
+
+#~ msgid "Tropical Storm"
+#~ msgstr "Tropisk storm"
+
+#~ msgid "Windy"
+#~ msgstr "Vind"
+
+#~ msgid "Monday"
+#~ msgstr "Mandag"
+
+#~ msgid "Tuesday"
+#~ msgstr "Tirsdag"
+
+#~ msgid "Wednesday"
+#~ msgstr "Onsdag"
+
+#~ msgid "Thursday"
+#~ msgstr "Torsdag"
+
+#~ msgid "Friday"
+#~ msgstr "Fredag"
+
+#~ msgid "Saturday"
+#~ msgstr "Lørdag"
+
+#~ msgid "Sunday"
+#~ msgstr "Søndag"
+
+#~ msgid "Searching..."
+#~ msgstr "Søker..."
+
+#~ msgid "Metric Units"
+#~ msgstr "Metrisk måleenhet"
+
+#~ msgid "Keep Forecast window opened until clicked"
+#~ msgstr "Hold værvarslingsvinduet åpent til det klikkes"
+
+#~ msgid "Use Curved Dialog look"
+#~ msgstr "Buet dialogboks"
+
+#~ msgid "Lower Center"
+#~ msgstr "Nedre senter"
+
+#~ msgid "Lower Left"
+#~ msgstr "Nedre venstre"
+
+#~ msgid "Lower Right"
+#~ msgstr "Nedre høyre"
+
+#~ msgid "Upper Center"
+#~ msgstr "Øvre senter"
+
+#~ msgid "Upper Left"
+#~ msgstr "Øvre venstre"
+
+#~ msgid "Upper Right"
+#~ msgstr "Øvre høyre"
+
+#~ msgid "Show Temperature"
+#~ msgstr "Vis temperatur"
+
+#~ msgid "Fetching weather data."
+#~ msgstr "Henter værdata"
+
+#~ msgid " Upload/Download"
+#~ msgstr " Opplastning/ Nedlastning"
+
+#~ msgid " bytes)"
+#~ msgstr " byte)"
+
+#~ msgid "Sent"
+#~ msgstr "Sendt"
+
+#~ msgid "Received"
+#~ msgstr "Mottatt"
+
+#~ msgid "Sending"
+#~ msgstr "Sender"
+
+#~ msgid "Receiving"
+#~ msgstr "Mottar"
+
+#~ msgid "No"
+#~ msgstr "Nei"

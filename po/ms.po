@@ -1,0 +1,3338 @@
+# Malay translation for awn-mate-applets
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:16+0300\n"
+"PO-Revision-Date: 2010-10-11 23:24+0000\n"
+"Last-Translator: Michal Hruby <michal.mhr@gmail.com>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "Tempat"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "Dokumen Kebelakangan"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr "Sesi"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr "Menu Utama"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate Main Menu."
+msgstr "Menu Utama Awn"
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr "Log keluar"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "Kunci Skrin"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr "Gantung"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr "Hibernasi"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "Matikan"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "Komputer"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "Rumah"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "Atas Meja"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "Tong Sampah"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr "Fail Sistem"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "Rangkaian"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "Sambung ke Pelayan"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr "Kosongkan Dokumen Kebelakangan"
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+#, fuzzy
+msgid "Awn Mate MainMenu"
+msgstr "Menu Utama Awn"
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr "Papar senarai semua aplikasi anda"
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate main menu for Awn"
+msgstr "Menu utama untuk Awn"
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr "Tindakan yang dilakukan apabila pengklikan kiri pada ikon."
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+#, fuzzy
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr "Perintah yang dijalankan jika org.gnome.SessionManager tiada."
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+#, fuzzy
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr "Perintah yang dijalankan jika org.gnome.ScreenSaver tiada."
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+#, fuzzy
+msgid "MATE Quit-Log Out applet"
+msgstr "Applet Tutup-Daftar Keluar"
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+#, fuzzy
+msgid "Exit or log out from your MATE session"
+msgstr "Applet untuk tutup atau daftar keluar sesi anda"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "Kunci Skrin"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+#, fuzzy
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr "Lindungi komputer anda daripada penggunaan yang tidak diingini"
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+#, fuzzy
+msgid "Log out of this Mate session to log in as a different user"
+msgstr "Daftar keluar dari sesi ini untuk daftar masuk sebagai pengguna lain"
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr "Tutup sistem"
+
+#: ../applets/mate-quit/mate-quit.py:34
+#, fuzzy
+msgid "Mate Quit/Log Out"
+msgstr "Applet Tutup-Daftar Keluar"
+
+#: ../applets/mate-quit/mate-quit.py:35
+#, fuzzy
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr "Applet untuk tutup atau daftar keluar sesi anda"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+#, fuzzy
+msgid "Show Docklet"
+msgstr "Papar Desktop"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "Daftar Keluar"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+#, fuzzy
+msgid "Shut Down"
+msgstr "Tutup..."
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr "Tutup..."
+
+#: ../applets/mate-quit/mate-quit.py:248
+#, fuzzy
+msgid "Left click _action:"
+msgstr "Klik Kiri"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+#, fuzzy
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr "Aplet Menu yang Lain"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr "Menu utama dengan tempat dan dokumen terbaru"
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr "Lindungi komputer anda daripada penggunaan yang tidak diingini"
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr "Folder Rumah"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr "Sambung ke Pelayan..."
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#~ msgid "Log Out..."
+#~ msgstr "Daftar keluar"
+
+#~ msgid "Animal Farm"
+#~ msgstr "Animal Farm"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "Papar mesej ramalan"
+
+#~ msgid "Applet that displays fortune messages"
+#~ msgstr "Aplet yang memaparkan mesej ramalan"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "Kekunci global digunakan untuk mengaktifkan terminal"
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr ""
+#~ "Tetapkan sama ada applet menyembunyikan diri apabila ia kehilangan fokus."
+
+#~ msgid "The applet's background image."
+#~ msgstr "Imej latar belakang applet."
+
+#~ msgid "The applet's opacity level."
+#~ msgstr "Aras kelegapan applet."
+
+#~ msgid "The default external terminal application."
+#~ msgstr "Aplikasi terminal luaran lalai."
+
+#~ msgid "Disabled"
+#~ msgstr "Dilumpuhkan"
+
+#~ msgid "Preferences"
+#~ msgstr "Tetapan"
+
+#~ msgid "Behavior"
+#~ msgstr "Ciri-ciri"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "Sembunyi apabila hilang fokus"
+
+#~ msgid "Action"
+#~ msgstr "Tindakan"
+
+#~ msgid "Shortcut"
+#~ msgstr "Pintas"
+
+#~ msgid "Activate"
+#~ msgstr "Aktifkan"
+
+#~ msgid "Background image"
+#~ msgstr "Imej latar belakang"
+
+#~ msgid "Select a file"
+#~ msgstr "Pilih fail"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "Kelegapan Terminal"
+
+#~ msgid "External Terminal"
+#~ msgstr "Terminal Luaran"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "Terminal timbul yang ringkas"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "Applet Terminal"
+
+#~ msgid "Color to draw the background"
+#~ msgstr "Warna pada latar belakang"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "Warna pada sempadan"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "Papar parameter untuk antara muka"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "Lukis latar belakang applet"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "Lukis sempadan applet"
+
+#~ msgid ""
+#~ "If enabled this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn"
+#~ msgstr ""
+#~ "Jika dibenarkan satu garisan dilukis pada bawah graf walaupun nilai ialah "
+#~ "0. Jika tidak ditanda, nilai dibawah 1 tidak akan dilukis"
+
+#~ msgid "Minimum threshold to draw meter (dependent upon DEFAULT/unit)"
+#~ msgstr "Ambang minimum semasa melukis meter (bergantung pada LALAI/unit)"
+
+#~ msgid "The interface currently selected"
+#~ msgstr "Antara muka semasa ini dipilih"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "Pantau Jalur Lebar"
+
+#~ msgid "Network Bandwidth monitor"
+#~ msgstr "Pantau Jalur Lebar Rangkaian"
+
+#~ msgid "Scanning"
+#~ msgstr "Mengimbas"
+
+#~ msgid "Devices"
+#~ msgstr "Peranti"
+
+#~ msgid "KBps"
+#~ msgstr "KBps"
+
+#~ msgid "Kbps"
+#~ msgstr "Kbps"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "Sila pilih Peranti Rangkaian yang sah"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr "Jumlah Dihantar: %s - Jumlah Diterima: %s (Semua Antara Muka)"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "Sila pilih peranti yang sah"
+
+#~ msgid "A Network Bandwidth monitor for AWN"
+#~ msgstr "Pemantau Jalur Lebar Rangkaian untuk AWN"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>Paparan</b>"
+
+#~ msgid "Background Color"
+#~ msgstr "Warna Latar Belakang"
+
+#~ msgid "Border Color"
+#~ msgstr "Warna Sempadan"
+
+#~ msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+#~ msgstr "Papar MBps/KBps (bait) sebagai ganti Mbps/Kbps"
+
+#~ msgid "Display Speed Text"
+#~ msgstr "Papar Kepantasan Teks"
+
+#~ msgid "Draw 0 bps in graphs"
+#~ msgstr "Lukis 0 bps didalam graf"
+
+#~ msgid "Draw Background"
+#~ msgstr "Lukis Latar Belakang"
+
+#~ msgid "Draw Border"
+#~ msgstr "Lukis Sempadan"
+
+#~ msgid "General"
+#~ msgstr "Am"
+
+#~ msgid "Graph Only"
+#~ msgstr "Graf Sahaja"
+
+#~ msgid "If this is checked, the common display unit will be Bytes"
+#~ msgstr "Jika ditanda, unit papar umum adalah Bait"
+
+#~ msgid "Minimum Scaling threshold"
+#~ msgstr "Penskalaan ambang minimum"
+
+#~ msgid "Sum"
+#~ msgstr "Jumlah"
+
+#~ msgid "Device"
+#~ msgstr "Peranti"
+
+#~ msgid "Multi"
+#~ msgstr "Multi"
+
+#~ msgid "Upload Color"
+#~ msgstr "Warna Muat Naik"
+
+#~ msgid "Download Color"
+#~ msgstr "Warna Muat Naik"
+
+#~ msgid "Upload"
+#~ msgstr "Muat Naik"
+
+#~ msgid "Download"
+#~ msgstr "Muat Turun"
+
+#~ msgid "%s %s Color"
+#~ msgstr "%s %s Warna"
+
+#~ msgid "Change Unit"
+#~ msgstr "Ubah Unit"
+
+#~ msgid "None"
+#~ msgstr "Tiada"
+
+#~ msgid "HAL UDI of battery."
+#~ msgstr "Bateri HAL UDI"
+
+#~ msgid ""
+#~ "If charge level drops below this threadhold, a warning will be displayed."
+#~ msgstr "Jika aras cas jatuh dibawah nilai ambang, amaran akan dipaparkan."
+
+#~ msgid "If charge level reaches this threshold, a notification will be sent."
+#~ msgstr "Jika aras cas mencapai nilai ambang, pemberitahuan akan dihantar."
+
+#~ msgid "If enabled, notify when the charge level reaches the high level."
+#~ msgstr ""
+#~ "jika dibenarkan, maklum apabila nilai cas mencapai aras  yang tinggi."
+
+#~ msgid ""
+#~ "If enabled, warn when the charge level drops below the warning threshold."
+#~ msgstr ""
+#~ "Jika dibenarkan, beri amaran jika nilai cas jatuh dibawah ambang amaran."
+
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "Nama Tema Ikon"
+
+#~ msgid "Unit of low level threshold (Percent or Time Remaining)."
+#~ msgstr "Unit ambang aras rendah (Peratus atau Baki Masa)"
+
+#~ msgid "Battery"
+#~ msgstr "Bateri"
+
+#~ msgid "Display battery state"
+#~ msgstr "Papar keadaan bateri"
+
+#~ msgid "Battery Status"
+#~ msgstr "Status Bateri"
+
+#~ msgid "An applet which displays battery information"
+#~ msgstr "Aplet yang memaparkan maklumat bateri"
+
+#~ msgid "No batteries"
+#~ msgstr "Tiada bateri"
+
+#~ msgid "Percent"
+#~ msgstr "Peratus"
+
+#~ msgid "Time Remaining"
+#~ msgstr "Baki Masa"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>Pilihan Am</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>Makluman</b>"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge level reaches a certain "
+#~ "percentage"
+#~ msgstr ""
+#~ "Jika dibenarkan, papar makluman apabila aras pengecasan telah mencapai "
+#~ "peratusan tertentu"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge levels drops too low"
+#~ msgstr ""
+#~ "Jika dibenarkan, papar makluman apabila aras pengecasan turun terlalu "
+#~ "rendah"
+
+#~ msgid "_Battery:"
+#~ msgstr "_Bateri:"
+
+#~ msgid "_Notify when charge level reaches:"
+#~ msgstr "_Maklum apabila aras pengecasan mencapai:"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tema:"
+
+#~ msgid "_Warn when charge level drops to:"
+#~ msgstr "_Beri amaran apabila aras pengecasan mencapai:"
+
+#~ msgid "A custom time format (strftime()), used if not empty."
+#~ msgstr "Format masa suai (strftime()), digunakan jika tidak kosong."
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too."
+#~ msgstr "Jika dibenarkan, selain jam dan minit, jarum saat akan dipaparkan."
+
+#~ msgid "If enabled, displays the weather as an overlay on top of the clock."
+#~ msgstr "Jika dibenarkan, papar cuaca sebagai tindihan atas jam."
+
+#~ msgid "If enabled, the date will be shown in the title."
+#~ msgstr "Jika dibenarkan, tarikh akan dipaparkan pada tajuk"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock."
+#~ msgstr "Jika dibenarkan, jarum saat akan dipaparkan pada jam."
+
+#~ msgid "List of cities and timezones separated by a '#' character."
+#~ msgstr "Senarai bandar dan zon masa dipisahkan dengan aksara ' # '."
+
+#~ msgid ""
+#~ "Show time in 24 hour format if enabled, or 12 hour format when disabled."
+#~ msgstr ""
+#~ "Papar masa dalam format 24 jam jikan dibenarkan, atau format 12 jam jika "
+#~ "dilumpuhkan."
+
+#~ msgid "Temperature unit (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+#~ msgstr "Unit suhu (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+
+#~ msgid "The name of the theme of the analog clock."
+#~ msgstr "Nama tema jam analog."
+
+#~ msgid "Wind speed unit (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+#~ msgstr ""
+#~ "Unit kelajuan angin (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+
+#~ msgid "Cairo Clock"
+#~ msgstr "Cairo Clock"
+
+#~ msgid ""
+#~ "Displays an analog clock and supports additional clocks for different "
+#~ "locations"
+#~ msgstr "Papar jam analog dan sokong jam tambahan untuk lokasi yang berbeza"
+
+#~ msgid ""
+#~ "Applet that displays an analog clock and supports additional clocks for "
+#~ "different locations"
+#~ msgstr ""
+#~ "Aplet yang memaparkan jam analog dan menyokong jam tambahan untuk lokasi "
+#~ "yang berbeza"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "12 _hour format"
+#~ msgstr "Format 1_2 Jam"
+
+#~ msgid "24 h_our format"
+#~ msgstr "Format 2_4 Jam"
+
+#~ msgid "<b>Clock Display</b>"
+#~ msgstr "<b>Paparan Jam</b>"
+
+#~ msgid "<b>Title Options</b>"
+#~ msgstr "<b>Pilihan Tajuk</b>"
+
+#~ msgid "Beaufort"
+#~ msgstr "Beaufort"
+
+#~ msgid "Celsius"
+#~ msgstr "Selsius"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "Fahrenheit"
+
+#~ msgid "Find _Next"
+#~ msgstr "Cari _Seterusnya"
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too"
+#~ msgstr "Jika dibenarkan, selain jam dan minit, saat juga akan dipaparkan"
+
+#~ msgid "If enabled, the date will be shown in the title"
+#~ msgstr "Jika dibenarkan, tarikh akan dipaparkan pada tajuk"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock"
+#~ msgstr "Jika dibenarkan, jarum saat akan dipaparkan pada jam"
+
+#~ msgid "If enabled, time will be shown like 1:23 AM"
+#~ msgstr "Jika dibenarkan, masa akan dipaparkan seperti 1:23 AM"
+
+#~ msgid "If enabled, time will be shown like 23:45"
+#~ msgstr "Jika dibenarkan, masa akan dipaparkan seperti 23:45"
+
+#~ msgid "Kelvin"
+#~ msgstr "Kelvin"
+
+#~ msgid "Location Name:"
+#~ msgstr "Nama Tempat:"
+
+#~ msgid "Show _seconds"
+#~ msgstr "Papar _saat"
+
+#~ msgid "Show seco_nds hand"
+#~ msgstr "Papar jarum saa_t"
+
+#~ msgid "Show the _date"
+#~ msgstr "Papar tari_kh"
+
+#~ msgid "_Show weather of current location"
+#~ msgstr "_Papar lokasi cuaca semasa"
+
+#~ msgid "_Temperature unit:"
+#~ msgstr "Uni_t suhu:"
+
+#~ msgid "_Wind speed unit:"
+#~ msgstr "Unit kelajuan a_ngin:"
+
+#~ msgid "km/h"
+#~ msgstr "km/j"
+
+#~ msgid "knots"
+#~ msgstr "knot"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "mph"
+#~ msgstr "bsj"
+
+#~ msgid "Locations"
+#~ msgstr "Lokasi"
+
+#~ msgid "Edit"
+#~ msgstr "Sunting"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Clock/Calendar Applet"
+#~ msgstr "Applet Jam/Kalendar"
+
+#~ msgid "Watch appointments on your dock"
+#~ msgstr "Mengawas temujanji di dock anda"
+
+#~ msgid "Login to "
+#~ msgstr "Log masuk ke "
+
+#~ msgid "Online Calendar"
+#~ msgstr "Kalendar Atas Talian"
+
+#~ msgid "Calendar Username"
+#~ msgstr "Nama Pengguna Kalendar"
+
+#~ msgid "Calendar Password"
+#~ msgstr "Kata Laluan Kalendar"
+
+#~ msgid "Save Password"
+#~ msgstr "Simpan Kata Laluan"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "Anda telah memilih untuk menyimpan kata laluan anda. Walaupun kata laluan "
+#~ "tersebut disimpan dalam format yang diinkripsikan, masih ada cara kata "
+#~ "laluan anda akan dicuri atau dinyahinkripsikan jika keselamatan komputer "
+#~ "anda ditembusi. Anda pasti hendak menyimpan kata laluan anda?"
+
+#~ msgid "Classic LCD"
+#~ msgstr "LCD Klasik"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "LCD Indy Glow"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "LCD Cahaya Latar Amber"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "LCD Cahaya Latar Hijau"
+
+#~ msgid "Green LED"
+#~ msgstr "LED Hijau"
+
+#~ msgid "Red LED"
+#~ msgstr "LED Merah"
+
+#~ msgid "Blue LED"
+#~ msgstr "LED Biru"
+
+#~ msgid "Plain White"
+#~ msgstr "Putih"
+
+#~ msgid "Plain Black"
+#~ msgstr "Hitam"
+
+#~ msgid "Red"
+#~ msgstr "Merah"
+
+#~ msgid "Green"
+#~ msgstr "Hijau"
+
+#~ msgid "Blue"
+#~ msgstr "Biru"
+
+#~ msgid "Gray"
+#~ msgstr "Kelabu"
+
+#~ msgid "Black"
+#~ msgstr "Hitam"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "Dua Belas Jam"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "Penampilan Jam"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "Rupa Kalendar"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Kalendar Google"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Outlook Web Access"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "Integrasi Kalendar"
+
+#~ msgid "Calendar URL"
+#~ msgstr "URL Kalendar"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalendar"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "Anda pasti hendak memadam kata laluan kalendar anda dari applet kalendar? "
+#~ "Jika anda pilih untuk mengosongkan kata laluan anda, anda akan dinyatakan "
+#~ "lagi sekali log masuk kalendar anda."
+
+#~ msgid "Open in "
+#~ msgstr "Buka dalam "
+
+#~ msgid "Today"
+#~ msgstr "Hari Ini"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "Tidak dapat membaca data kalendar dari sumber luar."
+
+#~ msgid "No appointments."
+#~ msgstr "Tiada temu janji."
+
+#~ msgid "No appointments"
+#~ msgstr "Tiada temujanji"
+
+#~ msgid "The user agent to send when retrieving comics."
+#~ msgstr "Agen pengguna menghantar ketika memuatkan komik."
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr "Gagal memuat turun %s. tekan \"next\" untuk cuba lagi."
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr "URL suapan komik tidak sah. Tekan \"next\" untuk cuba lagi"
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "Menyambung ke <i>%s</i>..."
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "Panduan ini sudah tamat.\n"
+#~ "\n"
+#~ "Tekan \"apply\" untuk tambah <i>%s</i>."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "Temui <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Comics!"
+#~ msgstr "Komik!"
+
+#~ msgid "View your favourite comics on your desktop"
+#~ msgstr "Baca komik kegemaran anda di desktop anda"
+
+#~ msgid "Shared comics"
+#~ msgstr "Kongsi komik"
+
+#~ msgid "Your comics"
+#~ msgstr "Komik anda"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "Gagal membuang <i>%s</i>."
+
+#~ msgid "Error"
+#~ msgstr "Ralat"
+
+#~ msgid "Comics"
+#~ msgstr "Komik"
+
+#~ msgid "Manage Comics"
+#~ msgstr "Urus Komik"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "Ada kartun baru %s!"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A %d %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "Gagal menyimpan  <i>%s</i>."
+
+#~ msgid "Add Comic"
+#~ msgstr "Tambah Komik"
+
+#~ msgid "Downloading Comic"
+#~ msgstr "Muat Turun Komik"
+
+#~ msgid "Enter the URL of the RSS feed:"
+#~ msgstr "Masukkan URL dari suapan RSS:"
+
+#~ msgid "Ready to add comic!"
+#~ msgstr "Sedia untuk menambah komik!"
+
+#~ msgid "Select Comic"
+#~ msgstr "Pilih Komik"
+
+#~ msgid "Select Image"
+#~ msgstr "Pilih Imej"
+
+#~ msgid "The guide found more than one image. Please select which one to use."
+#~ msgstr ""
+#~ "Juru Pandu menemui lebih dari satu imej. Sila pilh yang akan digunakan."
+
+#~ msgid ""
+#~ "This guide will help you to add a new comic.\n"
+#~ "\n"
+#~ "To find comics suitable for adding, you may search the Internet for "
+#~ "\"comics rss\".\n"
+#~ "\n"
+#~ "Press \"next\" to proceed."
+#~ msgstr ""
+#~ "Juru Pandu akan membantu anda menambah komik baru.\n"
+#~ "\n"
+#~ "Untuk mencari komik yang sesuai, anda boleh menggelintar internet untuk "
+#~ "carian \"comics rss\".\n"
+#~ "\n"
+#~ "Tekan \"next\" untuk teruskan."
+
+#~ msgid "Manage comics"
+#~ msgstr "Urus komik"
+
+#~ msgid "The following comics are installed:"
+#~ msgstr "Komik yang telah dipasang:"
+
+#~ msgid "Show link"
+#~ msgstr "Papar pautan"
+
+#~ msgid "Size"
+#~ msgstr "Saiz"
+
+#~ msgid "Unknown command sent: %s"
+#~ msgstr "Arahan tidak diketahui dihantar: %s"
+
+#~ msgid "Index of processor."
+#~ msgstr "Indeks pemproses"
+
+#~ msgid "An applet to monitor and control the CPU frequency"
+#~ msgstr "Applet untuk memantau dan mengawal frekuensi CPU"
+
+#~ msgid "CPU Frequency Monitor"
+#~ msgstr "Pemantau Frekuensi CPU"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>Scaling unavailable</b></span>\n"
+#~ "\n"
+#~ "Frequency scaling is not\n"
+#~ "available for the selected CPU."
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Penskalaan tiada</b></span>\n"
+#~ "\n"
+#~ "Penskalaan Frekuensi tidak disediakan\n"
+#~ "untuk CPU yang dipilih."
+
+#~ msgid "GHz"
+#~ msgstr "GHz"
+
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgid "<b>Monitored CPU</b>"
+#~ msgstr "<b>CPU yang Dipantau</b>"
+
+#~ msgid "_Processor:"
+#~ msgstr "_Pemproses:"
+
+#~ msgid "Can change layout with scroll wheel."
+#~ msgstr "Boleh menukar bentangan menggunakan roda tatal"
+
+#~ msgid "Flag opacity (min: 0.0, max: 0.9)."
+#~ msgstr "Kelegapan bendera (min: 0.0, maks: 0.9)."
+
+#~ msgid "Flag size compared to icon (min: 0.1, max: 0.9)."
+#~ msgstr "Saiz bendera yang dibandingkan dengan ikon (min: 0.1, maks:0.9)."
+
+#~ msgid ""
+#~ "Keyboard toggle to change selected layout (see prefs dialog for values)."
+#~ msgstr ""
+#~ "Togol Papan Kekunci untuk mengubah bentangan pilihan (lihat dialog prefs "
+#~ "untuk mengetahui nilainya)"
+
+#~ msgid "Overlay selected layout flag on icon."
+#~ msgstr "Tindih atas bendera bentangan pilihan diatas ikon."
+
+#~ msgid "User selected layouts."
+#~ msgstr "Bentangan pilihan pengguna."
+
+#~ msgid "User selected variants."
+#~ msgstr "Varian pilihan pengguna."
+
+#~ msgid " Dialect Applet"
+#~ msgstr " Applet Dialek"
+
+#~ msgid "Change your keyboard input layout from Awn."
+#~ msgstr "Ubah bentangan input papan kekunci anda dari Awn."
+
+#~ msgid "System List"
+#~ msgstr "Senarai Sistem"
+
+#~ msgid "User List"
+#~ msgstr "Senarai Pengguna"
+
+#~ msgid "About Dialect Applet"
+#~ msgstr "Perihal Applet Dialek"
+
+#~ msgid "Appearance"
+#~ msgstr "Penampilan"
+
+#~ msgid "Change your keyboard layout from Awn."
+#~ msgstr "Ubah bentangan papan kekunci anda dari Awn"
+
+#~ msgid "Dialect Applet Preferences"
+#~ msgstr "Keutamaan Applet Dialek"
+
+#~ msgid "Command to execute when a calendar day is double-clicked."
+#~ msgstr "Perintah untuk lakukan apabila hari pada kalender di dwiklik."
+
+#~ msgid "Command to execute when the user wishes to adjust the date/time."
+#~ msgstr "Perintah untuk lakukan apabila pengguna mahu menukar tarikh/masa."
+
+#~ msgid "Show the date before the time."
+#~ msgstr "Papar tarikh dibawah masa."
+
+#~ msgid "The color of the clock text."
+#~ msgstr "Warna teks jam."
+
+#~ msgid "The font face of the clock text."
+#~ msgstr "Fon teks muka hadapan jam"
+
+#~ msgid "The shadow color of the clock text."
+#~ msgstr "Warna bayang teks jam."
+
+#~ msgid "Toggle 12-hour mode."
+#~ msgstr "Togol mod 12-jam."
+
+#~ msgid "12 hour format"
+#~ msgstr "Format 12 jam"
+
+#~ msgid "24 hour format"
+#~ msgstr "Format 24 jam"
+
+#~ msgid "<b>Clock Format</b>"
+#~ msgstr "<b>Format Jam</b>"
+
+#~ msgid "Commands"
+#~ msgstr "Perintah"
+
+#~ msgid "Date below time"
+#~ msgstr "Tarikh dibawah masa"
+
+#~ msgid "Digital Clock Preferences"
+#~ msgstr "Keutamaan Jam Digital"
+
+#~ msgid "Run Calendar:"
+#~ msgstr "Jalankan Kalendar:"
+
+#~ msgid "Run Time Admin:"
+#~ msgstr "Jalankan Masa Pentadbir:"
+
+#~ msgid "Show the date"
+#~ msgstr "Papar tarikh"
+
+#~ msgid "Use default Awn colors"
+#~ msgstr "Guna warna Awn lalai"
+
+#~ msgid "A clock and calendar in one."
+#~ msgstr "Jam dan kalendar dalam satu."
+
+#~ msgid "Digital Clock"
+#~ msgstr "Jam Digital"
+
+#~ msgid "Copy Time"
+#~ msgstr "Salin Masa"
+
+#~ msgid "Copy Date"
+#~ msgstr "Salin Tarikh"
+
+#~ msgid "Adjust Date & Time"
+#~ msgstr "Laras Tarikh & Masa"
+
+#~ msgid "Displays digital clock."
+#~ msgstr "Papar jam digital."
+
+#~ msgid "Hide feeds which do not have any new items"
+#~ msgstr "Sembunyikan suapan yang tidak mempunyai item baru"
+
+#~ msgid "Notify if any feeds have new items"
+#~ msgstr "Maklum jika mana-man suapan mempunyai item baru"
+
+#~ msgid "Show each feed's website's icon in the dialog"
+#~ msgstr "Papar setiap ikon laman sesawang suapan didalam dialog"
+
+#~ msgid "The interval (in minutes) at which to update (3-60)"
+#~ msgstr "Selang (dalam minit) jangkamasa pengemaskinian (3-60)"
+
+#~ msgid "Update automatically at a configurable interval"
+#~ msgstr "Kemaskini secara automatik pada selang yang boleh dikonfigurkan"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Google Reader"
+#~ msgstr "Pembaca Google"
+
+#~ msgid "Google Wave"
+#~ msgstr "Google Wave"
+
+#~ msgid "Reddit Inbox"
+#~ msgstr "Peti Masuk Reddit"
+
+#~ msgid "Comment reply from %s"
+#~ msgstr "Ulasan balasan dari %s"
+
+#~ msgid "Post reply from %s"
+#~ msgstr "Pos balasa dari %s"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Untitled"
+#~ msgstr "Tiada Tajuk"
+
+#~ msgid "Feeds Applet"
+#~ msgstr "Applet Suapan"
+
+#~ msgid "Loading feeds..."
+#~ msgstr "Memuatkan suapan..."
+
+#~ msgid "You don't have any feeds."
+#~ msgstr "Anda tidak mempunyai suapan."
+
+#~ msgid ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s More)\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s Lagi)\n"
+
+#~ msgid "%s New Item - Feeds Applet"
+#~ msgid_plural "%s New Items - Feeds Applet"
+#~ msgstr[0] "%s Item baru - Aplet Suapan"
+#~ msgstr[1] "%s Item baru - Aplet Suapan"
+
+#~ msgid "_Add Feed"
+#~ msgstr "_Tambah Suapan"
+
+#~ msgid "Open this feed's website"
+#~ msgstr "Buka laman sesawang suapan ini"
+
+#~ msgid "Loading..."
+#~ msgstr "Memuatkan..."
+
+#~ msgid "Show this feed's items"
+#~ msgstr "Papar item suapan ini"
+
+#~ msgid "Hide this feed's items"
+#~ msgstr "Sembunyi item suapan ini"
+
+#~ msgid "Add Feed"
+#~ msgstr "Tambah Suapan"
+
+#~ msgid "Show Only _New Feeds"
+#~ msgstr "Hanya Papar Suapan _Baru"
+
+#~ msgid "OPML Import"
+#~ msgstr "Import OPML"
+
+#~ msgid "Feeds Applet Preferences"
+#~ msgstr "Keutamaan Applet Suapan"
+
+#~ msgid "Feeds"
+#~ msgstr "Suapan"
+
+#~ msgid "Updating"
+#~ msgstr "Mengemaskini"
+
+#~ msgid "_Show website icons"
+#~ msgstr "_Papar ikon laman sesawang"
+
+#~ msgid "Show _only new feeds"
+#~ msgstr "Hanya _papar suapan baru"
+
+#~ msgid "Import"
+#~ msgstr "Import"
+
+#~ msgid "Export"
+#~ msgstr "Eksport"
+
+#~ msgid "_Notify for updated feeds"
+#~ msgstr "_Maklum suapan yang dikemaskini"
+
+#~ msgid "_Update automatically"
+#~ msgstr "_Kemaskini secara automatik"
+
+#~ msgid "Update every "
+#~ msgstr "Kemaskini setiap "
+
+#~ msgid " minutes"
+#~ msgstr " minit"
+
+#~ msgid "Open OPML File"
+#~ msgstr "Buka fail OPML"
+
+#~ msgid "Save OPML File"
+#~ msgstr "Simpan fail OPML"
+
+#~ msgid "feeds.opml"
+#~ msgstr "suapan.opml"
+
+#~ msgid "Awn Feeds Applet Items"
+#~ msgstr "Item Applet Suapan untuk Awn"
+
+#~ msgid "Source:"
+#~ msgstr "Sumber:"
+
+#~ msgid "Search"
+#~ msgstr "Gelintar"
+
+#~ msgid "You must sign in to a Google service to search for feeds."
+#~ msgstr ""
+#~ "Anda mesti mendaftar ke perkhidmatan Google untuk menggelintar suapan."
+
+#~ msgid "RSS/Atom"
+#~ msgstr "RSS/Atom"
+
+#~ msgid "Timeline"
+#~ msgstr "Garis Masa"
+
+#~ msgid "Replies"
+#~ msgstr "Balasan"
+
+#~ msgid "Search for"
+#~ msgstr "Gelintar untuk"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Username:"
+#~ msgstr "Nama pengguna:"
+
+#~ msgid "Password:"
+#~ msgstr "Katalaluan:"
+
+#~ msgid "Feed search by "
+#~ msgstr "Gelintar suapan melalui "
+
+#~ msgid "_Search"
+#~ msgstr "_Gelintar"
+
+#~ msgid ""
+#~ "There was an error while searching.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "Ada ralat semasa menggelintar.\n"
+#~ "Sila cuba sekali lagi."
+
+#~ msgid ""
+#~ "No results found.\n"
+#~ "Try checking your spelling or using different search terms."
+#~ msgstr ""
+#~ "Tiada keputusan ditemui.\n"
+#~ "Cuba semak ejaan anda atau gunakan terma carian yang berbeza."
+
+#~ msgid "The action to perform on left click"
+#~ msgstr "Tindakan yang dilaksanakan apabila klik kiri"
+
+#~ msgid "The action to perform on middle click"
+#~ msgstr "Tindakan yang dilaksanakan apabila klik tengah"
+
+#~ msgid "The file browser to use"
+#~ msgstr "Pelayar fail yang digunakan"
+
+#~ msgid "The path to use on left click"
+#~ msgstr "Laluan yang digunakan apabila klik kiri"
+
+#~ msgid "The path to use on middle click"
+#~ msgstr "Laluan yang digunakan apabila klik tengah"
+
+#~ msgid "Whether or not to display Connect to server"
+#~ msgstr "Papar atau tidak paparkan Sambungan ke pelayan"
+
+#~ msgid "Whether or not to display bookmarks"
+#~ msgstr "Papar atau tidak paparkan tanda buku"
+
+#~ msgid "Whether or not to display local drives"
+#~ msgstr "Papar atau tidak paparkan pemacu setempat"
+
+#~ msgid "Whether or not to display network drives"
+#~ msgstr "Papar atau tidak paparkan pemacu rangkaian"
+
+#~ msgid "Whether or not to display the Filesystem"
+#~ msgstr "Papar atau tidak paparkan Fail sistem"
+
+#~ msgid "Whether or not to display the home folder"
+#~ msgstr "Papar atau tidak paparkan folder rumah"
+
+#~ msgid "Whether or not to focus the location text box"
+#~ msgstr "Fokus atau tidak fokuskan kotak teks"
+
+#~ msgid "Whether or not to open the place when clicked"
+#~ msgstr "Buka atau tidak buka Tempat apabila diklik"
+
+#~ msgid "A launcher for your file manager"
+#~ msgstr "Pelancar untuk pengurus fail anda"
+
+#~ msgid "File Browser Launcher"
+#~ msgstr "Pelancar Pelayar Fail"
+
+#~ msgid "Filesystem"
+#~ msgstr "Sistem Fail"
+
+#~ msgid "CD/DVD Burner"
+#~ msgstr "Pembakar CD/DVD"
+
+#~ msgid "Fonts"
+#~ msgstr "Fon"
+
+#~ msgid "Folder"
+#~ msgstr "Folder"
+
+#~ msgid "Trash (%d)"
+#~ msgstr "Sampah (%d)"
+
+#~ msgid "DVD Drive"
+#~ msgstr "Pemacu DVD"
+
+#~ msgid "CD Drive"
+#~ msgstr "Pemacu CD"
+
+#~ msgid "Eject"
+#~ msgstr "Lenting"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Kosongkan Sampah"
+
+#~ msgid "This action cannot be undone."
+#~ msgstr "Tindakan ini tidak dapat dilaksanakan"
+
+#~ msgid "A customizable launcher for browsing your files."
+#~ msgstr "Pelancar suai untuk melayar fail anda."
+
+#~ msgid "File Browser Launcher Preferences"
+#~ msgstr "Keutamaan Pelancar Pelayar Fail"
+
+#~ msgid "File Browser"
+#~ msgstr "Pelayar Fail"
+
+#~ msgid "System Default"
+#~ msgstr "Lalai Sistem"
+
+#~ msgid "Other"
+#~ msgstr "Lain-lain"
+
+#~ msgid "One icon with dialog"
+#~ msgstr "Satu ikon dengan dialog"
+
+#~ msgid "One icon with docklet"
+#~ msgstr "Satu ikon dengan docklet"
+
+#~ msgid "Multiple icons"
+#~ msgstr "Ikon berbilang"
+
+#~ msgid "Open place when clicked"
+#~ msgstr "Buka tempat apabila diklik"
+
+#~ msgid "Show all places"
+#~ msgstr "Papar semua tempat"
+
+#~ msgid "Home folder"
+#~ msgstr "Folder Rumah"
+
+#~ msgid "Mounted network drives"
+#~ msgstr "Pemacu rangkaian terdakap"
+
+#~ msgid "Connect to server"
+#~ msgstr "Sambung ke pelayan"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Tanda Buku"
+
+#~ msgid "Display dialog/docklet"
+#~ msgstr "Papar dialog/docklet"
+
+#~ msgid "Open the folder"
+#~ msgstr "Buka folder"
+
+#~ msgid "Nothing"
+#~ msgstr "Tiada"
+
+#~ msgid "Middle Click"
+#~ msgstr "Klik Tengah"
+
+#~ msgid "Choose a folder"
+#~ msgstr "Pilih folder"
+
+#~ msgid "Garbage"
+#~ msgstr "Sampah"
+
+#~ msgid "Could not open the trash folder with your file manager: %s"
+#~ msgstr "Tidak dapat membuka folder sampah melalui pengurus fail anda: %s"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Kosongkan _Sampah"
+
+#~ msgid ""
+#~ "Are you sure you want to empty your trash? It currently contains %u "
+#~ "item(s)."
+#~ msgstr "Anda pasti hendak mengosongkan sampah anda? Ia mengandungi %u item."
+
+#~ msgid "Could not send the dragged file(s) to the trash: %s"
+#~ msgstr "Tidak dapat menghatar fail yang diseret ke sampah: %s"
+
+#~ msgid ""
+#~ "Enable the confirmation dialog form when one wishes to empty the trash."
+#~ msgstr ""
+#~ "Benarkan borang dialog pengesahan apabila anda ingin mengosongkan sampah."
+
+#~ msgid "Show the number of items in the trash on top of the icon."
+#~ msgstr "Papar bilangan item didalam sampah diletakkan diatas ikon."
+
+#~ msgid "%s Preferences"
+#~ msgstr "%s Keutamaan"
+
+#~ msgid "Applet theme."
+#~ msgstr "Tema applet"
+
+#~ msgid "For each sensor, whether to show it in main dialog or not."
+#~ msgstr "Bagi setiap pengesan, paparkannya pada dialog utama atau tidak."
+
+#~ msgid "High value limit (at which alarm triggers) for each sensor."
+#~ msgstr "Had nilai tinggi (ketika pengera berbunyi) bagi setiap pengesan"
+
+#~ msgid "Low value limit (at which alarm triggers) for each sensor."
+#~ msgstr "Had nilai rendah (apabila penggera berbunyi) bagi setiap pengesan."
+
+#~ msgid "Sensor ids."
+#~ msgstr "Id Pengesan"
+
+#~ msgid "Sensor labels."
+#~ msgstr "Label pengesan."
+
+#~ msgid "The color (RGBA) of the meter hand/needle."
+#~ msgstr "Warna (RGBA) jarum jam/jarum."
+
+#~ msgid "Whether to show a sensor in applet icon or not."
+#~ msgstr "Sama ada paparkan pengesan didalam ikon applet atau tidak."
+
+#~ msgid "Applet to show the hw sensors readouts"
+#~ msgstr "Applet yang memaparkan bacaan pengesan hw"
+
+#~ msgid "Hardware Sensors"
+#~ msgstr "Pengesan Perkakasan"
+
+#~ msgid "Applet to show the hardware sensors readouts"
+#~ msgstr "Applet yang memaparkan bacaan pengesan perkakasan"
+
+#~ msgid "Small"
+#~ msgstr "Kecil"
+
+#~ msgid "Medium"
+#~ msgstr "Sederhana"
+
+#~ msgid "Large"
+#~ msgstr "Besar"
+
+#~ msgid "Warning from Hardware Sensors: No sensors found"
+#~ msgstr "Amaran dari Pengesan Perkakasan: Tiada pengesan ditemui"
+
+#~ msgid ""
+#~ "Install one or more of ACPI, HDDTemp, LM-Sensors, nvidia-settings or "
+#~ "nvclock and restart the applet."
+#~ msgstr ""
+#~ "Pasang satu atau lebih ACPI, HDDTemp, Pengesan-LM, tetapan nvidia atau "
+#~ "nvclock dan mula semula applet."
+
+#~ msgid "Sensors"
+#~ msgstr "Pengesan"
+
+#~ msgid "Interface"
+#~ msgstr "Antara Muka"
+
+#~ msgid "Name"
+#~ msgstr "Nama"
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "In dialog"
+#~ msgstr "dalam dialog"
+
+#~ msgid "Sensors displayed in icon"
+#~ msgstr "Pengesan dipaparkan di dalam ikon"
+
+#~ msgid "properties"
+#~ msgstr "ciri-ciri"
+
+#~ msgid "<b>Alarms</b>"
+#~ msgstr "<b>Penggera</b>"
+
+#~ msgid "<b>Sensor value limits</b>"
+#~ msgstr "<b>Had nilai pengesan</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Kemaskini</b>"
+
+#~ msgid "Add"
+#~ msgstr "Tambah"
+
+#~ msgid "Font size:"
+#~ msgstr "Saiz fon:"
+
+#~ msgid "Meter hand color:"
+#~ msgstr "Warna jarum meter:"
+
+#~ msgid "Remove"
+#~ msgstr "Buang"
+
+#~ msgid "Sensor high value"
+#~ msgstr "Pengesan nilai tinggi"
+
+#~ msgid "Sensor low value"
+#~ msgstr "Pengesan nilai rendah"
+
+#~ msgid "Show value in icon"
+#~ msgstr "Papar nilai di dalam ikon"
+
+#~ msgid "Temperature unit:"
+#~ msgstr "Unit Suhu:"
+
+#~ msgid "Theme:"
+#~ msgstr "Tema:"
+
+#~ msgid "Update interval:"
+#~ msgstr "Kemas kini selang:"
+
+#~ msgid "seconds"
+#~ msgstr "saat"
+
+#~ msgid "Volt"
+#~ msgstr "Volt"
+
+#~ msgid "rpm"
+#~ msgstr "rpm"
+
+#~ msgid "Display any network errors"
+#~ msgstr "Papar apa-apa ralat rangkaian"
+
+#~ msgid "Hide the icon if there is no new mail"
+#~ msgstr "Sembunyikan ikon jika tiada mel baru"
+
+#~ msgid "The Desktop Email client to use"
+#~ msgstr "Klien Emel Desktop yang digunakan"
+
+#~ msgid "The Email backend to use"
+#~ msgstr "Emel belakang yang digunakan"
+
+#~ msgid "The theme to use for the icon"
+#~ msgstr "Tema yang digunakan untuk ikon"
+
+#~ msgid "Timeout between two value updates (in minutes)."
+#~ msgstr "Masa rehat diantara dua nilai yang dikemaskini (dalam minit)"
+
+#~ msgid "Used for logging in; do not touch"
+#~ msgstr "Digunakan untuk log masuk; jangan ganggu"
+
+#~ msgid "Check Your Email from AWN"
+#~ msgstr "Semak Emel anda dari Awn"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Aplet Surat"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "Anda mempunyai %d mesej baru"
+#~ msgstr[1] "Anda mempunyai %d mesej-mesej baru"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "Mesej yang belum dibaca"
+#~ msgstr[1] "Mesej-mesej yang belum dibaca"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Aplet Surat (Klik untuk Log Masuk)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Log masuk sebagai %s"
+
+#~ msgid "Network error - Mail Applet"
+#~ msgstr "Ralat rangkaian - Aplet Mel"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Surat Baru - Aplet Surat"
+
+#~ msgid "Mail"
+#~ msgstr "Mel"
+
+#~ msgid "Open Web Mail"
+#~ msgstr "Buka Mel Sesawang"
+
+#~ msgid "Open Desktop Client"
+#~ msgstr "Buka Klien Desktop"
+
+#~ msgid "Refresh"
+#~ msgstr "Segar semula"
+
+#~ msgid "No unread messages"
+#~ msgstr "Tiada mesej yang belum dibaca"
+
+#~ msgid "No new messages"
+#~ msgstr "Tiada mesej baru"
+
+#~ msgid "Wrong username or password"
+#~ msgstr "Kata nama atau kata laluan salah"
+
+#~ msgid "Log In"
+#~ msgstr "Log masuk"
+
+#~ msgid "Type:"
+#~ msgstr "Jenis:"
+
+#~ msgid "Backend"
+#~ msgstr "Backend"
+
+#~ msgid "Could not log in: No username"
+#~ msgstr "Tidak dapat mendaftar masuk: Tiada kata nama"
+
+#~ msgid ""
+#~ "There seem to be problems with our connection to your account. Your best "
+#~ "bet is probably to log out and try again."
+#~ msgstr ""
+#~ "Ada masalah sambungan kami ke akaun anda. Cara yang terbaik ialah daftar "
+#~ "keluar dan cuba lagi."
+
+#~ msgid "[No Subject]"
+#~ msgstr "[Tiada subjek]"
+
+#~ msgid "Google Apps"
+#~ msgstr "Google Apps"
+
+#~ msgid "Could not log in: No username or domain"
+#~ msgstr "Tidak dapat mendaftar masuk: Tiada kata nama atau domain"
+
+#~ msgid "Domain:"
+#~ msgstr "Domain:"
+
+#~ msgid "Unix Spool"
+#~ msgstr "Kili Unix"
+
+#~ msgid "Spool Path:"
+#~ msgstr "Laluan Kili:"
+
+#~ msgid "Could not log in: "
+#~ msgstr "Tidak dapat mendaftar masuk: "
+
+#~ msgid "Could not log in: Username or password incorrect"
+#~ msgstr "Tidak dapat mendaftar masuk: Kata nama atau kata laluan salah"
+
+#~ msgid "Server:"
+#~ msgstr "Pelayan:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "Guna enkripsi SSL"
+
+#~ msgid "Could not log in"
+#~ msgstr "Tidak dapat log masuk"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "Folder tidak wujud"
+
+#~ msgid "Get messages from only one folder"
+#~ msgstr "Dapatkan mesej dari satu folder sahaja"
+
+#~ msgid "Folder:"
+#~ msgstr "Folder:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Aplet untuk memeriksa email seseorang"
+
+#~ msgid "<b>Mail</b>"
+#~ msgstr "<b>Mel</b>"
+
+#~ msgid "_Alert on network errors"
+#~ msgstr "_Beri amaran pada ralat rangkaian"
+
+#~ msgid "_Email client:"
+#~ msgstr "Klien _Emel:"
+
+#~ msgid "_Hide applet if no new messages"
+#~ msgstr "_Sembunyi aplet jika tiada mesej baru"
+
+#~ msgid "minutes"
+#~ msgstr "minit"
+
+#~ msgid "Close the docklet when mouse moves out from it."
+#~ msgstr "Tutup docklet apabila penuding bergerak keluar daripadanya."
+
+#~ msgid "Display album art if available."
+#~ msgstr "Papar album art jika ada."
+
+#~ msgid "Display docklet instead of standard applet dialog."
+#~ msgstr "Papar docklet selain dialog aplet piawai."
+
+#~ msgid "Size of the album art."
+#~ msgstr "Saiz album art"
+
+#~ msgid "Tooltip format to use."
+#~ msgstr "Format tooltip yang digunakan"
+
+#~ msgid "Control your music player"
+#~ msgstr "Mengawal pemain muzik anda"
+
+#~ msgid "Media Control"
+#~ msgstr "Kawalan Media"
+
+#~ msgid "Title - Artist"
+#~ msgstr "Tajuk - Artis"
+
+#~ msgid "Artist - Title"
+#~ msgstr "Artis - Tajuk"
+
+#~ msgid "Close docklet when mouse leaves it"
+#~ msgstr "Tutup docklet apabila penuding keluar darinya."
+
+#~ msgid "Display _docklet instead of dialog"
+#~ msgstr "Papar _docklet selain dialog"
+
+#~ msgid "Media-control preferences"
+#~ msgstr "Keutamaan kawalan-media"
+
+#~ msgid "Show _album art when available"
+#~ msgstr "Papar _album art jika ada"
+
+#~ msgid "_Size of the album art:"
+#~ msgstr "_Saiz album art:"
+
+#~ msgid "_Tooltip format:"
+#~ msgstr "Format _tooltip:"
+
+#~ msgid "pixels"
+#~ msgstr "piksel"
+
+#~ msgid "A media-control applet (Next Track)"
+#~ msgstr "Aplet kawalan-media (Trek berikut)"
+
+#~ msgid "Media Icons Next"
+#~ msgstr "Ikon Media Berikut"
+
+#~ msgid "A media-control applet (Previous Track)"
+#~ msgstr "Aplet kawalan-media (Trek sebelum)"
+
+#~ msgid "Media Icons Previous"
+#~ msgstr "Ikon Media Sebelum"
+
+#~ msgid "A media-control applet (Play/Pause)"
+#~ msgstr "Aplet kawalan-media (Main/Jeda)"
+
+#~ msgid "Media Icons Play/Pause"
+#~ msgstr "Ikon Media Main/Jeda"
+
+#~ msgid "Next"
+#~ msgstr "Berikut"
+
+#~ msgid "Previous"
+#~ msgstr "Sebelum"
+
+#~ msgid "Play/Pause"
+#~ msgstr "Main/Jeda"
+
+#~ msgid "Height of the video window."
+#~ msgstr "Tinggi tetingkap video"
+
+#~ msgid "List of recently played URLs."
+#~ msgstr "Senarai URL yang dimainkan baru-baru ini."
+
+#~ msgid "Video sink to use."
+#~ msgstr "Video sink yang digunakan"
+
+#~ msgid "Width of the video window."
+#~ msgstr "Lebar tetingkap video."
+
+#~ msgid "Media Player"
+#~ msgstr "Pemain Media"
+
+#~ msgid "Plays any media files you drop on the applet"
+#~ msgstr "Mana apa-apa fail media yang anda seret ke aplet"
+
+#~ msgid "<b>GStreamer properties</b>"
+#~ msgstr "<b>Ciri-ciri GStreamer</b>"
+
+#~ msgid "<b>Video size</b>"
+#~ msgstr "<b>Saiz video</b>"
+
+#~ msgid "Media Player Preferences"
+#~ msgstr "Keutamaan Pemain Media"
+
+#~ msgid "_Audiosink:"
+#~ msgstr "_Audiosink:"
+
+#~ msgid "_Height:"
+#~ msgstr "_Tinggi:"
+
+#~ msgid "_Videosink:"
+#~ msgstr "_Videosink"
+
+#~ msgid "_Width:"
+#~ msgstr "_Lebar:"
+
+#~ msgid "List of mountpoints that should remain hidden in the UI."
+#~ msgstr "Senarai titik lekap yang seharusnya kekal tetsembunyi didalam UI."
+
+#~ msgid "An applet to (un)mount devices"
+#~ msgstr "Aplet untuk (nyah)lekap peranti"
+
+#~ msgid "Mount Applet"
+#~ msgstr "Aplet Lekap"
+
+#~ msgid "<i><b>Note:</b> use %D for the mountpoint</i>"
+#~ msgstr "<i><b>Nota:</b> guna %D untuk titik lekap</i>"
+
+#~ msgid "List of hidden mountpoints, separated by a space"
+#~ msgstr "Senarai titik lekap tersembunyi, dijarakkan dengan space"
+
+#~ msgid "_Execute command after successful mount:"
+#~ msgstr "_Jalankan perintah selepas lekapan berjaya:"
+
+#~ msgid "_Hidden mountpoints:"
+#~ msgstr "Titik lekap _Tersembunyi:"
+
+#~ msgid "Extra offset from the panel's egde."
+#~ msgstr "Ofset tambahan dari pinggir panel."
+
+#~ msgid ""
+#~ "Maximum number of rows (or columns depending on the orientation of the "
+#~ "panel) of the tray icons in the applet."
+#~ msgstr ""
+#~ "Bilangan baris maksimum (atau lajur bergantung pada orientasi panel) ikon "
+#~ "talam didalam aplet."
+
+#~ msgid "Size of the icons (in percent of applet size)."
+#~ msgstr "Saiz ikon (dalam peratus bagi saiz aplet)"
+
+#~ msgid "The background color of the notification-area."
+#~ msgstr "Warna latar belakang kawasan-pemberitahuan"
+
+#~ msgid "The border color of the notification-area."
+#~ msgstr "Warna sempadan kawasan-pemberitahuan"
+
+#~ msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+#~ msgstr "ikon talam meminta satu saiz (%i x %i), disaizkan kepada (%i x %i)"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientasi"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "Orientasi talam."
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "<b>Background Color</b>"
+#~ msgstr "<b>Warna Latar Belakang</b>"
+
+#~ msgid "<b>Border Color</b>"
+#~ msgstr "<b>Warna Sempadan</b>"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatik"
+
+#~ msgid "Custom:"
+#~ msgstr "Suai:"
+
+#~ msgid "Extra _offset:"
+#~ msgstr "_Ofset tambahan:"
+
+#~ msgid "Icon _size:"
+#~ msgstr "_Saiz ikon:"
+
+#~ msgid "Notification Area Preferences"
+#~ msgstr "Keutamaan Kawasan Pemberitahuan"
+
+#~ msgid "_Number of icon rows:"
+#~ msgstr "_Bilangan baris ikon:"
+
+#~ msgid "A Notification Area (systray)"
+#~ msgstr "Kawasan Pemberitahuan (systray)"
+
+#~ msgid "Notification Area"
+#~ msgstr "Kawasan Pemberitahuan"
+
+#~ msgid "Background colour in the form (Hex) rrggbbaa"
+#~ msgstr "Warna latar belakang dalam bentuk (Heks) rrggbbaa"
+
+#~ msgid "Border Width. A value of 0 indicates that is should not be drawn."
+#~ msgstr "Lebar Sempadan. Nilai 0 menunjukkan tiada sempadan dilukis."
+
+#~ msgid ""
+#~ "Border colour in the form (Hex) rrggbbaa.  Also use for the timer widget"
+#~ msgstr ""
+#~ "Warna sempadan dalam bentuk (Heks) rrggbbaa. Juga digunakan pada widget "
+#~ "pemasa"
+
+#~ msgid ""
+#~ "Display icon for awn notification daemon.  Allows toggling of "
+#~ "notification display"
+#~ msgstr ""
+#~ "Papar ikon untuk daemon pemberitahuan awn. Benarkan penogolan paparan "
+#~ "pemberitahuan"
+
+#~ msgid ""
+#~ "Gradient Factor applied to the notification window. Range of 0 to 1. The "
+#~ "lower the number the more noticeable the effect."
+#~ msgstr ""
+#~ "Faktor gradient digunakan pada tetingkap pemberitahuan. Julat dari 0 "
+#~ "hingga 1. Semakin rendah nombornya semakin jelas kesannya."
+
+#~ msgid ""
+#~ "If the value is >0.0 then this opacity value will be applied to window "
+#~ "instead of hiding."
+#~ msgstr ""
+#~ "Jika nilai >0.0 maka nilai kelegapan akan digunakan pada tetingkap selain "
+#~ "menyembunyikannya."
+
+#~ msgid "Sound."
+#~ msgstr "Bunyi"
+
+#~ msgid ""
+#~ "Text colour in the form (Hex) rrggbbaa. Currently the alpha component is "
+#~ "ignored"
+#~ msgstr ""
+#~ "Warna teks dalam bentuk (Heks) rrggbbaa. Buat masa ini komponen alfa "
+#~ "diabaikan"
+
+#~ msgid ""
+#~ "The default sound file used unless a notification supplies the 'sound-"
+#~ "file' or 'suppress-sound' hint. Leave empty for no default sound."
+#~ msgstr ""
+#~ "Fail bunyi asal digunakan melainkan ada terdapat pemberitahuan yang "
+#~ "memberi bayangan 'sound-file' atau 'suppress-sound'.  Biarkan kosong bagi "
+#~ "yang tiada bunyi lalai.."
+
+#~ msgid ""
+#~ "This will override the client and default timeout periods for all "
+#~ "notification windows with a timeout.  Value is in ms. A value less than "
+#~ "or equal to 0 indicates that client and default values should be honoured."
+#~ msgstr ""
+#~ "Ini akan menghapuskan klien dan tempoh masa tamat lalai untuk semua "
+#~ "tetingkap pemberitahuan yang mempunyai masa tamat. Nilainya dalam ms. "
+#~ "Nilai yang kurang atau sama dengam 0 menunjukkan klien dan nilai lalai "
+#~ "tersebut diambilkira."
+
+#~ msgid "Use bold text."
+#~ msgstr "Guna teks tebal."
+
+#~ msgid "Whether to attempt to kill any running notification-daemons."
+#~ msgstr ""
+#~ "Sama ada cuba mematikan mana-mana notification-daemon yang sedang "
+#~ "berjalan."
+
+#~ msgid "Whether to honour client notification window positioning requests."
+#~ msgstr ""
+#~ "Sama ada menghormati permintaan menentududukan tetingkap pemberitahuan "
+#~ "klien."
+
+#~ msgid "Whether to the use configured awn theme color values for xxxx."
+#~ msgstr ""
+#~ "Sama ada menggunakan nilai warna tema bagi awn yang dikonfigur kepada "
+#~ "xxxx."
+
+#~ msgid "%u is not a valid notification ID"
+#~ msgstr "%u bukan ID pemberitahuan yang sah"
+
+#~ msgid "Whether to show tooltips when hovering over a place.);"
+#~ msgstr "Sama ada paparkan tooltip apabila terapung pada tempat.);"
+
+#~ msgid "The width of the menu's border.);"
+#~ msgstr "Lebar sempadan menu.);"
+
+#~ msgid "The size of the text in the menu, in pixels.);"
+#~ msgstr "Saiz teks didalam menu, dalam piksel.);"
+
+#~ msgid "The icon theme name of the applet's icon.);"
+#~ msgstr "Nama tema ikon bagi ikon aplet.);"
+
+#~ msgid "The file manager that shows the contents of the places.);"
+#~ msgstr "Pengurus fail yang memaparkan kandungan tempat.);"
+
+#~ msgid ""
+#~ "The colour (RGBA) of the text when a place is selected or the mouse "
+#~ "hovers over it.);"
+#~ msgstr ""
+#~ "Warna (RGBA) teks apabila tempat dipilih atau penuding terapung "
+#~ "diatasnya.);"
+
+#~ msgid "The colour (RGBA) of the text in the menu.);"
+#~ msgstr "Warna (RGBA) teks didalam menu.);"
+
+#~ msgid ""
+#~ "The colour (RGBA) of the menu's border, if the border width is greater "
+#~ "than zero.);"
+#~ msgstr ""
+#~ "Warna (RGBA)sempadan menu, jika lebar sempadan lebih daripada kosong.);"
+
+#~ msgid ""
+#~ "The color (RGBA) of the text when a place is selected or the mouse hovers "
+#~ "over it.);"
+#~ msgstr ""
+#~ "Warna (RGBA) teks apabila tempat dipilih atau penuding terapung "
+#~ "diatasnya.);"
+
+#~ msgid "The color (RGBA) of the text in the menu.);"
+#~ msgstr "Warna (RGBA) teks didalam menu.);"
+
+#~ msgid ""
+#~ "The color (RGBA) of the menu's border, if the border width is greater "
+#~ "than zero.);"
+#~ msgstr ""
+#~ "Warna (RGBA)sempadan menu, jika lebar sempadan lebih daripada kosong.);"
+
+#~ msgid "The background colour (RGBA) of the menu.);"
+#~ msgstr "Warna latar belakang (RGBA) menu.);"
+
+#~ msgid ""
+#~ "The background colour (RGBA) of an entry in the menu when it is selected "
+#~ "or the mouse hovers over it.);"
+#~ msgstr ""
+#~ "Warna latar belakang (RGBA) masukan pada menu apabila ia dipilih atau "
+#~ "penuding terapung diatasnya.);"
+
+#~ msgid "The background color (RGBA) of the menu.);"
+#~ msgstr "Warna latar belakang (RGBA) menu.);"
+
+#~ msgid ""
+#~ "The background color (RGBA) of an entry in the menu when it is selected "
+#~ "or the mouse hovers over it.);"
+#~ msgstr ""
+#~ "Warna latar belakang (RGBA) masukan pada menu apabila ia dipilih atau "
+#~ "penuding terapung diatasnya.);"
+
+#~ msgid ""
+#~ "Determines whether to use the current Gtk+ theme's colour/font settings, "
+#~ "or the applet-specific style settings.);"
+#~ msgstr ""
+#~ "Tentukan sama ada guna tetapan warna/fon tema GTK+ semasa, atau tetapan "
+#~ "gaya spesifik aplet.);"
+
+#~ msgid ""
+#~ "Determines whether to use the current Gtk+ theme's color/font settings, "
+#~ "or the applet-specific style settings.);"
+#~ msgstr ""
+#~ "Tentukan sama ada guna tetapan warna/fon tema Gtk+ semasa, atau tetapan "
+#~ "gaya spesifik aplet.);"
+
+#~ msgid ""
+#~ "Creates an alpha gradient in the menu item background.  At the top and "
+#~ "bottom of the menu, the alpha value is the background color's alpha value "
+#~ "multiplied by this value.  At 20 percent from the top of the menu, the "
+#~ "alpha value is the background color's alpha value.);"
+#~ msgstr ""
+#~ "Cipta gradient alfa pada latar belakang item menu. pada bahagian atas dan "
+#~ "bawah menu, nila alfa ialah nilai alfa warna latar belakang yang "
+#~ "digandakan dengan nilai ini. Pada nilai 20 peratus bermula dari bahagian "
+#~ "atas menu, nilai alfa ialah nilai alfa warna latar belakang.);"
+
+#~ msgid "Launch your folder bookmarks"
+#~ msgstr "Lancar folder tanda buku anda"
+
+#~ msgid "A simple applet to test python support"
+#~ msgstr "Aplet mudah untuk menguji sokongan python"
+
+#~ msgid "Test Python Applet"
+#~ msgstr "Aplet Uji Python"
+
+#~ msgid " The color (RGBA) applet border."
+#~ msgstr " Warna (RGBA) sempadan aplet."
+
+#~ msgid " The color of the desktop (RGBA) if grab_wallpaper is FALSE."
+#~ msgstr " Warna bagi desktop (RGBA) jika grab_wallpaper adalah PALSU."
+
+#~ msgid "0... centre  1 NW    2 NE   3 SE  4 SW\t"
+#~ msgstr "0... tengah 1NW 2 NE 3 SE 4 SW\t"
+
+#~ msgid "Alpha to apply to icon overlayed on active window."
+#~ msgstr "Alfa untuk digunakan pada ikon yang ditindih atas tetingkap aktif."
+
+#~ msgid "Alpha to apply to icon overlayed on inactive window."
+#~ msgstr ""
+#~ "Alfa untuk digunakan pada ikon yang ditindih atas tetingkap tidak aktif."
+
+#~ msgid "Alpha value to apply to active workspace background."
+#~ msgstr "Nilai alfa yang digunakan untuk latar belakang ruang kerja aktif."
+
+#~ msgid "Alpha value to apply to inactive workspace background."
+#~ msgstr ""
+#~ "Nilai alfa yang digunakan untuk latar belakang ruang kerja tidak aktif."
+
+#~ msgid "Applet border width.  0 indicates no border."
+#~ msgstr "Lebar sempadan aplet, 0 menunjukkan tiada sempadan."
+
+#~ msgid "Scales the applet size relative to the maximum icon size"
+#~ msgstr "Skalakan saiz aplet yang relatif kepada saiz ikon maksimum"
+
+#~ msgid "The colour (RGBA) of the applet border."
+#~ msgstr "Warna (RGBA) bagi sempadan aplet."
+
+#~ msgid "The colour of the desktop (RGBA) if grab_wallpaper is FALSE."
+#~ msgstr "Warna desktop (RGBA) jika grab_wallpaper adalah PALSU."
+
+#~ msgid "The number of columns in the pager."
+#~ msgstr "Bilangan lajur didalam pager"
+
+#~ msgid "The number of rows in the pager."
+#~ msgstr "Bilangan baris didalam pager."
+
+#~ msgid "<b>Background transparency</b>"
+#~ msgstr "<b>Kelutsinaran Latar Belakang</b>"
+
+#~ msgid "<b>Background</b>"
+#~ msgstr "<b>LatarBelakang</b>"
+
+#~ msgid "<b>Icon transparency</b>"
+#~ msgstr "<b>Kelutsinaran ikon</b>"
+
+#~ msgid "<b>Timers</b>"
+#~ msgstr "<b>Pemasa</b>"
+
+#~ msgid "<b>Viewport size</b>"
+#~ msgstr "<b>Saiz port pandang</b>"
+
+#~ msgid "<b>Windows</b>"
+#~ msgstr "<b>Tetingkap</b>"
+
+#~ msgid "Active window:"
+#~ msgstr "Tetingkap aktif:"
+
+#~ msgid "Active workspace"
+#~ msgstr "Ruang kerja aktif"
+
+#~ msgid "Active workspace:"
+#~ msgstr "Ruang kerja aktif:"
+
+#~ msgid "All window"
+#~ msgstr "Semua tetingkap"
+
+#~ msgid "All windows"
+#~ msgstr "Semua tetingkap"
+
+#~ msgid "B_order color:"
+#~ msgstr "Warna S_empadan:"
+
+#~ msgid "Border _size:"
+#~ msgstr "_Saiz sempadan:"
+
+#~ msgid "C_ustom color:"
+#~ msgstr "Warna suai:"
+
+#~ msgid "Cache expiration:"
+#~ msgstr "Tempoh tamat cache:"
+
+#~ msgid "Center"
+#~ msgstr "Tengah"
+
+#~ msgid "Co_lumns:"
+#~ msgstr "Lajur:"
+
+#~ msgid "Icon _display:"
+#~ msgstr "_Papar ikon:"
+
+#~ msgid "Icon _scaling:"
+#~ msgstr "_Penskalaan ikon"
+
+#~ msgid "Inactive window:"
+#~ msgstr "Tetingkap tak aktif:"
+
+#~ msgid "Inactive windows"
+#~ msgstr "Tetingkap tak aktif"
+
+#~ msgid "Inactive workspace:"
+#~ msgstr "Ruang kerja tak aktif:"
+
+#~ msgid "Inactive workspaces"
+#~ msgstr "Ruang kerja tak aktif"
+
+#~ msgid "Look"
+#~ msgstr "Lihat"
+
+#~ msgid "Lower left"
+#~ msgstr "Kiri bawah"
+
+#~ msgid "Lower right"
+#~ msgstr "Kanan bawah"
+
+#~ msgid "Never"
+#~ msgstr "Jangan sesekali"
+
+#~ msgid "Only active window"
+#~ msgstr "Hanya tetingkap aktif"
+
+#~ msgid "Scale _amount:"
+#~ msgstr "Jumlah Penskalaan:"
+
+#~ msgid "Scaled icon _position:"
+#~ msgstr "_Kedudukan ikon terskala:"
+
+#~ msgid "Shiny Switcher Preferences"
+#~ msgstr "Keutamaan Penukar Shiny"
+
+#~ msgid "Upper left"
+#~ msgstr "Kiri atas"
+
+#~ msgid "Upper right"
+#~ msgstr "Kanan atas"
+
+#~ msgid "Use _desktop background"
+#~ msgstr "Guna latar belakang _desktop"
+
+#~ msgid "_Applet size:"
+#~ msgstr "Saiz _aplet:"
+
+#~ msgid "_Rows:"
+#~ msgstr "_Baris:"
+
+#~ msgid "Hides your windows and shows your desktop."
+#~ msgstr "Sembunyi tetingkap anda dan papar desktop anda."
+
+#~ msgid "Show hidden windows"
+#~ msgstr "Papar tertingkap tersembunyi"
+
+#~ msgid "Hide windows and show desktop"
+#~ msgstr "Sembunyi tetingkap dan papar desktop"
+
+#~ msgid "The background color of the dialog"
+#~ msgstr "Warna latar belakang dialog"
+
+#~ msgid "The border color of a drawn window"
+#~ msgstr "Warna sempadan tetingkap yang dilukis"
+
+#~ msgid "The border color of the dialog"
+#~ msgstr "Warna sempadan bagi dialog"
+
+#~ msgid "The bottom part of the shiny gradient"
+#~ msgstr "Bahagian bawah gradient shiny"
+
+#~ msgid "The bottom part of the shiny gradient when hovered"
+#~ msgstr "Bahagian bawah gradient shiny apabila terapung"
+
+#~ msgid "The file to use as the background image"
+#~ msgstr "Fail yang digunakan sebagai imej latar belakang"
+
+#~ msgid "The height of a workspace widget"
+#~ msgstr "Tinggi widget ruang kerja"
+
+#~ msgid "The hovered border color of a workspace widget"
+#~ msgstr "Warna sempadan terapung bagi widget ruang kerja"
+
+#~ msgid "The icon's border color"
+#~ msgstr "Warna sempadan ikon"
+
+#~ msgid "The main color of a drawn window"
+#~ msgstr "Warna utama bagi tetingkap yang dilukis"
+
+#~ msgid "The normal border color of a workspace widget"
+#~ msgstr "Warna sempadan normal bagi widget ruang kerja"
+
+#~ msgid "The top part of the shiny gradient"
+#~ msgstr "Bahagian atas gradient shiny"
+
+#~ msgid "The top part of the shiny gradient when hovered"
+#~ msgstr "Bahagian atas gradient shiny apabila terapung"
+
+#~ msgid "The width of a workspace widget"
+#~ msgstr "Lebar widget ruang kerja"
+
+#~ msgid "Whether or not to use custom colors for the dialog"
+#~ msgstr "Sama ada guna atau tidak gunakan warna suai bagi dialog"
+
+#~ msgid "Whether or not to use the standard text overlay"
+#~ msgstr "Sama ada guna atau tidak gunakan tindihan atas teks piawai"
+
+#~ msgid "Which background image(s) source to use: gnome, compiz, file"
+#~ msgstr "Sumber imej latar belakang yang digunakan: fail, gnome, compiz"
+
+#~ msgid "SlickSwitcher Preferences"
+#~ msgstr "Keutamaan SlickSwitcher"
+
+#~ msgid "Border Colors"
+#~ msgstr "Warna Sempadan"
+
+#~ msgid "Icon border:"
+#~ msgstr "Sempadan ikon:"
+
+#~ msgid "Normal border:"
+#~ msgstr "Sempadan normal:"
+
+#~ msgid "Hovered border:"
+#~ msgstr "Sempadan terapung:"
+
+#~ msgid "Window Colors"
+#~ msgstr "Warna Tetingkap"
+
+#~ msgid "Main color:"
+#~ msgstr "Warna utama:"
+
+#~ msgid "Border color:"
+#~ msgstr "Warna sempadan:"
+
+#~ msgid "Dialog colors"
+#~ msgstr "Warna dialog"
+
+#~ msgid "Use custom colors"
+#~ msgstr "Guna warna suai"
+
+#~ msgid "Background color:"
+#~ msgstr "Warna latar belakang:"
+
+#~ msgid "Colors"
+#~ msgstr "Warna"
+
+#~ msgid "Number Colors"
+#~ msgstr "Warna Nombor"
+
+#~ msgid "Drop-shadow color:"
+#~ msgstr "Warna bayangan-jatuh:"
+
+#~ msgid "Shine Colors"
+#~ msgstr "Warna Shine"
+
+#~ msgid "Top color:"
+#~ msgstr "Warna atas:"
+
+#~ msgid "Bottom color:"
+#~ msgstr "Warna bawah:"
+
+#~ msgid "Other colors"
+#~ msgstr "Warna lain"
+
+#~ msgid "Width:"
+#~ msgstr "Lebar:"
+
+#~ msgid "Height:"
+#~ msgstr "Tinggi:"
+
+#~ msgid "Workspace Size"
+#~ msgstr "Saiz Ruang Kerja"
+
+#~ msgid "Mode:"
+#~ msgstr "Mod:"
+
+#~ msgid "GNOME"
+#~ msgstr "GNOME"
+
+#~ msgid "Compiz Wallpaper Plugin"
+#~ msgstr "Pemalam Kertas Dinding Compiz"
+
+#~ msgid "File"
+#~ msgstr "Fail"
+
+#~ msgid "File:"
+#~ msgstr "Fail:"
+
+#~ msgid "Choose a Background Image"
+#~ msgstr "Pilih Imej Latar Belakang"
+
+#~ msgid "Pictures"
+#~ msgstr "Gambar"
+
+#~ msgid "Background"
+#~ msgstr "Latar Belakang"
+
+#~ msgid "Advanced"
+#~ msgstr "Lanjutan"
+
+#~ msgid "A visual workspace switcher"
+#~ msgstr "Penukar ruang kerja visual"
+
+#~ msgid "SlickSwitcher"
+#~ msgstr "SlickSwitcher"
+
+#~ msgid "List of icons"
+#~ msgstr "Senarai ikon"
+
+#~ msgid "Manage system activity"
+#~ msgstr "Urus aktivit sistem"
+
+#~ msgid "System Monitor"
+#~ msgstr "Pemantau Sistem"
+
+#~ msgid "Applet that shows the shock protection status of your disks"
+#~ msgstr ""
+#~ "Applet yang memaparkan status perliindungan gegaran pada cakera anda"
+
+#~ msgid "ThinkHDAPS"
+#~ msgstr "ThinkHDAPS"
+
+#~ msgid "Background color for high priority items"
+#~ msgstr "Warna latar belakang untuk item keutamaan tinggi"
+
+#~ msgid "Background color for low priority items"
+#~ msgstr "Warna latar belakang untuk item keutamaan rendah"
+
+#~ msgid "Background color for medium priority items"
+#~ msgstr "Warna latar belakang untuk item keutamaan sederhana"
+
+#~ msgid "List of colors to use for the custom color"
+#~ msgstr "Senarai warna yang digunakan untuk warna suai"
+
+#~ msgid "List of items' details"
+#~ msgstr "Senarai perincian item"
+
+#~ msgid "List of items' names"
+#~ msgstr "Senarai nama item"
+
+#~ msgid "List of items' priorities (0-3)"
+#~ msgstr "Senarai keutamaan item (0-3)"
+
+#~ msgid "Text color for high priority items"
+#~ msgstr "Warna teks untuk item keutamaan tinggi"
+
+#~ msgid "Text color for low priority items"
+#~ msgstr "Warna teks untuk item keutamaan rendah"
+
+#~ msgid "Text color for medium priority items"
+#~ msgstr "Warna teks untuk item keutamaan sederhana"
+
+#~ msgid "The color to use for the icon"
+#~ msgstr "Warna yang digunakan pada ikon"
+
+#~ msgid "The custom width for the item entries"
+#~ msgstr "Lebar suai untuk masukan item"
+
+#~ msgid "The icon's opacity (10-100)"
+#~ msgstr "Kelegapan ikon (10-100)"
+
+#~ msgid "The list of categories that are expanded"
+#~ msgstr "Senarai kategori yang telah dikembangkan"
+
+#~ msgid "The list of categories' names"
+#~ msgstr "Senarai nama kategori"
+
+#~ msgid "The list of items' categories"
+#~ msgstr "Senarai item kategori"
+
+#~ msgid "The title to display"
+#~ msgstr "Tajuk paparan"
+
+#~ msgid "What type of icon to display (progress, progress-items, items)"
+#~ msgstr "Jenis ikon yang dipaparkan (kemajuan, item-kemajuan, item)"
+
+#~ msgid "Whether or not to confirm the deletion of categories"
+#~ msgstr "Samada sah atau tidak sah penghapusan kategori"
+
+#~ msgid "Whether or not to confirm the deletion of items"
+#~ msgstr "Samada sah atau tidak sah penghapusan item"
+
+#~ msgid "Whether or not to use a custom width for the entries"
+#~ msgstr "Samada guna atau tidak gunakan lebar suai untuk masukan"
+
+#~ msgid "Custom"
+#~ msgstr "Suai"
+
+#~ msgid "Current Theme"
+#~ msgstr "Tema Semasa"
+
+#~ msgid "Butter"
+#~ msgstr "Mentega"
+
+#~ msgid "Chameleon"
+#~ msgstr "Kameleon"
+
+#~ msgid "Orange"
+#~ msgstr "Oren"
+
+#~ msgid "Sky Blue"
+#~ msgstr "Biru Langit"
+
+#~ msgid "Plum"
+#~ msgstr "Plum"
+
+#~ msgid "Chocolate"
+#~ msgstr "Coklat"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "Merah Skarlet"
+
+#~ msgid "Aluminium 1"
+#~ msgstr "Aluminium 1"
+
+#~ msgid "Aluminium 2"
+#~ msgstr "Aluminium 2"
+
+#~ msgid "Number of Items"
+#~ msgstr "Bilangan Item"
+
+#~ msgid "Progress"
+#~ msgstr "Kemajuan"
+
+#~ msgid "Both"
+#~ msgstr "Kedua-duanya"
+
+#~ msgid "To-Do List Preferences"
+#~ msgstr "Keutamaan Senarai Perlu-Buat"
+
+#~ msgid "Priority"
+#~ msgstr "Keutamaan"
+
+#~ msgid "Icon"
+#~ msgstr "Ikon"
+
+#~ msgid "Title"
+#~ msgstr "Tajuk"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "Sahkan apabila membuang..."
+
+#~ msgid "_Items"
+#~ msgstr "_Item"
+
+#~ msgid "C_ategories"
+#~ msgstr "K_ategori"
+
+#~ msgid "Width"
+#~ msgstr "Lebar"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "_Guna Lebag Suai"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "Lebar (piksel)"
+
+#~ msgid "Low Priority"
+#~ msgstr "Keutamaan Rendah"
+
+#~ msgid "Medium Priority"
+#~ msgstr "Keutamaan Sederhana"
+
+#~ msgid "High Priority"
+#~ msgstr "Keutamaan Tinggi"
+
+#~ msgid "Icon Color"
+#~ msgstr "Warna Ikon"
+
+#~ msgid "Custom Colors"
+#~ msgstr "Warna Suai"
+
+#~ msgid "Outer Border"
+#~ msgstr "Sempadan Luar"
+
+#~ msgid "Inner Border"
+#~ msgstr "Sempadan Dalam"
+
+#~ msgid "Main"
+#~ msgstr "Utama"
+
+#~ msgid "Text"
+#~ msgstr "Teks"
+
+#~ msgid "Icon Type"
+#~ msgstr "Jenis Ikon"
+
+#~ msgid "Manage a simple To-Do list"
+#~ msgstr "Urus senarai To-Do yang ringkas"
+
+#~ msgid "To-Do List"
+#~ msgstr "To-Do List"
+
+#~ msgid "A simple To-Do List"
+#~ msgstr "Senarai To-Do yang ringkas"
+
+#~ msgid "Remove item"
+#~ msgstr "Buang item"
+
+#~ msgid "Remove category"
+#~ msgstr "Buang kategori"
+
+#~ msgid "View/Edit details"
+#~ msgstr "Papar/Sunting perincian"
+
+#~ msgid "_Category"
+#~ msgstr "_Kategori"
+
+#~ msgid "_To-Do item"
+#~ msgstr "Item _To-Do"
+
+#~ msgid "Priority: "
+#~ msgstr "Keutamaan: "
+
+#~ msgid "_Neutral"
+#~ msgstr "_Neutral"
+
+#~ msgid "_Low"
+#~ msgstr "_Rendah"
+
+#~ msgid "_Medium"
+#~ msgstr "_Sederhana"
+
+#~ msgid "_High"
+#~ msgstr "_Tinggi"
+
+#~ msgid "Progress(%): "
+#~ msgstr "Kemajuan(%): "
+
+#~ msgid "Control Tomboy with D-Bus"
+#~ msgstr "Kawal Tomboy dengan D-Bus"
+
+#~ msgid "Tomboy Applet"
+#~ msgstr "Applet Tomboy"
+
+#~ msgid "Select a tag:"
+#~ msgstr "Pilih tag:"
+
+#~ msgid "Select a note:"
+#~ msgstr "Pilih nota:"
+
+#~ msgid "Version: %s"
+#~ msgstr "Versi: %s"
+
+#~ msgid "New Note"
+#~ msgstr "Nota Baru"
+
+#~ msgid "New Tagged Note"
+#~ msgstr "Nota Bertag Baru"
+
+#~ msgid "View Tagged Note"
+#~ msgstr "Papar Nota Bertag"
+
+#~ msgid "A simple applet to test vala support"
+#~ msgstr "Aplet ringkas untuk menguji sokongan vala"
+
+#~ msgid "Test Vala Applet"
+#~ msgstr "Uji Aplet Vala"
+
+#~ msgid "Name of the device."
+#~ msgstr "Nama peranti."
+
+#~ msgid "Name of the mixer track."
+#~ msgstr "Nama trek pengadun."
+
+#~ msgid "Control your computer's volume"
+#~ msgstr "Kawal volum komputer anda"
+
+#~ msgid "Volume Control"
+#~ msgstr "Kawalan Volum"
+
+#~ msgid "<b>Audio Options</b>"
+#~ msgstr "<b>Plihan Audio</b>"
+
+#~ msgid "_Device:"
+#~ msgstr "_Peranti:"
+
+#~ msgid "_Mixer track:"
+#~ msgstr "Trek _pengadun:"
+
+#~ msgid "City, and country of the weather location."
+#~ msgstr "Lokasi cuaca untuk bandar dan negara."
+
+#~ msgid "Code that identifies the weather location."
+#~ msgstr "Lokasi cuaca mengikut kod."
+
+#~ msgid "If enabled, show the temperature as an overlay in the icon."
+#~ msgstr "Jika dibenarkan, papar suhu sebagai tindihan atas ikon."
+
+#~ msgid "Maximum width of map in pixels."
+#~ msgstr "Lebar maksimum peta didalam piksel"
+
+#~ msgid "Show days of forecast in a transparent, curved dialog."
+#~ msgstr "Papar hari ramalan didalam dialog lengkung dan lutsinar."
+
+#~ msgid "Forecast"
+#~ msgstr "Ramalan"
+
+#~ msgid "for"
+#~ msgstr "untuk"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "HARIMINGGU"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Esok"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "KETERANGAN"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "Data cuaca yang disediakan oleh weather.com"
+
+#~ msgid "Display the local weather"
+#~ msgstr "Papar cuaca setempat"
+
+#~ msgid "Weather Applet"
+#~ msgstr "Aplet Cuaca"
+
+#~ msgid "Fetching conditions for"
+#~ msgstr "Mengambil suasana untuk"
+
+#~ msgid "Show _Map"
+#~ msgstr "Papar _Peta"
+
+#~ msgid "No records found"
+#~ msgstr "Tiada rekod ditemui"
+
+#~ msgid "Searching..."
+#~ msgstr "Menggelintar..."
+
+#~ msgid "<b>Icon Display</b>"
+#~ msgstr "<b>Papar Ikon</b>"
+
+#~ msgid ""
+#~ "<i><b>Examples:</b> Boston; Portland, ME, Amsterdam; or Osaka, Japan.</i>"
+#~ msgstr ""
+#~ "<i><b>Contoh:</b> Boston; Portland, ME, Amsterdam; atau Osaka, Japan.</i>"
+
+#~ msgid "Current _location:"
+#~ msgstr "_Lokasi semasa:"
+
+#~ msgid ""
+#~ "If enabled, the dialog will be transparent, and the five days of the "
+#~ "forecast will be curved"
+#~ msgstr ""
+#~ "Jika dibenarkan, dialog akan menjadi lutsinar, dan ramalan dalam tempoh "
+#~ "lima hari akan menjadi lengkung"
+
+#~ msgid "If enabled, the temperature will be displayed in the icon"
+#~ msgstr "Jika dibenarkan, suhu akan dipaparkan pada ikon"
+
+#~ msgid "Maximum _map width:"
+#~ msgstr "Lebar _peta maksimum"
+
+#~ msgid "Show temperature in _icon"
+#~ msgstr "Papar suhu pada ikon"
+
+#~ msgid "Temperature _unit:"
+#~ msgstr "_Unit suhu:"
+
+#~ msgid "Temperature font _size:"
+#~ msgstr "Saiz fon suhu:"
+
+#~ msgid "Use transparent/curved _forecast dialog"
+#~ msgstr "Guna dialog ramalan_lengkung/lutsinar"
+
+#~ msgid "_Location Name:"
+#~ msgstr "Nama _Lokasi:"
+
+#~ msgid "Open Location"
+#~ msgstr "Buka Lokasi"
+
+#~ msgid "Set as new _Home Page"
+#~ msgstr "Tetapkan sebagai Laman  baru"
+
+#~ msgid "Web Applet"
+#~ msgstr "Applet Sesawang"
+
+#~ msgid "HTML engine to use."
+#~ msgstr "Enjin HTML yang digunakan."
+
+#~ msgid "If true display location entry and website buttons"
+#~ msgstr "Jika benar papar masukan lokasi dan butang laman sesawang"
+
+#~ msgid "Name of specialized website to use"
+#~ msgstr "Nama laman sesawang  khusus yang digunakan"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "Width in %% or px."
+#~ msgstr "Lebar dalam %% atau px."
+
+#~ msgid "height in %% or px."
+#~ msgstr "Tinggi dalam %% atau px."
+
+#~ msgid "Applet for Websites"
+#~ msgstr "Applet Laman Sesawang"
+
+#~ msgid "A simple test animation"
+#~ msgstr "Uji animasi yang ringkas"
+
+#~ msgid "Wobbly Zini"
+#~ msgstr "Wobbly Zini"
+
+#~ msgid "Awn System Monitor"
+#~ msgstr "Pemantau Sistem Awn"
+
+#~ msgid "Graph update frequency, in milliseconds."
+#~ msgstr "Frekuensi kemaskini graf, dalam milisaat"
+
+#~ msgid "Set to 1 (true) to draw the gradient overlay on the graph."
+#~ msgstr ""
+#~ "Tetapkan kepada 1 (benar) untuk melukis tindihan atas gradient pada graf"
+
+#~ msgid "The color used in the applet border."
+#~ msgstr "Warna yang digunakan pada sempadan aplet."
+
+#~ msgid "The color used in the graph lines."
+#~ msgstr "Warna yang digunakan pada garis graf."
+
+#~ msgid "The color used in the graph lines. Valid values are 0.0 through 1.0."
+#~ msgstr "Warna yang digunakan pada garis graf. Nilai sah adalah 0.0 ke 1.0."
+
+#~ msgid "The pixel width of the applet border."
+#~ msgstr "Lebar piksel bagi sempadan aplet."
+
+#~ msgid "The url of the Pandora mini flash player."
+#~ msgstr "Url pemain flash Pandora mini"
+
+#~ msgid "Listen to Pandora Internet Radio"
+#~ msgstr "Dengar Radio Internet Pandora"
+
+#~ msgid "Pandora Radio"
+#~ msgstr "Radio Pandora"
+
+#~ msgid " Upload/Download"
+#~ msgstr " Muat naik/Muat turun"
+
+#~ msgid "Statistics calculation requires read access to /proc/net/dev"
+#~ msgstr "Pengiraan statistik memerlukan kebenaran membaca di /proc/net/dev"
+
+#~ msgid "Unable to caclulate statistics"
+#~ msgstr "Tidak dapat mengira statistik"
+
+#~ msgid "Sent"
+#~ msgstr "Dihantar"
+
+#~ msgid "Received"
+#~ msgstr "Diterima"
+
+#~ msgid "Sending"
+#~ msgstr "Menghantar"
+
+#~ msgid "Receiving"
+#~ msgstr "Menerima"
+
+#~ msgid "No"
+#~ msgstr "Tidak"
+
+#~ msgid "Do not display the speed as text, only draw the graph"
+#~ msgstr "Jangan papar kepantasan dalam bentuk teks, hanya dalam bentuk graf"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "Papar jumlah muat naik dan muat turun"
+
+#~ msgid "Display upload and download text representation of speed"
+#~ msgstr "Papar teks yang mewakili kepantasan muat naik dan muat turun"
+
+#~ msgid ""
+#~ "If this is checked the applet background will use the selected color. If "
+#~ "unchecked, background will be transparent"
+#~ msgstr ""
+#~ "Jika ditanda latar belakang applet akan menggunakan warna pilihan. Jika "
+#~ "tidak, latar belakang akan menjadi lutsinar"
+
+#~ msgid ""
+#~ "If this is checked the applet border will use the selected color. If "
+#~ "unchecked, border will be transparent"
+#~ msgstr ""
+#~ "Jika ditanda latar belakang applet akan menggunakan warna pilihan. Jika "
+#~ "tidak, latar belakang akan menjadi lutsinar"
+
+#~ msgid "Beaufort)."
+#~ msgstr "Beafort)."
+
+#~ msgid "Kelvin)."
+#~ msgstr "Kelvin)."
+
+#~ msgid "Celcius"
+#~ msgstr "Selsius"
+
+#~ msgid " bytes)"
+#~ msgstr " bait"
+
+#~ msgid ""
+#~ "If enabled, this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn in the graph."
+#~ msgstr ""
+#~ "Jika dibenarkan, garis di bahagian bawah graf dilukis walaupun nilai "
+#~ "tersebut adalah 0. Jika dinyah tanda, nilai-nilai di bawah 1 tidak akan "
+#~ "dilukis didalam graf."
+
+#~ msgid ""
+#~ "Sets the minimum threshold for scaling to not show large spikes for small "
+#~ "amounts of traffic. e.g.: Setting to 32.0 KBps will cause the graph to "
+#~ "only draw if throughput exceeds 32.0 KBps"
+#~ msgstr ""
+#~ "Tetapkan ambang minimum bagi penskalaan untuk menghidari puncak yang "
+#~ "terlalu tinggi  (nilai trafik yang kecil). contohnya: Tetapan 32.0 KBps "
+#~ "akan menyebabkan graf hanya dilukis jika daya pemprosesan melebihi 32.0 "
+#~ "KBps"
+
+#~ msgid " none)."
+#~ msgstr " tiada)."
+
+#~ msgid " 0.9)."
+#~ msgstr " 0.9)."
+
+#~ msgid ""
+#~ "\n"
+#~ "DIALECT APPLET v 09.12.09\n"
+#~ "\n"
+#~ "(C) 2009, Lachlan Turner (Denham 2010)\n"
+#~ "\n"
+#~ "This applet allows you to change your keyboard input language with just a "
+#~ "click of the mouse.\n"
+#~ "You can select any of the available input languages on your system, or "
+#~ "from a list you most commonly use.\n"
+#~ "\n"
+#~ "See the Mouse Actions and Layout Lists tabs for configuration options.\n"
+#~ "\n"
+#~ "The applet depends on the python xklavier module (available from http://"
+#~ "download.sugarlabs.org/sources/external/python-xklavier/python-"
+#~ "xklavier-0.1.tar.gz).\n"
+#~ "\n"
+#~ "This applet is licensed under GPL2. The flag icons distributed with this "
+#~ "applet are from the xfce4-xkb-plugin-0.5.3.3 panel applet, licensed under "
+#~ "the 2-clause BSD license. See the About dialog for licensing details.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "APPLET DIALEK v 09.12.09\n"
+#~ "\n"
+#~ "(C) 2009, Lachlan Turner (Denham 2010)\n"
+#~ "\n"
+#~ "Applet ini membenarkan anda mengubah bahasa input papan kekunci anda "
+#~ "dengan menekan klik tetikus.\n"
+#~ "anda boleh pilih mana-mana input bahasa didalam sistem anda, atau dari "
+#~ "senarai yang anda biasa gunakan.\n"
+#~ "\n"
+#~ "Sila lihat Tindakan Tetikus dan Senarai Bentangan untuk pilihan "
+#~ "konfigurasi.\n"
+#~ "\n"
+#~ "Applet ini bergantung kepada modul xklavier (boleh diperoleh di http://"
+#~ "download.sugarlabs.org/sources/external/python-xklavier/python-"
+#~ "xklavier-0.1.tar.gz).\n"
+#~ "\n"
+#~ "Applet ini dilesenkan dibawah GPL2. Ikon bendera yang diedarkan bersama-"
+#~ "sama applet ini diambil dari applet panel xfce4-xkb-plugin-0.5.3.3, juga "
+#~ "dilesenkan dibawah lesen BSD klausa-2. rujuk pada dialog Perihal untuk "
+#~ "perincian pelesenan.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Left Click:\n"
+#~ "\n"
+#~ "\tNext Layout\t\tselects the next layout in your user list.\n"
+#~ "\tPrevious Layout\tselects the previous layout in your user list.\n"
+#~ "\tMenu\t\t\tselect a layout from a menu of your user list.\n"
+#~ "\tNone\t\t\tbutton will have no action.\n"
+#~ "\n"
+#~ "Middle Click:\n"
+#~ "\n"
+#~ "\tNext Layout\t\tselects the next layout in your user list.\n"
+#~ "\tPrevious Layout\tselects the previous layout in your user list.\n"
+#~ "\tMenu\t\t\tselect a layout from a menu of your user list.\n"
+#~ "\tNone\t\t\tbutton will have no action.\n"
+#~ "\n"
+#~ "Allow scroll wheel to change layout:\n"
+#~ "\n"
+#~ "\tIf selected, scrolling up or down with your mouse wheel will select\n"
+#~ "\tthe next or previous layout in your user list.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Klik Kiri:\n"
+#~ "\n"
+#~ "\tBentangan Seterus\t\tpilih bentangan seterus didalam senarai pengguna "
+#~ "anda.\n"
+#~ "\tBentangan Sebelum\tpilih bentangan sebelum didalam senarai pengguna "
+#~ "anda.\n"
+#~ "\tMenu\t\t\tsPilih bentangan dari menu senarai pengguna anda.\n"
+#~ "\tTiada\t\t\tbutang tidak akan membuat apa-apa tindakan.\n"
+#~ "\n"
+#~ "Klik Tengah:\n"
+#~ "\n"
+#~ "\tBentangan Seterus\t\tpilih bentangan seterus didalam senarai pengguna "
+#~ "anda.\n"
+#~ "\tBentangan Sebelum\tpilih bentangan sebelum didalam senarai pengguna "
+#~ "anda.\n"
+#~ "\tMenu\t\t\tsPilih bentangan dari menu senarai pengguna anda.\n"
+#~ "\tTiada\t\t\tbutang tidak akan membuat apa-apa tindakan.\n"
+#~ "\n"
+#~ "Benarkan roda tatal mengubah bentangan:\n"
+#~ "\n"
+#~ "\tJika dipilih, penatalan atas atau bawah menggunakan roda tetikus anda "
+#~ "akan memilih\n"
+#~ "\tbentangan seterus atau sebelum didalam senarai pengguna anda.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Overlay layout flag on applet icon:\n"
+#~ "\n"
+#~ "\tIf selected, the flag of your selected layout will overlay the applet "
+#~ "icon.\n"
+#~ "\n"
+#~ "Flag Scale:\n"
+#~ "\n"
+#~ "\tThe size of the flag in relation to the applet icon.\n"
+#~ "\tPossible values range from 0.1 to 0.9\n"
+#~ "\n"
+#~ "Flag Opacity:\n"
+#~ "\n"
+#~ "\tRanging from 0.0 (flag is not visible) to 0.9 (flag is almost opaque).\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Tindihan atas bendera bentangan pada ikon applet:\n"
+#~ "\n"
+#~ "\tJika dipilih, bendera bentangan pilihan anda akan tindih atas ikon "
+#~ "applet.\n"
+#~ "\n"
+#~ "Skala Bendera:\n"
+#~ "\n"
+#~ "\tSaiz bendera yang berkaitan dengan ikon applet.\n"
+#~ "\tNilai yang munasabah diantara 0.1 hingga 0.9\n"
+#~ "\n"
+#~ "Kelegapan Bendera:\n"
+#~ "\n"
+#~ "\tDiantara nilai 0.0 (bendera akan hilang) kepada nilai 0.9 (bendera akan "
+#~ "kelihatan legap).\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "System List:\n"
+#~ "\n"
+#~ "\tThe complete list of layouts and variants available.\n"
+#~ "\tSelect an item and click the add button to include in your user list.\n"
+#~ "\n"
+#~ "User List:\n"
+#~ "\n"
+#~ "\tThe list of layouts you commonly use.\n"
+#~ "\tThe maximum number of layouts is restricted by the X11 xkb system "
+#~ "(currently 4).\n"
+#~ "\tSelect an item and click the remove button to delete from your user "
+#~ "list.\n"
+#~ "\tYou can order the list by drag and drop.\n"
+#~ "\n"
+#~ "Keyboard Toggle:\n"
+#~ "\tSelects the hot key combination used to change layouts.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Senarai Sistem:\n"
+#~ "\n"
+#~ "\tSenarai lengkap bentangan dan varian yang ada.\n"
+#~ "\tPilih item dan klik butang tambah untuk dimasukkan kedalam senarai "
+#~ "pengguna anda.\n"
+#~ "\n"
+#~ "Senarai Pengguna:\n"
+#~ "\n"
+#~ "\tSenarai bentangan yang anda selalu gunakan.\n"
+#~ "\tBilangan maksimum bentangan dihadkan oleh sistem X11 xkb (biasanya 4).\n"
+#~ "\tPilih item dan klik butang buang untuk dikeluarkan dari senarai "
+#~ "pengguna anda.\n"
+#~ "\tAnda boleh susun senarai tersebut dengan cara seret dan lepas.\n"
+#~ "\n"
+#~ "Togol Papan Kekunci:\n"
+#~ "\tPilih gabungan kekunci panas untuk digunakan semasa menukar bentangan.\n"
+
+#~ msgid "(C) 2009, Lachlan Turner (Denham 2010)."
+#~ msgstr "(C) 2009, Lachlan Turner (Denham 2010)."
+
+#~ msgid "Layout Lists"
+#~ msgstr "Senarai Bentangan"
+
+#~ msgid "Keyboard Toggle"
+#~ msgstr "Togol Papan kekunci"
+
+#~ msgid "Flag Scale"
+#~ msgstr "Skala Bendera"
+
+#~ msgid "Flag Overlay"
+#~ msgstr "Tindihan Atas Bendera"
+
+#~ msgid "Flag Opacity"
+#~ msgstr "Kelegapan Bendera"
+
+#~ msgid "Allow scroll wheel to change layout"
+#~ msgstr "Benarkan roda tatal mengubah bentangan"
+
+#~ msgid "Dialect Applet Help"
+#~ msgstr "Bantuan Applet Dialek"
+
+#~ msgid "Overlay layout flag on applet icon"
+#~ msgstr "Tindihan atas bendera bentangan pada ikon applet"
+
+#~ msgid "Next Layout"
+#~ msgstr "Bentengan Seterus"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Mouse Actions"
+#~ msgstr "Tindakan Tetikus"
+
+#~ msgid "Monitor Web Feeds"
+#~ msgstr "Memantau Suapan Sesawang"
+
+#~ msgid "Previous Layout"
+#~ msgstr "Bentangan Terdahulu"
+
+#~ msgid "Search\\u2026"
+#~ msgstr "Search\\u2026"
+
+#~ msgid "Launch\\u2026"
+#~ msgstr "Launch\\u2026"
+
+#~ msgid "Do you want to add these %s feeds?"
+#~ msgstr "Anda hendak menambah %s suapan ini?"
+
+#~ msgid "Do you want to add this feed?"
+#~ msgstr "Anda hendak menambah suapan ini?"
+
+#~ msgid "Templates"
+#~ msgstr "Templat"
+
+#~ msgid "Public"
+#~ msgstr "Awam"
+
+#~ msgid "Videos"
+#~ msgstr "Video"
+
+#~ msgid "Downloads"
+#~ msgstr "Muat Turun"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumen"
+
+#~ msgid "Music"
+#~ msgstr "Muzik"
+
+#~ msgid "%s: %u item"
+#~ msgid_plural "%s: %u items"
+#~ msgstr[0] "%s: %u item"
+#~ msgstr[1] "%s: %u item"
+
+#~ msgid "Confirm when emptying the trash"
+#~ msgstr "Sahkan apabila mengosongkan sampah"
+
+#~ msgid "Show the item count on the icon"
+#~ msgstr "Papar kiraan item diatas ikon"
+
+#~ msgid "large)."
+#~ msgstr "besar)."
+
+#~ msgid " gdk."
+#~ msgstr " gdk."
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid " persistent docklet"
+#~ msgstr " docklet persistent"
+
+#~ msgid "%s New Item%s - Feeds Applet"
+#~ msgstr "%s Item Baru%s - Aplet Suapan"
+
+#~ msgid "+"
+#~ msgstr "+"
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "Fahrenheit)."
+#~ msgstr "Fahrenheit)."
+
+#~ msgid "File operation to use."
+#~ msgstr "Operasi fail yang digunakan."
+
+#~ msgid " sort by date)."
+#~ msgstr " isih mengikut tarikh)."
+
+#~ msgid ""
+#~ "Backend type for this applet (0 - file, 1 - folder, 2 - plugger, 3 - "
+#~ "trasher, 4 - recent files)."
+#~ msgstr ""
+#~ "Jenis belakang bagi applet ini (0 - fail, 1 - folder, 2 - pemalam, 3 - "
+#~ "sampah, 4 - fail terkini)."
+
+#~ msgid "Close dialog on focusout."
+#~ msgstr "Tutup dialog pada focusout."
+
+#~ msgid "Display number of items in the stack."
+#~ msgstr "Papar bilangan item didalam susunan."
+
+#~ msgid "Hoverbox background color 1."
+#~ msgstr "Warna latar belakang kotak apung 1"
+
+#~ msgid "Hoverbox background color 2."
+#~ msgstr "Warna latar belakang kotak apung 2"
+
+#~ msgid "Icon to use for empty stack."
+#~ msgstr "Ikon yang digunakan untuk susunan kosong."
+
+#~ msgid "Icon to use for full stack."
+#~ msgstr "Ikon yang digunakan untuk susunan penuh."
+
+#~ msgid "Hoverbox border color."
+#~ msgstr "Warna sempadan kotak apung"
+
+#~ msgid "Label hover background color."
+#~ msgstr "Warna label latar belakang apung."
+
+#~ msgid "Label hover border color."
+#~ msgstr "Warna label sempadan apung"
+
+#~ msgid "Label border color."
+#~ msgstr "Warna label sempadan."
+
+#~ msgid "Label background color."
+#~ msgstr "Label warna latar belakang."
+
+#~ msgid "Label length."
+#~ msgstr "Panjang label."
+
+#~ msgid "Size of the icons inside stack."
+#~ msgstr "Saiz ikon didalam susunan."
+
+#~ msgid "Sort direction of the items."
+#~ msgstr "Isih arah item."
+
+#~ msgid "Number of columns to use."
+#~ msgstr "Bilangan lajur yang digunnakan."
+
+#~ msgid "Number of rows to use."
+#~ msgstr "Bilangan baris yang digunakan."
+
+#~ msgid "Layout interval."
+#~ msgstr "Selang bentangan."
+
+#~ msgid "Layout direction."
+#~ msgstr "Arah bentangan."
+
+#~ msgid "Label text hover color."
+#~ msgstr "Warna teks label apung."
+
+#~ msgid "Label text color."
+#~ msgstr "Warna teks label"
+
+#~ msgid "Layout radius."
+#~ msgstr "Radius bentangan."
+
+#~ msgid "Sort folders before files."
+#~ msgstr "Isih folder sebelum fail."
+
+#~ msgid "Tooltip font name."
+#~ msgstr "Nama fon tooltip."
+
+#~ msgid "Tooltip background color 2."
+#~ msgstr "Warna latar belakang tooltip 2."
+
+#~ msgid "Tooltip border color."
+#~ msgstr "Warna sempadan tooltip."
+
+#~ msgid "Tooltip background color 1."
+#~ msgstr "Warna latar belakang tooltip 1."
+
+#~ msgid "Whether hoverbox contains label."
+#~ msgstr "Sama ada kotak apung mengandungi label."
+
+#~ msgid "Tooltip text color."
+#~ msgstr "Warna teks tooltip."
+
+#~ msgid "Use Awn's tooltip font."
+#~ msgstr "Guna fon tooltip Awn"
+
+#~ msgid "Type of UI used for the stack."
+#~ msgstr "Jenis UI yang digunakan pada susunan."
+
+#~ msgid "Whether to browse stack contents."
+#~ msgstr "Sama ada melayar kandungan susunan."
+
+#~ msgid "Whether tooltips are enabled."
+#~ msgstr "Sama ada tooltip dibenarkan."
+
+#~ msgid ""
+#~ "Whether to combine icons of the files inside the stacks with its icon."
+#~ msgstr ""
+#~ "Sama ada gabungkan ikon fail yang berada didalam susunan dengan ikonnya."

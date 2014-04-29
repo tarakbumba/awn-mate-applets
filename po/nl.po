@@ -1,0 +1,1727 @@
+# Dutch translation for notification-daemon
+# Copyright (C) 2006 Christian Hammond
+# This file is distributed under the same license as the notification-daemon package.
+#
+# Wouter Bolsterlee <uws+gnome@xs4all.nl>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: svn trunk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:16+0300\n"
+"PO-Revision-Date: 2010-10-11 23:36+0000\n"
+"Last-Translator: Gwijde <gwijde.maegherman@gmail.com>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "Plaatsen"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "Recente documenten"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr "Sessie"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+msgid "A Mate Main Menu."
+msgstr ""
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr "Afmelden"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "Beeldscherm vergrendelen"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr "Pauzestand"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr "Slaapstand"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "Uitzetten"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "Computer"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "Startpagina"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "Bureaublad"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr "Bestandsysteem"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "Netwerk"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "Verbinden met server"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr "Lijst met recente documenten wissen"
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+msgid "Awn Mate MainMenu"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+#, fuzzy
+msgid "Action to perform when left clicking on the icon."
+msgstr "De actie die uitgevoerd moet worden bij een linkse klik"
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "Beeldscherm vergrendelen"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+#, fuzzy
+msgid "Log out of this Mate session to log in as a different user"
+msgstr "Deze sessie afsluiten zodat een andere gebruiker zich kan aanmelden"
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr "De computer afsluiten"
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+#, fuzzy
+msgid "Show Docklet"
+msgstr "Toon bureaublad"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+#, fuzzy
+msgid "Log Out"
+msgstr "Inloggen"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+#, fuzzy
+msgid "Shut Down"
+msgstr "Afsluiten..."
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr "Afsluiten..."
+
+#: ../applets/mate-quit/mate-quit.py:248
+#, fuzzy
+msgid "Left click _action:"
+msgstr "Linkse klik"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+#, fuzzy
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr "YAMA"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr "Persoonlijke map"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr "Verbinden met server…"
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#~ msgid "Animal Farm"
+#~ msgstr "Dierenboerderij"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "Toon voorspellingen."
+
+#~ msgid "Applet that displays fortune messages"
+#~ msgstr "Applet dat voorspellingen toont"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "Globale sneltoets om de terminal te activeren."
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr ""
+#~ "Kies of de applet zichzelf moet verbergen als het de focus verliest."
+
+#~ msgid "The applet's background image."
+#~ msgstr "Achtergrond van de applet."
+
+#~ msgid "The applet's opacity level."
+#~ msgstr "Het niveau van doorzichtigheid van de applet."
+
+#~ msgid "The default external terminal application."
+#~ msgstr "De standaard externe terminal applicatie"
+
+#~ msgid "Disabled"
+#~ msgstr "Uitgeschakeld"
+
+#~ msgid "Preferences"
+#~ msgstr "Voorkeuren"
+
+#~ msgid "Behavior"
+#~ msgstr "Gedrag"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "Verberg wanneer focus verloren gaat."
+
+#~ msgid "Action"
+#~ msgstr "Actie"
+
+#~ msgid "Shortcut"
+#~ msgstr "Snelkoppeling"
+
+#~ msgid "Activate"
+#~ msgstr "Activeer"
+
+#~ msgid "Background image"
+#~ msgstr "Achtergrondafbeelding"
+
+#~ msgid "Select a file"
+#~ msgstr "Kies een bestand"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "Doorzichtigheid van Terminal"
+
+#~ msgid "External Terminal"
+#~ msgstr "Externe terminal"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "Een simpele popup terminal"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "Terminal Applet"
+
+#~ msgid "Color to draw the background"
+#~ msgstr "Achtergrondkleur"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "Randkleur"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "Toon parameters voor interfaces"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "Teken de achtergrond van de applet"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "Teken de rand van de applet"
+
+#~ msgid ""
+#~ "If enabled this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn"
+#~ msgstr ""
+#~ "Indien aangezet zal dit een lijn tekenen aan de onderkant van de grafiek "
+#~ "zelfs al is de waarde nul.  Indien uitgezet zullen waarden onder 1 niet "
+#~ "worden getekend."
+
+#~ msgid "Minimum threshold to draw meter (dependent upon DEFAULT/unit)"
+#~ msgstr ""
+#~ "Minimum grenswaarde om meters te tekenen (afhankelijk van STANDAARD/"
+#~ "eenheid)"
+
+#~ msgid "The interface currently selected"
+#~ msgstr "De huidig geselecteerde interface"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "Bandbreedtemonitor"
+
+#~ msgid "Network Bandwidth monitor"
+#~ msgstr "Netwerkbandbreedtemonitor"
+
+#~ msgid "Scanning"
+#~ msgstr "Bezig net scannen"
+
+#~ msgid "Devices"
+#~ msgstr "Apparaten"
+
+#~ msgid "KBps"
+#~ msgstr "KBps"
+
+#~ msgid "Kbps"
+#~ msgstr "Kbps"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "Selecteer een beschikbaar netwerkapparaat"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr "Totaal verzonden : %s - Totaal ontvangen : %s (alle apparaten)"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "Kies asjeblieft een geldig apparaat"
+
+#~ msgid "A Network Bandwidth monitor for AWN"
+#~ msgstr "Netwerk bandbreedte monitor voor AWN"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>Beeldscherm</b>"
+
+#~ msgid "Background Color"
+#~ msgstr "Achtergrondkleur"
+
+#~ msgid "Border Color"
+#~ msgstr "Randkleur"
+
+#~ msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+#~ msgstr "Toon MBps/KBps (bytes) in plaats van Mbps/Kbps (bits)"
+
+#~ msgid "Display Speed Text"
+#~ msgstr "Toon snelheid in tekst"
+
+#~ msgid "Draw 0 bps in graphs"
+#~ msgstr "Teken 0 bps in grafieken"
+
+#~ msgid "Draw Background"
+#~ msgstr "Teken achtergrond"
+
+#~ msgid "Draw Border"
+#~ msgstr "Teken rand"
+
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#~ msgid "Graph Only"
+#~ msgstr "Alleen grafiek"
+
+#~ msgid "If this is checked, the common display unit will be Bytes"
+#~ msgstr ""
+#~ "Indien aangevinkd zal de gemeenschappelijke eenheid voorgesteld worden in "
+#~ "Bytes"
+
+#~ msgid "Sum"
+#~ msgstr "Som"
+
+#~ msgid "Device"
+#~ msgstr "Apparaat"
+
+#~ msgid "Multi"
+#~ msgstr "Multi"
+
+#~ msgid "Upload Color"
+#~ msgstr "Upload kleur"
+
+#~ msgid "Download Color"
+#~ msgstr "Download kleur"
+
+#~ msgid "Upload"
+#~ msgstr "Upload"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "%s %s Color"
+#~ msgstr "%s %s Kleur"
+
+#~ msgid "Change Unit"
+#~ msgstr "Verander eenheid"
+
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#~ msgid "HAL UDI of battery."
+#~ msgstr "HAL UDI van de batterij."
+
+#~ msgid ""
+#~ "If charge level drops below this threadhold, a warning will be displayed."
+#~ msgstr ""
+#~ "Als het accuniveau onder deze grens zakt zal een waarschuwing worden "
+#~ "getoond."
+
+#~ msgid "If charge level reaches this threshold, a notification will be sent."
+#~ msgstr ""
+#~ "Als het accuniveau deze grens bereikt zal een bericht worden verzonden."
+
+#~ msgid "If enabled, notify when the charge level reaches the high level."
+#~ msgstr ""
+#~ "Indien aangevinkt, waarschuw als het accuniveau het maximum bereikt."
+
+#~ msgid ""
+#~ "If enabled, warn when the charge level drops below the warning threshold."
+#~ msgstr ""
+#~ "Indien aangevinkd, waarschuw wanneer het accuniveau onder de "
+#~ "waarschuwingsgrens zakt."
+
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "De naam van het thema van het icoon."
+
+#~ msgid "Unit of low level threshold (Percent or Time Remaining)."
+#~ msgstr ""
+#~ "Eenheid voor weergave laag accuniveau (percent of overblijvende tijd)"
+
+#~ msgid "Battery"
+#~ msgstr "Accu"
+
+#~ msgid "Display battery state"
+#~ msgstr "Toon accustatus"
+
+#~ msgid "Battery Status"
+#~ msgstr "Batterij Status"
+
+#~ msgid "No batteries"
+#~ msgstr "Geen batterijen"
+
+#~ msgid "Percent"
+#~ msgstr "Procent"
+
+#~ msgid "Time Remaining"
+#~ msgstr "Resterende tijd"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>Algemene opties</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>Meldingen</b>"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge level reaches a certain "
+#~ "percentage"
+#~ msgstr ""
+#~ "Indien aangevinkd, toont een melding wanneer het accuniveau een bepaald "
+#~ "percentage bereikt"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge levels drops too low"
+#~ msgstr ""
+#~ "Indien aangevinkd, toont een melding wanneer het accuniveau te laag wordt"
+
+#~ msgid "_Battery:"
+#~ msgstr "_Accu :"
+
+#~ msgid "_Notify when charge level reaches:"
+#~ msgstr "_Meld wanneer accuniveau volgend niveau bereikt :"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Thema :"
+
+#~ msgid "_Warn when charge level drops to:"
+#~ msgstr "_Waarschuw wanneer accuniveau terugvalt tot :"
+
+#~ msgid "A custom time format (strftime()), used if not empty."
+#~ msgstr "Een aangepast tijdsformaat (strftime()), gebruikt indien niet leeg."
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too."
+#~ msgstr ""
+#~ "Indien aangevinkd zullen naast uren en minuten de seconden ook zichtbaar "
+#~ "zijn."
+
+#~ msgid "If enabled, displays the weather as an overlay on top of the clock."
+#~ msgstr ""
+#~ "Indien aangevinkd zal het weer als een overlay worden getoond bovenop de "
+#~ "klok."
+
+#~ msgid "If enabled, the date will be shown in the title."
+#~ msgstr "Indien aangevinkd zal de datum getoond worden in de titel"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock."
+#~ msgstr "Indien aangevinkd zal de secondewijzer getoond worden op de klok."
+
+#~ msgid "List of cities and timezones separated by a '#' character."
+#~ msgstr "Lijst van steden en tijdzones opgedeeld dmv een '#' karakter."
+
+#~ msgid ""
+#~ "Show time in 24 hour format if enabled, or 12 hour format when disabled."
+#~ msgstr ""
+#~ "Toon tijd in 24-uursformaat indien aangevinkd, of in 12-uursformaat "
+#~ "indien afgevinkd."
+
+#~ msgid "Temperature unit (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+#~ msgstr "Temperatuur eenheid. (0: Celsius, 1: Fahrenheit, 2: Kelvin)"
+
+#~ msgid "The name of the theme of the analog clock."
+#~ msgstr "De naam van het thema van de analoge klok."
+
+#~ msgid "Wind speed unit (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+#~ msgstr ""
+#~ "Windsnelheid eenheid. (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)"
+
+#~ msgid "Cairo Clock"
+#~ msgstr "Cairo klok"
+
+#~ msgid ""
+#~ "Displays an analog clock and supports additional clocks for different "
+#~ "locations"
+#~ msgstr ""
+#~ "Toont een analoge klok en ondersteunt bijkomende klokken voor "
+#~ "verschillende locaties."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "12 _hour format"
+#~ msgstr "12-uursformaat"
+
+#~ msgid "24 h_our format"
+#~ msgstr "24-uursformaat"
+
+#~ msgid "<b>Title Options</b>"
+#~ msgstr "Voorkeuren voor Titel"
+
+#~ msgid "Beaufort"
+#~ msgstr "Beaufort"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "Fahrenheit"
+
+#~ msgid "Find _Next"
+#~ msgstr "_Volgende zoeken"
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too"
+#~ msgstr ""
+#~ "Indien aangevinkd zullen naast uren en minuten de seconden ook zichtbaar "
+#~ "zijn"
+
+#~ msgid "If enabled, the date will be shown in the title"
+#~ msgstr "Indien aangevinkd zal de datum getoond worden in de titel"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock"
+#~ msgstr "Indien aangevinkd zal de secondenwijzer zichtbaar zijn in de klok"
+
+#~ msgid "If enabled, time will be shown like 1:23 AM"
+#~ msgstr "Indien aangevinkd zal de tijd getoond worden als 1:23 AM"
+
+#~ msgid "If enabled, time will be shown like 23:45"
+#~ msgstr "Indien aangevinkd zal de tijd getoond worden als 23:45"
+
+#~ msgid "Kelvin"
+#~ msgstr "Kelvin"
+
+#~ msgid "Location Name:"
+#~ msgstr "Plaatsnaam"
+
+#~ msgid "Show _seconds"
+#~ msgstr "Toon _seconden"
+
+#~ msgid "Show seco_nds hand"
+#~ msgstr "Toon seco_ndenwijzer"
+
+#~ msgid "Show the _date"
+#~ msgstr "_Datum tonen"
+
+#~ msgid "_Show weather of current location"
+#~ msgstr "_Weer en huidige locatie tonen"
+
+#~ msgid "_Temperature unit:"
+#~ msgstr "Maateenheid voor _temperatuur:"
+
+#~ msgid "_Wind speed unit:"
+#~ msgstr "Maateenheid voor _windsnelheid:"
+
+#~ msgid "km/h"
+#~ msgstr "km/u"
+
+#~ msgid "knots"
+#~ msgstr "knopen"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "mph"
+#~ msgstr "mpu"
+
+#~ msgid "Locations"
+#~ msgstr "Locaties"
+
+#~ msgid "Edit"
+#~ msgstr "Bewerk"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Clock/Calendar Applet"
+#~ msgstr "Klok/Kalender applet."
+
+#~ msgid "Watch appointments on your dock"
+#~ msgstr "Bekijk afspraken op je dock"
+
+#~ msgid "Login to "
+#~ msgstr "Meld aan op "
+
+#~ msgid "Online Calendar"
+#~ msgstr "Online Kalender"
+
+#~ msgid "Calendar Username"
+#~ msgstr "Gebruikersnaam voor kalender"
+
+#~ msgid "Calendar Password"
+#~ msgstr "Wachtwoord voor kalender"
+
+#~ msgid "Save Password"
+#~ msgstr "Wachtwoord opslaan"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "Je hebt ervoor gekozen je wachtwoord op te slaan.  Alhoewel het "
+#~ "wachtwoord opgeslagen zal worden in een versleuteld formaat is er altijd "
+#~ "een kans dat je wachtwoord gestolen kan worden en ontsleuteld als de "
+#~ "veiligheid van je computer in het gedrang is gekomen.  Ben je zeker dat "
+#~ "je je wachtwoord wil opslaan ?"
+
+#~ msgid "Classic LCD"
+#~ msgstr "Klassieke LCD"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "Indy Glow LCD"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "Backlit Amber LCD"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "Backlit Groen LCD"
+
+#~ msgid "Green LED"
+#~ msgstr "Groene LED"
+
+#~ msgid "Red LED"
+#~ msgstr "Rode LED"
+
+#~ msgid "Blue LED"
+#~ msgstr "Blauwe LED"
+
+#~ msgid "Plain White"
+#~ msgstr "Wit"
+
+#~ msgid "Plain Black"
+#~ msgstr "Zwart"
+
+#~ msgid "Red"
+#~ msgstr "Rood"
+
+#~ msgid "Green"
+#~ msgstr "Groen"
+
+#~ msgid "Blue"
+#~ msgstr "Blauw"
+
+#~ msgid "Gray"
+#~ msgstr "Grijs"
+
+#~ msgid "Black"
+#~ msgstr "Zwart"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "Twaalf uren klok"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "Uitzicht klok"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "Uitzicht kalender"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Google Kalender"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Outlook Web Toegang"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "Kalender integratie"
+
+#~ msgid "Calendar URL"
+#~ msgstr "Kalender URL"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalender"
+
+#~ msgid "Open in "
+#~ msgstr "Openen in "
+
+#~ msgid "Today"
+#~ msgstr "Vandaag"
+
+#~ msgid "No appointments."
+#~ msgstr "Geen afspraken"
+
+#~ msgid "No appointments"
+#~ msgstr "Geen afspraken"
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr ""
+#~ "Kon %s niet downloaden. Druk op \"Volgende\" om opnieuw te proberen."
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr ""
+#~ "De URL wordt niet herkend als strip feed.  Druk \"volgende\" om opnieuw "
+#~ "te proberen"
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "Bezig met verbinden met <i>%s</i>..."
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "De wizard is voltooid.\n"
+#~ "\n"
+#~ "Druk op \"Toepassen\" om <i>%s</i> toe te voegen."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "<b>%(name)s</b> gevonden!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Comics!"
+#~ msgstr "Strips !"
+
+#~ msgid "View your favourite comics on your desktop"
+#~ msgstr "Bekijk je favoriete strips op je bureaublad"
+
+#~ msgid "Shared comics"
+#~ msgstr "Gedeelde strips"
+
+#~ msgid "Your comics"
+#~ msgstr "Jouw strips"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "Kon <i>%s</i> niet verwijderen."
+
+#~ msgid "Error"
+#~ msgstr "Fout"
+
+#~ msgid "Comics"
+#~ msgstr "Strips"
+
+#~ msgid "Manage Comics"
+#~ msgstr "Beheer strips"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "Er is een nieuwe strip van %s beschikbaar!"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A %d %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "Het is niet gelukt om <i>%s</i> op te slaan."
+
+#~ msgid "Add Comic"
+#~ msgstr "Voeg strip toe"
+
+#~ msgid "Downloading Comic"
+#~ msgstr "Bezig met strip te downloaden"
+
+#~ msgid "Enter the URL of the RSS feed:"
+#~ msgstr "Geef de URL van de RSS feed in."
+
+#~ msgid "Ready to add comic!"
+#~ msgstr "Klaar om een strip toe te voegen !"
+
+#~ msgid "Select Comic"
+#~ msgstr "Kies strip"
+
+#~ msgid "Select Image"
+#~ msgstr "Kies een afbeelding"
+
+#~ msgid "The guide found more than one image. Please select which one to use."
+#~ msgstr ""
+#~ "De wizard vond meer dan één afbeelding.  Kies degene die gebruikt moet "
+#~ "worden."
+
+#~ msgid ""
+#~ "This guide will help you to add a new comic.\n"
+#~ "\n"
+#~ "To find comics suitable for adding, you may search the Internet for "
+#~ "\"comics rss\".\n"
+#~ "\n"
+#~ "Press \"next\" to proceed."
+#~ msgstr ""
+#~ "Deze handleiding helpt u een nieuwe strip toe te voegen.\n"
+#~ "\n"
+#~ "Om strips te vinden die u toe wilt voegen, can u op het internet naar "
+#~ "\"comics rss\" zoeken.\n"
+#~ "\n"
+#~ "Klik \"volgende\" om door te gaan."
+
+#~ msgid "Manage comics"
+#~ msgstr "Beheer strips"
+
+#~ msgid "The following comics are installed:"
+#~ msgstr "De volgende strips zijn geïnstalleerd."
+
+#~ msgid "Show link"
+#~ msgstr "Toon koppeling"
+
+#~ msgid "Size"
+#~ msgstr "Grootte"
+
+#~ msgid "Unknown command sent: %s"
+#~ msgstr "Onbekend commando verzonden : %s"
+
+#~ msgid "Index of processor."
+#~ msgstr "Processor index"
+
+#~ msgid "An applet to monitor and control the CPU frequency"
+#~ msgstr ""
+#~ "Een applet om de frequentie van de CPU in de gaten te houden en aan te "
+#~ "passen"
+
+#~ msgid "CPU Frequency Monitor"
+#~ msgstr "CPU Frequentie Monitor"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>Scaling unavailable</b></span>\n"
+#~ "\n"
+#~ "Frequency scaling is not\n"
+#~ "available for the selected CPU."
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Vergroten/verkleinen niet mogelijk</b></span>\n"
+#~ "\n"
+#~ "Het vergroten of verkleinen van de frequentie is niet\n"
+#~ "mogelijk bij deze CPU."
+
+#~ msgid "GHz"
+#~ msgstr "GHz"
+
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgid "_Processor:"
+#~ msgstr "_Processor"
+
+#~ msgid "Can change layout with scroll wheel."
+#~ msgstr "Kan layout aanpassen met scrollwiel."
+
+#~ msgid "Flag opacity (min: 0.0, max: 0.9)."
+#~ msgstr "Vlag doorzichtigheid (min: 0.0, max 0.9)"
+
+#~ msgid "Flag size compared to icon (min: 0.1, max: 0.9)."
+#~ msgstr "Vlag grootte t.o.v. icoon (min: 0.1, max: 0.9)"
+
+#~ msgid ""
+#~ "Keyboard toggle to change selected layout (see prefs dialog for values)."
+#~ msgstr ""
+#~ "Keyboard sneltoets om de geselecteerde layout te veranderen (zie "
+#~ "voorkeuren venster for waarden)"
+
+#~ msgid "Left click action (0: previous, 1: menu, 2: next, 3: none)."
+#~ msgstr "Linker klik actie (0: vorige, 1: menu, 2: volgende, 3: geen)."
+
+#~ msgid "Middle click action (0: previous, 1: menu, 2: next, 3: none)."
+#~ msgstr "Midden klik actie (0: vorige, 1: menu, 2: volgende, 3: geen)."
+
+#~ msgid "Overlay selected layout flag on icon."
+#~ msgstr "Geselecteerde layout vlag boven het icoon weergeven"
+
+#~ msgid "User selected layouts."
+#~ msgstr "Layouts geselecteerd door gebruikers."
+
+#~ msgid "User selected variants."
+#~ msgstr "Varianten geselecteerd door gebruiker"
+
+#~ msgid " Dialect Applet"
+#~ msgstr " Dialect Applet"
+
+#~ msgid "Change your keyboard input layout from Awn."
+#~ msgstr "Verander je toetsenbord-input-layout vanuit Awn."
+
+#~ msgid "System List"
+#~ msgstr "Systeem lijst"
+
+#~ msgid "User List"
+#~ msgstr "Gebruikerslijst"
+
+#~ msgid "About Dialect Applet"
+#~ msgstr "Over Dialect Applet"
+
+#~ msgid "Appearance"
+#~ msgstr "Uiterlijk"
+
+#~ msgid "Change your keyboard layout from Awn."
+#~ msgstr "Verander je toetsenbordindeling vanuit Awn"
+
+#~ msgid "Dialect Applet Preferences"
+#~ msgstr "Voorkeuren van Dialect Applet"
+
+#~ msgid "Command to execute when a calendar day is double-clicked."
+#~ msgstr ""
+#~ "Commando dat uitgevoerd moet worden wanneer dubbel geklikt wordt op een "
+#~ "dag in de kalender."
+
+#~ msgid "Show the date before the time."
+#~ msgstr "Toon de datum voor de tijd"
+
+#~ msgid "The color of the clock text."
+#~ msgstr "De kleur van de kloktekst."
+
+#~ msgid "The font face of the clock text."
+#~ msgstr "Het lettertype van de kloktekst."
+
+#~ msgid "The shadow color of the clock text."
+#~ msgstr "De schaduwkleur van de kloktekst"
+
+#~ msgid "Toggle 12-hour mode."
+#~ msgstr "Verander 12-uursmodus."
+
+#~ msgid "12 hour format"
+#~ msgstr "12-uursformaat"
+
+#~ msgid "24 hour format"
+#~ msgstr "24-uursformaat"
+
+#~ msgid "Commands"
+#~ msgstr "Commando's"
+
+#~ msgid "Date below time"
+#~ msgstr "Datum onder tijd"
+
+#~ msgid "Digital Clock Preferences"
+#~ msgstr "Voorkeuren voor digitale klok"
+
+#~ msgid "Show the date"
+#~ msgstr "Toon de datum"
+
+#~ msgid "Use default Awn colors"
+#~ msgstr "Gebruik standaard Awn kleuren"
+
+#~ msgid "A clock and calendar in one."
+#~ msgstr "Een klok en kalender in één"
+
+#~ msgid "Digital Clock"
+#~ msgstr "Digitale klok"
+
+#~ msgid "Copy Time"
+#~ msgstr "Kopiëer tijd"
+
+#~ msgid "Copy Date"
+#~ msgstr "Kopiëer datum"
+
+#~ msgid "Adjust Date & Time"
+#~ msgstr "Pas datum en tijd aan"
+
+#~ msgid "Displays digital clock."
+#~ msgstr "Toont digitale klok"
+
+#~ msgid "Notify if any feeds have new items"
+#~ msgstr "Meldt als enig welke feed nieuwe items heeft"
+
+#~ msgid "Show each feed's website's icon in the dialog"
+#~ msgstr "Toon het website icoon van elke feed in de dialoog"
+
+#~ msgid "The interval (in minutes) at which to update (3-60)"
+#~ msgstr "De interval (in minuten) van de update (3-60)"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Google Reader"
+#~ msgstr "Google Reader"
+
+#~ msgid "Google Wave"
+#~ msgstr "Google Wave"
+
+#~ msgid "Comment reply from %s"
+#~ msgstr "Becommentarieer antwoord van %s"
+
+#~ msgid "Post reply from %s"
+#~ msgstr "Paats een antwoord van %s"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Untitled"
+#~ msgstr "Zonder titel"
+
+#~ msgid "Feeds Applet"
+#~ msgstr "Feeds Applet"
+
+#~ msgid "Loading feeds..."
+#~ msgstr "Feeds aan het laden..."
+
+#~ msgid "You don't have any feeds."
+#~ msgstr "Je hebt geen enkele feed."
+
+#~ msgid ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s More)\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s Meer)\n"
+
+#~ msgid "Add Feed"
+#~ msgstr "Feed toevoegen"
+
+#~ msgid "OPML Import"
+#~ msgstr "OPML import"
+
+#~ msgid "Feeds Applet Preferences"
+#~ msgstr "Voorkeuren voor Feeds Applet"
+
+#~ msgid "Feeds"
+#~ msgstr "Feeds"
+
+#~ msgid "Updating"
+#~ msgstr "Vernieuwen"
+
+#~ msgid "_Show website icons"
+#~ msgstr "Toon web_site icons"
+
+#~ msgid "Import"
+#~ msgstr "Importeer"
+
+#~ msgid "Export"
+#~ msgstr "Exporteer"
+
+#~ msgid " minutes"
+#~ msgstr " minuten"
+
+#~ msgid "Open OPML File"
+#~ msgstr "Open OPML bestand"
+
+#~ msgid "Save OPML File"
+#~ msgstr "Bewaar OPML bestand"
+
+#~ msgid "feeds.opml"
+#~ msgstr "feeds.opml"
+
+#~ msgid "Source:"
+#~ msgstr "Bron:"
+
+#~ msgid "Search"
+#~ msgstr "Zoek"
+
+#~ msgid "You must sign in to a Google service to search for feeds."
+#~ msgstr "Je moet aanmelden bij een Google-dienst om feeds te zoeken."
+
+#~ msgid "RSS/Atom"
+#~ msgstr "RSS/Atom"
+
+#~ msgid "Timeline"
+#~ msgstr "Tijdslijn"
+
+#~ msgid "Replies"
+#~ msgstr "Antwoorden"
+
+#~ msgid "Search for"
+#~ msgstr "Zoek naar:"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Username:"
+#~ msgstr "Gebuikersnaam:"
+
+#~ msgid "Password:"
+#~ msgstr "Wachtword:"
+
+#~ msgid "Feed search by "
+#~ msgstr "Feed zoeken op "
+
+#~ msgid "_Search"
+#~ msgstr "_Zoek"
+
+#~ msgid ""
+#~ "There was an error while searching.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "Er was een fout tijdens het zoeken.\n"
+#~ "Probeer asjeblieft later opnieuw."
+
+#~ msgid ""
+#~ "No results found.\n"
+#~ "Try checking your spelling or using different search terms."
+#~ msgstr ""
+#~ "Geen resultaten gevonden.\n"
+#~ "Controleer je spelling of probeer een andere zoekterm te gebruiken."
+
+#~ msgid "The action to perform on middle click"
+#~ msgstr "De actie die uitgevoerd moet worden bij een middenklik"
+
+#~ msgid "The path to use on left click"
+#~ msgstr "Het pad dat gebruikt moet worden bij een linkse klik"
+
+#~ msgid "The path to use on middle click"
+#~ msgstr "Het pad dat gebruikt moet worden bij een middenklik"
+
+#~ msgid "Whether or not to display Connect to server"
+#~ msgstr "Of al of niet \"verbinden met server\" getoond moet worden"
+
+#~ msgid "Whether or not to display bookmarks"
+#~ msgstr "Of al of niet bookmarks getoond moeten worden"
+
+#~ msgid "Whether or not to display local drives"
+#~ msgstr "Of al of niet lokale schijven getoond moeten worden"
+
+#~ msgid "Whether or not to display network drives"
+#~ msgstr "Of al of niet netwerkschijven getoond moeten worden"
+
+#~ msgid "Whether or not to display the Filesystem"
+#~ msgstr "Of al of niet het bestandssysteem getoond moet worden"
+
+#~ msgid "Whether or not to display the home folder"
+#~ msgstr "Of al of niet de persoonlijke map moet getoond worden"
+
+#~ msgid "Whether or not to focus the location text box"
+#~ msgstr "Of al of niet het lokatie-tekstvak de focus krijgt"
+
+#~ msgid "Filesystem"
+#~ msgstr "Bestandssysteem"
+
+#~ msgid "CD/DVD Burner"
+#~ msgstr "CD/DVD Brander"
+
+#~ msgid "Fonts"
+#~ msgstr "Lettertypes"
+
+#~ msgid "Folder"
+#~ msgstr "Map"
+
+#~ msgid "DVD Drive"
+#~ msgstr "DVD-eenheid"
+
+#~ msgid "CD Drive"
+#~ msgstr "CD-eenheid"
+
+#~ msgid "Eject"
+#~ msgstr "Uitwerpen"
+
+#~ msgid "File Browser"
+#~ msgstr "Bestandsbeheer"
+
+#~ msgid "System Default"
+#~ msgstr "Systeemstandaard"
+
+#~ msgid "Other"
+#~ msgstr "Andere"
+
+#~ msgid "One icon with dialog"
+#~ msgstr "Eén icoon met dialoog"
+
+#~ msgid "One icon with docklet"
+#~ msgstr "Eén icoon met docklet"
+
+#~ msgid "Multiple icons"
+#~ msgstr "Meerdere iconen"
+
+#~ msgid "Home folder"
+#~ msgstr "Persoonlijke map"
+
+#~ msgid "Connect to server"
+#~ msgstr "Verbind met server"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Bladwijzers"
+
+#~ msgid "Open the folder"
+#~ msgstr "Open de map"
+
+#~ msgid "Nothing"
+#~ msgstr "Niets"
+
+#~ msgid "Middle Click"
+#~ msgstr "Middenklik"
+
+#~ msgid "Choose a folder"
+#~ msgstr "Kies een map"
+
+#~ msgid "Garbage"
+#~ msgstr "Rommel"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Prullenbak _leemaken"
+
+#~ msgid "A lightweight, cross-desktop trash applet"
+#~ msgstr "A lichtvoetige, desktop-overschrijdende vuilnisbak applet"
+
+#~ msgid ""
+#~ "Are you sure you want to empty your trash? It currently contains %u "
+#~ "item(s)."
+#~ msgstr ""
+#~ "Ben je zeker dat je je prullenbak wil leegmaken ? Er zitten momenteel %u "
+#~ "dingen in."
+
+#~ msgid "%s Preferences"
+#~ msgstr "%s Voorkeuren"
+
+#~ msgid "Applet theme."
+#~ msgstr "Applet thema"
+
+#~ msgid "Sensors"
+#~ msgstr "Sensoren"
+
+#~ msgid "Interface"
+#~ msgstr "Interface"
+
+#~ msgid "Name"
+#~ msgstr "Naam"
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "properties"
+#~ msgstr "eigenschappen"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Mail Applet"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "U heeft %d nieuw bericht"
+#~ msgstr[1] "U heeft %d nieuwe berichten"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d ongelezen bericht"
+#~ msgstr[1] "%d ongelezen berichten"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Mail Applet (Klik hier om in te loggen)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Inloggen als %s"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Nieuwe Mail - Mail Applet"
+
+#~ msgid "Mail"
+#~ msgstr "E-mail"
+
+#~ msgid "No unread messages"
+#~ msgstr "Geen ongelezen berichten"
+
+#~ msgid "No new messages"
+#~ msgstr "Geen nieuwe berichten"
+
+#~ msgid "Backend"
+#~ msgstr "Backend"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[Geen onderwerp]"
+
+#~ msgid "Domain:"
+#~ msgstr "Domein:"
+
+#~ msgid "Server:"
+#~ msgstr "Server:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "SSL-versleuteling gebruiken"
+
+#~ msgid "Could not log in"
+#~ msgstr "Inloggen niet mogelijk"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Een applet om op e-mail te controleren"
+
+#~ msgid "pixels"
+#~ msgstr "beeldpunten"
+
+#~ msgid "Next"
+#~ msgstr "Volgende"
+
+#~ msgid "Previous"
+#~ msgstr "Vorige"
+
+#~ msgid "Media Player"
+#~ msgstr "Mediaspeler"
+
+#~ msgid "_Height:"
+#~ msgstr "_Hoogte"
+
+#~ msgid "_Width:"
+#~ msgstr "_Breedte:"
+
+#~ msgid "<b>Background</b>"
+#~ msgstr "<b>Achtergrond</b>"
+
+#~ msgid "All windows"
+#~ msgstr "Alle vensters"
+
+#~ msgid "_Rows:"
+#~ msgstr "_Rijen:"
+
+#~ msgid "Width:"
+#~ msgstr "Breedte:"
+
+#~ msgid "Height:"
+#~ msgstr "Hoogte:"
+
+#~ msgid "GNOME"
+#~ msgstr "Gnome"
+
+#~ msgid "File"
+#~ msgstr "Bestand"
+
+#~ msgid "File:"
+#~ msgstr "Bestand:"
+
+#~ msgid "Pictures"
+#~ msgstr "Afbeeldingen"
+
+#~ msgid "Background"
+#~ msgstr "Achtergrond"
+
+#~ msgid "Advanced"
+#~ msgstr "Geavanceerd"
+
+#~ msgid "ThinkHDAPS"
+#~ msgstr "ThinkHDAPS"
+
+#~ msgid "Tomboy Applet"
+#~ msgstr "Tomboy Applet"
+
+#~ msgid "Version: %s"
+#~ msgstr "Versie: %s"
+
+#~ msgid "New Note"
+#~ msgstr "Nieuwe notitie"
+
+#~ msgid "Volume Control"
+#~ msgstr "Volumeregelaar"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "Open Location"
+#~ msgstr "Locatie Openen"
+
+#~ msgid "The theme used when displaying notifications."
+#~ msgstr "Het thema dat voor de berichtweergave wordt gebruikt."
+
+#~ msgid "Unable to caclulate statistics"
+#~ msgstr "Het berekenen van de statistieken is mislukt"
+
+#~ msgid " Upload/Download"
+#~ msgstr " Upload/Download"
+
+#~ msgid " bytes)"
+#~ msgstr " bytes)"
+
+#~ msgid "Tooltip text color."
+#~ msgstr "Tekstkleur tooltip"
+
+#~ msgid "Use Awn's tooltip font."
+#~ msgstr "Gebruik Awn's tooltip lettertype."
+
+#~ msgid "Tooltip border color."
+#~ msgstr "Tooltip randkleur"
+
+#~ msgid "Tooltip background color 1."
+#~ msgstr "Tooltip achtergrondkleur 1"
+
+#~ msgid "Sort folders before files."
+#~ msgstr "Sorteer mappen voor bestanden."
+
+#~ msgid "Stack tooltip description."
+#~ msgstr "Stapel tooltip omschrijving"
+
+#~ msgid "Size of the icons inside stack."
+#~ msgstr "Grootte van iconen in stapel"
+
+#~ msgid "Sort direction of the items."
+#~ msgstr "Sorteervolgorde van de items."
+
+#~ msgid "Tooltip background color 2."
+#~ msgstr "Tooltip achtergrondkleur 2"
+
+#~ msgid "Tooltip font name."
+#~ msgstr "Tooltip lettertypenaam"
+
+#~ msgid "Number of rows to use."
+#~ msgstr "Aantal te gebruiken rijen"
+
+#~ msgid "File operation to use."
+#~ msgstr "Te gebruiken bestandshandelingen."
+
+#~ msgid "Close dialog on focusout."
+#~ msgstr "Sluit dialoog wanneer die uit focus gaat."
+
+#~ msgid "Icon to use for empty stack."
+#~ msgstr "Icoon te gebruiken voor een lege stapel."
+
+#~ msgid "Icon to use for full stack."
+#~ msgstr "Icoon te gebruiken voor een volle stapel."
+
+#~ msgid "Display number of items in the stack."
+#~ msgstr "Toon het aantal items in de stapel."
+
+#~ msgid "Sent"
+#~ msgstr "Verzonden"
+
+#~ msgid "Received"
+#~ msgstr "Ontvangen"
+
+#~ msgid "Sending"
+#~ msgstr "Bezig met zenden"
+
+#~ msgid "Receiving"
+#~ msgstr "Bezig met ontvangen"
+
+#~ msgid "Do not display the speed as text, only draw the graph"
+#~ msgstr "Toon snelheid niet al tekst, teken enkel de grafiek"
+
+#~ msgid "Display upload and download text representation of speed"
+#~ msgstr "Toon upload en download tekstvoorstelling van de snelheid"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "Toon de som van upload en download"
+
+#~ msgid "Beaufort)."
+#~ msgstr "Beaufort)."
+
+#~ msgid "Kelvin)."
+#~ msgstr "Kelvin)."
+
+#~ msgid "Statistics calculation requires read access to /proc/net/dev"
+#~ msgstr ""
+#~ "Het berekenen van statistieken veronderstelt leestoegang tot /proc/net/dev"
+
+#~ msgid "Celcius"
+#~ msgstr "Celcius"
+
+#~ msgid "Search\\u2026"
+#~ msgstr "Zoek\\u2026"
+
+#~ msgid "Keyboard Toggle"
+#~ msgstr "Toetsenbord wisselen"
+
+#~ msgid "Flag Scale"
+#~ msgstr "Schaal van de Vlag"
+
+#~ msgid "Flag Opacity"
+#~ msgstr "Doorschijnendheid van de Vlag"
+
+#~ msgid "Dialect Applet Help"
+#~ msgstr "Dialect Applet Hulp"
+
+#~ msgid "Previous Layout"
+#~ msgstr "Vorige Layout"
+
+#~ msgid "Next Layout"
+#~ msgstr "Volgende Layout"
+
+#~ msgid "Mouse Actions"
+#~ msgstr "Muisacties"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Monitor Web Feeds"
+#~ msgstr "Hou Web Feeds in het oog"
+
+#~ msgid "Downloads"
+#~ msgstr "Downloads"
+
+#~ msgid "Documents"
+#~ msgstr "Documenten"
+
+#~ msgid "Templates"
+#~ msgstr "Sjablonen"
+
+#~ msgid "Videos"
+#~ msgstr "Filmpjes"
+
+#~ msgid "Music"
+#~ msgstr "Muziek"
+
+#~ msgid "Confirm when emptying the trash"
+#~ msgstr "Bevestig wanneer de vuilnisbak wordt leeggemaakt."
+
+#~ msgid "No"
+#~ msgstr "Nee"
+
+#~ msgid ""
+#~ "If enabled, this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn in the graph."
+#~ msgstr ""
+#~ "Indien aangevinkd zal dit een lijn tekenen aan de onderkant van de "
+#~ "grafiek, zelfs al is de waarde 0.  Indien afgevinkt worden waarden onder "
+#~ "1 niet getekend in de grafiek"
+
+#~ msgid ""
+#~ "If this is checked the applet background will use the selected color. If "
+#~ "unchecked, background will be transparent"
+#~ msgstr ""
+#~ "Als dit aangevinkd is zal de achtergrond van de applet het geselecteerde "
+#~ "kleur gebruiken.  Indien afgevinkd zal de achtergrond transparant zijn."
+
+#~ msgid " none)."
+#~ msgstr " geen)."
+
+#~ msgid " 0.9)."
+#~ msgstr " 0.9)."
+
+#~ msgid "Allow scroll wheel to change layout"
+#~ msgstr "Laat het scrollwiel toe de layout aan te passen"
+
+#~ msgid "(C) 2009, Lachlan Turner (Denham 2010)."
+#~ msgstr "(C) 2009, Lachlan Turner (Denham 2010)."
+
+#~ msgid "Do you want to add these %s feeds?"
+#~ msgstr "Wil je deze %s feeds toevoegen ?"
+
+#~ msgid "Do you want to add this feed?"
+#~ msgstr "Wil je deze feed toevoegen ?"
+
+#~ msgid ""
+#~ "\n"
+#~ "DIALECT APPLET v 09.12.09\n"
+#~ "\n"
+#~ "(C) 2009, Lachlan Turner (Denham 2010)\n"
+#~ "\n"
+#~ "This applet allows you to change your keyboard input language with just a "
+#~ "click of the mouse.\n"
+#~ "You can select any of the available input languages on your system, or "
+#~ "from a list you most commonly use.\n"
+#~ "\n"
+#~ "See the Mouse Actions and Layout Lists tabs for configuration options.\n"
+#~ "\n"
+#~ "The applet depends on the python xklavier module (available from http://"
+#~ "download.sugarlabs.org/sources/external/python-xklavier/python-"
+#~ "xklavier-0.1.tar.gz).\n"
+#~ "\n"
+#~ "This applet is licensed under GPL2. The flag icons distributed with this "
+#~ "applet are from the xfce4-xkb-plugin-0.5.3.3 panel applet, licensed under "
+#~ "the 2-clause BSD license. See the About dialog for licensing details.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "DIALECT APPLET v 09.12.09\n"
+#~ "\n"
+#~ "(C) 2009, Lachlan Turner (Denham 2010)\n"
+#~ "\n"
+#~ "Dit applet staat u toe om uw toetsenbord taal te veranderen met een "
+#~ "enkele muisklik.\n"
+#~ "U kan één van de beschikbare talen van uw systeem selecteren, of kiezen "
+#~ "uit een lijst van meest gebruikte opties.\n"
+#~ "\n"
+#~ "Zie de Muis Acties en Layout Lijsten labels voor configuratie opties.\n"
+#~ "\n"
+#~ "Het applet is afhankelijk van de python xklavier module (verkrijgbaar op "
+#~ "http://download.sugarlabs.org/sources/external/python-xklavier/python-"
+#~ "xklavier-0.1.tar.gz).\n"
+#~ "\n"
+#~ "Dit applet is gelicenciëerd onder GPL2. De vlag iconen in dit applet zijn "
+#~ "oorspronkelijk uit het xfce4-xkb-plugin-0.5.3.3 paneel applet, "
+#~ "gelicenciëerd onder de 2-clausule BSD licentie. Zie de Over dialoog voor "
+#~ "licentie details.\n"

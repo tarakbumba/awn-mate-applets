@@ -1,0 +1,1135 @@
+# English translations for awn-mate-applets-applets package.
+# Copyright (C) 2009 The respective copyright holders of the Awn Extras applets.
+# This file is distributed under the BSD license.
+# Mark Lee <avant-wn@lazymalevolence.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Awn Extras 0.3.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2009-10-31 00:12-0800\n"
+"Last-Translator: Mark Lee <avant-wn@lazymalevolence.com>\n"
+"Language-Team: English (United States Pig Latin)\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+msgid "A Mate Main Menu."
+msgstr ""
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "Esktop-day"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+#, fuzzy
+msgid "Search…"
+msgstr "Earch-say for"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+msgid "Awn Mate MainMenu"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+#, fuzzy
+msgid "Exit or log out from your MATE session"
+msgstr "Ide-hay your indows-way and ow-shay your esktop-day"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+msgid "Lock MATE Screen"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+#, fuzzy
+msgid "Show Docklet"
+msgstr "Ow-shay Esktop-day"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+msgid "Shut Down"
+msgstr ""
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#~ msgid "Animal Farm"
+#~ msgstr "Animal-ay Arm-fay"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "Isplay-day ortune-fay essages-may"
+
+#, fuzzy
+#~ msgid "The applet's background image."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "The applet's opacity level."
+#~ msgstr "Ackground-bay image-way"
+
+#~ msgid "Preferences"
+#~ msgstr "Eferences-pray"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "Ide-hay en-whay ocus-fay is ost-lay"
+
+#~ msgid "Background image"
+#~ msgstr "Ackground-bay image-way"
+
+#~ msgid "Select a file"
+#~ msgstr "Elect-say an ile-fay"
+
+#, fuzzy
+#~ msgid "Terminal opacity"
+#~ msgstr "Erminal-tay Opacity-way"
+
+#~ msgid "External Terminal"
+#~ msgstr "External-way Erminal-tay"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "A imple-say opup-pay erminal-tay"
+
+#, fuzzy
+#~ msgid "Terminal Applet"
+#~ msgstr "Awn Erminal-tay Applet-way"
+
+#, fuzzy
+#~ msgid "Draw the applet background"
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Draw the applet border"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#~ msgid "Interface"
+#~ msgstr "Interface-way"
+
+#, fuzzy
+#~ msgid "Background Color"
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Border Color"
+#~ msgstr "Ont-fay olor-_cay"
+
+#, fuzzy
+#~ msgid "Draw Background"
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Upload Color"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#, fuzzy
+#~ msgid "Download Color"
+#~ msgstr "Igital-day Ock-clay"
+
+#, fuzzy
+#~ msgid "%s %s Color"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#, fuzzy
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#~ msgid "Battery"
+#~ msgstr "Attery-bay"
+
+#~ msgid "Display battery state"
+#~ msgstr "Isplay-day attery-bay ate-stay"
+
+#, fuzzy
+#~ msgid "_Battery:"
+#~ msgstr "Attery-bay"
+
+#, fuzzy
+#~ msgid "The name of the theme of the analog clock."
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#~ msgid "Cairo Clock"
+#~ msgstr "Airo-cay Ock-clay"
+
+#~ msgid ""
+#~ "Displays an analog clock and supports additional clocks for different "
+#~ "locations"
+#~ msgstr ""
+#~ "Isplays-day an analog-way ock-clay and upports-say additional-way ocks-"
+#~ "clay for ifferent-day ocations-lay"
+
+#, fuzzy
+#~ msgid "12 _hour format"
+#~ msgstr "12 hour-way ode-may"
+
+#, fuzzy
+#~ msgid "_Show weather of current location"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#~ msgid "Calendar"
+#~ msgstr "Alendar-clay"
+
+#, fuzzy
+#~ msgid "Downloading Comic"
+#~ msgstr "Igital-day Ock-clay"
+
+#, fuzzy
+#~ msgid "Select Comic"
+#~ msgstr "Elect-say an ile-fay"
+
+#, fuzzy
+#~ msgid "Select Image"
+#~ msgstr "Elect-say an ile-fay"
+
+#, fuzzy
+#~ msgid "_Processor:"
+#~ msgstr "Assword-pay:"
+
+#, fuzzy
+#~ msgid " Dialect Applet"
+#~ msgstr "Awn Erminal-tay Applet-way"
+
+#, fuzzy
+#~ msgid "About Dialect Applet"
+#~ msgstr "Awn Erminal-tay Applet-way"
+
+#, fuzzy
+#~ msgid "Dialect Applet Help"
+#~ msgstr "Awn Erminal-tay Applet-way"
+
+#, fuzzy
+#~ msgid "Dialect Applet Preferences"
+#~ msgstr "Eeds-fay Applet-way Eferences-pray"
+
+#, fuzzy
+#~ msgid "System List"
+#~ msgstr "GNOME Ystem-say Ools-tay (efault-day)"
+
+#~ msgid "Command to execute when a calendar day is double-clicked."
+#~ msgstr ""
+#~ "Ommand-cay to execute-way when an alendar-cay ay-day is ouble-day-icked-"
+#~ "clay."
+
+#~ msgid "Command to execute when the user wishes to adjust the date/time."
+#~ msgstr ""
+#~ "Ommand-cay to execute-way when the user-way ishes-way to adjust-way the "
+#~ "ate-day/ime-tay."
+
+#, fuzzy
+#~ msgid "Show the date before the time."
+#~ msgstr "Ate-day efore-bay ime-tay"
+
+#, fuzzy
+#~ msgid "The color of the clock text."
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The font face of the clock text."
+#~ msgstr "The ont-fay ace-fay for the ate-day and ime-tay ext-tay."
+
+#, fuzzy
+#~ msgid "The shadow color of the clock text."
+#~ msgstr "The ont-fay adow-shay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "Toggle 12-hour mode."
+#~ msgstr "12 hour-way ode-may"
+
+#, fuzzy
+#~ msgid "12 hour format"
+#~ msgstr "12 hour-way ode-may"
+
+#, fuzzy
+#~ msgid "24 hour format"
+#~ msgstr "12 hour-way ode-may"
+
+#, fuzzy
+#~ msgid "Appearance"
+#~ msgstr "_Appearance-way"
+
+#, fuzzy
+#~ msgid "Commands"
+#~ msgstr "_Ommands-cay"
+
+#, fuzzy
+#~ msgid "Date below time"
+#~ msgstr "Ate-day efore-bay ime-tay"
+
+#, fuzzy
+#~ msgid "Digital Clock Preferences"
+#~ msgstr "Igital-day Ock-clay"
+
+#, fuzzy
+#~ msgid "Run Calendar:"
+#~ msgstr "Un-ray Alendar-clay:"
+
+#, fuzzy
+#~ msgid "Run Time Admin:"
+#~ msgstr "Un-ray Ime-_tay Admin-way:"
+
+#~ msgid "A clock and calendar in one."
+#~ msgstr "A ock-clay and alendar-cay in one."
+
+#~ msgid "Digital Clock"
+#~ msgstr "Igital-day Ock-clay"
+
+#~ msgid "Copy Time"
+#~ msgstr "Opy-cay Ime-tay"
+
+#~ msgid "Copy Date"
+#~ msgstr "Opy-cay Ate-day"
+
+#~ msgid "Adjust Date & Time"
+#~ msgstr "Adjust-way Ate-day & Ime-tay"
+
+#, fuzzy
+#~ msgid "Displays digital clock."
+#~ msgstr "Igital-day Ock-clay"
+
+#, fuzzy
+#~ msgid "Show each feed's website's icon in the dialog"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#, fuzzy
+#~ msgid "Google"
+#~ msgstr "Oogle-gay Eader-ray"
+
+#~ msgid "Google Reader"
+#~ msgstr "Oogle-gay Eader-ray"
+
+#, fuzzy
+#~ msgid "Google Wave"
+#~ msgstr "Oogle-gay Eader-ray"
+
+#~ msgid "Feeds Applet"
+#~ msgstr "Eeds-fay Applet-way"
+
+#~ msgid "Monitor Web Feeds"
+#~ msgstr "Onitor-may Eb-way Eeds-fay"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s More)\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s Ore-may)\n"
+
+#, fuzzy
+#~ msgid "%s New Item%s - Feeds Applet"
+#~ msgstr "Eeds-fay Applet-way"
+
+#~ msgid "_Add Feed"
+#~ msgstr "_Add-way Eed-fay"
+
+#~ msgid "Add Feed"
+#~ msgstr "Add-way Eed-fay"
+
+#~ msgid "Feeds Applet Preferences"
+#~ msgstr "Eeds-fay Applet-way Eferences-pray"
+
+#~ msgid "Feeds"
+#~ msgstr "Eeds-fay"
+
+#~ msgid "Updating"
+#~ msgstr "Updating-way"
+
+#~ msgid "_Notify for updated feeds"
+#~ msgstr "Otify-_nay for updated-way eeds-fay"
+
+#~ msgid "_Update automatically"
+#~ msgstr "_Update-way automatically-way"
+
+#~ msgid "Update every "
+#~ msgstr "Update-way every-way "
+
+#~ msgid " minutes"
+#~ msgstr " inutes-may"
+
+#, fuzzy
+#~ msgid "Awn Feeds Applet Items"
+#~ msgstr "Eeds-fay Applet-way"
+
+#~ msgid "Username:"
+#~ msgstr "Username-way:"
+
+#~ msgid "Password:"
+#~ msgstr "Assword-pay:"
+
+#, fuzzy
+#~ msgid "The path to use on left click"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#, fuzzy
+#~ msgid "The path to use on middle click"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#~ msgid "Pictures"
+#~ msgstr "Ictures-pay"
+
+#, fuzzy
+#~ msgid "System Default"
+#~ msgstr "GNOME Ystem-say Ools-tay (efault-day)"
+
+#~ msgid "Garbage"
+#~ msgstr "Arbage-gay"
+
+#~ msgid "%s: %u item"
+#~ msgid_plural "%s: %u items"
+#~ msgstr[0] "%s: %u item-way"
+#~ msgstr[1] "%s: %u items-way"
+
+#~ msgid "Could not open the trash folder with your file manager: %s"
+#~ msgstr ""
+#~ "Ould-cay not open-way the ash-tray older-fay with your ile-fay anager-"
+#~ "may: %s"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Empty-way Ash-tray"
+
+#~ msgid ""
+#~ "Are you sure you want to empty your trash? It currently contains %u "
+#~ "item(s)."
+#~ msgstr ""
+#~ "Are you ure-say you want to empty-way your ash-tray? It urrently-cay "
+#~ "ontains-cay %u item(s)-way."
+
+#~ msgid "Could not send the dragged file(s) to the trash: %s"
+#~ msgstr "Ould-cay not end-say the agged-dray ile(s)-fay to the ash-tray: %s"
+
+#, fuzzy
+#~ msgid "Show the number of items in the trash on top of the icon."
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#~ msgid "A lightweight, cross-desktop trash applet"
+#~ msgstr "An ightweight-lay, oss-cray-esktop-day ash-tray applet-way"
+
+#~ msgid "%s Preferences"
+#~ msgstr "%s Eferences-pray"
+
+#~ msgid "Confirm when emptying the trash"
+#~ msgstr "Onfirm-cay when emptying-way the ash-tray"
+
+#~ msgid "Show the item count on the icon"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#, fuzzy
+#~ msgid "The color (RGBA) of the meter hand/needle."
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "Font size:"
+#~ msgstr "Ont-fay ace-fay"
+
+#, fuzzy
+#~ msgid "Meter hand color:"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#, fuzzy
+#~ msgid "Update interval:"
+#~ msgstr "Update-way every-way "
+
+#, fuzzy
+#~ msgid "The theme to use for the icon"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#, fuzzy
+#~ msgid "No unread messages"
+#~ msgstr "Isplay-day ortune-fay essages-may"
+
+#, fuzzy
+#~ msgid "No new messages"
+#~ msgstr "Isplay-day ortune-fay essages-may"
+
+#, fuzzy
+#~ msgid "_Hide applet if no new messages"
+#~ msgstr "Isplay-day ortune-fay essages-may"
+
+#, fuzzy
+#~ msgid "minutes"
+#~ msgstr " inutes-may"
+
+#, fuzzy
+#~ msgid "Media-control preferences"
+#~ msgstr "%s Eferences-pray"
+
+#, fuzzy
+#~ msgid "Media Player Preferences"
+#~ msgstr "Eeds-fay Applet-way Eferences-pray"
+
+#, fuzzy
+#~ msgid "The background color of the notification-area."
+#~ msgstr "The ont-fay adow-shay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The border color of the notification-area."
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "<b>Background Color</b>"
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "<b>Border Color</b>"
+#~ msgstr "Ont-fay olor-_cay"
+
+#, fuzzy
+#~ msgid "Custom:"
+#~ msgstr "Ustom-cay"
+
+#, fuzzy
+#~ msgid "The size of the text in the menu, in pixels.);"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The icon theme name of the applet's icon.);"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#, fuzzy
+#~ msgid ""
+#~ "The colour (RGBA) of the text when a place is selected or the mouse "
+#~ "hovers over it.);"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The colour (RGBA) of the text in the menu.);"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid ""
+#~ "The color (RGBA) of the text when a place is selected or the mouse hovers "
+#~ "over it.);"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The color (RGBA) of the text in the menu.);"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The background colour (RGBA) of the menu.);"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The background color (RGBA) of the menu.);"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#~ msgid "Launch your folder bookmarks"
+#~ msgstr "Aunch-lay your older-fay ookmarks-bay"
+
+#, fuzzy
+#~ msgid "A simple applet to test python support"
+#~ msgstr "An imple-say applet-way to est-tay ala-vay upport-say"
+
+#, fuzzy
+#~ msgid "Test Python Applet"
+#~ msgstr "Ython-pay Est-tay Applet-way"
+
+#, fuzzy
+#~ msgid "The colour (RGBA) of the applet border."
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "<b>Background</b>"
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "B_order color:"
+#~ msgstr "Ont-fay olor-_cay"
+
+#, fuzzy
+#~ msgid "Border _size:"
+#~ msgstr "Ont-fay olor-_cay"
+
+#, fuzzy
+#~ msgid "C_ustom color:"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#, fuzzy
+#~ msgid "Shiny Switcher Preferences"
+#~ msgstr "%s Eferences-pray"
+
+#~ msgid "Hides your windows and shows your desktop."
+#~ msgstr "Ides-hay your indows-way and ows-shay your esktop-day."
+
+#~ msgid "Hide windows and show desktop"
+#~ msgstr "Ide-hay indows-way and ow-shay esktop-day"
+
+#, fuzzy
+#~ msgid "The background color of the dialog"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The border color of a drawn window"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The border color of the dialog"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The drop shadow color of the drawn number"
+#~ msgstr "The ont-fay adow-shay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The file to use as the background image"
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "The hovered border color of a workspace widget"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The icon's border color"
+#~ msgstr "Ont-fay olor-_cay"
+
+#, fuzzy
+#~ msgid "The main color of a drawn window"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The main color of the drawn number"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "The normal border color of a workspace widget"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "Whether or not to use custom colors for the dialog"
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#, fuzzy
+#~ msgid "SlickSwitcher Preferences"
+#~ msgstr "%s Eferences-pray"
+
+#, fuzzy
+#~ msgid "Window Colors"
+#~ msgstr "Ont-fay Adow-_shay Olor-cay:"
+
+#, fuzzy
+#~ msgid "Main color:"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#, fuzzy
+#~ msgid "Border color:"
+#~ msgstr "Ont-fay olor-_cay"
+
+#, fuzzy
+#~ msgid "Dialog colors"
+#~ msgstr "Igital-day Ock-clay"
+
+#, fuzzy
+#~ msgid "Background color:"
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Drop-shadow color:"
+#~ msgstr "Ont-fay Adow-_shay Olor-cay:"
+
+#, fuzzy
+#~ msgid "Top color:"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#, fuzzy
+#~ msgid "Bottom color:"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#, fuzzy
+#~ msgid "Hover top color:"
+#~ msgstr "Ont-fay olor-_cay"
+
+#, fuzzy
+#~ msgid "Hover bottom color:"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#, fuzzy
+#~ msgid "Other colors"
+#~ msgstr "Ont-fay olor-_cay"
+
+#, fuzzy
+#~ msgid "Choose a Background Image"
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Render background."
+#~ msgstr "Ackground-bay image-way"
+
+#~ msgid "Manage system activity"
+#~ msgstr "Anage-may ystem-say activity-way"
+
+#, fuzzy
+#~ msgid "The color to use for the icon"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#~ msgid "Custom"
+#~ msgstr "Ustom-cay"
+
+#~ msgid "A simple applet to test vala support"
+#~ msgstr "An imple-say applet-way to est-tay ala-vay upport-say"
+
+#~ msgid "Test Vala Applet"
+#~ msgstr "Est-tay Ala-vay Applet-way"
+
+#, fuzzy
+#~ msgid "Large"
+#~ msgstr "Arbage-gay"
+
+#~ msgid "Awn System Monitor"
+#~ msgstr "Awn-way Ystem-say Onitor-may"
+
+#~ msgid "Graph update frequency, in milliseconds."
+#~ msgstr "Aph-gray update-ay equency-fray, in illiseconds-may."
+
+#, fuzzy
+#~ msgid "Hoverbox background color 1."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Hoverbox background color 2."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Hoverbox border color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Label background color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Label border color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Label hover background color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Label hover border color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Label text color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Label text hover color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Tooltip background color 1."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Tooltip background color 2."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Tooltip border color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Tooltip text color."
+#~ msgstr "Ackground-bay image-way"
+
+#, fuzzy
+#~ msgid "Type of UI used for the stack."
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#~ msgid " Command to execute when a calendar day is double-clicked."
+#~ msgstr ""
+#~ " Ommand-cay to execute-way when an alendar-cay ay-day is ouble-day-icked-"
+#~ "clay."
+
+#, fuzzy
+#~ msgid " Command to execute when the user wishes to adjust the date/time."
+#~ msgstr ""
+#~ "Ommand-cay to execute-way when the user-way ishes-way to adjust-way the "
+#~ "ate-day/ime-tay."
+
+#~ msgid "Whether to show the date next to the time, instead of below it."
+#~ msgstr ""
+#~ "Ether-whay to ow-shay the ate-day next to the ime-tay, instead of elow-"
+#~ "bay it."
+
+#~ msgid ""
+#~ "Whether to show the time in 12 hour mode (as opposed to 24 hour mode)."
+#~ msgstr ""
+#~ "Ether-whay to ow-shay the ime-tay in 12 hour-way ode-may (as opposed-way "
+#~ "to 24 hour-way ode-may)."
+
+#~ msgid "The font face for the date and time text."
+#~ msgstr "The ont-fay ace-fay for the ate-day and ime-tay ext-tay."
+
+#~ msgid "Font color"
+#~ msgstr "Ont-fay olor-_cay"
+
+#~ msgid "The text color of the date and time."
+#~ msgstr "The ext-tay olor-cay of the ate-day and ime-tay."
+
+#~ msgid "Font shadow color"
+#~ msgstr "Ont-fay adow-shay olor-cay"
+
+#~ msgid "The font shadow color of the date and time."
+#~ msgstr "The ont-fay adow-shay olor-cay of the ate-day and ime-tay."
+
+#~ msgid "Calendar command"
+#~ msgstr "Alendar-clay ommand-cay"
+
+#~ msgid "Adjust date/time command"
+#~ msgstr "Adjust-way ate-day/ime-tay ommand-cay"
+
+#~ msgid "dock orientation"
+#~ msgstr "ock-day orientation-way"
+
+#~ msgid "The orientation of the dock (horizontal/vertical)"
+#~ msgstr "The orientation-way of the ock-day (orizontal-hay/ertical-vay)"
+
+#~ msgid "Wiki"
+#~ msgstr "Iki-way"
+
+#~ msgid "Font _Color:"
+#~ msgstr "Ont-fay Olor-_cay:"
+
+#~ msgid "Font _Shadow Color:"
+#~ msgstr "Ont-fay Adow-_shay Olor-cay:"
+
+#~ msgid "Clock Type"
+#~ msgstr "Ock-clay Ype-tay"
+
+#~ msgid "_12 Hour"
+#~ msgstr "_12 Hour-way"
+
+#~ msgid "_24 Hour"
+#~ msgstr "_24 Hour-way"
+
+#~ msgid "Date Position"
+#~ msgstr "Ate-day Osition-pay"
+
+#~ msgid "_Left"
+#~ msgstr "Eft-_lay"
+
+#~ msgid "_Bottom"
+#~ msgstr "Ottom-_bay"
+
+#~ msgid "Evolution (default)"
+#~ msgstr "Evolution-way (efault-day)"
+
+#~ msgid "GNOME System Tools (default)"
+#~ msgstr "GNOME Ystem-say Ools-tay (efault-day)"
+
+#, fuzzy
+#~ msgid " Amount to scale the icon"
+#~ msgstr "Ow-shay the item-way ount-cay on the icon-way"
+
+#~ msgid "Awn Terminal"
+#~ msgstr "Awn Erminal-tay"
+
+#~ msgid "Term #%d"
+#~ msgstr "Erm-tay #%d"
+
+#~ msgid "Feed Search"
+#~ msgstr "Eed-fay Earch-say"
+
+#~ msgid "A test python applet for demo purposes"
+#~ msgstr "A est-tay Ython-pay applet-way for emo-day urposes-pay"
+
+#~ msgid "Hide Desktop"
+#~ msgstr "Ide-hay Esktop-day"
+
+#~ msgid ""
+#~ "An error occurred when trying to retrieve the 'confirm_empty' config "
+#~ "option: %s"
+#~ msgstr ""
+#~ "An error-way occurred-way when ying-tray to etrieve-ray the "
+#~ "'confirm_empty' onfig-cay option-way: %s"
+
+#~ msgid "item"
+#~ msgstr "item-way"

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+_Name=MATE Quit-Log Out applet
+Type=Application
+X-AWN-Type=Applet
+X-AWN-AppletType=Python
+_Comment=Exit or log out from your MATE session
+Exec=awn-applet -p %k
+X-AWN-AppletExec=mate-quit/mate-quit.py
+Icon=application-exit
+X-AWN-AppletCategory=System

@@ -1,0 +1,773 @@
+# Arabic translation for awn-mate-applets
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2010-10-11 23:28+0000\n"
+"Last-Translator: Kyle L. Huff <launchpad@curetheitch.com>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n % 100 >= "
+"3 && n % 100 <= 10 ? 3 : n % 100 >= 11 && n % 100 <= 99 ? 4 : 5;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+msgid "A Mate Main Menu."
+msgstr ""
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+msgid "Awn Mate MainMenu"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+msgid "Lock MATE Screen"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+msgid "Show Docklet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+#, fuzzy
+msgid "Log Out"
+msgstr "تسجيل دخول"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+msgid "Shut Down"
+msgstr ""
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#~ msgid "Animal Farm"
+#~ msgstr "مزارع حيوانية"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "عرض رسائل المصاير"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "هوتكي العالمية لتنشيط الطرفية"
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr "إخفاء عندما يتم فقدان التركيز"
+
+#~ msgid "The applet's background image."
+#~ msgstr "التطبيق الصغير صورة خلفية"
+
+#~ msgid "The applet's opacity level."
+#~ msgstr "بريمج غير شقاف"
+
+#~ msgid "Disabled"
+#~ msgstr "معطل"
+
+#~ msgid "Preferences"
+#~ msgstr "خيارات"
+
+#~ msgid "Behavior"
+#~ msgstr "سلوك"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "إخفاء عندما يتم فقدان التركيز"
+
+#~ msgid "Action"
+#~ msgstr "الإجراء"
+
+#~ msgid "Shortcut"
+#~ msgstr "اختصار"
+
+#~ msgid "Activate"
+#~ msgstr "تنشيط"
+
+#~ msgid "Background image"
+#~ msgstr "صورة خلفية"
+
+#~ msgid "Select a file"
+#~ msgstr "اختر ملفاً"
+
+#~ msgid "Color to draw the background"
+#~ msgstr "اللون لرسم الخلفية"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "اللون لرسم الحدود"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "واجهة إعدادات العرض"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "رسم الخلفية"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "رسم الحدود"
+
+#~ msgid ""
+#~ "If enabled this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn"
+#~ msgstr ""
+#~ "إذا مكن هذا سيتم عرض الخط في الجزء السفلي من الرسم البياني حتى لو كانت "
+#~ "القيمة هي 0. إذا لم يكبح جماحه ، والقيم 1 أدناه ليست مستمدة"
+
+#~ msgid "Minimum threshold to draw meter (dependent upon DEFAULT/unit)"
+#~ msgstr "العتبة الدنيا قبل الرسم متر (يتوقف الافتراضي / وحدة)"
+
+#~ msgid "The interface currently selected"
+#~ msgstr "المحدد حاليا واجهة"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "عرض النطاق الترددي مراقب"
+
+#~ msgid "Network Bandwidth monitor"
+#~ msgstr "شبكة رصد عرض النطاق الترددي"
+
+#~ msgid "Scanning"
+#~ msgstr "مسح"
+
+#~ msgid "Devices"
+#~ msgstr "شبكة الأجهزة"
+
+#~ msgid "KBps"
+#~ msgstr "كيلوبت \\ ثانية"
+
+#~ msgid "Kbps"
+#~ msgstr "كيلوبت \\ ثانية"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "الرجاء اختيار صالح شبكة الجهاز"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr "مجموع المرسلة : %s -- مجموع المبالغ المقبوضة : %s (جميع واجهات)"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "الرجاء اختيار الأجهزة صالحة"
+
+#~ msgid "A Network Bandwidth monitor for AWN"
+#~ msgstr "شبكة النطاق الترددي مراقب ل AWN"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b/>العرض<b>"
+
+#~ msgid "Background Color"
+#~ msgstr "لون الخلفية"
+
+#~ msgid "Border Color"
+#~ msgstr "لون الحدود"
+
+#~ msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+#~ msgstr "تظهر بايت بدلا من البتات"
+
+#~ msgid "Display Speed Text"
+#~ msgstr "وتظهر تسميات نصية"
+
+#~ msgid "Draw 0 bps in graphs"
+#~ msgstr "رسم 0bps في الرسوم البيانية"
+
+#~ msgid "Draw Background"
+#~ msgstr "رسم الخلفية"
+
+#~ msgid "Draw Border"
+#~ msgstr "رسم الحدود"
+
+#~ msgid "General"
+#~ msgstr "عامة"
+
+#~ msgid "Graph Only"
+#~ msgstr "الرسم البياني فقط"
+
+#~ msgid "If this is checked, the common display unit will be Bytes"
+#~ msgstr "إذا كان هذا هو اختياره ، سوف يعرض وحدة لقياس في بايت"
+
+#~ msgid "Minimum Scaling threshold"
+#~ msgstr "عتبة الحد الأدنى لبدء التحجيم"
+
+#~ msgid "Sum"
+#~ msgstr "مجموع"
+
+#~ msgid "Device"
+#~ msgstr "الجهاز"
+
+#~ msgid "Multi"
+#~ msgstr "متعدد"
+
+#~ msgid "Upload Color"
+#~ msgstr "أحيل اللون"
+
+#~ msgid "Download Color"
+#~ msgstr "تلقي اللون"
+
+#~ msgid "Upload"
+#~ msgstr "أحيل"
+
+#~ msgid "Download"
+#~ msgstr "تنزيل"
+
+#~ msgid "%s %s Color"
+#~ msgstr "%s %s لون"
+
+#~ msgid "Change Unit"
+#~ msgstr "تغيير وحدة القياس"
+
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgid "HAL UDI of battery."
+#~ msgstr "HAL UDI من بطارية"
+
+#~ msgid ""
+#~ "If charge level drops below this threadhold, a warning will be displayed."
+#~ msgstr "إذا كان مستوى شحن قطرات دون هذه العتبة ، سيتم عرض تحذير"
+
+#~ msgid "If charge level reaches this threshold, a notification will be sent."
+#~ msgstr "إذا كان مستوى شحن تصل إلى هذه العتبة ، يتم إرسال إخطار"
+
+#~ msgid "If enabled, notify when the charge level reaches the high level."
+#~ msgstr "إذا مكن ، ترسل إخطارا عند مستوى شحن تصل إلى مستوى عال"
+
+#~ msgid ""
+#~ "If enabled, warn when the charge level drops below the warning threshold."
+#~ msgstr "إذا مكن عرض تحذير عند مستوى شحن قطرات تحت عتبة الإنذار"
+
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "أيقونة موضوع الاسم"
+
+#~ msgid "Unit of low level threshold (Percent or Time Remaining)."
+#~ msgstr "وحدة من عتبة منخفضة المستوى (النسبة المئوية أو الوقت المتبقي)"
+
+#~ msgid "Battery"
+#~ msgstr "البطارية"
+
+#~ msgid "Display battery state"
+#~ msgstr "عرض حالة البطارية"
+
+#~ msgid "Percent"
+#~ msgstr "بالمئة"
+
+#~ msgid "Time Remaining"
+#~ msgstr "الوقت المتبقي"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b/>الخيارات العامة<b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b/>إشعارات<b>"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge level reaches a certain "
+#~ "percentage"
+#~ msgstr ""
+#~ "إذا مكنت هذه سوف تظهر إعلام عند مستوى المسؤول عن وصول نسبة مئوية معينة"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge levels drops too low"
+#~ msgstr "إذا مكنت سيخلق الإخطار عند مستويات منخفضة جدا يصبح تهمة"
+
+#~ msgid "_Battery:"
+#~ msgstr "_البطارية :"
+
+#~ msgid "_Notify when charge level reaches:"
+#~ msgstr "_يخطر عند مستوى التهمة هي :"
+
+#~ msgid "_Theme:"
+#~ msgstr "_سِمة:"
+
+#~ msgid "_Warn when charge level drops to:"
+#~ msgstr "_تحذير عند مستوى شحن قطرات إلى ما يلي :"
+
+#~ msgid "A custom time format (strftime()), used if not empty."
+#~ msgstr "مخصص تنسيق الوقت (strftime ()) ، إذا لم تستخدم فارغة."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Login to "
+#~ msgstr "الدخول إلى "
+
+#~ msgid "Online Calendar"
+#~ msgstr "مفكرة الانترنت"
+
+#~ msgid "Calendar Username"
+#~ msgstr "تقويم المستخدم"
+
+#~ msgid "Calendar Password"
+#~ msgstr "تقويم كلمة المرور"
+
+#~ msgid "Save Password"
+#~ msgstr "Save Password"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "اخترت حفظ كلمة السر الخاصة بك. على الرغم من أن كلمة السر سيتم تخزينها في "
+#~ "شكل مشفرة ، وهناك دائما احتمال بعيد ان كلمة السر الخاصة بك يمكن أن تكون "
+#~ "مسروقة وفك ، إذا كان جهاز الكمبيوتر الخاص بك الأمن هو الذي أخل به. هل أنت "
+#~ "متأكد من أنك لا تزال ترغب في حفظ كلمة السر الخاصة بك؟"
+
+#~ msgid "Classic LCD"
+#~ msgstr "الكلاسيكية شاشات الكريستال السائل"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "إندي الوهج شاشات الكريستال السائل"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "الخلفية العنبر شاشات الكريستال السائل"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "الخلفية الخضراء شاشات الكريستال السائل"
+
+#~ msgid "Green LED"
+#~ msgstr "الأخضر الصمام"
+
+#~ msgid "Red LED"
+#~ msgstr "الصمام الحمراء"
+
+#~ msgid "Blue LED"
+#~ msgstr "الزرقاء الصمام"
+
+#~ msgid "Plain White"
+#~ msgstr "سهل الابيض"
+
+#~ msgid "Plain Black"
+#~ msgstr "سهل الأسود"
+
+#~ msgid "Red"
+#~ msgstr "الأحمر"
+
+#~ msgid "Green"
+#~ msgstr "الأخضر"
+
+#~ msgid "Blue"
+#~ msgstr "الأزرق"
+
+#~ msgid "Gray"
+#~ msgstr "الرمادية"
+
+#~ msgid "Black"
+#~ msgstr "الأسود"
+
+#~ msgid "Calendar URL"
+#~ msgstr "عنوان URL للتقويم"
+
+#~ msgid "Username:"
+#~ msgstr "اسم المستخدم:"
+
+#~ msgid "Password:"
+#~ msgstr "كلمة السر:"
+
+#~ msgid "Interface"
+#~ msgstr "الواجهة"
+
+#~ msgid "Mail Applet"
+#~ msgstr "بريمج البريد"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "لديك رسالة %d جديدة."
+#~ msgstr[1] "لديك رسالتان جديدتان."
+#~ msgstr[2] "لديك %d رسالة جديدة"
+#~ msgstr[3] "لديك %d رسالة جديدة"
+#~ msgstr[4] "لديك %d رسالة جديدة"
+#~ msgstr[5] "لديك %d رسالة جديدة"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "رسالة %d غير مقروءة"
+#~ msgstr[1] "رسالتان غير مقروءتان"
+#~ msgstr[2] "%d رسالة غير مقروءة"
+#~ msgstr[3] "%d رسالة غير مقروءة"
+#~ msgstr[4] "%d رسالة غير مقروءة"
+#~ msgstr[5] "%d رسالة غير مقروءة"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "بريمج البريد (انقر هنا للولوج)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "جاري الولوج كـ %s"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "بريد جديد - بريمج البريد"
+
+#~ msgid "Backend"
+#~ msgstr "منتهي خلفي"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[بدون موضوع]"
+
+#~ msgid "Domain:"
+#~ msgstr "النطاق:"
+
+#~ msgid "Server:"
+#~ msgstr "خادم:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "إستخدم تعمية SSL"
+
+#~ msgid "Could not log in"
+#~ msgstr "لم يمكن الولوج"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "بريمج للتأكد من البريد"
+
+#~ msgid " Upload/Download"
+#~ msgstr " تحميل / تنزيل"
+
+#~ msgid " bytes)"
+#~ msgstr " بايت"
+
+#~ msgid "Sent"
+#~ msgstr "أرسل"
+
+#~ msgid "Statistics calculation requires read access to /proc/net/dev"
+#~ msgstr "إحصائية الحساب يجب أن يكون حق الوصول للقراءة / إجراءات / صافي / ديف"
+
+#~ msgid "Unable to caclulate statistics"
+#~ msgstr "غير قادر على حساب إحصائيات"
+
+#~ msgid "Received"
+#~ msgstr "مستلمة"
+
+#~ msgid "Sending"
+#~ msgstr "إرسال"
+
+#~ msgid "Receiving"
+#~ msgstr "تلقي"
+
+#~ msgid "No"
+#~ msgstr "لاَ"
+
+#~ msgid "Do not display the speed as text, only draw the graph"
+#~ msgstr "سرعة لا يتم عرض كنص ، ولكن الرسم البياني"
+
+#~ msgid "Display upload and download text representation of speed"
+#~ msgstr "عرض تحميل وتنزيل النص تمثيل السرعة"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "عرض مجموع تحميل وتنزيل"
+
+#~ msgid ""
+#~ "If this is checked the applet background will use the selected color. If "
+#~ "unchecked, background will be transparent"
+#~ msgstr ""
+#~ "إذا مختارة ، وسوف خلفية استخدام اللون المحدد. إذا لم يكبح جماحه ، وسوف "
+#~ "تكون شفافة الخلفية"
+
+#~ msgid ""
+#~ "If this is checked the applet border will use the selected color. If "
+#~ "unchecked, border will be transparent"
+#~ msgstr ""
+#~ "إذا مختارة ، وسوف الحدود استخدام اللون المحدد. إذا لم يكبح جماحه ، وسوف "
+#~ "تكون شفافة الحدود"
+
+#~ msgid ""
+#~ "If enabled, this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn in the graph."
+#~ msgstr ""
+#~ "إذا مكن هذا سيتم عرض الخط في الجزء السفلي من الرسم البياني حتى لو كانت "
+#~ "القيمة هي 0. إذا لم يكبح جماحه ، والقيم 1 أدناه ليست مستمدة"
+
+#~ msgid ""
+#~ "Sets the minimum threshold for scaling to not show large spikes for small "
+#~ "amounts of traffic. e.g.: Setting to 32.0 KBps will cause the graph to "
+#~ "only draw if throughput exceeds 32.0 KBps"
+#~ msgstr ""
+#~ "هذا سيتم تعيين الحد الأدنى لرفع مستوى للا تظهر طفرات كبيرة من كميات صغيرة "
+#~ "من حركة المرور. على سبيل المثال : إعداد ل32.0KBps سيتسبب في الرسم البياني "
+#~ "الى التعادل فقط إذا مرت يتجاوز 32.0KBps"

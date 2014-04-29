@@ -1,0 +1,1306 @@
+# Bulgarian translation for awn-mate-applets
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the awn-mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2010-10-11 23:28+0000\n"
+"Last-Translator: Svetoslav Stefanov <svetlisashkov@yahoo.com>\n"
+"Language-Team: Svetoslav Stefanov <lfu.project@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "Места"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "Последни документи"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr "Сесия"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+msgid "A Mate Main Menu."
+msgstr ""
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr "Отписване"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "Заключване на екрана"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr "Приспиване"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr "Дълбоко приспиване"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "Изключване"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "Компютър"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "Домашна папка"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "Работен плот"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "Кошче"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr "Файлова система"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "Мрежа"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "Свързване към сървър"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr "Изчистване на списъка със скорошните документи"
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+msgid "Awn Mate MainMenu"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "Заключване на екрана"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+msgid "Show Docklet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "Излизане"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+#, fuzzy
+msgid "Shut Down"
+msgstr "Изключване"
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Log Out..."
+#~ msgstr "Излизане"
+
+#~ msgid "Animal Farm"
+#~ msgstr "Ферма за животни"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "Показване на късметчета"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "Глобален бърз клавиш, използван за активиране на терминала."
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr "Задава дали аплета да се скрива при загуба на фокус."
+
+#~ msgid "The applet's background image."
+#~ msgstr "Фоновото изображение за аплета."
+
+#~ msgid "The default external terminal application."
+#~ msgstr "Стандартното външно приложение-терминал"
+
+#~ msgid "Disabled"
+#~ msgstr "Изключено"
+
+#~ msgid "Preferences"
+#~ msgstr "Настройки"
+
+#~ msgid "Behavior"
+#~ msgstr "Поведение"
+
+#~ msgid "Action"
+#~ msgstr "Действиe"
+
+#~ msgid "Shortcut"
+#~ msgstr "Препратка"
+
+#~ msgid "Activate"
+#~ msgstr "Включване"
+
+#~ msgid "Background image"
+#~ msgstr "Фоново изображение"
+
+#~ msgid "Select a file"
+#~ msgstr "Избиране на файл"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "Прозрачност на терминала"
+
+#~ msgid "External Terminal"
+#~ msgstr "Външен терминал"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "Прост изскачащ терминал"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "Аплет Терминал"
+
+#~ msgid "Color to draw the background"
+#~ msgstr "Цвят за фона"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "Цвят за очертанието"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "Показване на параметри за интерфейсите"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "Показване фона на аплета"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "Показване очертанието на аплета"
+
+#~ msgid "The interface currently selected"
+#~ msgstr "Текущо избраният интерфейс"
+
+#~ msgid "Scanning"
+#~ msgstr "Сканиране"
+
+#~ msgid "Devices"
+#~ msgstr "Устройства"
+
+#~ msgid "KBps"
+#~ msgstr "KBps"
+
+#~ msgid "Kbps"
+#~ msgstr "Kbps"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "Моля изберете валидно мрежово устройство"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr "Общо изпратени: %s - Общо получени: %s (Всички интерфейси)"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "Моля изберете валидно устройство"
+
+#~ msgid "Background Color"
+#~ msgstr "Фонов цвят"
+
+#~ msgid "Border Color"
+#~ msgstr "Цвят на рамка"
+
+#~ msgid "Draw Background"
+#~ msgstr "Показване на фона"
+
+#~ msgid "Draw Border"
+#~ msgstr "Показване на рамка"
+
+#~ msgid "General"
+#~ msgstr "Основни"
+
+#~ msgid "Graph Only"
+#~ msgstr "Само графика"
+
+#~ msgid "Sum"
+#~ msgstr "Общо"
+
+#~ msgid "Device"
+#~ msgstr "Устройство"
+
+#~ msgid "Upload Color"
+#~ msgstr "Цвят за Качени"
+
+#~ msgid "Download Color"
+#~ msgstr "Цвят за Свалени"
+
+#~ msgid "Upload"
+#~ msgstr "Качване"
+
+#~ msgid "Download"
+#~ msgstr "Сваляне"
+
+#~ msgid "Change Unit"
+#~ msgstr "Промяна на мерната единица"
+
+#~ msgid "None"
+#~ msgstr "Без"
+
+#~ msgid ""
+#~ "If charge level drops below this threadhold, a warning will be displayed."
+#~ msgstr ""
+#~ "Ако нивото на заряд спадне под тази граница, ще се покаже предупреждение."
+
+#~ msgid "If charge level reaches this threshold, a notification will be sent."
+#~ msgstr ""
+#~ "Ако нивото на заряд стигне до тази граница, ще бъде изпратено известяване."
+
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "Името на темата на иконата."
+
+#~ msgid "Unit of low level threshold (Percent or Time Remaining)."
+#~ msgstr ""
+#~ "Мерна единица за граница за ниско ниво (Процент или Оставащо време)."
+
+#~ msgid "Battery"
+#~ msgstr "Батерия"
+
+#~ msgid "Display battery state"
+#~ msgstr "Показване състоянието на батерията"
+
+#~ msgid "Percent"
+#~ msgstr "Процент"
+
+#~ msgid "Time Remaining"
+#~ msgstr "Оставащо време"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>Общи настройки</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>Известявания</b>"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge level reaches a certain "
+#~ "percentage"
+#~ msgstr ""
+#~ "Ако е включено, показва известяване, когато нивото на заряд достигне "
+#~ "определен процент"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge levels drops too low"
+#~ msgstr ""
+#~ "Ако е включено, показва известяване, когато нивото на заряд падне "
+#~ "прекалено ниско"
+
+#~ msgid "_Battery:"
+#~ msgstr "_Батерия:"
+
+#~ msgid "_Notify when charge level reaches:"
+#~ msgstr "_Уведомяване при достигане на ниво на заряда:"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Тема:"
+
+#~ msgid "_Warn when charge level drops to:"
+#~ msgstr "_Предупреждение при спад на заряда до:"
+
+#~ msgid "If enabled, displays the weather as an overlay on top of the clock."
+#~ msgstr "Ако е включено, показва прогнозата като слой върху часовника."
+
+#~ msgid "If enabled, the date will be shown in the title."
+#~ msgstr "Ако е включено, датата ще бъде показване в заглавието."
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock."
+#~ msgstr "Ако е включено, стрелката за секундите ще се показва в часовника."
+
+#~ msgid "List of cities and timezones separated by a '#' character."
+#~ msgstr "Списък с градове и часови пояси, разделени със знак '#'."
+
+#~ msgid ""
+#~ "Show time in 24 hour format if enabled, or 12 hour format when disabled."
+#~ msgstr ""
+#~ "Показва часа в 24 часов формат ако е включено или в 12, ако е изключено."
+
+#~ msgid "The name of the theme of the analog clock."
+#~ msgstr "Име на темата на аналоговия часовник."
+
+#~ msgid "Cairo Clock"
+#~ msgstr "Cairo Clock"
+
+#~ msgid ""
+#~ "Displays an analog clock and supports additional clocks for different "
+#~ "locations"
+#~ msgstr ""
+#~ "Показва аналогов часовник и поддържа допълнителни часовници за различни "
+#~ "местоположения"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "12 _hour format"
+#~ msgstr "12-_часов формат"
+
+#~ msgid "24 h_our format"
+#~ msgstr "24-ч_асов формат"
+
+#~ msgid "Beaufort"
+#~ msgstr "Бофорт"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "Фаренхайт"
+
+#~ msgid "Find _Next"
+#~ msgstr "_Следващо търсене"
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too"
+#~ msgstr "Ако е включено, освен часове и минути, ще се показват и секунди"
+
+#~ msgid "If enabled, the date will be shown in the title"
+#~ msgstr "Ако е включено, датата ще се показва в заглавието"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock"
+#~ msgstr "Ако е включено, стрелката за секундите ще се показва в часовника"
+
+#~ msgid "If enabled, time will be shown like 1:23 AM"
+#~ msgstr "Ако е включено, часът ще се показва във вида 1:23 AM"
+
+#~ msgid "If enabled, time will be shown like 23:45"
+#~ msgstr "Ако е включено, часът ще се показва във вида 23:45"
+
+#~ msgid "Kelvin"
+#~ msgstr "Келвин"
+
+#~ msgid "Location Name:"
+#~ msgstr "Име на местоположение:"
+
+#~ msgid "Show _seconds"
+#~ msgstr "Показване на _секунди"
+
+#~ msgid "Show seco_nds hand"
+#~ msgstr "Показване на стрелка на секундите"
+
+#~ msgid "Show the _date"
+#~ msgstr "Показване на _датата"
+
+#~ msgid "_Show weather of current location"
+#~ msgstr "_Показване на прогноза за текущото местоположение"
+
+#~ msgid "_Temperature unit:"
+#~ msgstr "Единица за _температура:"
+
+#~ msgid "_Wind speed unit:"
+#~ msgstr "Единица за _скорост на вятъра:"
+
+#~ msgid "km/h"
+#~ msgstr "km/h"
+
+#~ msgid "knots"
+#~ msgstr "възли"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "mph"
+#~ msgstr "mph"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Clock/Calendar Applet"
+#~ msgstr "Аплет Часовник/Календар"
+
+#~ msgid "Login to "
+#~ msgstr "Вписване в "
+
+#~ msgid "Online Calendar"
+#~ msgstr "Онлайн календар"
+
+#~ msgid "Calendar Username"
+#~ msgstr "Потребителко име"
+
+#~ msgid "Calendar Password"
+#~ msgstr "Парола"
+
+#~ msgid "Save Password"
+#~ msgstr "Запазване на паролата"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "Вие избрахте да запазите парите си. Въпреки, че тя ще бъде съхранена в "
+#~ "криптиран формат, винаги има някаква вероятност да бъде открадната и "
+#~ "дешифрирана, в случай на компрометиране сигурността на компютъра. Все още "
+#~ "ли желаете да запазите паролата си?"
+
+#~ msgid "Plain White"
+#~ msgstr "Бял"
+
+#~ msgid "Plain Black"
+#~ msgstr "Черен"
+
+#~ msgid "Red"
+#~ msgstr "Червен"
+
+#~ msgid "Green"
+#~ msgstr "Зелен"
+
+#~ msgid "Blue"
+#~ msgstr "Син"
+
+#~ msgid "Gray"
+#~ msgstr "Сив"
+
+#~ msgid "Black"
+#~ msgstr "Черен"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "12-часов часовник"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "Външен вид на часовника"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "Външен вид на календара"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Календар Google"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Outlook Web Access"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "Интеграция на календара"
+
+#~ msgid "Calendar URL"
+#~ msgstr "URL за календар"
+
+#~ msgid "Calendar"
+#~ msgstr "Календар"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "Желаете ли да изтриете своята парола за календара от аплета? Ако я "
+#~ "изтриете, отново ще бъдете запитан за вашите данни за вписване."
+
+#~ msgid "Open in "
+#~ msgstr "Отваряне в "
+
+#~ msgid "Today"
+#~ msgstr "Днес"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "Немогат да се прочетат данни за календара от външен източник."
+
+#~ msgid "No appointments."
+#~ msgstr "Няма срещи."
+
+#~ msgid "No appointments"
+#~ msgstr "Няма срещи"
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr ""
+#~ "Неспех при изтеглянето на %s. Натиснете \"следващ\", за да опитате отново."
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr ""
+#~ "Адресът не е валиден източник на комикс. Натиснете \"следващ\", за да "
+#~ "опитате отново."
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "Свързване към <i>%s</i>..."
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "Това ръководство приключи.\n"
+#~ "\n"
+#~ "Натиснете \"прилагане\" за да добавите <i>%s</i>."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "Откирити <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Comics!"
+#~ msgstr "Комикси!"
+
+#~ msgid "View your favourite comics on your desktop"
+#~ msgstr "Вижте любимите си комикси на работния плот"
+
+#~ msgid "Shared comics"
+#~ msgstr "Споделени комикси"
+
+#~ msgid "Your comics"
+#~ msgstr "Ваши комикси"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "Неуспех при премахването на <i>%s</i>."
+
+#~ msgid "Error"
+#~ msgstr "Грешка"
+
+#~ msgid "Comics"
+#~ msgstr "Комикси"
+
+#~ msgid "Manage Comics"
+#~ msgstr "Управление на комиксите"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "Има ново издание на %s!"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A %d %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "Неуспех при запазването на <i>%s</i>."
+
+#~ msgid "Add Comic"
+#~ msgstr "Добавяне на комикс"
+
+#~ msgid "Downloading Comic"
+#~ msgstr "Сваляне на комикс"
+
+#~ msgid "Ready to add comic!"
+#~ msgstr "В готовност за добавяне на комикс!"
+
+#~ msgid "Select Comic"
+#~ msgstr "Избор на комикс"
+
+#~ msgid "Select Image"
+#~ msgstr "Избор на изображение"
+
+#~ msgid "The guide found more than one image. Please select which one to use."
+#~ msgstr ""
+#~ "Помощникът намери повече от едно изображение. Моля изберете кое да бъде "
+#~ "използвано."
+
+#~ msgid "Manage comics"
+#~ msgstr "Управление на комикси"
+
+#~ msgid "The following comics are installed:"
+#~ msgstr "Следните комикси са инсталирани:"
+
+#~ msgid "Show link"
+#~ msgstr "Показване на връзка"
+
+#~ msgid "Size"
+#~ msgstr "Големина"
+
+#~ msgid "Unknown command sent: %s"
+#~ msgstr "Изпратена е непозната команда: %s"
+
+#~ msgid "Index of processor."
+#~ msgstr "Индекс на працесора."
+
+#~ msgid "An applet to monitor and control the CPU frequency"
+#~ msgstr "Аплет за наблюдение и контрол на честотата на процесора"
+
+#~ msgid "CPU Frequency Monitor"
+#~ msgstr "Наблюдение на честотата на процесора"
+
+#~ msgid "<b>Monitored CPU</b>"
+#~ msgstr "<b>Наблюдаван процесор</b>"
+
+#~ msgid "_Processor:"
+#~ msgstr "_Процесор:"
+
+#~ msgid "Search"
+#~ msgstr "Търсене"
+
+#~ msgid "Username:"
+#~ msgstr "Потребителско име:"
+
+#~ msgid "Password:"
+#~ msgstr "Парола:"
+
+#~ msgid "Filesystem"
+#~ msgstr "Файлова система"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Изпразване на кошчето"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Изпразване на кошчето"
+
+#~ msgid "Interface"
+#~ msgstr "Интерфейс"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Аплет за поща"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "Имате %d ново съобщение"
+#~ msgstr[1] "Имате %d нови съобщения"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d непрочетено съобщение"
+#~ msgstr[1] "%d непрочетени съобщения"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Аплет за поща (цъкнете за вписване)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Вписване като %s"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Нова поща - Аплет за поща"
+
+#~ msgid "Log In"
+#~ msgstr "Влизане"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[Без тема]"
+
+#~ msgid "Domain:"
+#~ msgstr "Домейн:"
+
+#~ msgid "Server:"
+#~ msgstr "Сървър:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "Използване на криптиране SSL"
+
+#~ msgid "Could not log in"
+#~ msgstr "Не може да извърши вписване"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "Папката не съществува"
+
+#~ msgid "Get messages from only one folder"
+#~ msgstr "Получаване на съобщенията само от една папка"
+
+#~ msgid "Folder:"
+#~ msgstr "Папка:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Аплет за проверка на е-поща"
+
+#~ msgid "Orientation"
+#~ msgstr "Ориентация"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "Ориентацията на областта за уведомяване."
+
+#~ msgid "Width:"
+#~ msgstr "Широчина:"
+
+#~ msgid "Height:"
+#~ msgstr "Височина:"
+
+#~ msgid "Background"
+#~ msgstr "Фон"
+
+#~ msgid "Custom"
+#~ msgstr "Потребителски"
+
+#~ msgid "Current Theme"
+#~ msgstr "Текуща тема"
+
+#~ msgid "Butter"
+#~ msgstr "Масло"
+
+#~ msgid "Chameleon"
+#~ msgstr "Хамелеон"
+
+#~ msgid "Orange"
+#~ msgstr "Портокал"
+
+#~ msgid "Sky Blue"
+#~ msgstr "Небесно син"
+
+#~ msgid "Plum"
+#~ msgstr "Сливов"
+
+#~ msgid "Chocolate"
+#~ msgstr "Шоколадов"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "Аленочервен"
+
+#~ msgid "Aluminium 1"
+#~ msgstr "Алуминий 1"
+
+#~ msgid "Aluminium 2"
+#~ msgstr "Алуминий 2"
+
+#~ msgid "Number of Items"
+#~ msgstr "Брой обекти"
+
+#~ msgid "Progress"
+#~ msgstr "Прогрес"
+
+#~ msgid "Both"
+#~ msgstr "И двата"
+
+#~ msgid "To-Do List Preferences"
+#~ msgstr "Настройки на списъка със задачи"
+
+#~ msgid "Priority"
+#~ msgstr "Приоритет"
+
+#~ msgid "Icon"
+#~ msgstr "Икона"
+
+#~ msgid "Title"
+#~ msgstr "Заглавие"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "Потвърждаване при премахване..."
+
+#~ msgid "_Items"
+#~ msgstr "_Обекти"
+
+#~ msgid "C_ategories"
+#~ msgstr "_Категории"
+
+#~ msgid "Width"
+#~ msgstr "Широчина"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "_Използване на потребителска широчина"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "Широчина (пиксели)"
+
+#~ msgid "Low Priority"
+#~ msgstr "Нисък приоритет"
+
+#~ msgid "Medium Priority"
+#~ msgstr "Среден приоритет"
+
+#~ msgid "High Priority"
+#~ msgstr "Висок приоритет"
+
+#~ msgid "Icon Color"
+#~ msgstr "Цвят на иконата"
+
+#~ msgid "Custom Colors"
+#~ msgstr "Потребителски цветове"
+
+#~ msgid "Outer Border"
+#~ msgstr "Външна граница"
+
+#~ msgid "Inner Border"
+#~ msgstr "Вътрешна граница"
+
+#~ msgid "Main"
+#~ msgstr "Основни"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Icon Type"
+#~ msgstr "Тип икона"
+
+#~ msgid "To-Do List"
+#~ msgstr "Списък със задачи"
+
+#~ msgid "A simple To-Do List"
+#~ msgstr "Прост списък със задачи"
+
+#~ msgid "Remove item"
+#~ msgstr "Премахване на елемента"
+
+#~ msgid "Remove category"
+#~ msgstr "Премахване на категорията"
+
+#~ msgid "View/Edit details"
+#~ msgstr "Преглед/Редактиране на детайлите"
+
+#~ msgid "_Uncategorized"
+#~ msgstr "_Без категория"
+
+#~ msgid "_Category"
+#~ msgstr "_Категория"
+
+#~ msgid "_To-Do item"
+#~ msgstr "Задача"
+
+#~ msgid "Priority: "
+#~ msgstr "Приоритет: "
+
+#~ msgid "_Neutral"
+#~ msgstr "_Неутрален"
+
+#~ msgid "_Low"
+#~ msgstr "_Нисък"
+
+#~ msgid "_Medium"
+#~ msgstr "_Среден"
+
+#~ msgid "_High"
+#~ msgstr "_Висок"
+
+#~ msgid "Progress(%): "
+#~ msgstr "Прогрес(%): "
+
+#~ msgid ""
+#~ "Are you sure you want to remove the category \"%s?\"\n"
+#~ "All of its items will be removed."
+#~ msgstr ""
+#~ "Сигурни ли сте, че желаете да премахнете категорията \"%s?\"\n"
+#~ "Всички нейни елементи ще бъдат премахнати."
+
+#~ msgid "Don't show this again."
+#~ msgstr "Да не се показва отново."
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "Сигурни ли сте, че желаете за премахнете този елемент?"
+
+#~ msgid "Forecast"
+#~ msgstr "Прогноза"
+
+#~ msgid "for"
+#~ msgstr "за"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "ДЕН ОТ СЕДМИЦАТА"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Утре"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "ОПИСАНИЕ"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "Данни за времете, осигурени от weather.com"
+
+#~ msgid "Blowing Snow"
+#~ msgstr "Снежна виелица"
+
+#~ msgid "Blustery"
+#~ msgstr "Бурен вятър"
+
+#~ msgid "Clear"
+#~ msgstr "Ясно"
+
+#~ msgid "Cloudy"
+#~ msgstr "Облачно"
+
+#~ msgid "Cold"
+#~ msgstr "Студ"
+
+#~ msgid "Drizzle"
+#~ msgstr "Ръмеж"
+
+#~ msgid "Dust"
+#~ msgstr "Прах"
+
+#~ msgid "Fair"
+#~ msgstr "Предимно безоблачно"
+
+#~ msgid "Fog"
+#~ msgstr "Мъгла"
+
+#~ msgid "Freezing Drizzle"
+#~ msgstr "Леден ръмеж"
+
+#~ msgid "Freezing Rain"
+#~ msgstr "Леден дъжд"
+
+#~ msgid "Hail"
+#~ msgstr "Градушка"
+
+#~ msgid "Haze"
+#~ msgstr "Мараня"
+
+#~ msgid "Heavy Snow"
+#~ msgstr "Тежък сняг"
+
+#~ msgid "Hot"
+#~ msgstr "Горещо"
+
+#~ msgid "Hurricane"
+#~ msgstr "Ураган"
+
+#~ msgid "Isolated Thunderstorms"
+#~ msgstr "Изолирани гръмотевични бури"
+
+#~ msgid "Light Snow Showers"
+#~ msgstr "Лек снеговалеж"
+
+#~ msgid "Mixed Precipitation"
+#~ msgstr "Смесен валеж"
+
+#~ msgid "Mixed Rain and Hail"
+#~ msgstr "Дъжд и градушка"
+
+#~ msgid "Mixed Rain and Sleet"
+#~ msgstr "Дъжд и суграшица"
+
+#~ msgid "Mixed Rain and Snow"
+#~ msgstr "Дъжд и сняг"
+
+#~ msgid "Mostly Cloudy"
+#~ msgstr "Предимно облачно"
+
+#~ msgid "N/A"
+#~ msgstr "Н/И"
+
+#~ msgid "Partly Cloudy"
+#~ msgstr "Разкъсана облачност"
+
+#~ msgid "Scattered Showers"
+#~ msgstr "Разпръснати превалявания"
+
+#~ msgid "Scattered Snow Showers"
+#~ msgstr "Разпръснати снеговалежи"
+
+#~ msgid "Scattered Thunderstorms"
+#~ msgstr "Разпръснати гръмотевични бури"
+
+#~ msgid "Severe Thunderstorms"
+#~ msgstr "Тежки гръмотевични бури"
+
+#~ msgid "Showers"
+#~ msgstr "Превалявания"
+
+#~ msgid "Sleet"
+#~ msgstr "Киша"
+
+#~ msgid "Smoke"
+#~ msgstr "Пушек"
+
+#~ msgid "Snow"
+#~ msgstr "Сняг"
+
+#~ msgid "Snow Flurries"
+#~ msgstr "Снежни превалявания"
+
+#~ msgid "Snow Showers"
+#~ msgstr "Снеговалежи"
+
+#~ msgid "Thunder Showers"
+#~ msgstr "Гръмотевични превалявания"
+
+#~ msgid "Thunderstorms"
+#~ msgstr "Гръмотевични бури"
+
+#~ msgid "Tornado"
+#~ msgstr "Торнадо"
+
+#~ msgid "Tropical Storm"
+#~ msgstr "Тропическа буря"
+
+#~ msgid "Windy"
+#~ msgstr "Вятър"
+
+#~ msgid "Monday"
+#~ msgstr "Понеделник"
+
+#~ msgid "Tuesday"
+#~ msgstr "Вторник"
+
+#~ msgid "Wednesday"
+#~ msgstr "Сряда"
+
+#~ msgid "Thursday"
+#~ msgstr "Четвъртък"
+
+#~ msgid "Friday"
+#~ msgstr "Петък"
+
+#~ msgid "Saturday"
+#~ msgstr "Събота"
+
+#~ msgid "Sunday"
+#~ msgstr "Неделя"
+
+#~ msgid "Fetching conditions for"
+#~ msgstr "Получаване на условията за"
+
+#~ msgid "Searching..."
+#~ msgstr "Търсене..."
+
+#~ msgid "Open Location"
+#~ msgstr "Отваряне на местоположение"
+
+#~ msgid ""
+#~ "There seem to be problems with our                     connection to your "
+#~ "account. Your best bet is probably                     to log out and try "
+#~ "again."
+#~ msgstr ""
+#~ "Изглежда има проблеми при връзката с вашия профил. Най-добре е да се "
+#~ "отпишете и да опитате отново."
+
+#~ msgid " Upload/Download"
+#~ msgstr " Качване/Сваляне"
+
+#~ msgid " bytes)"
+#~ msgstr " байта)"
+
+#~ msgid "Sent"
+#~ msgstr "Изпратени"
+
+#~ msgid "Received"
+#~ msgstr "Получени"
+
+#~ msgid "Sending"
+#~ msgstr "Изпращане"
+
+#~ msgid "No"
+#~ msgstr "Не"
+
+#~ msgid "Receiving"
+#~ msgstr "Получаване"
+
+#~ msgid "Celcius"
+#~ msgstr "Цезии"
+
+#~ msgid "Launch\\u2026"
+#~ msgstr "Пускане\\u2026"
+
+#~ msgid "Search\\u2026"
+#~ msgstr "Търсене\\u2026"

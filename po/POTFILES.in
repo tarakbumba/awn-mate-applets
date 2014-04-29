@@ -1,0 +1,20 @@
+# PLEASE KEEP THIS FILE ALPHABETIZED (case-insensitive)!
+[type: gettext/ini]applets/mate-cairo-menu/awn-applet-mate-cairo-menu.schema-ini.in
+applets/mate-cairo-menu/backend-mate.c
+applets/mate-cairo-menu/cairo-aux-icon.c
+applets/mate-cairo-menu/cairo-main-icon.c
+applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in
+applets/mate-cairo-menu/mate-menu-builder.c
+applets/mate-cairo-menu/misc.c
+applets/mate-mainmenu/applet.c
+applets/mate-mainmenu/mate-mainmenu.desktop.in.in
+[type: gettext/ini]applets/mate-quit/awn-applet-mate-quit.schema-ini.in
+applets/mate-quit/mate-quit.desktop.in
+applets/mate-quit/mate-quit-lock-screen.desktop.in
+applets/mate-quit/mate-quit-log-out.desktop.in
+applets/mate-quit/mate-quit-shut-down.desktop.in
+applets/mate-quit/mate-quit.py
+applets/mate-yama/mate-yama.desktop.in
+applets/mate-yama/mate-yama.py
+applets/mintmenu/mintMenuAwn.py
+applets/mintmenu/mintmenu.desktop.in

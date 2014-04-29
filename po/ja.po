@@ -1,0 +1,2218 @@
+# Japanese translation for awn-mate-applets
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2010-10-11 23:18+0000\n"
+"Last-Translator: kawaji <jiro.kawada@gmail.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:34+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "場所"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "最近開いたドキュメント"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr "セッション"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr "メイン・メニュー"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate Main Menu."
+msgstr "Awn メイン・メニュー"
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr "ログアウト"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "画面のロック"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr "サスペンド"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr "ハイバネート"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "シャットダウン"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "コンピュータ"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "ホーム"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "ゴミ箱"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr "ファイルシステム"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "ネットワーク"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "サーバへ接続"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr "最近開いたドキュメントのクリア"
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+#, fuzzy
+msgid "Awn Mate MainMenu"
+msgstr "Awn メイン・メニュー"
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr "あなたの全アプリケーションの一覧を表示します"
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate main menu for Awn"
+msgstr "Awn用のメイン・メニューです"
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+#, fuzzy
+msgid "MATE Quit-Log Out applet"
+msgstr "終了-ログアウト アプレット"
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+#, fuzzy
+msgid "Exit or log out from your MATE session"
+msgstr "セッションを終了したりログアウトするためのアプレットです"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "画面のロック"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+#, fuzzy
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr "コンピュータの未承認使用の防止"
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+#, fuzzy
+msgid "Log out of this Mate session to log in as a different user"
+msgstr "別ユーザーでログインするために今セッションからログアウト"
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr "コンピュータをシャットダウンします"
+
+#: ../applets/mate-quit/mate-quit.py:34
+#, fuzzy
+msgid "Mate Quit/Log Out"
+msgstr "終了-ログアウト アプレット"
+
+#: ../applets/mate-quit/mate-quit.py:35
+#, fuzzy
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr "セッションを終了したりログアウトするためのアプレットです"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+#, fuzzy
+msgid "Show Docklet"
+msgstr "デスクトップの表示"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+#, fuzzy
+msgid "Shut Down"
+msgstr "シャットダウン..."
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr "シャットダウン..."
+
+#: ../applets/mate-quit/mate-quit.py:248
+#, fuzzy
+msgid "Left click _action:"
+msgstr "左クリック"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr "場所と最近開いたドキュメントを含んだメイン・メニュー"
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr "コンピュータの未承認使用の防止"
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr "ホームフォルダ"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr "サーバへ接続..."
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#~ msgid "Log Out..."
+#~ msgstr "ログアウト..."
+
+#~ msgid "Disabled"
+#~ msgstr "無効"
+
+#~ msgid "Preferences"
+#~ msgstr "設定"
+
+#~ msgid "Behavior"
+#~ msgstr "挙動"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "フォーカスを失ったとき隠す"
+
+#~ msgid "Action"
+#~ msgstr "アクション"
+
+#~ msgid "Shortcut"
+#~ msgstr "ショートカット"
+
+#~ msgid "Activate"
+#~ msgstr "起動"
+
+#~ msgid "Background image"
+#~ msgstr "背景の画像"
+
+#~ msgid "Select a file"
+#~ msgstr "ファイルを選択してください"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "端末の不透過率"
+
+#~ msgid "External Terminal"
+#~ msgstr "外部端末"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "シンプルなポップアップ表示の端末です"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "端末アプレット"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "帯域モニタ"
+
+#~ msgid "Network Bandwidth monitor"
+#~ msgstr "ネットワーク帯域モニタ"
+
+#~ msgid "Scanning"
+#~ msgstr "スキャン中"
+
+#~ msgid "Devices"
+#~ msgstr "デバイス"
+
+#~ msgid "KBps"
+#~ msgstr "KBps"
+
+#~ msgid "Kbps"
+#~ msgstr "Kbps"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "有効なネットワークデバイスを選択してください"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr "送信合計: %s - 受信合計: %s (全インターフェイス)"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "有効なデバイスを選択してください"
+
+#~ msgid "A Network Bandwidth monitor for AWN"
+#~ msgstr "AWN用のネットワーク帯域モニタです"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>表示</b>"
+
+#~ msgid "Background Color"
+#~ msgstr "背景の色"
+
+#~ msgid "Border Color"
+#~ msgstr "境界線の色"
+
+#~ msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+#~ msgstr "Mbps/Kbps (ビット) の代わりに MBps/KBps (バイト) で表示する"
+
+#~ msgid "Display Speed Text"
+#~ msgstr "速度の文字表示"
+
+#~ msgid "Draw 0 bps in graphs"
+#~ msgstr "グラフに 0 bps を描画する"
+
+#~ msgid "Draw Background"
+#~ msgstr "背景を描画する"
+
+#~ msgid "Draw Border"
+#~ msgstr "境界線を描画する"
+
+#~ msgid "General"
+#~ msgstr "全般"
+
+#~ msgid "Graph Only"
+#~ msgstr "グラフのみ"
+
+#~ msgid "If this is checked, the common display unit will be Bytes"
+#~ msgstr "これにチェックを入れた場合、共通表示単位はバイトになります"
+
+#~ msgid "Minimum Scaling threshold"
+#~ msgstr "目盛の下限しきい値"
+
+#~ msgid "Sum"
+#~ msgstr "合算"
+
+#~ msgid "Device"
+#~ msgstr "デバイス"
+
+#~ msgid "Multi"
+#~ msgstr "マルチ"
+
+#~ msgid "Upload Color"
+#~ msgstr "アップロードの色"
+
+#~ msgid "Download Color"
+#~ msgstr "ダウンロードの色"
+
+#~ msgid "Upload"
+#~ msgstr "アップロード"
+
+#~ msgid "Download"
+#~ msgstr "ダウンロード"
+
+#~ msgid "%s %s Color"
+#~ msgstr "%s %s の色"
+
+#~ msgid "Change Unit"
+#~ msgstr "単位変更"
+
+#~ msgid "None"
+#~ msgstr "なし"
+
+#~ msgid "Battery"
+#~ msgstr "バッテリー"
+
+#~ msgid "Display battery state"
+#~ msgstr "バッテリーの状態を表示します"
+
+#~ msgid "Percent"
+#~ msgstr "パーセント"
+
+#~ msgid "Time Remaining"
+#~ msgstr "残量時間"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>全般オプション</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>通知</b>"
+
+#~ msgid "_Battery:"
+#~ msgstr "バッテリー(_B):"
+
+#~ msgid "_Notify when charge level reaches:"
+#~ msgstr "充電レベルが指定値に達したとき通知する(_N):"
+
+#~ msgid "_Theme:"
+#~ msgstr "テーマ(_T):"
+
+#~ msgid "_Warn when charge level drops to:"
+#~ msgstr "充電レベルが指定値にまで落ちたとき警告する(_W):"
+
+#~ msgid "Cairo Clock"
+#~ msgstr "Cairo Clock"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "12 _hour format"
+#~ msgstr "12時間制(_H)"
+
+#~ msgid "24 h_our format"
+#~ msgstr "24時間制(_O)"
+
+#~ msgid "<b>Clock Display</b>"
+#~ msgstr "<b>時計の表示</b>"
+
+#~ msgid "<b>Title Options</b>"
+#~ msgstr "<b>タイトルのオプション</b>"
+
+#~ msgid "Celsius"
+#~ msgstr "摂氏"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "華氏"
+
+#~ msgid "Find _Next"
+#~ msgstr "次を検索(_N)"
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too"
+#~ msgstr "有効にした場合、時、分に加えて、秒も表示されます"
+
+#~ msgid "If enabled, the date will be shown in the title"
+#~ msgstr "有効にした場合、タイトルに日付が表示されます"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock"
+#~ msgstr "有効にした場合、時計に秒針が表示されます"
+
+#~ msgid "If enabled, time will be shown like 1:23 AM"
+#~ msgstr "有効にした場合、時刻は 1:23 AM のように表示されます"
+
+#~ msgid "If enabled, time will be shown like 23:45"
+#~ msgstr "有効にした場合、時刻は 23:45 のように表示されます"
+
+#~ msgid "Kelvin"
+#~ msgstr "ケルビン"
+
+#~ msgid "Location Name:"
+#~ msgstr "地名："
+
+#~ msgid "Show _seconds"
+#~ msgstr "秒を表示する(_S)"
+
+#~ msgid "Show seco_nds hand"
+#~ msgstr "秒針を表示する(_N)"
+
+#~ msgid "Show the _date"
+#~ msgstr "日付を表示する(_D)"
+
+#~ msgid "_Temperature unit:"
+#~ msgstr "気温の単位(_T):"
+
+#~ msgid "_Wind speed unit:"
+#~ msgstr "風速の単位(_W):"
+
+#~ msgid "km/h"
+#~ msgstr "km/h"
+
+#~ msgid "knots"
+#~ msgstr "ノット"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "mph"
+#~ msgstr "mph"
+
+#~ msgid "Login to "
+#~ msgstr "Login to "
+
+#~ msgid "Online Calendar"
+#~ msgstr "オンラインカレンダー"
+
+#~ msgid "Calendar Username"
+#~ msgstr "ユーザ名"
+
+#~ msgid "Calendar Password"
+#~ msgstr "パスワード"
+
+#~ msgid "Save Password"
+#~ msgstr "パスワードを保存"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "パスワードは暗号化して保存されますが、コンピュータのセキュリティが破られた"
+#~ "場合、パスワードを盗まれる可能性があります。それでもパスワードを保存します"
+#~ "か？"
+
+#~ msgid "Classic LCD"
+#~ msgstr "クラシック LCD"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "インディグロー LCD"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "バックリットアンバー LCD"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "バックリットグリーン LCD"
+
+#~ msgid "Green LED"
+#~ msgstr "グリーン LED"
+
+#~ msgid "Red LED"
+#~ msgstr "レッド LED"
+
+#~ msgid "Blue LED"
+#~ msgstr "ブルー LED"
+
+#~ msgid "Plain White"
+#~ msgstr "プレーンホワイト"
+
+#~ msgid "Plain Black"
+#~ msgstr "プレーンブラック"
+
+#~ msgid "Red"
+#~ msgstr "レッド"
+
+#~ msgid "Green"
+#~ msgstr "グリーン"
+
+#~ msgid "Blue"
+#~ msgstr "ブルー"
+
+#~ msgid "Gray"
+#~ msgstr "グレー"
+
+#~ msgid "Black"
+#~ msgstr "ブラック"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "12時間表示"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "時計の表示色"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "カレンダーの表示色"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Google カレンダー"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Outlook Web Access"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "カレンダー連携"
+
+#~ msgid "Calendar URL"
+#~ msgstr "カレンダー URL"
+
+#~ msgid "Calendar"
+#~ msgstr "カレンダー"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "カレンダーアプレットからパスワードを削除しますか？パスワードの削除を選択し"
+#~ "た場合、再度、カレンダーアプレットの認証が必要になります。"
+
+#~ msgid "Open in "
+#~ msgstr "Open in "
+
+#~ msgid "Today"
+#~ msgstr "今日"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "外部データを読み込めませんでした。"
+
+#~ msgid "No appointments."
+#~ msgstr "予定なし"
+
+#~ msgid "No appointments"
+#~ msgstr "予定なし"
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr ""
+#~ "%s のダウンロードに失敗しました。  \"進む\"を押して再度やり直してくださ"
+#~ "い。"
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr ""
+#~ "この URL は有効なコミックフィードではありません。 \"進む\"を押して再度やり"
+#~ "直してください。"
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "<i>%s</i> に接続中..."
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "このガイドは終了です。\n"
+#~ "\n"
+#~ "<i>%s</i> を追加するには「適用」を押してください。"
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "<b>%(name)s</b> を発見しました！\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "View your favourite comics on your desktop"
+#~ msgstr "デスクトップにお気に入りのコミックを表示します"
+
+#~ msgid "Shared comics"
+#~ msgstr "共有コミック"
+
+#~ msgid "Your comics"
+#~ msgstr "自分のコミック"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "<i>%s</i> の削除に失敗しました。"
+
+#~ msgid "Error"
+#~ msgstr "エラー"
+
+#~ msgid "Comics"
+#~ msgstr "コミックス"
+
+#~ msgid "Manage Comics"
+#~ msgstr "コミックの管理"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "%s の新着コミックスがあるよ！"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%B%e日 %A"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "<i>%s</i> の保存に失敗しました。"
+
+#~ msgid "Add Comic"
+#~ msgstr "コミックの追加"
+
+#~ msgid "Downloading Comic"
+#~ msgstr "コミックのダウンロード"
+
+#~ msgid "Enter the URL of the RSS feed:"
+#~ msgstr "RSSフィードのURLの入力:"
+
+#~ msgid "Ready to add comic!"
+#~ msgstr "コミック追加の用意完了！"
+
+#~ msgid "Select Comic"
+#~ msgstr "コミックの選択"
+
+#~ msgid "Select Image"
+#~ msgstr "画像の選択"
+
+#~ msgid "The guide found more than one image. Please select which one to use."
+#~ msgstr ""
+#~ "ガイドが複数の画像を見つけました。どちらを使用するか選択してください。"
+
+#~ msgid ""
+#~ "This guide will help you to add a new comic.\n"
+#~ "\n"
+#~ "To find comics suitable for adding, you may search the Internet for "
+#~ "\"comics rss\".\n"
+#~ "\n"
+#~ "Press \"next\" to proceed."
+#~ msgstr ""
+#~ "このガイドは新しいコミックの追加を手助けします。\n"
+#~ "\n"
+#~ "追加に適したコミックを見つけるには、インターネットで \"comic rss\" を検索"
+#~ "してください。\n"
+#~ "\n"
+#~ "「進む」を押すと先へ進みます。"
+
+#~ msgid "Manage comics"
+#~ msgstr "コミックの管理"
+
+#~ msgid "The following comics are installed:"
+#~ msgstr "次のコミックがインストールされています:"
+
+#~ msgid "An applet to monitor and control the CPU frequency"
+#~ msgstr "CPU周波数の監視と制御のためのアプレット"
+
+#~ msgid "<b>Monitored CPU</b>"
+#~ msgstr "<b>モニタ対象CPU</b>"
+
+#~ msgid "_Processor:"
+#~ msgstr "プロセッサ(_P):"
+
+#~ msgid "Change your keyboard input layout from Awn."
+#~ msgstr "Awnからキーボード入力レイアウトの変更を行います"
+
+#~ msgid "Appearance"
+#~ msgstr "外観"
+
+#~ msgid "Change your keyboard layout from Awn."
+#~ msgstr "Awnからキーボードレイアウトの変更操作"
+
+#~ msgid "12 hour format"
+#~ msgstr "12時間制"
+
+#~ msgid "24 hour format"
+#~ msgstr "24時間制"
+
+#~ msgid "<b>Clock Format</b>"
+#~ msgstr "<b>時刻の書式</b>"
+
+#~ msgid "Commands"
+#~ msgstr "コマンド"
+
+#~ msgid "Date below time"
+#~ msgstr "日付表示を時刻の下にする"
+
+#~ msgid "Digital Clock Preferences"
+#~ msgstr "デジタル時計の設定"
+
+#~ msgid "Run Calendar:"
+#~ msgstr "カレンダーの実行:"
+
+#~ msgid "Run Time Admin:"
+#~ msgstr "時刻管理の実行:"
+
+#~ msgid "Show the date"
+#~ msgstr "日付を表示する"
+
+#~ msgid "Use default Awn colors"
+#~ msgstr "Awnのデフォルトの配色を使用する"
+
+#~ msgid "A clock and calendar in one."
+#~ msgstr "時計とカレンダーが一体です"
+
+#~ msgid "Digital Clock"
+#~ msgstr "デジタル時計"
+
+#~ msgid "Copy Time"
+#~ msgstr "時刻のコピー"
+
+#~ msgid "Copy Date"
+#~ msgstr "日付のコピー"
+
+#~ msgid "Adjust Date & Time"
+#~ msgstr "日付と時刻の調整"
+
+#~ msgid "Displays digital clock."
+#~ msgstr "デジタル時計を表示します。"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Google Reader"
+#~ msgstr "Google リーダー"
+
+#~ msgid "Google Wave"
+#~ msgstr "Google Wave"
+
+#~ msgid "Reddit Inbox"
+#~ msgstr "Reddit Inbox"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Untitled"
+#~ msgstr "無題"
+
+#~ msgid "Feeds Applet"
+#~ msgstr "フィード・アプレット"
+
+#~ msgid "Loading feeds..."
+#~ msgstr "フィードを読み込んでいます..."
+
+#~ msgid "You don't have any feeds."
+#~ msgstr "フィードは全くありません。"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s More)\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(他 %s 件)\n"
+
+#~ msgid "_Add Feed"
+#~ msgstr "フィード追加(_A)"
+
+#~ msgid "Open this feed's website"
+#~ msgstr "このフィードのウェブサイトを開く"
+
+#~ msgid "Loading..."
+#~ msgstr "読み込み中..."
+
+#~ msgid "Show this feed's items"
+#~ msgstr "このフィードアイテムを表示"
+
+#~ msgid "Hide this feed's items"
+#~ msgstr "このフィードアイテムを隠す"
+
+#~ msgid "Add Feed"
+#~ msgstr "フィード追加"
+
+#~ msgid "OPML Import"
+#~ msgstr "OPML のインポート"
+
+#~ msgid "Feeds Applet Preferences"
+#~ msgstr "フィード・アプレットの設定"
+
+#~ msgid "Feeds"
+#~ msgstr "フィード"
+
+#~ msgid "Updating"
+#~ msgstr "更新動作"
+
+#~ msgid "_Show website icons"
+#~ msgstr "ウェブサイトのアイコンを表示する(_S)"
+
+#~ msgid "Import"
+#~ msgstr "インポート"
+
+#~ msgid "Export"
+#~ msgstr "エクスポート"
+
+#~ msgid "_Notify for updated feeds"
+#~ msgstr "更新されたフィードを通知する(_N)"
+
+#~ msgid "_Update automatically"
+#~ msgstr "自動的に更新する(_U)"
+
+#~ msgid "Update every "
+#~ msgstr "更新間隔 "
+
+#~ msgid " minutes"
+#~ msgstr " 分毎"
+
+#~ msgid "Open OPML File"
+#~ msgstr "OPML ファイルを開く"
+
+#~ msgid "Save OPML File"
+#~ msgstr "OPML ファイルを保存"
+
+#~ msgid "Awn Feeds Applet Items"
+#~ msgstr "Awn フィード・アプレット アイテム"
+
+#~ msgid "Source:"
+#~ msgstr "ソース:"
+
+#~ msgid "Search"
+#~ msgstr "検索"
+
+#~ msgid "You must sign in to a Google service to search for feeds."
+#~ msgstr "フィードの検索には Google サービスへのサインインが必要です。"
+
+#~ msgid "RSS/Atom"
+#~ msgstr "RSS/Atom"
+
+#~ msgid "Timeline"
+#~ msgstr "タイムライン"
+
+#~ msgid "Replies"
+#~ msgstr "リプライ"
+
+#~ msgid "Search for"
+#~ msgstr "検索ワード"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Username:"
+#~ msgstr "ユーザ名:"
+
+#~ msgid "Password:"
+#~ msgstr "パスワード:"
+
+#~ msgid "Feed search by "
+#~ msgstr "フィード検索先 "
+
+#~ msgid "_Search"
+#~ msgstr "検索(_S)"
+
+#~ msgid ""
+#~ "There was an error while searching.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "検索中にエラーが発生しました。\n"
+#~ "後で再び試してみてください。"
+
+#~ msgid ""
+#~ "No results found.\n"
+#~ "Try checking your spelling or using different search terms."
+#~ msgstr ""
+#~ "検索結果はありませんでした。\n"
+#~ "スペルをチェックしたり、違う検索語句を試してみてください。"
+
+#~ msgid "A launcher for your file manager"
+#~ msgstr "ファイルマネージャ用のランチャーです"
+
+#~ msgid "File Browser Launcher"
+#~ msgstr "ファイルブラウザ・ランチャー"
+
+#~ msgid "Filesystem"
+#~ msgstr "ファイルシステム"
+
+#~ msgid "Fonts"
+#~ msgstr "フォント"
+
+#~ msgid "Folder"
+#~ msgstr "フォルダ"
+
+#~ msgid "DVD Drive"
+#~ msgstr "DVD ドライブ"
+
+#~ msgid "CD Drive"
+#~ msgstr "CD ドライブ"
+
+#~ msgid "Empty Trash"
+#~ msgstr "ゴミ箱を空にする"
+
+#~ msgid "A customizable launcher for browsing your files."
+#~ msgstr "ファイルを参照するためのカスタマイズ可能なランチャー。"
+
+#~ msgid "File Browser Launcher Preferences"
+#~ msgstr "ファイルブラウザ・ランチャーの設定"
+
+#~ msgid "File Browser"
+#~ msgstr "ファイルブラウザ"
+
+#~ msgid "System Default"
+#~ msgstr "システムのデフォルト"
+
+#~ msgid "Other"
+#~ msgstr "その他"
+
+#~ msgid "One icon with dialog"
+#~ msgstr "単独アイコンとダイアログ"
+
+#~ msgid "One icon with docklet"
+#~ msgstr "単独アイコンとドックレット"
+
+#~ msgid "Multiple icons"
+#~ msgstr "複数アイコン"
+
+#~ msgid "Focus text entry"
+#~ msgstr "文字入力欄をフォーカスする"
+
+#~ msgid "Open place when clicked"
+#~ msgstr "クリックしたとき場所を開く"
+
+#~ msgid "Show all places"
+#~ msgstr "全ての場所を表示する"
+
+#~ msgid "Home folder"
+#~ msgstr "ホームフォルダ"
+
+#~ msgid "Mounted local drives"
+#~ msgstr "マウント済みローカルドライブ"
+
+#~ msgid "Mounted network drives"
+#~ msgstr "マウント済みネットワークドライバ"
+
+#~ msgid "Connect to server"
+#~ msgstr "サーバへ接続"
+
+#~ msgid "Bookmarks"
+#~ msgstr "ブックマーク"
+
+#~ msgid "Display dialog/docklet"
+#~ msgstr "ダイアログ/ドックレットを表示する"
+
+#~ msgid "Open the folder"
+#~ msgstr "指定フォルダを開く"
+
+#~ msgid "Nothing"
+#~ msgstr "なし"
+
+#~ msgid "Middle Click"
+#~ msgstr "中クリック"
+
+#~ msgid "Choose a folder"
+#~ msgstr "フォルダを選択してください"
+
+#~ msgid "Garbage"
+#~ msgstr "ゴミ箱"
+
+#~ msgid "Could not open the trash folder with your file manager: %s"
+#~ msgstr ""
+#~ "ゴミ箱のフォルダをファイルマネージャで開くことができませんでした: %s"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "ゴミ箱を空にする(_E)"
+
+#~ msgid ""
+#~ "Are you sure you want to empty your trash? It currently contains %u "
+#~ "item(s)."
+#~ msgstr "本当にゴミ箱を空にしますか？ ゴミ箱には現在 %u アイテムあります。"
+
+#~ msgid "Could not send the dragged file(s) to the trash: %s"
+#~ msgstr "ドラッグしたファイルをゴミ箱に送ることができませんでした: %s"
+
+#~ msgid "%s Preferences"
+#~ msgstr "%s の設定"
+
+#~ msgid "Applet to show the hw sensors readouts"
+#~ msgstr "ハードウェア・センサーの読み出しを表示するアプレットです"
+
+#~ msgid "Hardware Sensors"
+#~ msgstr "ハードウェア・センサー"
+
+#~ msgid "Applet to show the hardware sensors readouts"
+#~ msgstr "ハードウェア・センサーの読み出しを表示するアプレット"
+
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgid "Warning from Hardware Sensors: No sensors found"
+#~ msgstr "ハードウェアセンサーからの警告: センサーが見つかりません"
+
+#~ msgid ""
+#~ "Install one or more of ACPI, HDDTemp, LM-Sensors, nvidia-settings or "
+#~ "nvclock and restart the applet."
+#~ msgstr ""
+#~ "ACPI, HDDTEMP, LM-Sensors, nividia-settings または nvclock のうちから1つ以"
+#~ "上をインストールして、アプレットを再起動させてください。"
+
+#~ msgid "Sensors"
+#~ msgstr "センサー"
+
+#~ msgid "Interface"
+#~ msgstr "インターフェイス"
+
+#~ msgid "Name"
+#~ msgstr "名前"
+
+#~ msgid "Label"
+#~ msgstr "ラベル"
+
+#~ msgid "In dialog"
+#~ msgstr "ダイアログでの表示"
+
+#~ msgid "Sensors displayed in icon"
+#~ msgstr "アイコンに表示するセンサー"
+
+#~ msgid "properties"
+#~ msgstr "プロパティ"
+
+#~ msgid "<b>Alarms</b>"
+#~ msgstr "<b>アラーム</b>"
+
+#~ msgid "<b>Sensor value limits</b>"
+#~ msgstr "<b>センサーの値の制限</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>更新</b>"
+
+#~ msgid "Add"
+#~ msgstr "追加"
+
+#~ msgid "Enable high alarm"
+#~ msgstr "高値警告を有効にする"
+
+#~ msgid "Enable low alarm"
+#~ msgstr "低値警告を有効にする"
+
+#~ msgid "Font size:"
+#~ msgstr "フォントの大きさ:"
+
+#~ msgid "Meter hand color:"
+#~ msgstr "メーターの針の色:"
+
+#~ msgid "Remove"
+#~ msgstr "削除"
+
+#~ msgid "Sensor high value"
+#~ msgstr "センサーの高値"
+
+#~ msgid "Sensor low value"
+#~ msgstr "センサーの低値"
+
+#~ msgid "Show value in icon"
+#~ msgstr "アイコンに値を表示する"
+
+#~ msgid "Temperature unit:"
+#~ msgstr "温度の単位:"
+
+#~ msgid "Theme:"
+#~ msgstr "テーマ:"
+
+#~ msgid "Update interval:"
+#~ msgstr "更新間隔:"
+
+#~ msgid "seconds"
+#~ msgstr "秒"
+
+#~ msgid "Volt"
+#~ msgstr "ボルト"
+
+#~ msgid "Hide the icon if there is no new mail"
+#~ msgstr "新着メールがない場合はアイコンを隠す"
+
+#~ msgid "Check Your Email from AWN"
+#~ msgstr "AWNから電子メールのチェック"
+
+#~ msgid "Mail Applet"
+#~ msgstr "メールアプレット"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "%d 件の新着メールがあります"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "未読メール %d 件"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "メールアプレット (クリックしてログイン)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "%s でログイン中"
+
+#~ msgid "Network error - Mail Applet"
+#~ msgstr "ネットワークエラー - メールアプレット"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "新着メール - メールアプレット"
+
+#~ msgid "Mail"
+#~ msgstr "メール"
+
+#~ msgid "Open Web Mail"
+#~ msgstr "ウェブメールを開く"
+
+#~ msgid "Open Desktop Client"
+#~ msgstr "デスクトップクライアントを開く"
+
+#~ msgid "Refresh"
+#~ msgstr "更新"
+
+#~ msgid "No unread messages"
+#~ msgstr "未読メッセージなし"
+
+#~ msgid "No new messages"
+#~ msgstr "新着メッセージなし"
+
+#~ msgid "Wrong username or password"
+#~ msgstr "誤ったユーザー名またはパスワード"
+
+#~ msgid "Log In"
+#~ msgstr "ログイン"
+
+#~ msgid "Type:"
+#~ msgstr "種類:"
+
+#~ msgid "Backend"
+#~ msgstr "バックエンド"
+
+#~ msgid "Could not log in: No username"
+#~ msgstr "ログインできませんでした: ユーザー名なし"
+
+#~ msgid ""
+#~ "There seem to be problems with our connection to your account. Your best "
+#~ "bet is probably to log out and try again."
+#~ msgstr ""
+#~ "アカウントへの接続に問題があるようです。ログアウトして再試行することがおそ"
+#~ "らく最善です。"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[件名なし]"
+
+#~ msgid "Google Apps"
+#~ msgstr "Google Apps"
+
+#~ msgid "Could not log in: No username or domain"
+#~ msgstr "ログインできませんでした: ユーザー名またはドメイン名なし"
+
+#~ msgid "Domain:"
+#~ msgstr "ドメイン:"
+
+#~ msgid "Server:"
+#~ msgstr "サーバ名:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "SSL暗号化を使用"
+
+#~ msgid "Could not log in"
+#~ msgstr "ログイン失敗"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "フォルダが存在しません"
+
+#~ msgid "Folder:"
+#~ msgstr "フォルダ:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "新着メールをチェックするアプレット"
+
+#~ msgid "<b>Mail</b>"
+#~ msgstr "<b>メール</b>"
+
+#~ msgid "_Alert on network errors"
+#~ msgstr "ネットワークエラー時に警告する(_A)"
+
+#~ msgid "_Email client:"
+#~ msgstr "メールクライアント(_E):"
+
+#~ msgid "_Hide applet if no new messages"
+#~ msgstr "新着メッセージがない場合はアプレットを隠す(_H)"
+
+#~ msgid "minutes"
+#~ msgstr "分"
+
+#~ msgid "Control your music player"
+#~ msgstr "音楽プレイヤーの操作"
+
+#~ msgid "Media Control"
+#~ msgstr "メディア・コントロール"
+
+#~ msgid "Title - Artist"
+#~ msgstr "タイトル - アーティスト"
+
+#~ msgid "Artist - Title"
+#~ msgstr "アーティスト - タイトル"
+
+#~ msgid "Close docklet when mouse leaves it"
+#~ msgstr "マウスが離れたときドックレットを閉じる"
+
+#~ msgid "Display _docklet instead of dialog"
+#~ msgstr "ダイアログの代わりにドックレットを表示する(_D)"
+
+#~ msgid "Media-control preferences"
+#~ msgstr "メディア・コントロールの設定"
+
+#~ msgid "Show _album art when available"
+#~ msgstr "アルバムカバーが利用可能なときは表示する(_A)"
+
+#~ msgid "_Size of the album art:"
+#~ msgstr "アルバムカバーの大きさ(_S):"
+
+#~ msgid "_Tooltip format:"
+#~ msgstr "ツールチップの形式(_T):"
+
+#~ msgid "pixels"
+#~ msgstr "ピクセル"
+
+#~ msgid "A media-control applet (Next Track)"
+#~ msgstr "メディア・コントロール アプレット（次のトラックへ）"
+
+#~ msgid "Media Icons Next"
+#~ msgstr "メディア・アイコン 次へ"
+
+#~ msgid "A media-control applet (Previous Track)"
+#~ msgstr "メディア・コントロール アプレット（前のトラックへ）"
+
+#~ msgid "Media Icons Previous"
+#~ msgstr "メディア・アイコン 前へ"
+
+#~ msgid "A media-control applet (Play/Pause)"
+#~ msgstr "メディア・コントロール アプレット（再生/一時停止）"
+
+#~ msgid "Media Icons Play/Pause"
+#~ msgstr "メディア・アイコン 再生/一時停止"
+
+#~ msgid "Next"
+#~ msgstr "次へ"
+
+#~ msgid "Previous"
+#~ msgstr "前へ"
+
+#~ msgid "Play/Pause"
+#~ msgstr "再生/一時停止"
+
+#~ msgid "Media Player"
+#~ msgstr "メディアプレイヤー"
+
+#~ msgid "Plays any media files you drop on the applet"
+#~ msgstr "アプレットにドロップした各種メディア・ファイルを再生します"
+
+#~ msgid "<b>GStreamer properties</b>"
+#~ msgstr "<b>GStreamer のプロパティ</b>"
+
+#~ msgid "<b>Video size</b>"
+#~ msgstr "<b>動画サイズ</b>"
+
+#~ msgid "Media Player Preferences"
+#~ msgstr "メディアプレイヤーの設定"
+
+#~ msgid "_Height:"
+#~ msgstr "高さ(_H):"
+
+#~ msgid "_Width:"
+#~ msgstr "幅(_W):"
+
+#~ msgid "An applet to (un)mount devices"
+#~ msgstr "デバイスを（アン）マウントするためのアプレットです"
+
+#~ msgid "Mount Applet"
+#~ msgstr "マウント・アプレット"
+
+#~ msgid "<b>Background Color</b>"
+#~ msgstr "<b>背景の色</b>"
+
+#~ msgid "<b>Border Color</b>"
+#~ msgstr "<b>境界線の色</b>"
+
+#~ msgid "Automatic"
+#~ msgstr "自動"
+
+#~ msgid "Custom:"
+#~ msgstr "カスタム:"
+
+#~ msgid "Extra _offset:"
+#~ msgstr "追加のオフセット(_O):"
+
+#~ msgid "Icon _size:"
+#~ msgstr "アイコンの大きさ(_S):"
+
+#~ msgid "Notification Area Preferences"
+#~ msgstr "通知スペースの設定"
+
+#~ msgid "_Number of icon rows:"
+#~ msgstr "アイコンの行数(_N):"
+
+#~ msgid "A Notification Area (systray)"
+#~ msgstr "通知スペース（シストレイ）"
+
+#~ msgid "Notification Area"
+#~ msgstr "通知スペース"
+
+#~ msgid "<b>Background transparency</b>"
+#~ msgstr "<b>背景の不透過率</b>"
+
+#~ msgid "<b>Background</b>"
+#~ msgstr "<b>背景</b>"
+
+#~ msgid "<b>Icon transparency</b>"
+#~ msgstr "<b>アイコンの不透過率</b>"
+
+#~ msgid "<b>Timers</b>"
+#~ msgstr "<b>タイマー</b>"
+
+#~ msgid "<b>Viewport size</b>"
+#~ msgstr "<b>ビューポートの大きさ</b>"
+
+#~ msgid "<b>Windows</b>"
+#~ msgstr "<b>ウィンドウ</b>"
+
+#~ msgid "Active window:"
+#~ msgstr "アクティブ・ウィンドウ:"
+
+#~ msgid "Active workspace"
+#~ msgstr "アクティブ・ワークスペース"
+
+#~ msgid "Active workspace:"
+#~ msgstr "アクティブ・ワークスペース:"
+
+#~ msgid "All window"
+#~ msgstr "全てのウィンドウ"
+
+#~ msgid "All windows"
+#~ msgstr "全てのウィンドウ"
+
+#~ msgid "B_order color:"
+#~ msgstr "境界の色(_O):"
+
+#~ msgid "Border _size:"
+#~ msgstr "境界の大きさ(_S):"
+
+#~ msgid "C_ustom color:"
+#~ msgstr "カスタム色(_U):"
+
+#~ msgid "Cache expiration:"
+#~ msgstr "キャッシュ有効期限:"
+
+#~ msgid "Center"
+#~ msgstr "中央"
+
+#~ msgid "Co_lumns:"
+#~ msgstr "列(_L):"
+
+#~ msgid "Icon _display:"
+#~ msgstr "アイコン表示(_D):"
+
+#~ msgid "Icon _scaling:"
+#~ msgstr "アイコンの縮尺(_S):"
+
+#~ msgid "Inactive window:"
+#~ msgstr "非アクティブ・ウィンドウ:"
+
+#~ msgid "Inactive windows"
+#~ msgstr "非アクティブ・ウィンドウ"
+
+#~ msgid "Inactive workspace:"
+#~ msgstr "非アクティブ・ワークスペース:"
+
+#~ msgid "Inactive workspaces"
+#~ msgstr "非アクティブ・ワークスペース"
+
+#~ msgid "Look"
+#~ msgstr "外観"
+
+#~ msgid "Lower left"
+#~ msgstr "左下"
+
+#~ msgid "Lower right"
+#~ msgstr "右下"
+
+#~ msgid "Never"
+#~ msgstr "しない"
+
+#~ msgid "Only active window"
+#~ msgstr "アクティブ・ウィンドウのみ"
+
+#~ msgid "Render update:"
+#~ msgstr "描画の更新:"
+
+#~ msgid "Scale _amount:"
+#~ msgstr "縮尺率(_A):"
+
+#~ msgid "Scaled icon _position:"
+#~ msgstr "縮尺アイコン表示位置(_P):"
+
+#~ msgid "Shiny Switcher Preferences"
+#~ msgstr "Shiny Switcher の設定"
+
+#~ msgid "Upper left"
+#~ msgstr "左上"
+
+#~ msgid "Upper right"
+#~ msgstr "右上"
+
+#~ msgid "Use _desktop background"
+#~ msgstr "デスクトップの背景を使用する(_D)"
+
+#~ msgid "_Applet size:"
+#~ msgstr "アプレットの大きさ(_A):"
+
+#~ msgid "_Rows:"
+#~ msgstr "行(_R):"
+
+#~ msgid "_Thumbnailing:"
+#~ msgstr "サムネイル表示(_T):"
+
+#~ msgid "Hides your windows and shows your desktop."
+#~ msgstr "ウィンドウを隠して、デスクトップを表示します。"
+
+#~ msgid "Show hidden windows"
+#~ msgstr "隠したウィンドウを表示します"
+
+#~ msgid "Hide windows and show desktop"
+#~ msgstr "ウィンドウを隠して、デスクトップを表示します"
+
+#~ msgid "SlickSwitcher Preferences"
+#~ msgstr "SlickSwitcher の設定"
+
+#~ msgid "Border Colors"
+#~ msgstr "境界線の配色"
+
+#~ msgid "Icon border:"
+#~ msgstr "アイコンの境界線:"
+
+#~ msgid "Normal border:"
+#~ msgstr "通常時の境界線:"
+
+#~ msgid "Hovered border:"
+#~ msgstr "マウスホバー時の境界線:"
+
+#~ msgid "Window Colors"
+#~ msgstr "ウィンドウの配色"
+
+#~ msgid "Main color:"
+#~ msgstr "主要部の色:"
+
+#~ msgid "Border color:"
+#~ msgstr "境界線の色:"
+
+#~ msgid "Dialog colors"
+#~ msgstr "ダイアログの配色"
+
+#~ msgid "Use custom colors"
+#~ msgstr "カスタム配色を使用する"
+
+#~ msgid "Background color:"
+#~ msgstr "背景の色:"
+
+#~ msgid "Colors"
+#~ msgstr "配色"
+
+#~ msgid "Number Colors"
+#~ msgstr "番号の配色"
+
+#~ msgid "Drop-shadow color:"
+#~ msgstr "影の色:"
+
+#~ msgid "Shine Colors"
+#~ msgstr "テカリ表現の配色"
+
+#~ msgid "Top color:"
+#~ msgstr "上部の色:"
+
+#~ msgid "Bottom color:"
+#~ msgstr "下部の色:"
+
+#~ msgid "Hover top color:"
+#~ msgstr "マウスホバー時の上部の色:"
+
+#~ msgid "Hover bottom color:"
+#~ msgstr "マウスホバー時の下部の色:"
+
+#~ msgid "Other colors"
+#~ msgstr "その他の配色"
+
+#~ msgid "Width:"
+#~ msgstr "幅:"
+
+#~ msgid "Height:"
+#~ msgstr "高さ:"
+
+#~ msgid "Workspace Size"
+#~ msgstr "ワークスペースの大きさ"
+
+#~ msgid "Mode:"
+#~ msgstr "モード:"
+
+#~ msgid "GNOME"
+#~ msgstr "GNOME"
+
+#~ msgid "Compiz Wallpaper Plugin"
+#~ msgstr "Compiz 壁紙プラグイン"
+
+#~ msgid "File"
+#~ msgstr "ファイル"
+
+#~ msgid "File:"
+#~ msgstr "ファイル:"
+
+#~ msgid "Choose a Background Image"
+#~ msgstr "背景画像を選択してください"
+
+#~ msgid "Background"
+#~ msgstr "背景色"
+
+#~ msgid "Advanced"
+#~ msgstr "詳細設定"
+
+#~ msgid "A visual workspace switcher"
+#~ msgstr "ビジュアルなワークスペース切り替え器"
+
+#~ msgid "Manage system activity"
+#~ msgstr "システム活動の管理"
+
+#~ msgid "System Monitor"
+#~ msgstr "システム・モニタ"
+
+#~ msgid "Applet that shows the shock protection status of your disks"
+#~ msgstr ""
+#~ "ハードディスクのショックプロテクションの状態を表示するアプレットです"
+
+#~ msgid "Custom"
+#~ msgstr "カスタム"
+
+#~ msgid "Current Theme"
+#~ msgstr "現在のテーマ"
+
+#~ msgid "Butter"
+#~ msgstr "バター"
+
+#~ msgid "Chameleon"
+#~ msgstr "カメレオン"
+
+#~ msgid "Orange"
+#~ msgstr "オレンジ"
+
+#~ msgid "Sky Blue"
+#~ msgstr "スカイブルー"
+
+#~ msgid "Plum"
+#~ msgstr "プラム"
+
+#~ msgid "Chocolate"
+#~ msgstr "チョコレート"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "スカーレットレッド"
+
+#~ msgid "Aluminium 1"
+#~ msgstr "アルミニウム 1"
+
+#~ msgid "Aluminium 2"
+#~ msgstr "アルミニウム 2"
+
+#~ msgid "Number of Items"
+#~ msgstr "アイテム件数"
+
+#~ msgid "Progress"
+#~ msgstr "進捗状況"
+
+#~ msgid "Both"
+#~ msgstr "両方"
+
+#~ msgid "To-Do List Preferences"
+#~ msgstr "To-Do リスト 設定"
+
+#~ msgid "Priority"
+#~ msgstr "優先度"
+
+#~ msgid "Icon"
+#~ msgstr "アイコン"
+
+#~ msgid "Title"
+#~ msgstr "タイトル"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "削除するとき確認を取る..."
+
+#~ msgid "_Items"
+#~ msgstr "アイテム(_I)"
+
+#~ msgid "C_ategories"
+#~ msgstr "カテゴリ(_A)"
+
+#~ msgid "Width"
+#~ msgstr "表示幅"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "カスタマイズした表示幅を使用(_U)"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "表示幅 (ピクセル)"
+
+#~ msgid "Low Priority"
+#~ msgstr "優先度 低"
+
+#~ msgid "Medium Priority"
+#~ msgstr "優先度 中"
+
+#~ msgid "High Priority"
+#~ msgstr "優先度 高"
+
+#~ msgid "Icon Color"
+#~ msgstr "アイコンの色"
+
+#~ msgid "Custom Colors"
+#~ msgstr "カスタム配色"
+
+#~ msgid "Outer Border"
+#~ msgstr "外側の境界線"
+
+#~ msgid "Inner Border"
+#~ msgstr "内側の境界線"
+
+#~ msgid "Main"
+#~ msgstr "メイン"
+
+#~ msgid "Text"
+#~ msgstr "テキスト"
+
+#~ msgid "Icon Type"
+#~ msgstr "アイコンの種類"
+
+#~ msgid "Manage a simple To-Do list"
+#~ msgstr "シンプルな To-Do リストの管理"
+
+#~ msgid "To-Do List"
+#~ msgstr "To-Do リスト"
+
+#~ msgid "A simple To-Do List"
+#~ msgstr "シンプルな To-Do リスト"
+
+#~ msgid "Remove item"
+#~ msgstr "アイテムを削除"
+
+#~ msgid "Remove category"
+#~ msgstr "カテゴリを削除"
+
+#~ msgid "View/Edit details"
+#~ msgstr "詳細の表示/編集"
+
+#~ msgid "_Uncategorized"
+#~ msgstr "未分類(_U)"
+
+#~ msgid "_Category"
+#~ msgstr "カテゴリ(_C)"
+
+#~ msgid "_To-Do item"
+#~ msgstr "To-Do アイテム(_T)"
+
+#~ msgid "Priority: "
+#~ msgstr "優先度: "
+
+#~ msgid "_Neutral"
+#~ msgstr "ニュートラル(_N)"
+
+#~ msgid "_Low"
+#~ msgstr "低(_L)"
+
+#~ msgid "_Medium"
+#~ msgstr "中(_M)"
+
+#~ msgid "_High"
+#~ msgstr "高(_H)"
+
+#~ msgid "Progress(%): "
+#~ msgstr "進捗状況(%): "
+
+#~ msgid ""
+#~ "Are you sure you want to remove the category \"%s?\"\n"
+#~ "All of its items will be removed."
+#~ msgstr ""
+#~ "カテゴリ \"%s\" を削除してよろしいですか？\n"
+#~ "カテゴリ内に入っているすべてのアイテムも削除されます。"
+
+#~ msgid "Don't show this again."
+#~ msgstr "これを再表示しない"
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "このアイテムを削除してよろしいですか?"
+
+#~ msgid "Control Tomboy with D-Bus"
+#~ msgstr "D-Bus で Tomboy を操作します"
+
+#~ msgid "Tomboy Applet"
+#~ msgstr "Tomboy アプレット"
+
+#~ msgid "Select a tag:"
+#~ msgstr "タグの選択:"
+
+#~ msgid "No tags were created yet"
+#~ msgstr "タグはまだ作成されていません"
+
+#~ msgid "Select a note:"
+#~ msgstr "ノートの選択:"
+
+#~ msgid "Version: %s"
+#~ msgstr "バージョン: %s"
+
+#~ msgid "New Note"
+#~ msgstr "新しいノート"
+
+#~ msgid "New Tagged Note"
+#~ msgstr "新しいタグ付きノート"
+
+#~ msgid "View Tagged Note"
+#~ msgstr "タグ付きノートの表示"
+
+#~ msgid "Control your computer's volume"
+#~ msgstr "コンピュータの音量を操作します"
+
+#~ msgid "Volume Control"
+#~ msgstr "音量コントロール"
+
+#~ msgid "<b>Audio Options</b>"
+#~ msgstr "<b>オーディオのオプション</b>"
+
+#~ msgid "_Device:"
+#~ msgstr "デバイス(_D):"
+
+#~ msgid "_Mixer track:"
+#~ msgstr "ミキサートラック(_M):"
+
+#~ msgid "Maximum width of map in pixels."
+#~ msgstr "マップのピクセル単位の最大幅です。"
+
+#~ msgid "Forecast"
+#~ msgstr "Forecast"
+
+#~ msgid "for"
+#~ msgstr "for"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "平日"
+
+#~ msgid "Tomorrow"
+#~ msgstr "明日"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "天気予報提供元 weather.com"
+
+#~ msgid "Blowing Snow"
+#~ msgstr "地吹雪"
+
+#~ msgid "Blustery"
+#~ msgstr "暴風"
+
+#~ msgid "Clear"
+#~ msgstr "晴天"
+
+#~ msgid "Cloudy"
+#~ msgstr "曇天"
+
+#~ msgid "Drizzle"
+#~ msgstr "霧雨"
+
+#~ msgid "Dust"
+#~ msgstr "砂嵐"
+
+#~ msgid "Fair"
+#~ msgstr "晴れ"
+
+#~ msgid "Fog"
+#~ msgstr "霧"
+
+#~ msgid "Freezing Drizzle"
+#~ msgstr "霧氷"
+
+#~ msgid "Freezing Rain"
+#~ msgstr "凍雨"
+
+#~ msgid "Hail"
+#~ msgstr "ひょう"
+
+#~ msgid "Haze"
+#~ msgstr "かすみ"
+
+#~ msgid "Heavy Snow"
+#~ msgstr "大雪"
+
+#~ msgid "Hurricane"
+#~ msgstr "ハリケーン"
+
+#~ msgid "Isolated Thunderstorms"
+#~ msgstr "局地的な雷雨"
+
+#~ msgid "Light Snow Showers"
+#~ msgstr "弱いにわか雪"
+
+#~ msgid "Mixed Rain and Hail"
+#~ msgstr "ひょうを伴った雨"
+
+#~ msgid "Mixed Rain and Sleet"
+#~ msgstr "みぞれを伴う雨"
+
+#~ msgid "Mixed Rain and Snow"
+#~ msgstr "雪を伴う雨"
+
+#~ msgid "Mostly Cloudy"
+#~ msgstr "薄曇り"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "Partly Cloudy"
+#~ msgstr "所により曇り"
+
+#~ msgid "Scattered Showers"
+#~ msgstr "所によりにわか雨"
+
+#~ msgid "Scattered Snow Showers"
+#~ msgstr "所によりにわか雪"
+
+#~ msgid "Scattered Thunderstorms"
+#~ msgstr "所により雷雨"
+
+#~ msgid "Severe Thunderstorms"
+#~ msgstr "激しい雷雨"
+
+#~ msgid "Showers"
+#~ msgstr "にわか雨"
+
+#~ msgid "Sleet"
+#~ msgstr "みぞれ"
+
+#~ msgid "Smoke"
+#~ msgstr "煙霧"
+
+#~ msgid "Snow"
+#~ msgstr "雪"
+
+#~ msgid "Snow Flurries"
+#~ msgstr "にわか雪"
+
+#~ msgid "Snow Showers"
+#~ msgstr "にわか雪"
+
+#~ msgid "Thunder Showers"
+#~ msgstr "雷を伴うにわか雨"
+
+#~ msgid "Thunderstorms"
+#~ msgstr "雷雨"
+
+#~ msgid "Tornado"
+#~ msgstr "竜巻"
+
+#~ msgid "Tropical Storm"
+#~ msgstr "トロピカルストーム"
+
+#~ msgid "Windy"
+#~ msgstr "強風"
+
+#~ msgid "Monday"
+#~ msgstr "月曜日"
+
+#~ msgid "Tuesday"
+#~ msgstr "火曜日"
+
+#~ msgid "Wednesday"
+#~ msgstr "水曜日"
+
+#~ msgid "Thursday"
+#~ msgstr "木曜日"
+
+#~ msgid "Friday"
+#~ msgstr "金曜日"
+
+#~ msgid "Saturday"
+#~ msgstr "土曜日"
+
+#~ msgid "Sunday"
+#~ msgstr "日曜日"
+
+#~ msgid "Weather Applet"
+#~ msgstr "ウェザー・アプレット"
+
+#~ msgid "Fetching conditions for"
+#~ msgstr "予報情報取得中："
+
+#~ msgid "Show _Map"
+#~ msgstr "マップ表示(_M)"
+
+#~ msgid "Searching..."
+#~ msgstr "検索中..."
+
+#~ msgid "<b>Icon Display</b>"
+#~ msgstr "<b>アイコン上の表示</b>"
+
+#~ msgid ""
+#~ "<i><b>Examples:</b> Boston; Portland, ME, Amsterdam; or Osaka, Japan.</i>"
+#~ msgstr ""
+#~ "<i><b>例:</b> Boston; Portland, ME, Amsterdam; または Osaka, Japan.</i>"
+
+#~ msgid "Current _location:"
+#~ msgstr "現在地(_L):"
+
+#~ msgid ""
+#~ "If enabled, the dialog will be transparent, and the five days of the "
+#~ "forecast will be curved"
+#~ msgstr ""
+#~ "有効にした場合、ダイアログは透過され、5日間の予報がカーブ状に表示されます"
+
+#~ msgid "If enabled, the temperature will be displayed in the icon"
+#~ msgstr "有効にした場合、アイコンに気温が表示されます"
+
+#~ msgid "Maximum _map width:"
+#~ msgstr "マップの最大幅(_M):"
+
+#~ msgid "Show temperature in _icon"
+#~ msgstr "アイコンに気温を表示する(_I)"
+
+#~ msgid "Temperature _unit:"
+#~ msgstr "気温の単位(_U):"
+
+#~ msgid "Temperature font _size:"
+#~ msgstr "気温の文字サイズ(_S):"
+
+#~ msgid "Use transparent/curved _forecast dialog"
+#~ msgstr "透過/カーブ状の予報ダイアログを使用する(_F)"
+
+#~ msgid "_Location Name:"
+#~ msgstr "地名(_L):"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "Applet for Websites"
+#~ msgstr "ウェブサイト用のアプレットです"
+
+#~ msgid "Awn System Monitor"
+#~ msgstr "Awn システム・モニタ"
+
+#~ msgid ""
+#~ "There seem to be problems with our                     connection to your "
+#~ "account. Your best bet is probably                     to log out and try "
+#~ "again."
+#~ msgstr ""
+#~ "アカウントの接続に問題があるようです。 一旦ログアウトし、再度ログインした"
+#~ "方が最良と思われます。"
+
+#~ msgid "Unable to caclulate statistics"
+#~ msgstr "統計の計算ができません"
+
+#~ msgid "Statistics calculation requires read access to /proc/net/dev"
+#~ msgstr "統計の計算には、/proc/net/dev を読み込みするアクセス権が必要です"
+
+#~ msgid "Sent"
+#~ msgstr "送信"
+
+#~ msgid "Received"
+#~ msgstr "受信"
+
+#~ msgid "Sending"
+#~ msgstr "送信中"
+
+#~ msgid "Receiving"
+#~ msgstr "受信中"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "アップロードとダウンロードの合算を表示します"
+
+#~ msgid "Display upload and download text representation of speed"
+#~ msgstr "アップロードとダウンロードの速度を文字で表示します"
+
+#~ msgid "Do not display the speed as text, only draw the graph"
+#~ msgstr "速度を文字で表示せず、グラフのみ描画します"
+
+#~ msgid ""
+#~ "If enabled, this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn in the graph."
+#~ msgstr ""
+#~ "有効にした場合、値が 0 のときであってもグラフの底に線が描画されます。"
+#~ "チェックを外した場合、1 未満の値はグラフに描画されません。"
+
+#~ msgid ""
+#~ "If this is checked the applet background will use the selected color. If "
+#~ "unchecked, background will be transparent"
+#~ msgstr ""
+#~ "これにチェックを入れた場合、アプレットの背景に選択色が使用されます。チェッ"
+#~ "クを外した場合、背景は透明になります"
+
+#~ msgid ""
+#~ "If this is checked the applet border will use the selected color. If "
+#~ "unchecked, border will be transparent"
+#~ msgstr ""
+#~ "これにチェックを入れた場合、アプレットの境界線に選択色が使用されます。"
+#~ "チェックを外した場合、境界線は透明になります"
+
+#~ msgid ""
+#~ "Sets the minimum threshold for scaling to not show large spikes for small "
+#~ "amounts of traffic. e.g.: Setting to 32.0 KBps will cause the graph to "
+#~ "only draw if throughput exceeds 32.0 KBps"
+#~ msgstr ""
+#~ "少量の通信でグラフに大きな山が表示されてしまわないようにするため設定する目"
+#~ "盛の下限しきい値です。 例： 32.0 KBps に設定すると、スループットが 32.0 "
+#~ "KBps を超えた場合にのみグラフ描画されます"
+
+#~ msgid "Celcius"
+#~ msgstr "摂氏"
+
+#~ msgid "Allow scroll wheel to change layout"
+#~ msgstr "スクロールホイールによるレイアウト変更を許可する"
+
+#~ msgid "Layout Lists"
+#~ msgstr "レイアウト一覧"
+
+#~ msgid "Menu"
+#~ msgstr "メニュー"
+
+#~ msgid "Mouse Actions"
+#~ msgstr "マウスアクション"
+
+#~ msgid "Next Layout"
+#~ msgstr "次のレイアウト"
+
+#~ msgid "Previous Layout"
+#~ msgstr "前のレイアウト"
+
+#~ msgid "Monitor Web Feeds"
+#~ msgstr "ウェブ・フィードの監視"
+
+#~ msgid "%s New Item%s - Feeds Applet"
+#~ msgstr "%s 新着アイテム%s - フィード・アプレット"
+
+#~ msgid "Do you want to add this feed?"
+#~ msgstr "このフィードを追加しますか？"
+
+#~ msgid "Do you want to add these %s feeds?"
+#~ msgstr "これら %s フィードを追加しますか？"
+
+#~ msgid "Downloads"
+#~ msgstr "ダウンロード"
+
+#~ msgid "%s: %u item"
+#~ msgid_plural "%s: %u items"
+#~ msgstr[0] "%s: %u アイテム"
+
+#~ msgid "Confirm when emptying the trash"
+#~ msgstr "ゴミ箱を空にするとき確認を取る"
+
+#~ msgid "Show the item count on the icon"
+#~ msgstr "アイコン上にアイテムの数を表示する"

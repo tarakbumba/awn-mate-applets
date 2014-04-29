@@ -1,0 +1,17 @@
+[DEFAULT]
+single_instance = false
+
+[DEFAULT/left-click-action]
+type = string
+default = Show Docklet
+_description=Action to perform when left clicking on the icon.
+
+[DEFAULT/log-out-command]
+type = string
+default = mate-session-save --logout-dialog
+_description=Command to execute if org.mate.SessionManager is not available.
+
+[DEFAULT/lock-screen-command]
+type = string
+default = mate-screensaver-command
+_description=Command to execute if org.mate.ScreenSaver is not available.

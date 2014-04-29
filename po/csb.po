@@ -1,0 +1,751 @@
+# Kashubian translation for awn-mate-applets
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the awn-mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2010-10-11 23:12+0000\n"
+"Last-Translator: Mark Kwidzińsczi <mark@linuxcsb.org>\n"
+"Language-Team: Kashubian <csb@li.org>\n"
+"Language: csb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:33+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "Place"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "Slédné dokùmentë"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+msgid "A Mate Main Menu."
+msgstr ""
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "Zablokùjë ekran"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "Kòmpùtr"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "Dodóm"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "Kòsz"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "Séc"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+msgid "Awn Mate MainMenu"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "Zablokùjë ekran"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+msgid "Show Docklet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "Wëlogùjë"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+msgid "Shut Down"
+msgstr ""
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Log Out..."
+#~ msgstr "Wëlogùjë"
+
+#~ msgid "Disabled"
+#~ msgstr "Wëłączoné"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencëje"
+
+#~ msgid "Behavior"
+#~ msgstr "Zachòwanié"
+
+#~ msgid "Action"
+#~ msgstr "Dzejanié"
+
+#~ msgid "Shortcut"
+#~ msgstr "Skrodzëna"
+
+#~ msgid "Activate"
+#~ msgstr "Włączoné"
+
+#~ msgid "Background image"
+#~ msgstr "Òbrôzk spódka"
+
+#~ msgid "Select a file"
+#~ msgstr "Wëbierzë lopk"
+
+#~ msgid "Scanning"
+#~ msgstr "Skanowanié"
+
+#~ msgid "Devices"
+#~ msgstr "Ùrządzenia"
+
+#~ msgid "KBps"
+#~ msgstr "KBns"
+
+#~ msgid "Kbps"
+#~ msgstr "Kbns"
+
+#~ msgid "Background Color"
+#~ msgstr "Farwa spòdlégò"
+
+#~ msgid "Border Color"
+#~ msgstr "Farwa ramë"
+
+#~ msgid "General"
+#~ msgstr "Òglowi"
+
+#~ msgid "Device"
+#~ msgstr "Ùrządzenié"
+
+#~ msgid "None"
+#~ msgstr "Felënk"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Login to "
+#~ msgstr "Wlogùjë do "
+
+#~ msgid "Online Calendar"
+#~ msgstr "Kalãdôrz online"
+
+#~ msgid "Calendar Username"
+#~ msgstr "Brëkòwnika kalãdôrza"
+
+#~ msgid "Calendar Password"
+#~ msgstr "Parola do kalãdôrza"
+
+#~ msgid "Save Password"
+#~ msgstr "Spamiãtôj parolã"
+
+#~ msgid "Classic LCD"
+#~ msgstr "Klasykòwi LCD"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "Bursztynowe podświetlenie"
+
+#~ msgid "Plain White"
+#~ msgstr "Biôłi"
+
+#~ msgid "Plain Black"
+#~ msgstr "Czôrny"
+
+#~ msgid "Red"
+#~ msgstr "Czerwiony"
+
+#~ msgid "Green"
+#~ msgstr "Zelony"
+
+#~ msgid "Blue"
+#~ msgstr "Mòdri"
+
+#~ msgid "Gray"
+#~ msgstr "Szari"
+
+#~ msgid "Black"
+#~ msgstr "Czôrny"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "Dwanôstogòdzënowi zédżér"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "Wëzdrzatk zédżéra"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "Wëzdrzatk kalãdôrza"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Kalãdôrz Google"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Outlook Web Access"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "Integracëjô z kalãdôrzã"
+
+#~ msgid "Calendar URL"
+#~ msgstr "Adresa URL kalãdôrza"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalãdôrz"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "Chcesz rëmnąc parolã kalãdôrza z apletu? Jeżlë jã rëmniesz to bãdzesz "
+#~ "proszony znowa ò ùdowierzającé pòdôwczi do kalãdôrza."
+
+#~ msgid "Open in "
+#~ msgstr "Òtemkni w "
+
+#~ msgid "Today"
+#~ msgstr "Dzysô"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "Nié mòże òdczëtac pòdôwków kalãdôrza z bùtnowégò zdroju."
+
+#~ msgid "No appointments."
+#~ msgstr "Felënk zéńdzeniów."
+
+#~ msgid "No appointments"
+#~ msgstr "Felënk zéńdzeniów"
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "Sparłãczenié z <i>%s</i>..."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "Nalazłé <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Shared comics"
+#~ msgstr "Ùprzëstãpniané kòmiksë"
+
+#~ msgid "Your comics"
+#~ msgstr "Twòjé kòmiksë"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "Nie dało sã rëmnąc <i>%s</i>."
+
+#~ msgid "Error"
+#~ msgstr "Fela"
+
+#~ msgid "Comics"
+#~ msgstr "Kòmiksë"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "Je nowi pôsk %s!"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A %d %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "Nie dało sã zapisac <i>%s</i>."
+
+#~ msgid "Search"
+#~ msgstr "Szëkba"
+
+#~ msgid "Username:"
+#~ msgstr "Miono brëkòwnika:"
+
+#~ msgid "Password:"
+#~ msgstr "Parola:"
+
+#~ msgid "Filesystem"
+#~ msgstr "Systema lopków"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Wëczëszczë kòsz"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Wëczëszczë kòsz"
+
+#~ msgid "Interface"
+#~ msgstr "Interfejs"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Mailowi aplet"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "Môsz %d nowé wiadło"
+#~ msgstr[1] "Môsz %d nowé wiadła"
+#~ msgstr[2] "Môsz %d nowëch  wiadłów"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d niéprzeczëtóné wiadło"
+#~ msgstr[1] "%d niéprzeczëtóné wiadła"
+#~ msgstr[2] "%d niéprzeczëtónëch wiadłów"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Mailowi aplet (klëkni bë wlogòwac)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Wlogùjë jakno %s"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Nowé wiadło - Mailowi aplet"
+
+#~ msgid "Log In"
+#~ msgstr "Wlogùjë"
+
+#~ msgid "Backend"
+#~ msgstr "Backend"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[Bez témë]"
+
+#~ msgid "Domain:"
+#~ msgstr "Domena:"
+
+#~ msgid "Spool Path:"
+#~ msgstr "Stegna pòsobnicë:"
+
+#~ msgid "Server:"
+#~ msgstr "Serwera:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "Brëkùjë szifrowaniô SSL"
+
+#~ msgid "Could not log in"
+#~ msgstr "Nié mòże wlogòwac"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "Nie  dô kataloga"
+
+#~ msgid "Get messages from only one folder"
+#~ msgstr "Dobëjë wiadł a blós z jednegò kataloga"
+
+#~ msgid "Folder:"
+#~ msgstr "Katalog:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Aplet do sprôwdzaniô e-mailów"
+
+#~ msgid "Orientation"
+#~ msgstr "Pòłożenié"
+
+#~ msgid "Width:"
+#~ msgstr "Szérzô:"
+
+#~ msgid "Height:"
+#~ msgstr "Wiżô:"
+
+#~ msgid "Background"
+#~ msgstr "Spòdlé"
+
+#~ msgid "Custom"
+#~ msgstr "Swój"
+
+#~ msgid "Current Theme"
+#~ msgstr "Aktualny wëzdrzatk"
+
+#~ msgid "Butter"
+#~ msgstr "Maslany"
+
+#~ msgid "Number of Items"
+#~ msgstr "Wielëna elementów"
+
+#~ msgid "Progress"
+#~ msgstr "Pòkrok"
+
+#~ msgid "Priority"
+#~ msgstr "Prioritet"
+
+#~ msgid "Icon"
+#~ msgstr "Ikòna"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "Pòcwierdzë przë rëmaniu"
+
+#~ msgid "_Items"
+#~ msgstr "_Elementë"
+
+#~ msgid "C_ategories"
+#~ msgstr "_Kategòrëje"
+
+#~ msgid "Width"
+#~ msgstr "Szérzô"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "_Brëkùjë swòji szérzë"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "Szérzô (piksle)"
+
+#~ msgid "Icon Color"
+#~ msgstr "Farwa ikònë"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Icon Type"
+#~ msgstr "Ôrt ikònë"
+
+#~ msgid "Remove item"
+#~ msgstr "Rëmôj element"
+
+#~ msgid "Remove category"
+#~ msgstr "Rëmôj kategòrëjã"
+
+#~ msgid "View/Edit details"
+#~ msgstr "Wëskrzëni/editëjë detale"
+
+#~ msgid "_Uncategorized"
+#~ msgstr "_Bez kategòrëji"
+
+#~ msgid "_Category"
+#~ msgstr "_Kategòrrjô"
+
+#~ msgid "Priority: "
+#~ msgstr "Prioritet: "
+
+#~ msgid "Progress(%): "
+#~ msgstr "Pòkrok(%): "
+
+#~ msgid "Don't show this again."
+#~ msgstr "Nié wëskrzëniôj tegò znowa"
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "Rëmnąc nen element?"
+
+#~ msgid "for"
+#~ msgstr "dlô"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "DZÉŃ TIDZENIA"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Witro"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "ÒPISËNK"
+
+#~ msgid "N/A"
+#~ msgstr "Felënk"
+
+#~ msgid "Snow"
+#~ msgstr "Sniég"
+
+#~ msgid "Monday"
+#~ msgstr "Pòniedzôłk"
+
+#~ msgid "Tuesday"
+#~ msgstr "Wtórk"
+
+#~ msgid "Wednesday"
+#~ msgstr "Strzoda"
+
+#~ msgid "Thursday"
+#~ msgstr "Czwiôrtk"
+
+#~ msgid "Friday"
+#~ msgstr "Piątk"
+
+#~ msgid "Saturday"
+#~ msgstr "Sobòta"
+
+#~ msgid "Sunday"
+#~ msgstr "Niedzela"
+
+#~ msgid "Searching..."
+#~ msgstr "Szëkba..."
+
+#~ msgid "Open Location"
+#~ msgstr "Òtemkni lokalizacëjã"
+
+#~ msgid ""
+#~ "There seem to be problems with our                     connection to your "
+#~ "account. Your best bet is probably                     to log out and try "
+#~ "again."
+#~ msgstr ""
+#~ "Je problem ze sparłãczeniém do twòjegò kònta. Spróbùjë sã wëlogòwac ë "
+#~ "wlogòwac znowa."
+
+#~ msgid "No"
+#~ msgstr "Nié"

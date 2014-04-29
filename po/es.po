@@ -1,0 +1,3815 @@
+# Spanish translations for awn-core-applets package.
+# Copyright (C) 2007 ORGANIZATION
+# Mike Desjardins <desjardinsmike@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-core-applets 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2011-01-16 19:21+0000\n"
+"Last-Translator: Fitoschido <Unknown>\n"
+"Language-Team: Spanish\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2011-01-17 04:45+0000\n"
+"X-Generator: Launchpad (build 12177)\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "Lugares"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "Documentos recientes"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr "Sesión"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr "Eliminar icono"
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+#, fuzzy
+msgid "Cairo Mate Menu"
+msgstr "Menú principal Cairo"
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate Main Menu."
+msgstr "Un Menú principal."
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "Bloquear pantalla"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr "Suspender"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr "Hibernar"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr "Apagar"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "Equipo"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "Inicio"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr "Escritorio"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "Papelera"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr "Sistema de archivos"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr "Soportes extraíble"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "Red"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr "Conectarse a un servidor"
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr "Buscar..."
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr "Abrir..."
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr "No se pudo montar %s"
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr "¿Vaciar la lista de documentos recientes?"
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+"Si vacía la lista de documentos recientes, eliminará lo siguiente:\n"
+"• Todos los elementos del menú Lugares → Documentos recientes.\n"
+"• Todos los elementos de la lista de documentos recientes en todas las "
+"aplicaciones."
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr "Vaciar documentos recientes"
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+#, fuzzy
+msgid "Awn Mate MainMenu"
+msgstr "Menú principal de Awn"
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr "Muestra una lista de todas sus aplicaciones"
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+#, fuzzy
+msgid "A Mate main menu for Awn"
+msgstr "Un menú principal para Awn"
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr "La acción a realizar al pulsar con el botón izquierdo en el icono."
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+#, fuzzy
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr "Orden a ejecutar si no está disponible org.gnome.SessionManager."
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+#, fuzzy
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr "Orden a ejecutar si no está disponible org.gnome.ScreenSaver."
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+#, fuzzy
+msgid "MATE Quit-Log Out applet"
+msgstr "Miniaplicación para salir/cerrar sesión"
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+#, fuzzy
+msgid "Exit or log out from your MATE session"
+msgstr "Una miniaplicación para salir o cerrar sesión"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "Bloquear pantalla"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+#, fuzzy
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr "Proteja su equipo del uso no autorizado"
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+#, fuzzy
+msgid "Log out of this Mate session to log in as a different user"
+msgstr "Sale de esta sesión para entrar como un usuario diferente"
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr "Apagar el equipo"
+
+#: ../applets/mate-quit/mate-quit.py:34
+#, fuzzy
+msgid "Mate Quit/Log Out"
+msgstr "Salir/Cerrar sesión"
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+"Una miniaplicación para bloquear la pantalla, cerrar la sesión o apagar el "
+"sistema"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+msgid "Show Docklet"
+msgstr "Mostrar docklet"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "Cerrar sesión"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+msgid "Shut Down"
+msgstr "Apagar"
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr "Cerrar la sesión de %s…"
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr "Apagar..."
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr "_Acción de botón izquierdo:"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+#, fuzzy
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr "Aún Otra Miniaplicación de Menú"
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr "Menú principal que incluye lugares y documentos recientes"
+
+#: ../applets/mate-yama/mate-yama.py:52
+#, fuzzy
+msgid "MATE-YAMA"
+msgstr "YAMA"
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr "Proteja su equipo del uso no autorizado"
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr "Cierra la sesión de %s para entrar como un usuario diferente"
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr "_Editar los menús"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr "Carpeta personal"
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr "Abrir su carpeta personal"
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr "Abrir el contenido de su escritorio en una carpeta"
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr "Conectar al servidor..."
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr "Conectar con un equipo remoto o disco compartido"
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr "Vaciar la lista de documentos recientes"
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr "Abrir «%s»"
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr "Montar %s"
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+"Limpiar la lista de documentos recientes limpiará lo siguiente:\n"
+"* Todos los elementos en Lugares > Documentos recientes.\n"
+"* Todos los elementos en las listas de documentos recientes de las "
+"aplicaciones."
+
+#~ msgid "Log Out..."
+#~ msgstr "Cerrar sesión..."
+
+#~ msgid "Animal Farm"
+#~ msgstr "Granja de animales"
+
+#~ msgid "Display fortune messages"
+#~ msgstr "Mostrar mensajes de la fortuna"
+
+#~ msgid "Applet that displays fortune messages"
+#~ msgstr "Miniaplicación que muestra mensajes de la fortuna"
+
+#~ msgid "Global hotkey used to activate the terminal."
+#~ msgstr "Tecla global usada para activar la Terminal"
+
+#~ msgid "Set whether the applet should hide itself when it loses focus."
+#~ msgstr ""
+#~ "Establece si la miniaplicación debe ocultarse cuando pierde el foco."
+
+#~ msgid "The applet's background image."
+#~ msgstr "La imagen de fondo de la miniaplicación."
+
+#~ msgid "The applet's opacity level."
+#~ msgstr "El nivel de opacidad de la miniaplicación."
+
+#~ msgid "The default external terminal application."
+#~ msgstr "Aplicación externa por defecto para el terminal."
+
+#~ msgid "Disabled"
+#~ msgstr "Desactivado"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencias"
+
+#~ msgid "Behavior"
+#~ msgstr "Comportamiento"
+
+#~ msgid "Hide when focus is lost"
+#~ msgstr "Ocultar al pasar a segundo plano"
+
+#~ msgid "Action"
+#~ msgstr "Acción"
+
+#~ msgid "Shortcut"
+#~ msgstr "Atajo"
+
+#~ msgid "Activate"
+#~ msgstr "Activar"
+
+#~ msgid "Background image"
+#~ msgstr "Imagen de fondo"
+
+#~ msgid "Select a file"
+#~ msgstr "Seleccionar un archivo"
+
+#~ msgid "Terminal opacity"
+#~ msgstr "Opacidad del terminal"
+
+#~ msgid "External Terminal"
+#~ msgstr "Terminal externo"
+
+#~ msgid "A simple popup terminal"
+#~ msgstr "Un terminal emergente sencillo"
+
+#~ msgid "Terminal Applet"
+#~ msgstr "Miniaplicación de terminal"
+
+#~ msgid ""
+#~ "Adds or removes 5px to the value of the AWN setting \"Size of Icons\""
+#~ msgstr ""
+#~ "Añade o quita 5 píxeles del valor de la propiedad «Tamaño de iconos» de "
+#~ "AWN"
+
+#~ msgid "Color to draw the background"
+#~ msgstr "Color para dibujar el fondo"
+
+#~ msgid "Color to draw the border"
+#~ msgstr "Color para dibujar el borde"
+
+#~ msgid "Desired applet font size"
+#~ msgstr "Tamaño deseado de la tipografía de la miniaplicación"
+
+#~ msgid "Display parameters for interfaces"
+#~ msgstr "Mostrar parámetros para las interfaces"
+
+#~ msgid "Draw the applet background"
+#~ msgstr "Dibujar el fondo de la miniaplicación"
+
+#~ msgid "Draw the applet border"
+#~ msgstr "Dibujar el borde de la miniaplicación"
+
+#~ msgid ""
+#~ "Enables/Disables dock reflection for this applet 0: Use awn setting, 1: "
+#~ "Show reflection in horizontal docks only, 2: show reflection in vertical "
+#~ "docks, 3: Disable reflection for all dock orientations"
+#~ msgstr ""
+#~ "Activa/desactiva reflejos para esta miniaplicación 0: Usar configuración "
+#~ "estándar, 1: Usar reflejo solo en lanzadores horizontales, 2: Usar "
+#~ "reflejo solo en lanzadores verticales, 3: Desactivar reflejos para todos "
+#~ "los lanzadores"
+
+#~ msgid ""
+#~ "Enbables or disables drawing the applet graph - if disabled only the "
+#~ "speed text will be displayed in the applet"
+#~ msgstr ""
+#~ "Activa o desactiva el dibujado de la gráfica. Si se desactiva se mostrará "
+#~ "solo el texto de velocidad en la miniaplicación"
+
+#~ msgid ""
+#~ "If enabled this will draw a line at the bottom of the graph even if the "
+#~ "value is 0. If unchecked, values below 1 are not drawn"
+#~ msgstr ""
+#~ "Si se activa dibujará una línea al final del gráfico incluso si el valor "
+#~ "es 0. Si no se marca, los valores por debajo de 1 no se dibujarán"
+
+#~ msgid "Minimum threshold to draw meter (dependent upon DEFAULT/unit)"
+#~ msgstr ""
+#~ "Umbral mínimo para la escala del dibujo (dependiente de la unidad/DEFECTO)"
+
+#~ msgid ""
+#~ "Sets the default scale of the applet traffic graph - the scale is the "
+#~ "amount of linear data to display at one time"
+#~ msgstr ""
+#~ "Establece la escala predeterminada del gráfico de la miniaplicación de "
+#~ "tráfico: la escala es la cantidad de datos lineales que se debe desplegar "
+#~ "al tiempo"
+
+#~ msgid ""
+#~ "Sets the default scale of the applet wireless signal graph - the scale is "
+#~ "the amount of linear data to display at one time"
+#~ msgstr ""
+#~ "Establece la escala predeterminada del gráfico de la miniaplicación de "
+#~ "señal inalámbrica: la escala es la cantidad de datos lineales que se debe "
+#~ "desplegar al tiempo"
+
+#~ msgid ""
+#~ "Sets the default scale of the popup-dialog traffic graph - the scale is "
+#~ "the amount of linear data to display at one time"
+#~ msgstr ""
+#~ "Establece la escala predeterminada del gráfico del diálogo emergente de "
+#~ "tráfico: la escala es la cantidad de datos lineales que se debe desplegar "
+#~ "al tiempo"
+
+#~ msgid ""
+#~ "Sets the default scale of the popup-dialog wireless signal graph - the "
+#~ "scale is the amount of linear data to display at one time"
+#~ msgstr ""
+#~ "Establece la escala predeterminada del gráfico del diálogo emergente de "
+#~ "señal inalámbrica: la escala es la cantidad de datos lineales que se debe "
+#~ "desplegar al tiempo"
+
+#~ msgid "Sets the offset of the applet from the edge of the dock"
+#~ msgstr ""
+#~ "Establece la separación desde la miniaplicación hasta el borde del "
+#~ "lanzador"
+
+#~ msgid "Sets the width of the applet icon"
+#~ msgstr "Establece el ancho del icono de la miniaplicación"
+
+#~ msgid "The base display unit for transfer speed (0: bits, 1: bytes)"
+#~ msgstr ""
+#~ "La unidad base para mostrar la velocidad de transferencia (0: bits, 1: "
+#~ "bytes)"
+
+#~ msgid "The interface currently selected"
+#~ msgstr "La interfaz actual"
+
+#~ msgid "Throughput label control - 0: no label, 1: Sum, 2: Upload/Download"
+#~ msgstr ""
+#~ "Etiqueta de control de rendimiento - 0: sin etiqueta, 1: Total, 2: Subida/"
+#~ "Descarga"
+
+#~ msgid ""
+#~ "Type of graph to use for wireless devices - area: Area chart, area_bar: "
+#~ "Area chart with colored bars, bar: Bar chart, fan: Waving chart with "
+#~ "density, fan_bar: Waving Bar chart with density"
+#~ msgstr ""
+#~ "Tipo de gráfico a usar en dispositivos inalámbricos - area: Gráfica de "
+#~ "área, area_bar: Gráfico de área con barras coloreadas, bar: Gráfico de "
+#~ "barras, fan: Gráfico de onda con densidad, fan_bar: gráfico de barras de "
+#~ "onda con densidad"
+
+#~ msgid "Bandwidth Monitor"
+#~ msgstr "Monitor del ancho de banda"
+
+#~ msgid "Network Bandwidth monitor"
+#~ msgstr "Monitor del ancho de banda de red"
+
+#~ msgid "Sum Interface"
+#~ msgstr "Interfaz Sum"
+
+#~ msgid "n/a"
+#~ msgstr "n/d"
+
+#~ msgid "Multi Interface"
+#~ msgstr "Multi interfaz"
+
+#~ msgid "Scanning"
+#~ msgstr "Analizando"
+
+#~ msgid "Devices"
+#~ msgstr "Dispositivos"
+
+#~ msgid "KBps"
+#~ msgstr "KBps"
+
+#~ msgid "Kbps"
+#~ msgstr "Kbps"
+
+#~ msgid "Use KBps instead of Kbps"
+#~ msgstr "Usar KBps en lugar de Kbps"
+
+#~ msgid "Interfaces"
+#~ msgstr "Interfaces"
+
+#~ msgid "Please select a valid Network Device"
+#~ msgstr "Seleccione un dispositivo de red válido"
+
+#~ msgid "Total Sent: %s - Total Received: %s (All Interfaces)"
+#~ msgstr "Total enviado: %s - Total recibido: %s (Todas las interfaces)"
+
+#~ msgid "No Device"
+#~ msgstr "No hay dispositivo"
+
+#~ msgid "Please select a valid device"
+#~ msgstr "Seleccione un dispositivo válido"
+
+#~ msgid "Bps"
+#~ msgstr "Bps"
+
+#~ msgid "MBps"
+#~ msgstr "MBps"
+
+#~ msgid "GBps"
+#~ msgstr "GBps"
+
+#~ msgid "TBps"
+#~ msgstr "TBps"
+
+#~ msgid "bps"
+#~ msgstr "bps"
+
+#~ msgid "Mbps"
+#~ msgstr "Mbps"
+
+#~ msgid "Gbps"
+#~ msgstr "Gbps"
+
+#~ msgid "Tbps"
+#~ msgstr "Tbps"
+
+#~ msgid "A Network Bandwidth monitor for AWN"
+#~ msgstr "Un monitor de ancho de banda de red para AWN"
+
+#~ msgid "<b>Display</b>"
+#~ msgstr "<b>Mostrar</b>"
+
+#~ msgid "Applet"
+#~ msgstr "Miniaplicación"
+
+#~ msgid "Applet Offset"
+#~ msgstr "Separación de miniaplicación"
+
+#~ msgid ""
+#~ "Applet Size \n"
+#~ "Override"
+#~ msgstr ""
+#~ "Tamaño de miniaplicación \n"
+#~ "Sobreescribir"
+
+#~ msgid "Applet Width"
+#~ msgstr "Ancho de miniaplicación"
+
+#~ msgid "Background Color"
+#~ msgstr "Color del fondo"
+
+#~ msgid "Border Color"
+#~ msgstr "Color del borde"
+
+#~ msgid "Dialog"
+#~ msgstr "Diálogo"
+
+#~ msgid "Display MBps/KBps (bytes) instead of Mbps/Kbps (bits)"
+#~ msgstr "Mostrar MBps/KBps (bytes) en lugar de Mbps/Kbps (bits)"
+
+#~ msgid "Display Speed Text"
+#~ msgstr "Mostrar texto de velocidad"
+
+#~ msgid "Draw 0 bps in graphs"
+#~ msgstr "Dibujar 0 bps en gráficos"
+
+#~ msgid "Draw Applet Graph"
+#~ msgstr "Mostrar gráfico de miniaplicación"
+
+#~ msgid "Draw Background"
+#~ msgstr "Mostrar el fondo"
+
+#~ msgid "Draw Border"
+#~ msgstr "Dibujar borde"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Graph Only"
+#~ msgstr "Sólo gráfico"
+
+#~ msgid "Icon Font Size"
+#~ msgstr "Tamaño de tipografía del icono"
+
+#~ msgid "If this is checked, the common display unit will be Bytes"
+#~ msgstr "Si marca esta opción, la unidad común mostrada será Bytes"
+
+#~ msgid "Minimum Scaling threshold"
+#~ msgstr "Umbral de escala mínima"
+
+#~ msgid "Signal Scale"
+#~ msgstr "Escala de señal"
+
+#~ msgid "Sum"
+#~ msgstr "Suma"
+
+#~ msgid "Traffic Scale"
+#~ msgstr "Escala de tráfico"
+
+#~ msgid "Device"
+#~ msgstr "Dispositivo"
+
+#~ msgid "Multi"
+#~ msgstr "Multi"
+
+#~ msgid "Upload Color"
+#~ msgstr "Color de carga"
+
+#~ msgid "Download Color"
+#~ msgstr "Color de descarga"
+
+#~ msgid "Upload"
+#~ msgstr "Subida"
+
+#~ msgid "Download"
+#~ msgstr "Descarga"
+
+#~ msgid "%s %s Color"
+#~ msgstr "Color %s %s"
+
+#~ msgid "SSID:"
+#~ msgstr "SSID:"
+
+#~ msgid "TX:"
+#~ msgstr "TX:"
+
+#~ msgid "RX:"
+#~ msgstr "RX:"
+
+#~ msgid "Options/Info"
+#~ msgstr "Opciones/información"
+
+#~ msgid "Back to Graph"
+#~ msgstr "Regresar al gráfico"
+
+#~ msgid "Change Unit"
+#~ msgstr "Cambiar unidad"
+
+#~ msgid "Status:"
+#~ msgstr "Estado:"
+
+#~ msgid "IP Address:"
+#~ msgstr "Dirección IP:"
+
+#~ msgid "Subnet Mask:"
+#~ msgstr "Máscara de subred:"
+
+#~ msgid "UP"
+#~ msgstr "UP"
+
+#~ msgid "RUNNING"
+#~ msgstr "EJECUTANDO"
+
+#~ msgid "None"
+#~ msgstr "Ninguno"
+
+#~ msgid "Members:"
+#~ msgstr "Miembros:"
+
+#~ msgid "Wireless graph type"
+#~ msgstr "Tipo de gráfico de red inalámbrica"
+
+#~ msgid "HAL UDI of battery."
+#~ msgstr "HAL UDI de la batería"
+
+#~ msgid ""
+#~ "If charge level drops below this threadhold, a warning will be displayed."
+#~ msgstr ""
+#~ "Si el nivel de carga cae por debajo de este nivel, se mostrará un aviso."
+
+#~ msgid "If charge level reaches this threshold, a notification will be sent."
+#~ msgstr ""
+#~ "Si el nivel de carga alcanza este nivel, se enviará una notificación."
+
+#~ msgid "If enabled, notify when the charge level reaches the high level."
+#~ msgstr ""
+#~ "Si se activa, se notificará cuando el nivel de carga alcance el nivel "
+#~ "alto."
+
+#~ msgid ""
+#~ "If enabled, warn when the charge level drops below the warning threshold."
+#~ msgstr ""
+#~ "Si se activa, avisa cuando el nivel de carga cae por debajo del umbral de "
+#~ "alarma."
+
+#~ msgid "The name of the theme of the icon."
+#~ msgstr "El nombre del tema de iconos"
+
+#~ msgid "Unit of low level threshold (Percent or Time Remaining)."
+#~ msgstr "Unidad del nivel de rendimiento bajo (porcentaje o tiempo restante)"
+
+#~ msgid "Battery"
+#~ msgstr "Batería"
+
+#~ msgid "Display battery state"
+#~ msgstr "Mostrar estado de la batería"
+
+#~ msgid "Battery Status"
+#~ msgstr "Estado de la batería"
+
+#~ msgid "An applet which displays battery information"
+#~ msgstr "Una miniaplicación que muestra la información de la batería"
+
+#~ msgid "No batteries"
+#~ msgstr "Sin baterías"
+
+#~ msgid "Percent"
+#~ msgstr "Porcentaje"
+
+#~ msgid "AC"
+#~ msgstr "CA"
+
+#~ msgid "battery"
+#~ msgstr "batería"
+
+#~ msgid "Computer running on %s power"
+#~ msgstr "Equipo actualmente en energía %s"
+
+#~ msgid "Battery charged"
+#~ msgstr "Batería cargada"
+
+#~ msgid "until charged"
+#~ msgstr "hasta su carga"
+
+#~ msgid "remaining"
+#~ msgstr "restante"
+
+#~ msgid "Time Remaining"
+#~ msgstr "Tiempo restante"
+
+#~ msgid "%d hours"
+#~ msgstr "%d horas"
+
+#~ msgid "%d hour"
+#~ msgstr "%d hora"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minutos"
+
+#~ msgid "%d minute"
+#~ msgstr "%d minuto"
+
+#~ msgid "<b>General Options</b>"
+#~ msgstr "<b>Opciones generales</b>"
+
+#~ msgid "<b>Notifications</b>"
+#~ msgstr "<b>Notificaciones</b>"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge level reaches a certain "
+#~ "percentage"
+#~ msgstr ""
+#~ "Si se activa, muestra una notificación cuando el nivel de carga alcanza "
+#~ "cierto porcentaje"
+
+#~ msgid ""
+#~ "If enabled, shows a notification when the charge levels drops too low"
+#~ msgstr ""
+#~ "Si se activa, muestra una notificación cuando el nivel de carga cae "
+#~ "demasiado bajo"
+
+#~ msgid "_Battery:"
+#~ msgstr "_Batería:"
+
+#~ msgid "_Notify when charge level reaches:"
+#~ msgstr "_Notificar cuando el nivel de carga alcance:"
+
+#~ msgid "_Theme:"
+#~ msgstr "_Tema:"
+
+#~ msgid "_Warn when charge level drops to:"
+#~ msgstr "_Advertir cuando el nivel de carga caiga a:"
+
+#~ msgid "Battery is running low"
+#~ msgstr "La batería está baja"
+
+#~ msgid "You have approximately <b>%s</b> of remaining battery power (%d%%)."
+#~ msgstr ""
+#~ "Tiene aproximadamente <b>%s</b> de energía de batería restante (%d%%)."
+
+#~ msgid "Battery is critically low"
+#~ msgstr "La batería está críticamente baja"
+
+#~ msgid "Battery is charged"
+#~ msgstr "La batería está cargada"
+
+#~ msgid "Your battery is fully charged."
+#~ msgstr "La batería está completamente cargada."
+
+#~ msgid "Your battery is charged to <b>%d%%</b>."
+#~ msgstr "Su batería está cargada al <b>%d%%</b>."
+
+#~ msgid "A custom time format (strftime()), used if not empty."
+#~ msgstr ""
+#~ "Se usa un formato de tiempo predeterminado (strftime()), si no está vacío."
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too."
+#~ msgstr ""
+#~ "Si está activado, además de las horas y los minutos, los segundos también "
+#~ "serán visibles."
+
+#~ msgid "If enabled, displays the weather as an overlay on top of the clock."
+#~ msgstr "Si se activa, mostrará el clima superpuesto al reloj."
+
+#~ msgid "If enabled, the date will be shown in the title."
+#~ msgstr "Si se activa, la fecha será mostrada en el título."
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock."
+#~ msgstr "Si se activa, el segundero será visible en el reloj."
+
+#~ msgid "List of cities and timezones separated by a '#' character."
+#~ msgstr "Lista de ciudades y zonas horarias separadas por un signo «#»."
+
+#~ msgid ""
+#~ "Show time in 24 hour format if enabled, or 12 hour format when disabled."
+#~ msgstr ""
+#~ "Muestra la hora en un formato de 24 horas, o en formato de 12 horas si se "
+#~ "desactiva."
+
+#~ msgid "Temperature unit (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+#~ msgstr "Unidad de temperatura (0: Celsius, 1: Fahrenheit, 2: Kelvin)."
+
+#~ msgid "The name of the theme of the analog clock."
+#~ msgstr "El nombre del tema del reloj analógico."
+
+#~ msgid "Wind speed unit (0: m/s, 1: km/h, 2: mph, 3: knots, 4: Beaufort)."
+#~ msgstr ""
+#~ "Unidad de velocidad del viento (0:m/s, 1: km/h, 2: mph, 3: nudos, 4: "
+#~ "Beaufort)."
+
+#~ msgid "Cairo Clock"
+#~ msgstr "Reloj Cairo"
+
+#~ msgid ""
+#~ "Displays an analog clock and supports additional clocks for different "
+#~ "locations"
+#~ msgstr ""
+#~ "Muestra un reloj analógico y soporta más relojes para lugares diferentes"
+
+#~ msgid ""
+#~ "Applet that displays an analog clock and supports additional clocks for "
+#~ "different locations"
+#~ msgstr ""
+#~ "Miniaplicación que muestra un reloj análogo y soporta relojes adicionales "
+#~ "para diferentes lugares."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "12 _hour format"
+#~ msgstr "Formato de 12 _horas"
+
+#~ msgid "24 h_our format"
+#~ msgstr "Formato de 24 h_oras"
+
+#~ msgid "<b>Clock Display</b>"
+#~ msgstr "<b>Apariencia de reloj</b>"
+
+#~ msgid "<b>Title Options</b>"
+#~ msgstr "<b>Opciones de título</b>"
+
+#~ msgid "Beaufort"
+#~ msgstr "Beaufort"
+
+#~ msgid "Celsius"
+#~ msgstr "Celsius"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "Fahrenheit"
+
+#~ msgid "Find _Next"
+#~ msgstr "Buscar _siguiente"
+
+#~ msgid ""
+#~ "If enabled, besides hours and minutes, the seconds will be visible too"
+#~ msgstr ""
+#~ "Si se activa, además de horas y minutos, los segundos también serán "
+#~ "visibles"
+
+#~ msgid "If enabled, the date will be shown in the title"
+#~ msgstr "Si se activa, la fecha será visible en el título"
+
+#~ msgid "If enabled, the seconds hand will be visible in the clock"
+#~ msgstr "Si se activa, el segundero será visible en el reloj"
+
+#~ msgid "If enabled, time will be shown like 1:23 AM"
+#~ msgstr "Si se activa, la hora será visible como 1:23 AM"
+
+#~ msgid "If enabled, time will be shown like 23:45"
+#~ msgstr "Si se activa, la hora se mostrará como 23:45"
+
+#~ msgid "Kelvin"
+#~ msgstr "Kelvin"
+
+#~ msgid "Location Name:"
+#~ msgstr "Nombre de ubicación:"
+
+#~ msgid "Show _seconds"
+#~ msgstr "Mostrar _segundos"
+
+#~ msgid "Show seco_nds hand"
+#~ msgstr "Mostrar segu_ndero"
+
+#~ msgid "Show the _date"
+#~ msgstr "Mostrar la _fecha"
+
+#~ msgid "_Show weather of current location"
+#~ msgstr "Mostrar el _clima del lugar actual"
+
+#~ msgid "_Temperature unit:"
+#~ msgstr "Unidad de _temperatura:"
+
+#~ msgid "_Wind speed unit:"
+#~ msgstr "Unidad de velocidad del _viento:"
+
+#~ msgid "km/h"
+#~ msgstr "km/h"
+
+#~ msgid "knots"
+#~ msgstr "nudos"
+
+#~ msgid "m/s"
+#~ msgstr "m/s"
+
+#~ msgid "mph"
+#~ msgstr "mph"
+
+#~ msgid "Locations"
+#~ msgstr "Ubicaciones"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Clock/Calendar Applet"
+#~ msgstr "Miniaplicación de Reloj/Calendario"
+
+#~ msgid "Watch appointments on your dock"
+#~ msgstr "Ver citas en su dock"
+
+#~ msgid "Login to "
+#~ msgstr "Autenticarse en "
+
+#~ msgid "Online Calendar"
+#~ msgstr "Calendario en línea"
+
+#~ msgid "Calendar Username"
+#~ msgstr "Nombre de usuario del calendario"
+
+#~ msgid "Calendar Password"
+#~ msgstr "Contraseña del calendario"
+
+#~ msgid "Save Password"
+#~ msgstr "Guardar la contraseña"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "Ha elegido guardar su contraseña. Aunque la contraseña sera almacenada en "
+#~ "un formato cifrado, siempre existe una remota posibilidad de que pueda "
+#~ "ser robada y descifrada si la seguridad de su equipo se compromete. ¿Está "
+#~ "seguro de guardar su contraseña?"
+
+#~ msgid "Classic LCD"
+#~ msgstr "LCD clásico"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "LCD brillante indy"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "LCD de luz de ambiente ámbar"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "LCD de luz verde posterior"
+
+#~ msgid "Green LED"
+#~ msgstr "LED verde"
+
+#~ msgid "Red LED"
+#~ msgstr "LED rojo"
+
+#~ msgid "Blue LED"
+#~ msgstr "LED azul"
+
+#~ msgid "Plain White"
+#~ msgstr "Blanco mate"
+
+#~ msgid "Plain Black"
+#~ msgstr "Negro mate"
+
+#~ msgid "Red"
+#~ msgstr "Rojo"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "Blue"
+#~ msgstr "Azul"
+
+#~ msgid "Gray"
+#~ msgstr "Gris"
+
+#~ msgid "Black"
+#~ msgstr "Negro"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "Reloj de doce horas"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "Apariencia del reloj"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "Apariencia del calendario"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Google Calendar"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Acceso Web a Outlook"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "Integración del calendario"
+
+#~ msgid "Calendar URL"
+#~ msgstr "Dirección del calendario"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendario"
+
+#~ msgid "Forget Password"
+#~ msgstr "Contraseña olvidada"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "¿Desea eliminar la contraseña de su calendario de la miniaplicación de "
+#~ "calendario? Si elije borrar su contraseña, se le preguntará nuevamente "
+#~ "por las credenciales de autenticación de su calendario."
+
+#~ msgid "Avant Calendar Applet"
+#~ msgstr "Miniaplicación de calendario de Avant"
+
+#~ msgid "A Calendar Applet for the Avant Window Navigator. Images by Deleket."
+#~ msgstr ""
+#~ "Una miniaplicación de calendario para Avant Window Navigator. Imágenes "
+#~ "por Deleket."
+
+#~ msgid "%x %X"
+#~ msgstr "%x %X"
+
+#~ msgid "Open in "
+#~ msgstr "Abrir en "
+
+#~ msgid "Today"
+#~ msgstr "Hoy"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "No se ha podido leer la información de la fuente externa."
+
+#~ msgid "No appointments."
+#~ msgstr "No hay citas."
+
+#~ msgid "No appointments"
+#~ msgstr "No hay citas"
+
+#~ msgid "The user agent to send when retrieving comics."
+#~ msgstr "El agente de usuario para enviar al recuperar cómics"
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr "Error al descargar %s. Pulse «Siguiente» para intentarlo de nuevo."
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr ""
+#~ "La URL introducida no es un canal válido de cómic. Pulse «Siguiente» para "
+#~ "intentarlo de nuevo"
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "Conectando a <i>%s</i>..."
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "Esta guía ha finalizado.\n"
+#~ "\n"
+#~ "Pulse «Aplicar» para añadir <i>%s</i>."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "Encontrado <b>%(name)s</b>.\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Comics!"
+#~ msgstr "¡Cómics!"
+
+#~ msgid "View your favourite comics on your desktop"
+#~ msgstr "Vea sus cómics favoritos en su escritorio"
+
+#~ msgid "Shared comics"
+#~ msgstr "Cómics compartidos"
+
+#~ msgid "Your comics"
+#~ msgstr "Sus cómics"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "Error al eliminar <i>%s</i>."
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Comics"
+#~ msgstr "Cómics"
+
+#~ msgid "Manage Comics"
+#~ msgstr "Gestionar cómics"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "¡Hay una nueva tira de %s!"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A %d de %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "Error al guardar<i>%s</i>."
+
+#~ msgid "Add Comic"
+#~ msgstr "Añadir cómic"
+
+#~ msgid "Downloading Comic"
+#~ msgstr "Descargando cómic"
+
+#~ msgid "Enter the URL of the RSS feed:"
+#~ msgstr "Ingrese la URL de la fuente RSS:"
+
+#~ msgid "Ready to add comic!"
+#~ msgstr "¡Listo para añadir cómic!"
+
+#~ msgid "Select Comic"
+#~ msgstr "Seleccione un cómic"
+
+#~ msgid "Select Image"
+#~ msgstr "Seleccionar imagen"
+
+#~ msgid "The guide found more than one image. Please select which one to use."
+#~ msgstr "La guía encontró más de una imagen. Por favor seleccione cuál usar."
+
+#~ msgid ""
+#~ "This guide will help you to add a new comic.\n"
+#~ "\n"
+#~ "To find comics suitable for adding, you may search the Internet for "
+#~ "\"comics rss\".\n"
+#~ "\n"
+#~ "Press \"next\" to proceed."
+#~ msgstr ""
+#~ "Esta guía le ayudará a añadir un nuevo cómic.\n"
+#~ "\n"
+#~ "Para encontrar cómics adecuados para añadir, debe buscar en Internet por "
+#~ "\"comics rss\".\n"
+#~ "\n"
+#~ "Pulse «Siguiente» para continuar."
+
+#~ msgid "Manage comics"
+#~ msgstr "Gestionar cómics"
+
+#~ msgid "The following comics are installed:"
+#~ msgstr "Los siguientes cómics están instalados:"
+
+#~ msgid "Show link"
+#~ msgstr "Mostrar enlace"
+
+#~ msgid "Size"
+#~ msgstr "Tamaño"
+
+#~ msgid "Unknown command sent: %s"
+#~ msgstr "Comando desconocido enviado: %s"
+
+#~ msgid "Common Folder Launcher"
+#~ msgstr "Lanzador de carpetas comunes"
+
+#~ msgid "Launcher for common folders and bookmarks"
+#~ msgstr "Lanzador para abrir carpetas comunes y marcadores"
+
+#~ msgid "Applet to launch common folders and bookmarks"
+#~ msgstr "Miniaplicación para abrir carpetas comunes y marcadores"
+
+#~ msgid "Index of processor."
+#~ msgstr "Índice del procesador"
+
+#~ msgid "An applet to monitor and control the CPU frequency"
+#~ msgstr ""
+#~ "Una miniaplicación para monitorear y controlar la frecuencia del CPU"
+
+#~ msgid "CPU Frequency Monitor"
+#~ msgstr "Monitor de frecuencia del CPU"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>Scaling unavailable</b></span>\n"
+#~ "\n"
+#~ "Frequency scaling is not\n"
+#~ "available for the selected CPU."
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Escalado no disponible</b></span>\n"
+#~ "\n"
+#~ "El escalado de frecuencia no\n"
+#~ "está disponible en el CPU seleccionado."
+
+#~ msgid "GHz"
+#~ msgstr "GHz"
+
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgid "<b>Monitored CPU</b>"
+#~ msgstr "<b>CPU monitoreado</b>"
+
+#~ msgid "_Processor:"
+#~ msgstr "_Procesador:"
+
+#~ msgid "Can change layout with scroll wheel."
+#~ msgstr "Puede cambiar la disposición con la rueda del ratón."
+
+#~ msgid "Flag opacity (min: 0.0, max: 0.9)."
+#~ msgstr "Opacidad de marca (min: 0,0, max: 0,9)"
+
+#~ msgid "Flag size compared to icon (min: 0.1, max: 0.9)."
+#~ msgstr ""
+#~ "Tamaño de la bandera en comparación con el icono (min: 0,1, max: 0,9)"
+
+#~ msgid ""
+#~ "Keyboard toggle to change selected layout (see prefs dialog for values)."
+#~ msgstr ""
+#~ "Conmutador de teclado para cambiar al esquema seleccioando (ver díalogo "
+#~ "de preferencias para valores)."
+
+#~ msgid "Left click action (0: previous, 1: menu, 2: next, 3: none)."
+#~ msgstr ""
+#~ "Acción de clic izquerdo (0: previo, 1: menú, 2: siguiente, 3: ninguna)."
+
+#~ msgid "Middle click action (0: previous, 1: menu, 2: next, 3: none)."
+#~ msgstr ""
+#~ "Acción de clic central (0: previo, 1: menú, 2: siguiente, 3: ninguna)."
+
+#~ msgid "Overlay selected layout flag on icon."
+#~ msgstr "Superponer la bandera del esquema seleccionado en el icono."
+
+#~ msgid "User selected layouts."
+#~ msgstr "Disposiciones elegidas por el usuario."
+
+#~ msgid "User selected variants."
+#~ msgstr "Variantes elegidas por el usuario."
+
+#~ msgid " Dialect Applet"
+#~ msgstr " Miniaplicación de dialectos"
+
+#~ msgid "Change your keyboard input layout from Awn."
+#~ msgstr "Cambie su método de entrada del teclado desde Awn."
+
+#~ msgid "Dialect Applet"
+#~ msgstr "Miniaplicación de dialectos"
+
+#~ msgid ""
+#~ "<b>User List:</b> The list of layouts you commonly use. The maximum "
+#~ "number of layouts is restricted by the X11 xkb system (currently 4). "
+#~ "Select an item and click the remove button to delete from your user list. "
+#~ "You can order the list by drag and drop.\n"
+#~ "<b>System List:</b> The complete list of layouts and variants available. "
+#~ "Select an item and click the add button to include in your user list."
+#~ msgstr ""
+#~ "<b>Lista de usuario:</b> La lista de esquemas de teclado que utiliza "
+#~ "frecuentemente. El número máximo de esquemas está restringido por el "
+#~ "sistema X11 (actualmente 4). Seleccione un elemento y haga clic en el "
+#~ "botón de Eliminar para quitarlo de su lista de usuario. Puede ordenar la "
+#~ "lista arrastrando y colocando.\n"
+#~ "<b>Lista de sistema:</b> La lista completa de esquemas y variantes "
+#~ "disponibles. Seleccione un elemento y haga clic en el botón de Añadir "
+#~ "para incluir algo en su lista de usuario."
+
+#~ msgid "small"
+#~ msgstr "pequeño"
+
+#~ msgid "large"
+#~ msgstr "grande"
+
+#~ msgid "transparent"
+#~ msgstr "transparente"
+
+#~ msgid "opaque"
+#~ msgstr "opaco"
+
+#~ msgid "System List"
+#~ msgstr "Lista del sistema"
+
+#~ msgid "User List"
+#~ msgstr "Lista del usuario"
+
+#~ msgid "<b>Flag on Applet Icon</b>"
+#~ msgstr "<b>Bandera en icono de miniaplicación</b>"
+
+#~ msgid "<b>Keyboard</b>"
+#~ msgstr "<b>Teclado</b>"
+
+#~ msgid "<b>Mouse Actions</b>"
+#~ msgstr "<b>Acciones del ratón</b>"
+
+#~ msgid "About Dialect Applet"
+#~ msgstr "Acerca de la miniaplicación de dialectos"
+
+#~ msgid "Appearance"
+#~ msgstr "Apariencia"
+
+#~ msgid "Change your keyboard layout from Awn."
+#~ msgstr "Cambiar la disposición del teclado desde Awn."
+
+#~ msgid "Control"
+#~ msgstr "Control"
+
+#~ msgid "Dialect Applet Preferences"
+#~ msgstr "Preferencias de la miniaplicación de dialectos"
+
+#~ msgid "Flag _Opacity:"
+#~ msgstr "_Opacidad de bandera:"
+
+#~ msgid "Flag _Size:"
+#~ msgstr "_Tamaño de bandera:"
+
+#~ msgid ""
+#~ "If selected, scrolling up or down with your mouse wheel will select the "
+#~ "next or previous layout in your user list"
+#~ msgstr ""
+#~ "Si se activa, al desplazarse hacia arriba o abajo con la rueda del ratón, "
+#~ "se seleccionará el esquema siguiente o anterior en su lista de usuario"
+
+#~ msgid "Layouts"
+#~ msgstr "Disposiciones"
+
+#~ msgid "Selects the hot key combination used to change layouts"
+#~ msgstr "Selecciona el atajo de teclado para cambiar entre disposiciones"
+
+#~ msgid "Show _Flag"
+#~ msgstr "Mostrar _bandera"
+
+#~ msgid "Show menu with layouts"
+#~ msgstr "Mostrar menú con disposiciones"
+
+#~ msgid "Switch to next layout in list"
+#~ msgstr "Cambiar al siguiente esquema en la lista"
+
+#~ msgid "Switch to previous layout in list"
+#~ msgstr "Cambiar al esquema anterior en la lista"
+
+#~ msgid "_Add"
+#~ msgstr "_Añadir"
+
+#~ msgid "_Allow scroll wheel to change layout"
+#~ msgstr "_Permitir desplazarse con la rueda para cambiar esquema"
+
+#~ msgid "_Keyboard Toggle:"
+#~ msgstr "_Conmutar teclado:"
+
+#~ msgid "_Left Click:"
+#~ msgstr "Clic _izquierdo:"
+
+#~ msgid "_Middle Click:"
+#~ msgstr "Clic _central:"
+
+#~ msgid "Command to execute when a calendar day is double-clicked."
+#~ msgstr ""
+#~ "Orden a ejecutar cuando se pulsa dos veces en un día del calendario."
+
+#~ msgid "Command to execute when the user wishes to adjust the date/time."
+#~ msgstr "Comando a ejecutar cuando el usuario desee ajustar la fecha/hora."
+
+#~ msgid "Show the date before the time."
+#~ msgstr "Mostrar la fecha antes de la hora."
+
+#~ msgid "The color of the clock text."
+#~ msgstr "El color de texto del reloj."
+
+#~ msgid "The font face of the clock text."
+#~ msgstr "La tipografía del texto del reloj."
+
+#~ msgid "The shadow color of the clock text."
+#~ msgstr "El color de la sombra del texto del reloj."
+
+#~ msgid "Toggle 12-hour mode."
+#~ msgstr "Cambiar a modo de 12 horas."
+
+#~ msgid "12 hour format"
+#~ msgstr "Formato de 12 horas"
+
+#~ msgid "24 hour format"
+#~ msgstr "Formato de 24 horas"
+
+#~ msgid "<b>Clock Format</b>"
+#~ msgstr "<b>Formato de reloj</b>"
+
+#~ msgid "Commands"
+#~ msgstr "Órdenes"
+
+#~ msgid "Date below time"
+#~ msgstr "Fecha debajo de la hora"
+
+#~ msgid "Digital Clock Preferences"
+#~ msgstr "Preferencias del reloj digital"
+
+#~ msgid "Run Calendar:"
+#~ msgstr "Ejecutar Calendario:"
+
+#~ msgid "Show the date"
+#~ msgstr "Mostar la fecha"
+
+#~ msgid "Use default Awn colors"
+#~ msgstr "Usar los colores predeterminados de Awn"
+
+#~ msgid "A clock and calendar in one."
+#~ msgstr "Reloj y calendario todo en uno."
+
+#~ msgid "Digital Clock"
+#~ msgstr "Reloj Digital"
+
+#~ msgid "%b %d"
+#~ msgstr "%d %b"
+
+#~ msgid "Copy Time"
+#~ msgstr "Copiar la hora"
+
+#~ msgid "Copy Date"
+#~ msgstr "Copiar la fecha"
+
+#~ msgid "Adjust Date & Time"
+#~ msgstr "Ajustar fecha y hora"
+
+#~ msgid "Displays digital clock."
+#~ msgstr "Muestra un reloj digital."
+
+#~ msgid "Hide feeds which do not have any new items"
+#~ msgstr "Ocultar fuentes que no contienen elementos nuevos"
+
+#~ msgid "If false, all previous items will be marked as read when updating"
+#~ msgstr ""
+#~ "Si es falso, todos los elementos anteriores se marcarán como leídos al "
+#~ "actualizar"
+
+#~ msgid "Notify if any feeds have new items"
+#~ msgstr "Notificar si hay fuentes con elementos nuevos"
+
+#~ msgid "Show each feed's website's icon in the dialog"
+#~ msgstr "Mostrar en el diálogo cada icono del sitio web de la fuente"
+
+#~ msgid "The interval (in minutes) at which to update (3-60)"
+#~ msgstr "El intervalo (en minutos) de cada cuándo actualizar"
+
+#~ msgid "Update automatically at a configurable interval"
+#~ msgstr "Actualizar automáticamente en un intervalo configurable"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Google Reader"
+#~ msgstr "Google Reader"
+
+#~ msgid "Google Wave"
+#~ msgstr "Google Wave"
+
+#~ msgid "Reddit Inbox"
+#~ msgstr "Reddit Inbox"
+
+#~ msgid "Comment reply from %s"
+#~ msgstr "Respuesta de %s"
+
+#~ msgid "Post reply from %s"
+#~ msgstr "Publicar respuesta de %s"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Untitled"
+#~ msgstr "Sin título"
+
+#~ msgid "Feeds Applet"
+#~ msgstr "Miniaplicación de fuentes"
+
+#~ msgid "Monitor web feeds"
+#~ msgstr "Monitorear fuentes web"
+
+#~ msgid "Loading feeds..."
+#~ msgstr "Cargando fuentes..."
+
+#~ msgid "You don't have any feeds."
+#~ msgstr "No tiene ninguna fuente."
+
+#~ msgid ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s More)\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "  <a href='%s'>%s</a>\n"
+#~ "(%s Más)\n"
+
+#~ msgid "%s New Item - Feeds Applet"
+#~ msgid_plural "%s New Items - Feeds Applet"
+#~ msgstr[0] "%s nuevo elemento - Miniaplicación de fuentes"
+#~ msgstr[1] "%s nuevos elementos - Miniaplicación de fuentes"
+
+#~ msgid "_Add Feed"
+#~ msgstr "_Añadir fuente"
+
+#~ msgid "Open this feed's website"
+#~ msgstr "Abrir el sitio de la fuente"
+
+#~ msgid "Loading..."
+#~ msgstr "Cargando..."
+
+#~ msgid "Show this feed's items"
+#~ msgstr "Mostrar artículos de la fuente"
+
+#~ msgid "Hide this feed's items"
+#~ msgstr "Ocultar los elementos de esta fuente"
+
+#~ msgid "Add Feed"
+#~ msgstr "Añadir fuente"
+
+#~ msgid "Show Only _New Feeds"
+#~ msgstr "Mostrar solo nuevas fuentes"
+
+#~ msgid "_About %s"
+#~ msgstr "_Acerca de %s"
+
+#~ msgid "Applet to monitor web feeds"
+#~ msgstr "Miniaplicación para monitorear fuentes web"
+
+#~ msgid "OPML Import"
+#~ msgstr "Importar OPML"
+
+#~ msgid "Do you want to add %d feed?"
+#~ msgid_plural "Do you want to add %d feeds?"
+#~ msgstr[0] "¿Añadir la fuente %d?"
+#~ msgstr[1] "¿Añadir las fuentes %d?"
+
+#~ msgid "Could not open '%s'"
+#~ msgstr "No se pudo abrir «%s»"
+
+#~ msgid "Could not save '%s'"
+#~ msgstr "No se pudo guardar «%s»"
+
+#~ msgid "Feeds Applet Preferences"
+#~ msgstr "Preferencias de aplicación de fuentes"
+
+#~ msgid "Feeds"
+#~ msgstr "Fuentes"
+
+#~ msgid "Updating"
+#~ msgstr "Actualizando"
+
+#~ msgid "_Show website icons"
+#~ msgstr "_Mostrar iconos de sitios"
+
+#~ msgid "Show _only new feeds"
+#~ msgstr "Mostrar s_olo nuevas fuentes"
+
+#~ msgid "Import"
+#~ msgstr "Importar"
+
+#~ msgid "Export"
+#~ msgstr "Exportar"
+
+#~ msgid "_Notify for updated feeds"
+#~ msgstr "_Notificar al actualizar fuentes"
+
+#~ msgid "_Update automatically"
+#~ msgstr "Act_ualizar automáticamente"
+
+#~ msgid "Update every "
+#~ msgstr "Actualizar cada "
+
+#~ msgid " minutes"
+#~ msgstr " minutos"
+
+#~ msgid "Keep items unread when updating"
+#~ msgstr "Mantener sin leer los elementos al actualizar"
+
+#~ msgid "Open OPML File"
+#~ msgstr "Abrir archivo OMPL"
+
+#~ msgid "Save OPML File"
+#~ msgstr "Guardar archivo OMPL"
+
+#~ msgid "feeds.opml"
+#~ msgstr "fuentes.opml"
+
+#~ msgid "Awn Feeds Applet Items"
+#~ msgstr "Elementos de la miniaplicación de fuentes de AWN"
+
+#~ msgid "Source:"
+#~ msgstr "Origen:"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "You must sign in to a Google service to search for feeds."
+#~ msgstr "Debe iniciar sesión a un servicio de Google para buscar fuentes."
+
+#~ msgid "RSS/Atom"
+#~ msgstr "RSS/Atom"
+
+#~ msgid "Timeline"
+#~ msgstr "Línea de tiempo"
+
+#~ msgid "Replies"
+#~ msgstr "Respuestas"
+
+#~ msgid "Search for"
+#~ msgstr "Buscar"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#~ msgid "Username:"
+#~ msgstr "Usuario:"
+
+#~ msgid "Password:"
+#~ msgstr "Contraseña:"
+
+#~ msgid "Feed search by "
+#~ msgstr "Búsqueda de fuentes por "
+
+#~ msgid "_Search"
+#~ msgstr "_Buscar"
+
+#~ msgid ""
+#~ "There was an error while searching.\n"
+#~ "Please try again later."
+#~ msgstr ""
+#~ "Hubo un error mientras se buscaba.\n"
+#~ "Inténtelo nuevamente más tarde."
+
+#~ msgid ""
+#~ "No results found.\n"
+#~ "Try checking your spelling or using different search terms."
+#~ msgstr ""
+#~ "No se encontraron resultados.\n"
+#~ "Intente comprobar su ortografía o usar términos de búsqueda distintos."
+
+#~ msgid ""
+#~ "0: one icon with dialog; 1: one icon with docklet on click; 2: persistent "
+#~ "docklet"
+#~ msgstr ""
+#~ "0: un icono con diálogo; 1: un icono con docklet al pulsar; 2: docklet "
+#~ "continuo"
+
+#~ msgid "The action to perform on left click"
+#~ msgstr "La acción a realizar con clic izquierdo"
+
+#~ msgid "The action to perform on middle click"
+#~ msgstr "La acción a realizar con clic central"
+
+#~ msgid "The file browser to use"
+#~ msgstr "El navegador de archivos a usar"
+
+#~ msgid "The path to use on left click"
+#~ msgstr "La ruta a usar con clic izquierdo"
+
+#~ msgid "The path to use on middle click"
+#~ msgstr "La ruta a usar con clic central"
+
+#~ msgid "Whether or not to display Connect to server"
+#~ msgstr "Si se mostrará o no «Conectar al servidor»"
+
+#~ msgid "Whether or not to display bookmarks"
+#~ msgstr "Si se mostrarán o no los marcadores"
+
+#~ msgid "Whether or not to display local drives"
+#~ msgstr "Si se mostrarán o no las unidades locales"
+
+#~ msgid "Whether or not to display network drives"
+#~ msgstr "Si se mostrarán o no las unidades de red"
+
+#~ msgid "Whether or not to display the Filesystem"
+#~ msgstr "Si se mostrará o no el sistema de archivos"
+
+#~ msgid "Whether or not to display the Trash"
+#~ msgstr "Si se mostrará o no la papelera"
+
+#~ msgid "Whether or not to display the computer"
+#~ msgstr "Si se mostrará o no el Equipo"
+
+#~ msgid "Whether or not to display the home folder"
+#~ msgstr "Si se mostrará o no la carpeta personal"
+
+#~ msgid "Whether or not to focus the location text box"
+#~ msgstr "Si se pondrá el foco o no en la caja de texto de ubicación"
+
+#~ msgid "Whether or not to open the place when clicked"
+#~ msgstr "Si se abrirá o no el lugar al pulsar"
+
+#~ msgid "A launcher for your file manager"
+#~ msgstr "Un lanzador hacia su navegador de archivos"
+
+#~ msgid "File Browser Launcher"
+#~ msgstr "Lanzador de navegador de archivos"
+
+#~ msgid "Filesystem"
+#~ msgstr "Sistema de archivos"
+
+#~ msgid "CD/DVD Burner"
+#~ msgstr "Grabador de CD/DVD"
+
+#~ msgid "Fonts"
+#~ msgstr "Tipografías"
+
+#~ msgid "Folder"
+#~ msgstr "Carpeta"
+
+#~ msgid "Trash (%d)"
+#~ msgstr "Papelera (%d)"
+
+#~ msgid "DVD Drive"
+#~ msgstr "Unidad de DVD"
+
+#~ msgid "CD Drive"
+#~ msgstr "Unidad de CD"
+
+#~ msgid "Eject"
+#~ msgstr "Expulsar"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Vaciar papelera"
+
+#~ msgid "Confirm deletion"
+#~ msgstr "Confirmar eliminación"
+
+#~ msgid ""
+#~ "<big><b>Are you sure you want to delete\n"
+#~ "every item from the trash?</b></big>"
+#~ msgstr ""
+#~ "<big><b>¿Está seguro de eliminar\n"
+#~ "todos los elementos de la papelera?</b></big>"
+
+#~ msgid "This action cannot be undone."
+#~ msgstr "Esta acción no se puede deshacer."
+
+#~ msgid "A customizable launcher for browsing your files."
+#~ msgstr "Un lanzador personalizable para gestionar sus archivos."
+
+#~ msgid "File Browser Launcher Preferences"
+#~ msgstr "Preferencias del Lanzador de navegador de archivos"
+
+#~ msgid "File Browser"
+#~ msgstr "Navegador de archivos"
+
+#~ msgid "System Default"
+#~ msgstr "Predeterminado del sistema"
+
+#~ msgid "Other"
+#~ msgstr "Otro"
+
+#~ msgid "One icon with dialog"
+#~ msgstr "Un icono con diálogo"
+
+#~ msgid "One icon with docklet"
+#~ msgstr "Un icono con docklet"
+
+#~ msgid "Multiple icons"
+#~ msgstr "Iconos múltiples"
+
+#~ msgid "Focus text entry"
+#~ msgstr "Enfocar entrada de texto"
+
+#~ msgid "Open place when clicked"
+#~ msgstr "Abrir lugar al pulsarlo"
+
+#~ msgid "Show all places"
+#~ msgstr "Mostrar todos los lugares"
+
+#~ msgid "Home folder"
+#~ msgstr "Carpeta personal"
+
+#~ msgid "Mounted local drives"
+#~ msgstr "Unidades locales montadas"
+
+#~ msgid "Mounted network drives"
+#~ msgstr "Unidades de red montadas"
+
+#~ msgid "Connect to server"
+#~ msgstr "Conectar al servidor"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Marcadores"
+
+#~ msgid "Display dialog/docklet"
+#~ msgstr "Mostrar diálogo/docklet"
+
+#~ msgid "Open the folder"
+#~ msgstr "Abrir la carpeta"
+
+#~ msgid "Nothing"
+#~ msgstr "Nada"
+
+#~ msgid "Left Click"
+#~ msgstr "Clic Izquierdo"
+
+#~ msgid "Middle Click"
+#~ msgstr "Clic central"
+
+#~ msgid "Choose a folder"
+#~ msgstr "Seleccione una carpeta"
+
+#~ msgid "Garbage"
+#~ msgstr "Basura"
+
+#~ msgid "%u item"
+#~ msgid_plural "%u items"
+#~ msgstr[0] "%u elemento"
+#~ msgstr[1] "%u elementos"
+
+#~ msgid "Could not open the trash folder with your file manager: %s"
+#~ msgstr ""
+#~ "No se pudo abrir la carpeta de la papelera con su navegador de archivos: "
+#~ "%s"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Vaciar papelera"
+
+#~ msgid "A lightweight, cross-desktop trash applet"
+#~ msgstr "Una miniaplicación de papelera ligera y multiescritorio"
+
+#~ msgid ""
+#~ "Are you sure you want to empty your trash? It currently contains %u "
+#~ "item(s)."
+#~ msgstr ""
+#~ "¿Está seguro de vaciar la papelera? Actualmente contiene %u elemento(s)."
+
+#~ msgid "Could not send the dragged file(s) to the trash: %s"
+#~ msgstr "No se pudieron enviar los archivos a la papelera: %s"
+
+#~ msgid ""
+#~ "Enable the confirmation dialog form when one wishes to empty the trash."
+#~ msgstr ""
+#~ "Activar el diálogo de confirmación cuando alguien desee vaciar la "
+#~ "papelera."
+
+#~ msgid "Show the number of items in the trash on top of the icon."
+#~ msgstr "Mostrar el número de elementos en la papelera encima del icono."
+
+#~ msgid "%s Preferences"
+#~ msgstr "Preferencias de %s"
+
+#~ msgid "Confirm when _emptying the trash"
+#~ msgstr "Confirmar al _vaciar la papelera"
+
+#~ msgid "Show the _item count on the icon"
+#~ msgstr "Mostrar el _contador de elementos en el icono"
+
+#~ msgid "Applet theme."
+#~ msgstr "Tema de la miniaplicación."
+
+#~ msgid "For each sensor, whether to show it in main dialog or not."
+#~ msgstr "Para cada sensor, si desea mostrarlo en el diálogo principal o no."
+
+#~ msgid "High value limit (at which alarm triggers) for each sensor."
+#~ msgstr ""
+#~ "Limite de valor alto para cada sensor, en el que la alarma se disparará."
+
+#~ msgid "If enabled, show sensor value(s) as an overlay in the icon."
+#~ msgstr "Si está activado, mostrar el valor del sensor encima del icono"
+
+#~ msgid "In what row of dialog is the sensor shown."
+#~ msgstr "En qué fila del diálogo se muestra el sensor."
+
+#~ msgid "Low value limit (at which alarm triggers) for each sensor."
+#~ msgstr ""
+#~ "Limite de valor bajo para cada sensor, en el que la alarma se disparará."
+
+#~ msgid "Sensor ids."
+#~ msgstr "Identificadores de sensor."
+
+#~ msgid "Sensor labels."
+#~ msgstr "Etiquetas de sensor."
+
+#~ msgid "Size of value overlay in the icon (0: small, 1: medium, 2: large)."
+#~ msgstr ""
+#~ "Tamaño del valor superpuesto en el icono (0: pequeño, 1: mediano, 2: "
+#~ "grande)."
+
+#~ msgid "The color (RGBA) of the meter hand/needle."
+#~ msgstr "El color (RGBA) de la manecilla del medidor."
+
+#~ msgid "Timeout between two value updates (in seconds)."
+#~ msgstr "Tiempo de espera entre dos actualizaciones de valor (segs.)"
+
+#~ msgid "Whether alarm should trigger at high value limit or not."
+#~ msgstr "Si la alarma debe activarse en el límite de valor alto o no."
+
+#~ msgid "Whether alarm should trigger at low value limit or not."
+#~ msgstr "Si la alarma debe activarse en el límite de valor bajo o no."
+
+#~ msgid "Whether to show a sensor in applet icon or not."
+#~ msgstr ""
+#~ "Si debería mostrarse un sensor en el icono de la miniaplicación o no."
+
+#~ msgid "Applet to show the hw sensors readouts"
+#~ msgstr ""
+#~ "Miniaplicación para mostrar las lecturas de salida de sensores de hardware"
+
+#~ msgid "Hardware Sensors"
+#~ msgstr "Sensores de hardware"
+
+#~ msgid "Applet to show the hardware sensors readouts"
+#~ msgstr ""
+#~ "Miniaplicación para mostrar las lecturas de salida de sensores de hardware"
+
+#~ msgid "Small"
+#~ msgstr "Pequeño"
+
+#~ msgid "Medium"
+#~ msgstr "Mediano"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgid "Warning from Hardware Sensors: No sensors found"
+#~ msgstr "Advertencia de Sensores de hardware: No se encontraron sensores"
+
+#~ msgid "Sensors"
+#~ msgstr "Sensores"
+
+#~ msgid "Interface"
+#~ msgstr "Interfaz"
+
+#~ msgid "Name"
+#~ msgstr "Nombre"
+
+#~ msgid "Label"
+#~ msgstr "Etiqueta"
+
+#~ msgid "In dialog"
+#~ msgstr "En diálogo"
+
+#~ msgid "Sensors displayed in icon"
+#~ msgstr "Sensores mostrados en icono"
+
+#~ msgid "properties"
+#~ msgstr "propiedades"
+
+#~ msgid "<b>Alarms</b>"
+#~ msgstr "<b>Alarmas</b>"
+
+#~ msgid "<b>Sensor value limits</b>"
+#~ msgstr "<b>Límites de valores de sensor</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Actualización</b>"
+
+#~ msgid "Add"
+#~ msgstr "Añadir"
+
+#~ msgid "Enable high alarm"
+#~ msgstr "Activar alarma alta"
+
+#~ msgid "Enable low alarm"
+#~ msgstr "Activar alarma baja"
+
+#~ msgid "Font size:"
+#~ msgstr "Tamaño de tipografía:"
+
+#~ msgid "Meter hand color:"
+#~ msgstr "Color de manecilla de medidor:"
+
+#~ msgid "Remove"
+#~ msgstr "Eliminar"
+
+#~ msgid "Sensor high value"
+#~ msgstr "Valor alto de sensor"
+
+#~ msgid "Sensor low value"
+#~ msgstr "Valor bajo de sensor"
+
+#~ msgid "Show value in icon"
+#~ msgstr "Mostrar valor en icono"
+
+#~ msgid "Temperature unit:"
+#~ msgstr "Unidad de temperatura:"
+
+#~ msgid "Theme:"
+#~ msgstr "Tema:"
+
+#~ msgid "Update interval:"
+#~ msgstr "Intervalo de actualización:"
+
+#~ msgid "seconds"
+#~ msgstr "segundos"
+
+#~ msgid "Volt"
+#~ msgstr "Voltio"
+
+#~ msgid "rpm"
+#~ msgstr "rpm"
+
+#~ msgid "Indicator Applet"
+#~ msgstr "Miniaplicación de indicadores"
+
+#~ msgid "An applet to hold all of the system indicators"
+#~ msgstr "Una miniaplicación para contener los indicadores del sistema"
+
+#~ msgid "Indicator Applet Preferences"
+#~ msgstr "Preferencias de la miniaplicación de indicadores"
+
+#~ msgid "Enabled Entries"
+#~ msgstr "Entradas activadas"
+
+#~ msgid "Indicator Applet Session (Quit)"
+#~ msgstr "Miniaplicación de indicadores de sesión (Salir)"
+
+#~ msgid "Me Menu"
+#~ msgstr "Menú Yo"
+
+#~ msgid "Messaging Menu"
+#~ msgstr "Menú de mensajería"
+
+#~ msgid "Network Menu"
+#~ msgstr "Menú de red"
+
+#~ msgid "Sound Control Menu"
+#~ msgstr "Menú de sonido"
+
+#~ msgid "Other Menus"
+#~ msgstr "Otros menús"
+
+#~ msgid "Options"
+#~ msgstr "Opciones"
+
+#~ msgid "Number of rows:"
+#~ msgstr "Número de filas:"
+
+#~ msgid "Number of columns:"
+#~ msgstr "Número de columnas:"
+
+#~ msgid "Enable Applet Icon mode"
+#~ msgstr "Activar modo de icono de miniaplicación"
+
+#~ msgid "Me menu"
+#~ msgstr "Menú Yo"
+
+#~ msgid "Messaging menu"
+#~ msgstr "Menú de mensajería"
+
+#~ msgid "Network menu"
+#~ msgstr "Menú de red"
+
+#~ msgid "Indicator Applet Session"
+#~ msgstr "Miniaplicación de indicadores de sesión"
+
+#~ msgid "Sound Menu"
+#~ msgstr "Menú de sonido"
+
+#~ msgid "If true, show any other menus"
+#~ msgstr "Si se activa, mostrar los demás menús"
+
+#~ msgid "If true, show the Me menu (chat, microblogging, etc)"
+#~ msgstr "Si se activa, mostrar el menú Yo (charla, difusión, etc.)"
+
+#~ msgid "If true, show the Messaging icon"
+#~ msgstr "Si se activa, mostrar el icono de Mensajería"
+
+#~ msgid "If true, show the Network menu"
+#~ msgstr "Si se activa, mostrar el menú de red"
+
+#~ msgid "If true, show the Sound control menu"
+#~ msgstr "Si se activa, mostrar el menú de sonido"
+
+#~ msgid "If true, show the indicator applet icons"
+#~ msgstr ""
+#~ "Si se activa, mostrar los iconos de la miniaplicación de indicadores"
+
+#~ msgid ""
+#~ "If true, show the indicator applet session icon (lock screen, switch "
+#~ "users, etc)"
+#~ msgstr ""
+#~ "Si se activa, mostrar el icono de la miniaplicación de indicadores de "
+#~ "sesión (bloquear pantalla, cambiar usuario, etc.)"
+
+#~ msgid "If true, use an Awn applet icon instead"
+#~ msgstr "Si se activa, usa un icono de miniaplicación Awn"
+
+#~ msgid "The number of rows (top and bottom edge) or columns (side edges)"
+#~ msgstr ""
+#~ "El número de filas (lados superior e inferior) o columnas (lados "
+#~ "izquierdo y derecho)"
+
+#~ msgid "Display any network errors"
+#~ msgstr "Mostrar errores de red"
+
+#~ msgid "Hide the icon if there is no new mail"
+#~ msgstr "Ocultar el icono si no hay nuevo correo"
+
+#~ msgid "The Desktop Email client to use"
+#~ msgstr "El cliente de correo electrónico a usar"
+
+#~ msgid "The Email backend to use"
+#~ msgstr "El motor de correo electrónico a usar"
+
+#~ msgid "The theme to use for the icon"
+#~ msgstr "La tema de icono"
+
+#~ msgid "Timeout between two value updates (in minutes)."
+#~ msgstr "Tiempo de espera entre dos actualizaciones de valor (en minutos)."
+
+#~ msgid "Used for logging in; do not touch"
+#~ msgstr "Utilizado para iniciar sesión, no tocar."
+
+#~ msgid "Check Your Email from AWN"
+#~ msgstr "Compruebe su correo electrónico desde AWN"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Miniaplicación de Correo"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "Tiene %d mensaje nuevo"
+#~ msgstr[1] "Tiene %d mensajes nuevos"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d mensaje sin leer"
+#~ msgstr[1] "%d mensajes sin leer"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Miniaplicación de correo (pulsar para conectarse)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Conectándose como %s"
+
+#~ msgid "Network error - Mail Applet"
+#~ msgstr "Error de red - Miniaplicación de correo"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Nuevo Correo - Miniaplicación de Correo"
+
+#~ msgid "Mail"
+#~ msgstr "Correo"
+
+#~ msgid "Open Web Mail"
+#~ msgstr "Abrir correo web"
+
+#~ msgid "Open Desktop Client"
+#~ msgstr "Abrir cliente de escritorio"
+
+#~ msgid "Refresh"
+#~ msgstr "Actualizar"
+
+#~ msgid "No unread messages"
+#~ msgstr "No hay mensajes sin leer"
+
+#~ msgid "No new messages"
+#~ msgstr "No hay mensajes nuevos"
+
+#~ msgid "Wrong username or password"
+#~ msgstr "Nombre de usuario o contraseña incorrectos"
+
+#~ msgid "Log In"
+#~ msgstr "Conectarse"
+
+#~ msgid "Type:"
+#~ msgstr "Tipo:"
+
+#~ msgid "Backend"
+#~ msgstr "Segundo plano"
+
+#~ msgid "Could not log in: No username"
+#~ msgstr "No se puede iniciar sesión: No hay nombre de usuario"
+
+#~ msgid ""
+#~ "There seem to be problems with our connection to your account. Your best "
+#~ "bet is probably to log out and try again."
+#~ msgstr ""
+#~ "Parece haber problemas con la conexión a su cuenta. Lo mejor que podría "
+#~ "hacer probablemente sea cerrar sesión y reintentar."
+
+#~ msgid "[No Subject]"
+#~ msgstr "[Sin Asunto]"
+
+#~ msgid "[Unknown]"
+#~ msgstr "[Desconocido]"
+
+#~ msgid "Google Apps"
+#~ msgstr "Google Apps"
+
+#~ msgid "Could not log in: No username or domain"
+#~ msgstr "No se pudo iniciar sesión: Sin nombre de usuario o dominio"
+
+#~ msgid "Domain:"
+#~ msgstr "Dominio:"
+
+#~ msgid "Spool Path:"
+#~ msgstr "Ruta de la cola:"
+
+#~ msgid "Could not log in: "
+#~ msgstr "No se pudo iniciar sesión: "
+
+#~ msgid "Could not log in: Username or password incorrect"
+#~ msgstr ""
+#~ "No se pudo iniciar sesión: Nombre de usuario o contraseña incorrectos"
+
+#~ msgid "Server:"
+#~ msgstr "Servidor:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "Utilizar cifrado SSL"
+
+#~ msgid "Could not log in"
+#~ msgstr "No se ha podido conectar"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "El directorio no existe"
+
+#~ msgid "Get messages from only one folder"
+#~ msgstr "Obtenga mensajes desde un solo directorio"
+
+#~ msgid "Folder:"
+#~ msgstr "Carpeta:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Una miniaplicación para comprobar su correo"
+
+#~ msgid "<b>Mail</b>"
+#~ msgstr "<b>Correo</b>"
+
+#~ msgid "Update _interval:"
+#~ msgstr "_Intervalo de actualización:"
+
+#~ msgid "_Alert on network errors"
+#~ msgstr "_Alertar en errores de red"
+
+#~ msgid "_Email client:"
+#~ msgstr "Cliente de _correo:"
+
+#~ msgid "_Hide applet if no new messages"
+#~ msgstr "_Ocultar miniapicación si no hay mensajes nuevos"
+
+#~ msgid "minutes"
+#~ msgstr "minutos"
+
+#~ msgid "Close the docklet when mouse moves out from it."
+#~ msgstr "Cerrar el docklet cuando el corsor del ratón se aleja de el."
+
+#~ msgid "Display album art if available."
+#~ msgstr "Mostrar arte del álbum si está disponible."
+
+#~ msgid "Display docklet instead of standard applet dialog."
+#~ msgstr "Mostrar docklet en lugar de un diálogo estándar."
+
+#~ msgid "Size of the album art."
+#~ msgstr "Tamaño de la carátula del álbum."
+
+#~ msgid "Tooltip format to use."
+#~ msgstr "Formato de texto emergente a usar."
+
+#~ msgid "Control your music player"
+#~ msgstr "Controle su reproductor musical"
+
+#~ msgid "Media Control"
+#~ msgstr "Control de medios"
+
+#~ msgid "Media Control Applet"
+#~ msgstr "Miniaplicación de control de medios"
+
+#~ msgid "by"
+#~ msgstr "por"
+
+#~ msgid "from"
+#~ msgstr "de"
+
+#~ msgid "Title - Artist"
+#~ msgstr "Título - Artista"
+
+#~ msgid "Artist - Title"
+#~ msgstr "Artista - Título"
+
+#~ msgid "Controls your favourite music player."
+#~ msgstr "Controla su reproductor de música favorito."
+
+#~ msgid "Close docklet when mouse leaves it"
+#~ msgstr "Cerrar docklet cuando el ratón lo abandona"
+
+#~ msgid "Display _docklet instead of dialog"
+#~ msgstr "Mostrar _docklet en lugar de diálogo"
+
+#~ msgid "Media-control preferences"
+#~ msgstr "Preferencias de Media-control"
+
+#~ msgid "Show _album art when available"
+#~ msgstr "Mostrar c_arátula del álbum cuando esté disponible"
+
+#~ msgid "_Size of the album art:"
+#~ msgstr "_Tamaño de portada del álbum:"
+
+#~ msgid "_Tooltip format:"
+#~ msgstr "Formato de _texto emergente:"
+
+#~ msgid "pixels"
+#~ msgstr "píxeles"
+
+#~ msgid "A media-control applet (Next Track)"
+#~ msgstr "Una miniaplicación de control de medios (Pista siguiente)"
+
+#~ msgid "Media Icons Next"
+#~ msgstr "Iconos de medios Siguiente"
+
+#~ msgid "A media-control applet (Previous Track)"
+#~ msgstr "Una miniaplicación de control de medios (Pista anterior)"
+
+#~ msgid "Media Icons Previous"
+#~ msgstr "Iconos de medios Anterior"
+
+#~ msgid "A media-control applet (Play/Pause)"
+#~ msgstr "Una miniaplicación de control de medios (Reproducir/Pausa)"
+
+#~ msgid "Media Icons Play/Pause"
+#~ msgstr "Iconos de medios Reproducir/Pausa"
+
+#~ msgid "Next"
+#~ msgstr "Siguiente"
+
+#~ msgid "Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "Play/Pause"
+#~ msgstr "Reproducir/Pausa"
+
+#~ msgid "Height of the video window."
+#~ msgstr "Altura de la ventana de vídeo."
+
+#~ msgid "List of recently played URLs."
+#~ msgstr "Lista de URLs recientemente reproducidas."
+
+#~ msgid "Width of the video window."
+#~ msgstr "Anchura de la vantana de vídeo."
+
+#~ msgid "Media Player"
+#~ msgstr "Reproductor de medios"
+
+#~ msgid "Plays any media files you drop on the applet"
+#~ msgstr ""
+#~ "Reproduce cualquier archivo multimedia que suelte en la miniaplicación"
+
+#~ msgid "Media Player Applet"
+#~ msgstr "Miniaplicación reproductora de medios"
+
+#~ msgid "Recent items"
+#~ msgstr "Elementos recientes"
+
+#~ msgid "Please restart the applet to apply changes to sinks."
+#~ msgstr ""
+#~ "Reinicie la miniaplicación para aplicar los cambios a los receptores."
+
+#~ msgid "Plays any media files you drop on the applet."
+#~ msgstr ""
+#~ "Reproduce cualquier archivo multimedia que suelte en la miniaplicación."
+
+#~ msgid "<b>GStreamer properties</b>"
+#~ msgstr "<b>Propiedades de GStreamer</b>"
+
+#~ msgid "<b>Video size</b>"
+#~ msgstr "<b>Tamaño de vídeo</b>"
+
+#~ msgid "Media Player Preferences"
+#~ msgstr "Preferencias del reproductor de medios"
+
+#~ msgid "_Height:"
+#~ msgstr "_Altura:"
+
+#~ msgid "_Width:"
+#~ msgstr "_Ancho:"
+
+#~ msgid "Command to execute after mounting a mountpoint."
+#~ msgstr "Orden a ejecutar después de montar un punto de montaje."
+
+#~ msgid "List of mountpoints that should remain hidden in the UI."
+#~ msgstr ""
+#~ "Lista de puntos de montaje que deberían permaneces ocultos en la IU."
+
+#~ msgid "An applet to (un)mount devices"
+#~ msgstr "Una miniaplicación para (des)montar dispositivos"
+
+#~ msgid "Mount Applet"
+#~ msgstr "Miniaplicación de montaje"
+
+#~ msgid "<i><b>Note:</b> use %D for the mountpoint</i>"
+#~ msgstr "<i><b>Nota:</b> use %D para el punto de montaje</i>"
+
+#~ msgid "List of hidden mountpoints, separated by a space"
+#~ msgstr "Lista de puntos de montaje ocultos, separados por un espacio"
+
+#~ msgid "_Execute command after successful mount:"
+#~ msgstr "_Ejecutar orden después de montaje exitoso:"
+
+#~ msgid "_Hidden mountpoints:"
+#~ msgstr "Puntos de montaje _ocultos:"
+
+#~ msgid "Extra offset from the panel's egde."
+#~ msgstr "Separación adicional del borde del panel."
+
+#~ msgid ""
+#~ "Maximum number of rows (or columns depending on the orientation of the "
+#~ "panel) of the tray icons in the applet."
+#~ msgstr ""
+#~ "Número máximo de filas (o columnas dependiendo de la orientación del "
+#~ "panel) de los iconos de la bandeja en la miniaplicación."
+
+#~ msgid "Size of the icons (in percent of applet size)."
+#~ msgstr ""
+#~ "Tamaño de los iconos (en porcentaje del tamaño de la miniaplicación)."
+
+#~ msgid "The background color of the notification-area."
+#~ msgstr "El color de fondo del área de notificación."
+
+#~ msgid "The border color of the notification-area."
+#~ msgstr "El color de borde del área de notificación."
+
+#~ msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+#~ msgstr ""
+#~ "el ícono de la bandeja ha solicitado un tamaño de: (%ix%i), "
+#~ "redimensionando a (%ix%i)"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientación"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "La orientación de la bandeja."
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "<b>Background Color</b>"
+#~ msgstr "<b>Color de fondo</b>"
+
+#~ msgid "<b>Border Color</b>"
+#~ msgstr "<b>Color de borde</b>"
+
+#~ msgid "Automatic"
+#~ msgstr "Automático"
+
+#~ msgid "Custom:"
+#~ msgstr "Personalizado:"
+
+#~ msgid "Extra _offset:"
+#~ msgstr "_Separación adicional:"
+
+#~ msgid "Icon _size:"
+#~ msgstr "_Tamaño de icono:"
+
+#~ msgid "Notification Area Preferences"
+#~ msgstr "Preferencias del área de notificación"
+
+#~ msgid "_Number of icon rows:"
+#~ msgstr "_Número de filas de iconos:"
+
+#~ msgid "A Notification Area (systray)"
+#~ msgstr "Un área de notificación (bandeja de sistema)"
+
+#~ msgid "Notification Area"
+#~ msgstr "Área de notificación"
+
+#~ msgid "There is already another notification area running on this screen!"
+#~ msgstr "Hay otra área de notificación ejecutándose en la pantalla."
+
+#~ msgid ""
+#~ "Please remove the existing notification area and then restart the applet."
+#~ msgstr ""
+#~ "Elimine el área de notificación existente y reinicie esta miniaplicación."
+
+#~ msgid "Background colour in the form (Hex) rrggbbaa"
+#~ msgstr "Color de fondo en el formulario (hex) rrggbbaa"
+
+#~ msgid ""
+#~ "Border colour in the form (Hex) rrggbbaa.  Also use for the timer widget"
+#~ msgstr ""
+#~ "Color del borde en la forma rrggbbaa (Hex). también se usa para el widget "
+#~ "temporizador"
+
+#~ msgid ""
+#~ "Gradient Factor applied to the notification window. Range of 0 to 1. The "
+#~ "lower the number the more noticeable the effect."
+#~ msgstr ""
+#~ "El factor de degradado aplicado a la ventana de notificación. Rango de 0 "
+#~ "a 1. Entre más bajo sea el número más perceptible será el efecto."
+
+#~ msgid "Sound."
+#~ msgstr "Sonido."
+
+#~ msgid ""
+#~ "Text colour in the form (Hex) rrggbbaa. Currently the alpha component is "
+#~ "ignored"
+#~ msgstr ""
+#~ "Color de texto en formato rrggbbaa (hex). Actualmente se ignora la "
+#~ "transparencia"
+
+#~ msgid ""
+#~ "The default sound file used unless a notification supplies the 'sound-"
+#~ "file' or 'suppress-sound' hint. Leave empty for no default sound."
+#~ msgstr ""
+#~ "El archivo de sonido predeterminado que usar a no ser que la notificación "
+#~ "proporcione las opciones «sound-file» o «suppress-sound». Déjelo vacío "
+#~ "para no tener sonido predeterminado."
+
+#~ msgid "Use bold text."
+#~ msgstr "Utilizar texto en negrita."
+
+#~ msgid ""
+#~ "A replacement for the standard notification daemon and notify-osd. This "
+#~ "will disable existing notification daemons while the applet is active."
+#~ msgstr ""
+#~ "Un reemplazo para el demonio de notificación estándar y notify-osd. Esto "
+#~ "desactivará los demonios de notificación activos mientras la "
+#~ "miniaplicación esté activa."
+
+#~ msgid "Notification Daemon"
+#~ msgstr "Demonio de notificaciones"
+
+#~ msgid "%u is not a valid notification ID"
+#~ msgstr "%u no es un ID de notificación válido"
+
+#~ msgid "The width of the menu's border.);"
+#~ msgstr "El ancho del borde del menú.);"
+
+#~ msgid "The size of the text in the menu, in pixels.);"
+#~ msgstr "El tamaño del texto en el menú, en píxeles.);"
+
+#~ msgid "The icon theme name of the applet's icon.);"
+#~ msgstr "El nombre del tema de iconos del icono de la miniaplicación.);"
+
+#~ msgid "The file manager that shows the contents of the places.);"
+#~ msgstr "El gestor de archivos que muestra el contenido de los lugares.);"
+
+#~ msgid ""
+#~ "The colour (RGBA) of the text when a place is selected or the mouse "
+#~ "hovers over it.);"
+#~ msgstr ""
+#~ "El color (RGBA) del texto cuando se selecciona un lugar o el ratón se "
+#~ "sitúa sobre él.);"
+
+#~ msgid "The colour (RGBA) of the text in the menu.);"
+#~ msgstr "El color (RGBA) del texto en el menú.);"
+
+#~ msgid ""
+#~ "The colour (RGBA) of the menu's border, if the border width is greater "
+#~ "than zero.);"
+#~ msgstr ""
+#~ "El color (RGBA) del borde del menú, si su anchura es mayor a cero.);"
+
+#~ msgid ""
+#~ "The color (RGBA) of the text when a place is selected or the mouse hovers "
+#~ "over it.);"
+#~ msgstr ""
+#~ "El color (RGBA) del texto cuando un lugar se selecciona o el ratón se "
+#~ "posa por encima de el.);"
+
+#~ msgid "The color (RGBA) of the text in the menu.);"
+#~ msgstr "El color (RGBA) del texto en el menú.);"
+
+#~ msgid ""
+#~ "The color (RGBA) of the menu's border, if the border width is greater "
+#~ "than zero.);"
+#~ msgstr ""
+#~ "El color (RGBA) del borde del menú, si su anchura es mayor a cero.);"
+
+#~ msgid "The background colour (RGBA) of the menu.);"
+#~ msgstr "El color de fondo (RGBA) del menú.);"
+
+#~ msgid "The background color (RGBA) of the menu.);"
+#~ msgstr "El color de fondo (RGBA) del menú.);"
+
+#~ msgid "Launch your folder bookmarks"
+#~ msgstr "Abra sus marcadores de carpetas"
+
+#~ msgid "A simple applet to test python support"
+#~ msgstr "Una miniaplicación simple para probar el soporte de Python"
+
+#~ msgid "Test Python Applet"
+#~ msgstr "Miniaplicación de prueba de Python"
+
+#~ msgid "Applet displaying related items by talking to Zeitgeist"
+#~ msgstr "Miniaplicación mostrando elementos relacionados desde Zeitgeist"
+
+#~ msgid "Related applet"
+#~ msgstr "Miniaplicación rde relacionados"
+
+#~ msgid " The color (RGBA) applet border."
+#~ msgstr " El color (RGBA) del borde de la miniaplicación."
+
+#~ msgid " The color of the desktop (RGBA) if grab_wallpaper is FALSE."
+#~ msgstr " El color del escritorio (RGBA) si grab_wallpaper es FALSO."
+
+#~ msgid "Alpha to apply to icon overlayed on active window."
+#~ msgstr "Transparencia a aplicar al icono sobrepuesto en la ventana activa."
+
+#~ msgid "Alpha to apply to icon overlayed on inactive window."
+#~ msgstr ""
+#~ "Transparencia a aplicar al icono sobrepuesto en la ventana inactiva."
+
+#~ msgid "Alpha value to apply to active workspace background."
+#~ msgstr "Transparencia a aplicar al fondo del espacio de trabajo activo."
+
+#~ msgid "Alpha value to apply to inactive workspace background."
+#~ msgstr ""
+#~ "Transparencia a aplicar a los fondos de espacios de trabajo inactivos."
+
+#~ msgid "Applet border width.  0 indicates no border."
+#~ msgstr "Ancho de borde de la miniaplicación. 0 indica sin borde."
+
+#~ msgid "Method to grab windows.  0...gdk."
+#~ msgstr "Método para obtener ventanas. 0...gdk."
+
+#~ msgid "The colour (RGBA) of the applet border."
+#~ msgstr "El color (RGBA) del borde de la miniaplicación."
+
+#~ msgid "The number of columns in the pager."
+#~ msgstr "El número de columnas en el buscapersonas."
+
+#~ msgid "The number of rows in the pager."
+#~ msgstr "El número de filas en el buscapersonas."
+
+#~ msgid "Whether to grab wallpaper."
+#~ msgstr "Obtener o no el fondo de pantalla."
+
+#~ msgid "<b>Background transparency</b>"
+#~ msgstr "<b>Transparencia del fondo</b>"
+
+#~ msgid "<b>Background</b>"
+#~ msgstr "<b>Fondo</b>"
+
+#~ msgid "<b>Icon transparency</b>"
+#~ msgstr "<b>Transparencia de icono</b>"
+
+#~ msgid "<b>Timers</b>"
+#~ msgstr "<b>Temporizadores</b>"
+
+#~ msgid "<b>Viewport size</b>"
+#~ msgstr "<b>Tamaño de visor</b>"
+
+#~ msgid "<b>Windows</b>"
+#~ msgstr "<b>Ventanas</b>"
+
+#~ msgid "Active window:"
+#~ msgstr "Ventana activa:"
+
+#~ msgid "Active workspace"
+#~ msgstr "Espacio de trabajo activo"
+
+#~ msgid "Active workspace:"
+#~ msgstr "Espacio de trabajo activo:"
+
+#~ msgid "All window"
+#~ msgstr "Toda ventana"
+
+#~ msgid "All windows"
+#~ msgstr "Todas las ventanas"
+
+#~ msgid "B_order color:"
+#~ msgstr "Color de b_orde:"
+
+#~ msgid "Border _size:"
+#~ msgstr "_Tamaño de borde:"
+
+#~ msgid "C_ustom color:"
+#~ msgstr "Color _personalizado:"
+
+#~ msgid "Cache expiration:"
+#~ msgstr "Expiración de caché:"
+
+#~ msgid "Center"
+#~ msgstr "Centro"
+
+#~ msgid "Co_lumns:"
+#~ msgstr "Co_lumnas:"
+
+#~ msgid "Inactive window:"
+#~ msgstr "Ventana inactiva:"
+
+#~ msgid "Inactive windows"
+#~ msgstr "Ventanas inactivas"
+
+#~ msgid "Inactive workspace:"
+#~ msgstr "Espacio de trabajo inactivo:"
+
+#~ msgid "Inactive workspaces"
+#~ msgstr "Espacios de trabajo inactivos"
+
+#~ msgid "Look"
+#~ msgstr "Aspecto"
+
+#~ msgid "Lower left"
+#~ msgstr "Inferior izquierda"
+
+#~ msgid "Lower right"
+#~ msgstr "Inferior derecha"
+
+#~ msgid "Never"
+#~ msgstr "Nunca"
+
+#~ msgid "Only active window"
+#~ msgstr "Solo ventana activa"
+
+#~ msgid "Shiny Switcher Preferences"
+#~ msgstr "Preferencias de Shiny Switcher"
+
+#~ msgid "Upper left"
+#~ msgstr "Superior izquierda"
+
+#~ msgid "Upper right"
+#~ msgstr "Superior derecha"
+
+#~ msgid "Use _desktop background"
+#~ msgstr "Usar fondo de _escritorio"
+
+#~ msgid "_Applet size:"
+#~ msgstr "Tamaño de mini_aplicación:"
+
+#~ msgid "_Rows:"
+#~ msgstr "_Filas:"
+
+#~ msgid "_Thumbnailing:"
+#~ msgstr "Minia_turización:"
+
+#~ msgid "A prettier desktop switcher"
+#~ msgstr "Un conmutador de escritorios más bonito"
+
+#~ msgid "Shiny Switcher"
+#~ msgstr "Shiny Switcher"
+
+#~ msgid "Applet Preferences"
+#~ msgstr "Preferencias de la miniaplicación"
+
+#~ msgid "Show Desktop"
+#~ msgstr "Mostrar el escritorio"
+
+#~ msgid "Hides your windows and shows your desktop."
+#~ msgstr "Oculta las ventanas y muestra su escritorio."
+
+#~ msgid "Show hidden windows"
+#~ msgstr "Mostrar ventanas ocultas"
+
+#~ msgid "Hide windows and show desktop"
+#~ msgstr "Ocultar ventanas y mostrar el escritorio"
+
+#~ msgid "The background color of the dialog"
+#~ msgstr "El color de fondo del diálogo"
+
+#~ msgid "The border color of a drawn window"
+#~ msgstr "El color de borde de una ventana dibujada"
+
+#~ msgid "The border color of the dialog"
+#~ msgstr "El color del borde del diálogo"
+
+#~ msgid "The file to use as the background image"
+#~ msgstr "El archivo a usar como la imagen de fondo"
+
+#~ msgid "The icon's border color"
+#~ msgstr "El color del borde del icono"
+
+#~ msgid "SlickSwitcher Preferences"
+#~ msgstr "Preferencias de SlickSwitcher"
+
+#~ msgid "Border Colors"
+#~ msgstr "Colores de borde"
+
+#~ msgid "Icon border:"
+#~ msgstr "Borde de icono:"
+
+#~ msgid "Normal border:"
+#~ msgstr "Borde normal:"
+
+#~ msgid "Hovered border:"
+#~ msgstr "Borde con ratón encima:"
+
+#~ msgid "Window Colors"
+#~ msgstr "Colores de ventana"
+
+#~ msgid "Main color:"
+#~ msgstr "Color principal:"
+
+#~ msgid "Border color:"
+#~ msgstr "Color del borde:"
+
+#~ msgid "Dialog colors"
+#~ msgstr "Colores de diálogo"
+
+#~ msgid "Use custom colors"
+#~ msgstr "Usar colores personalizados"
+
+#~ msgid "Background color:"
+#~ msgstr "Color del fondo:"
+
+#~ msgid "Colors"
+#~ msgstr "Colores"
+
+#~ msgid "Number Colors"
+#~ msgstr "Colores de número"
+
+#~ msgid "Drop-shadow color:"
+#~ msgstr "Color de sombra:"
+
+#~ msgid "Shine Colors"
+#~ msgstr "Colores del resplandor"
+
+#~ msgid "Top color:"
+#~ msgstr "Color superior:"
+
+#~ msgid "Bottom color:"
+#~ msgstr "Color inferior:"
+
+#~ msgid "Hover top color:"
+#~ msgstr "Color superior con ratón encima:"
+
+#~ msgid "Hover bottom color:"
+#~ msgstr "Color inferior con ratón encima:"
+
+#~ msgid "Other colors"
+#~ msgstr "Otros colores"
+
+#~ msgid "Width:"
+#~ msgstr "Anchura:"
+
+#~ msgid "Height:"
+#~ msgstr "Altura:"
+
+#~ msgid "Workspace Size"
+#~ msgstr "Tamaño del espacio de trabajo"
+
+#~ msgid "Mode:"
+#~ msgstr "Modo:"
+
+#~ msgid "GNOME"
+#~ msgstr "GNOME"
+
+#~ msgid "Compiz Wallpaper Plugin"
+#~ msgstr "Complemento de fondo de pantalla de Compiz"
+
+#~ msgid "File"
+#~ msgstr "Archivo"
+
+#~ msgid "File:"
+#~ msgstr "Archivo:"
+
+#~ msgid "Choose a Background Image"
+#~ msgstr "Elija una imagen de fondo"
+
+#~ msgid "Pictures"
+#~ msgstr "Imágenes"
+
+#~ msgid "Background"
+#~ msgstr "Fondo"
+
+#~ msgid "Advanced"
+#~ msgstr "Avanzado"
+
+#~ msgid "A visual workspace switcher"
+#~ msgstr "Un conmutador de áreas de trabajo visual"
+
+#~ msgid "SlickSwitcher"
+#~ msgstr "SlickSwitcher"
+
+#~ msgid ""
+#~ "CPU graph type to use.  Note that some Icons do not support all graph "
+#~ "types.  If this occurs an icon will revert to it's own default (value of "
+#~ "0)."
+#~ msgstr ""
+#~ "Tipo de gráficode CPU a usar. Note que algunos iconos no soportan todos "
+#~ "los tipos de gráfica. Si eso ocurre, el icono se revertirá a su valor "
+#~ "predeterminado (valor de 0)."
+
+#~ msgid "If the updates are time based then how frequently to update in ms."
+#~ msgstr ""
+#~ "Si las actualizaciones se basan en el tiempo, entonces qué tan "
+#~ "frecuentemente se actualizan en ms."
+
+#~ msgid "Just a dummy key.. this will be removed later."
+#~ msgstr "Sólo una clave maniquí... que será removida después."
+
+#~ msgid "List of icons"
+#~ msgstr "Lista de iconos"
+
+#~ msgid "Render background."
+#~ msgstr "Renderizar fondo"
+
+#~ msgid "CPU: %2.0lf%%"
+#~ msgstr "CPU: %2.0lf%%"
+
+#~ msgid "CPU"
+#~ msgstr "CPU"
+
+#~ msgid "Graph Type"
+#~ msgstr "Tipo de gráfico"
+
+#~ msgid "Area"
+#~ msgstr "Área"
+
+#~ msgid "Circle"
+#~ msgstr "Círculo"
+
+#~ msgid "Bars"
+#~ msgstr "Barras"
+
+#~ msgid "Default"
+#~ msgstr "Predeterminado"
+
+#~ msgid "Render Background"
+#~ msgstr "Renderizar fondo"
+
+#~ msgid "PID"
+#~ msgstr "PID"
+
+#~ msgid "Process Name"
+#~ msgstr "Nombre del proceso"
+
+#~ msgid "Manage system activity"
+#~ msgstr "Gestione la actividad del sistema"
+
+#~ msgid "System Monitor"
+#~ msgstr "Monitor del sistema"
+
+#~ msgid "Applet that shows the shock protection status of your disks"
+#~ msgstr ""
+#~ "Miniaplicación que muestra el estaado de protección contra movimientos de "
+#~ "sus discos"
+
+#~ msgid "ThinkHDAPS"
+#~ msgstr "ThinkHDAPS"
+
+#~ msgid "%s protected from shocks"
+#~ msgstr "%s protegido de movimientos bruscos"
+
+#~ msgid "%s not protected from shocks"
+#~ msgstr "%s no protegido de movimientos bruscos"
+
+#~ msgid "No hard disk found"
+#~ msgstr "No se encontraron discos duros"
+
+#~ msgid "Background color for high priority items"
+#~ msgstr "Color de fondo para elementos de alta prioridad"
+
+#~ msgid "Background color for low priority items"
+#~ msgstr "Color de fondo para elementos de baja prioridad"
+
+#~ msgid "Background color for medium priority items"
+#~ msgstr "Color de fondo para elementos de prioridad media"
+
+#~ msgid "List of colors to use for the custom color"
+#~ msgstr "Lista de colores a usar para el color personalizado"
+
+#~ msgid "List of items' details"
+#~ msgstr "Lista de detalles de los elementos"
+
+#~ msgid "List of items' names"
+#~ msgstr "Lista de nombres de elementos"
+
+#~ msgid "List of items' priorities (0-3)"
+#~ msgstr "Lista de prioridades de elementos (0-3)"
+
+#~ msgid "List of items' progresses in percent (0-100)"
+#~ msgstr "Lista de progreso de los elementos (0-100 por ciento)"
+
+#~ msgid "Text color for high priority items"
+#~ msgstr "Color de texto para elementos de alta prioridad"
+
+#~ msgid "Text color for low priority items"
+#~ msgstr "Color de texto para elementos de baja prioridad"
+
+#~ msgid "Text color for medium priority items"
+#~ msgstr "Color de texto para elementos de prioridad media"
+
+#~ msgid "The color to use for the icon"
+#~ msgstr "El color a usar para el icono"
+
+#~ msgid "The custom width for the item entries"
+#~ msgstr "El ancho personalizado para cada elemento"
+
+#~ msgid "The icon's opacity (10-100)"
+#~ msgstr "La opacidad del icono (10-100)"
+
+#~ msgid "The list of categories that are expanded"
+#~ msgstr "La lista de categorías expandidas"
+
+#~ msgid "The list of categories' names"
+#~ msgstr "La lista de nombres de categorías"
+
+#~ msgid "The list of items' categories"
+#~ msgstr "La lista de categorías de elementos"
+
+#~ msgid "The title to display"
+#~ msgstr "El título a mostrar"
+
+#~ msgid "What type of icon to display (progress, progress-items, items)"
+#~ msgstr ""
+#~ "Qué tipo de icono se mostrará (progreso, elemento en progreso, elemento)"
+
+#~ msgid "Whether or not to confirm the deletion of categories"
+#~ msgstr "Elija entre confirmar o no el borrado de categorías"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizado"
+
+#~ msgid "Current Theme"
+#~ msgstr "Tema actual"
+
+#~ msgid "Butter"
+#~ msgstr "Mantequilla"
+
+#~ msgid "Chameleon"
+#~ msgstr "Camaleón"
+
+#~ msgid "Orange"
+#~ msgstr "Naranja"
+
+#~ msgid "Sky Blue"
+#~ msgstr "Azul cielo"
+
+#~ msgid "Plum"
+#~ msgstr "Ciruela"
+
+#~ msgid "Chocolate"
+#~ msgstr "Chocolate"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "Rojo escarlata"
+
+#~ msgid "Aluminium 1"
+#~ msgstr "Aluminio 1"
+
+#~ msgid "Aluminium 2"
+#~ msgstr "Aluminio 2"
+
+#~ msgid "Number of Items"
+#~ msgstr "Número de elementos"
+
+#~ msgid "Progress"
+#~ msgstr "Progreso"
+
+#~ msgid "Both"
+#~ msgstr "Ambos"
+
+#~ msgid "To-Do List Preferences"
+#~ msgstr "Preferencias de la lista de tareas"
+
+#~ msgid "Priority"
+#~ msgstr "Prioridad"
+
+#~ msgid "Icon"
+#~ msgstr "Icono"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "Cofirmar al eliminar..."
+
+#~ msgid "_Items"
+#~ msgstr "_Elementos"
+
+#~ msgid "C_ategories"
+#~ msgstr "C_ategorías"
+
+#~ msgid "Width"
+#~ msgstr "Anchura"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "_Usar ancho personalizado"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "Anchura (píxeles)"
+
+#~ msgid "Low Priority"
+#~ msgstr "Prioridad baja"
+
+#~ msgid "Medium Priority"
+#~ msgstr "Prioridad media"
+
+#~ msgid "High Priority"
+#~ msgstr "Prioridad alta"
+
+#~ msgid "Icon Color"
+#~ msgstr "Color del icono"
+
+#~ msgid "Custom Colors"
+#~ msgstr "Colores personalizados"
+
+#~ msgid "Outer Border"
+#~ msgstr "Borde exterior"
+
+#~ msgid "Inner Border"
+#~ msgstr "Borde interior"
+
+#~ msgid "Main"
+#~ msgstr "Principal"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Icon Type"
+#~ msgstr "Tipo de icono"
+
+#~ msgid "Manage a simple To-Do list"
+#~ msgstr "Gestione una simple lista de tareas por hacer"
+
+#~ msgid "To-Do List"
+#~ msgstr "Lista de tareas"
+
+#~ msgid "A simple To-Do List"
+#~ msgstr "Una sencilla lista de tareas"
+
+#~ msgid "Remove item"
+#~ msgstr "Eliminar elemento"
+
+#~ msgid "Remove category"
+#~ msgstr "Eliminar categoría"
+
+#~ msgid "View/Edit details"
+#~ msgstr "Ver/editar detalles"
+
+#~ msgid "_Uncategorized"
+#~ msgstr "_Sin categoría"
+
+#~ msgid "_Category"
+#~ msgstr "_Categoría"
+
+#~ msgid "_To-Do item"
+#~ msgstr "_Elemento por hacer"
+
+#~ msgid "Priority: "
+#~ msgstr "Prioridad: "
+
+#~ msgid "_Neutral"
+#~ msgstr "_Neutral"
+
+#~ msgid "_Low"
+#~ msgstr "_Baja"
+
+#~ msgid "_Medium"
+#~ msgstr "_Media"
+
+#~ msgid "_High"
+#~ msgstr "_Alta"
+
+#~ msgid "Progress(%): "
+#~ msgstr "Progreso(%): "
+
+#~ msgid ""
+#~ "Are you sure you want to remove the category \"%s?\"\n"
+#~ "All of its items will be removed."
+#~ msgstr ""
+#~ "¿Esta seguro de eliminar la categoría «%s»?\n"
+#~ "Se eliminarán todos sus elementos."
+
+#~ msgid "Don't show this again."
+#~ msgstr "No mostrar esto de nuevo"
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "¿Está seguro de que quiere eliminar este elemento?"
+
+#~ msgid "%d%% done"
+#~ msgstr "%d%% realizado"
+
+#~ msgid "Control Tomboy with D-Bus"
+#~ msgstr "Controle Tomboy con D-Bus"
+
+#~ msgid "Tomboy Applet"
+#~ msgstr "Miiniaplicación Tomboy"
+
+#~ msgid "Select a tag:"
+#~ msgstr "Seleccione una etiqueta:"
+
+#~ msgid "No tags were created yet"
+#~ msgstr "Aún no se han creado etiquetas"
+
+#~ msgid "Select a note:"
+#~ msgstr "Seleccione una nota:"
+
+#~ msgid "Version: %s"
+#~ msgstr "Versión: %s"
+
+#~ msgid "New Note"
+#~ msgstr "Nota nueva"
+
+#~ msgid "New Tagged Note"
+#~ msgstr "Nueva nota etiquetada"
+
+#~ msgid "View Tagged Note"
+#~ msgstr "Ver nota etiquetada"
+
+#~ msgid "A simple applet to test vala support"
+#~ msgstr "Una miniaplicación simple para probar el soporte de Vala"
+
+#~ msgid "Test Vala Applet"
+#~ msgstr "Miniaplicación de prueba de Vala"
+
+#~ msgid "Name of the device."
+#~ msgstr "Nombre del dispositivo."
+
+#~ msgid "Control your computer's volume"
+#~ msgstr "Controle el volumen de su equipo"
+
+#~ msgid "Volume Control"
+#~ msgstr "Control de volumen"
+
+#~ msgid "Applet to control your computer's volume"
+#~ msgstr "Miniaplicación para controlar el volumen de su equipo."
+
+#~ msgid "System theme"
+#~ msgstr "Tema del sistema"
+
+#~ msgid "Could not find any devices."
+#~ msgstr "No se pudieron encontrar dispositivos."
+
+#~ msgid "_Open Volume Control"
+#~ msgstr "Abrir el c_ontrol de volumen"
+
+#~ msgid "No devices found"
+#~ msgstr "No se encontraron dispositivos"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "<b>Audio Options</b>"
+#~ msgstr "<b>Opciones de audio</b>"
+
+#~ msgid "_Device:"
+#~ msgstr "_Dispositivo:"
+
+#~ msgid "_Mute"
+#~ msgstr "_Silenciar"
+
+#~ msgid "City, and country of the weather location."
+#~ msgstr "Ciudad y país de la ubicación del clima."
+
+#~ msgid "Code that identifies the weather location."
+#~ msgstr "Código que identifica la ubicación del clima."
+
+#~ msgid "Show days of forecast in a transparent, curved dialog."
+#~ msgstr "Mostrar días del pronóstico en un diálogo trasparente y curvado."
+
+#~ msgid "Temperature unit (0: Celsius, 1: Fahrenheit)."
+#~ msgstr "Unidad de temperatura (0: Celsius, 1: Fahrenheit)."
+
+#~ msgid "Forecast"
+#~ msgstr "Pronóstico"
+
+#~ msgid "for"
+#~ msgstr "para"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "Día de la semana"
+
+#~ msgid "Tomorrow"
+#~ msgstr "mañana"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "DESCRIPCIÓN"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "Los datos del tiempo son proporcionados gracias a weather.com"
+
+#~ msgid "Blowing Snow"
+#~ msgstr "Ventisca"
+
+#~ msgid "Blustery"
+#~ msgstr "Viento mucho"
+
+#~ msgid "Clear"
+#~ msgstr "Despejado"
+
+#~ msgid "Cloudy"
+#~ msgstr "Nublado"
+
+#~ msgid "Cold"
+#~ msgstr "Frio"
+
+#~ msgid "Drizzle"
+#~ msgstr "Lluvia leve"
+
+#~ msgid "Dust"
+#~ msgstr "Polvo"
+
+# fuzzy
+#~ msgid "Fair"
+#~ msgstr "Nublado parcialmente"
+
+#~ msgid "Fog"
+#~ msgstr "Niebla"
+
+#~ msgid "Freezing Drizzle"
+#~ msgstr "Granizo"
+
+#~ msgid "Freezing Rain"
+#~ msgstr "Granizo"
+
+#~ msgid "Hail"
+#~ msgstr "Granizada"
+
+#~ msgid "Haze"
+#~ msgstr "Bruma"
+
+#~ msgid "Heavy Snow"
+#~ msgstr "Ventisca"
+
+#~ msgid "Hot"
+#~ msgstr "Hace calor"
+
+#~ msgid "Hurricane"
+#~ msgstr "Huracán"
+
+#~ msgid "Isolated Thunderstorms"
+#~ msgstr "Tronazón disperso"
+
+#~ msgid "Light Drizzle"
+#~ msgstr "Llovizna ligera"
+
+#~ msgid "Light Rain Shower"
+#~ msgstr "Lluvias ligeras"
+
+#~ msgid "Light Rain with Thunder"
+#~ msgstr "Lluvia ligera con truenos"
+
+#~ msgid "Light Snow Showers"
+#~ msgstr "Nieve disperso"
+
+#~ msgid "Mist"
+#~ msgstr "Niebla"
+
+# fuzzy
+#~ msgid "Mixed Precipitation"
+#~ msgstr "Precipitación mezclado"
+
+#~ msgid "Mixed Rain and Hail"
+#~ msgstr "Granizo"
+
+#~ msgid "Mixed Rain and Sleet"
+#~ msgstr "Lluvia y Granizo"
+
+#~ msgid "Mixed Rain and Snow"
+#~ msgstr "Lluvia y Nieve"
+
+#~ msgid "Mostly Cloudy"
+#~ msgstr "Nublado mayormente"
+
+#~ msgid "N/A"
+#~ msgstr "Desconocido"
+
+#~ msgid "Partly Cloudy"
+#~ msgstr "Nublado parcialmente"
+
+#~ msgid "Scattered Showers"
+#~ msgstr "Lluvia disperso"
+
+#~ msgid "Scattered Snow Showers"
+#~ msgstr "Nieve disperso"
+
+#~ msgid "Scattered Thunderstorms"
+#~ msgstr "Tronazón disperso"
+
+#~ msgid "Severe Thunderstorms"
+#~ msgstr "Tronazón severo"
+
+#~ msgid "Showers"
+#~ msgstr "Lluvia disperso"
+
+#~ msgid "Showers in the Vicinity"
+#~ msgstr "Lluvias en la proximidad"
+
+#~ msgid "Sleet"
+#~ msgstr "Granizo"
+
+#~ msgid "Smoke"
+#~ msgstr "Grisáceo"
+
+#~ msgid "Snow"
+#~ msgstr "Nieve"
+
+#~ msgid "Snow Flurries"
+#~ msgstr "Nieve leve"
+
+#~ msgid "Snow Showers"
+#~ msgstr "Nieve disperso"
+
+#~ msgid "Thunder Showers"
+#~ msgstr "Tronazón disperso"
+
+#~ msgid "Thunderstorms"
+#~ msgstr "Tronazón"
+
+#~ msgid "Tornado"
+#~ msgstr "Tornado"
+
+#~ msgid "Tropical Storm"
+#~ msgstr "Huracán"
+
+#~ msgid "Windy"
+#~ msgstr "Viento"
+
+#~ msgid "AM Clouds / PM Sun"
+#~ msgstr "AM nublado/PM soleado"
+
+#~ msgid "AM Drizzle / Wind"
+#~ msgstr "AM llovizna/Viento"
+
+#~ msgid "AM Fog / PM Sun"
+#~ msgstr "AM Niebla/PM Soleado"
+
+#~ msgid "AM Light Rain"
+#~ msgstr "AM Lluvias ligeras"
+
+#~ msgid "AM Light Snow"
+#~ msgstr "AM Nieve ligera"
+
+#~ msgid "AM Rain / Snow"
+#~ msgstr "AM Lluvia/nieve"
+
+#~ msgid "AM Rain / Wind"
+#~ msgstr "AM Lluvia/viento"
+
+#~ msgid "AM Showers"
+#~ msgstr "Lluvias matutinas"
+
+#~ msgid "AM T-Storms"
+#~ msgstr "AM Tormentas eléctricas"
+
+#~ msgid "Few Showers"
+#~ msgstr "Algunas lluvias"
+
+#~ msgid "Heavy Rain"
+#~ msgstr "Lluvia fuerte"
+
+#~ msgid "Isolated T-Storms"
+#~ msgstr "Tormentas eléctricas aisladas"
+
+#~ msgid "Light Rain"
+#~ msgstr "Lluvia ligera"
+
+#~ msgid "Light Rain / Wind"
+#~ msgstr "Lluvia ligera/viento"
+
+#~ msgid "Mostly Sunny"
+#~ msgstr "Mayormente soleado"
+
+#~ msgid "Partly Cloudy / Wind"
+#~ msgstr "Parcialmente nublado/viento"
+
+#~ msgid "PM Light Rain"
+#~ msgstr "Lluvias ligeras por las tardes"
+
+#~ msgid "PM Showers"
+#~ msgstr "Lluvias por la tarde"
+
+#~ msgid "PM T-Storms"
+#~ msgstr "Tormentas eléctricas por la tarde"
+
+#~ msgid "Rain"
+#~ msgstr "Lluvia"
+
+#~ msgid "Rain / Snow Showers"
+#~ msgstr "Lluvia / nevada"
+
+#~ msgid "Rain / Thunder"
+#~ msgstr "Lluvia / Truenos"
+
+#~ msgid "Rain / Wind"
+#~ msgstr "Lluvia / Viento"
+
+#~ msgid "Scattered T-Storms"
+#~ msgstr "Tormentas eléctricas dispersas"
+
+#~ msgid "Showers / Wind"
+#~ msgstr "Lluvia/viento"
+
+#~ msgid "Sunny"
+#~ msgstr "Soleado"
+
+#~ msgid "Sunny / Wind"
+#~ msgstr "Soleado / Viento"
+
+#~ msgid "T-Showers"
+#~ msgstr "Tormentas eléctricas"
+
+#~ msgid "Monday"
+#~ msgstr "lunes"
+
+#~ msgid "Tuesday"
+#~ msgstr "martes"
+
+#~ msgid "Wednesday"
+#~ msgstr "miércoles"
+
+#~ msgid "Thursday"
+#~ msgstr "jueves"
+
+#~ msgid "Friday"
+#~ msgstr "viernes"
+
+#~ msgid "Saturday"
+#~ msgstr "sábado"
+
+#~ msgid "Sunday"
+#~ msgstr "domingo"
+
+#~ msgid "Display the local weather"
+#~ msgstr "Mostrar el clima local"
+
+#~ msgid "Weather Applet"
+#~ msgstr "Miniaplicación del clima"
+
+#~ msgid "Weather"
+#~ msgstr "Meteorología"
+
+#~ msgid "Applet to display current weather and forecast"
+#~ msgstr "Miniaplicación para mostrar el clima y pronósticos actuales"
+
+#~ msgid ""
+#~ "Could not retrieve weather data. You may be experiencing connectivity "
+#~ "issues."
+#~ msgstr ""
+#~ "No se pudieron obtener datos meteorológicos. Quizá esté experimentando "
+#~ "problemas de conexión."
+
+#~ msgid "Network error in Weather"
+#~ msgstr "Error de red en Meteorología"
+
+#~ msgid "Fetching conditions for"
+#~ msgstr "Obteniendo condiciones para"
+
+#~ msgid "Show _Map"
+#~ msgstr "Mostrar _mapa"
+
+#~ msgid "No records found"
+#~ msgstr "No se encontraron registros"
+
+#~ msgid "Searching..."
+#~ msgstr "Buscando…"
+
+#~ msgid "Current _location:"
+#~ msgstr "_Ubicación actual:"
+
+#~ msgid ""
+#~ "If enabled, the dialog will be transparent, and the five days of the "
+#~ "forecast will be curved"
+#~ msgstr ""
+#~ "Si se activa, el diálogo será transparente, y los cinco días del "
+#~ "pronóstico se mostrarán curveados"
+
+#~ msgid "If enabled, the temperature will be displayed in the icon"
+#~ msgstr "Si se activa, la temperatura se mostrará en el icono"
+
+#~ msgid "Maximum _map width:"
+#~ msgstr "Ancho _máximo del mapa:"
+
+#~ msgid "Show temperature in _icon"
+#~ msgstr "Mostrar temperatura en el _icono"
+
+#~ msgid "Temperature _unit:"
+#~ msgstr "_Unidad de temperatura:"
+
+#~ msgid "Temperature font _size:"
+#~ msgstr "Tamaño de _tipografía:"
+
+#~ msgid "Use transparent/curved _forecast dialog"
+#~ msgstr "Usar diálogo de _pronóstico transparente/curveado"
+
+#~ msgid "_Location Name:"
+#~ msgstr "Nombre de la _ubicación:"
+
+#~ msgid "Open Location"
+#~ msgstr "Abrir ubicación"
+
+#~ msgid "Set as new _Home Page"
+#~ msgstr "Configurar como página de _inicio"
+
+#~ msgid "Web Applet"
+#~ msgstr "Miniaplicación web"
+
+#~ msgid ""
+#~ "Flag that enables usage of the \"Open Location\" dialog in the applet."
+#~ msgstr ""
+#~ "Bandera que activa el uso de la «ubicación abierta» en la miniaplicación."
+
+#~ msgid "HTML engine to use."
+#~ msgstr "Motor HTML a usar."
+
+#~ msgid "If true display location entry and website buttons"
+#~ msgstr ""
+#~ "Si es verdadero, mostrar entrada de ubicación y botones de sitio web"
+
+#~ msgid "Name of specialized website to use"
+#~ msgstr "Nombre del sitio web especializado para usar"
+
+#~ msgid "URI"
+#~ msgstr "URI"
+
+#~ msgid "Width in %% or px."
+#~ msgstr "Ancho en %% o px."
+
+#~ msgid "height in %% or px."
+#~ msgstr "altura en %% o px."
+
+#~ msgid "Applet for Websites"
+#~ msgstr "Miniaplicación para sitios web"
+
+#~ msgid "A simple test animation"
+#~ msgstr "Una simple animación de prueba"
+
+#~ msgid "Wobbly Zini"
+#~ msgstr "Wobbly Zini"
+
+#~ msgid "Awn System Monitor"
+#~ msgstr "Monitor de sistema de Awn"
+
+#~ msgid "Graph update frequency, in milliseconds."
+#~ msgstr "Frecuencia de actualización del gráfico, en milisegundos."
+
+#~ msgid "Set to 1 (true) to draw the gradient overlay on the graph."
+#~ msgstr "Configure 1 (verdadero) para dibujar un degradado sobre la gráfica."
+
+#~ msgid "The color used in the applet border."
+#~ msgstr "El color usado en el borde de la miniaplicación."
+
+#~ msgid "The color used in the graph lines."
+#~ msgstr "El color usado en las líneas de la gráfica."
+
+#~ msgid "The color used in the graph lines. Valid values are 0.0 through 1.0."
+#~ msgstr ""
+#~ "El color usado en las líneas de la gráfica. Los valores válidos van de "
+#~ "0.0 hasta 1.0."
+
+#~ msgid "The pixel width of the applet border."
+#~ msgstr "El ancho en pixeles del borde de la miniaplicación."
+
+#~ msgid "The url of the Pandora mini flash player."
+#~ msgstr "La URL del minireproductor flash de Pandora."
+
+#~ msgid "Listen to Pandora Internet Radio"
+#~ msgstr "Escuche la radio en Internet de Pandora"
+
+#~ msgid "Pandora Radio"
+#~ msgstr "Pandora Radio"
+
+#~ msgid ""
+#~ "There seem to be problems with our                     connection to your "
+#~ "account. Your best bet is probably                     to log out and try "
+#~ "again."
+#~ msgstr ""
+#~ "Al parecer hay problemas con la conexión a su cuenta. Probablemente, la "
+#~ "mejor opción sea cerrar su sesión e intentarlo de nuevo."
+
+#~ msgid "% done"
+#~ msgstr "% done"
+
+#~ msgid "Metric Units"
+#~ msgstr "Unidades Métricas"
+
+# fuzzy
+#~ msgid "Use Curved Dialog look"
+#~ msgstr "Curvas de estilo"
+
+#~ msgid "Lower Center"
+#~ msgstr "En el medio, debajo del icono"
+
+#~ msgid "Lower Left"
+#~ msgstr "A la izquierda, debajo del icono"
+
+#~ msgid "Lower Right"
+#~ msgstr "A la derecha, debajo del icono"
+
+#~ msgid "Upper Center"
+#~ msgstr "En el medio, sobre del icono"
+
+#~ msgid "Upper Left"
+#~ msgstr "A la izquierda, sobre del icono"
+
+#~ msgid "Upper Right"
+#~ msgstr "A la derecha, sobre del icono"
+
+#~ msgid "Show Temperature"
+#~ msgstr "Exhibir la temperatura"
+
+#~ msgid "Sent"
+#~ msgstr "Enviado"
+
+#~ msgid "Received"
+#~ msgstr "Recibido"
+
+#~ msgid "Sending"
+#~ msgstr "Enviando"
+
+#~ msgid "Receiving"
+#~ msgstr "Recibiendo"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Display the sum of upload and download"
+#~ msgstr "Mostrar la suma de subir y descargar"
+
+#~ msgid "Downloads"
+#~ msgstr "Downloads"
+
+#~ msgid "Documents"
+#~ msgstr "Documents"
+
+#~ msgid "Search\\u2026"
+#~ msgstr "Buscar\\u2026"
+
+#~ msgid "Launch\\u2026"
+#~ msgstr "Iniciar\\u2026"

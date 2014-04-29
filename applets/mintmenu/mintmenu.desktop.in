@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-AWN-Type=Applet
+X-AWN-AppletType=Python
+Name=MintMenu
+Comment=MintMenu for AWN
+Exec=awn-applet -p %k
+X-AWN-AppletExec=mintmenu/mintMenuAwn.py
+Icon=distributor-logo
+X-AWN-AppletCategory=Utility

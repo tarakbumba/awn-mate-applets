@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+_Name=Lock MATE Screen
+Type=Application
+X-AWN-Type=Applet
+X-AWN-AppletType=Python
+_Comment=Protect your MATE Desktop from unauthorized use
+Exec=awn-applet -p %k
+X-AWN-AppletExec=mate-quit/mate-quit.py --lockscreen
+Icon=system-lock-screen
+X-AWN-AppletCategory=System

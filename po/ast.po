@@ -1,0 +1,952 @@
+# Asturian translation for awn-mate-applets
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the awn-mate-applets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: awn-mate-applets\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-29 01:15+0300\n"
+"PO-Revision-Date: 2010-03-25 17:37+0000\n"
+"Last-Translator: Xuacu Saturio <xuacusk8@gmail.com>\n"
+"Language-Team: Asturian <ast@li.org>\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2010-12-28 04:32+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../applets/mate-cairo-menu/backend-mate.c:122
+msgid "Invalid desktop file ID"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:123
+#: ../applets/mate-cairo-menu/backend-mate.c:211
+msgid "[Invalid Filename]"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/backend-mate.c:124
+msgid " <excluded>"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:198
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1042
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1056
+#: ../applets/mate-yama/mate-yama.py:268
+msgid "Places"
+msgstr "Llugares"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:202
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1079
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1094
+#: ../applets/mate-yama/mate-yama.py:349
+msgid "Recent Documents"
+msgstr "Documentos recientes"
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:206
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1136
+msgid "Session"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-aux-icon.c:319
+msgid "Remove Icon"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/cairo-main-icon.c:161
+#: ../applets/mate-mainmenu/applet.c:452
+msgid "Main Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:1
+msgid "Cairo Mate Menu"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-cairo-menu.desktop.in.in.h:2
+msgid "A Mate Main Menu."
+msgstr ""
+
+#. hope that mate-session-save exists; needed for GNOME 2.22, at least.
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:125
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:129
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:134
+msgid "Logout"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:139
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:141
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:146
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:47
+#: ../applets/mate-quit/mate-quit.py:58 ../applets/mate-quit/mate-quit.py:266
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Lock Screen"
+msgstr "Bloquiar pantalla"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:150
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:152
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:163
+msgid "Suspend"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:155
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:157
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:168
+msgid "Hibernate"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:176
+msgid "Shutdown"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:213
+msgid "Computer"
+msgstr "Ordenador"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:217
+msgid "Home"
+msgstr "Carpeta d'usuariu"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:218
+msgid "Desktop"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:226
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:228
+msgid "Trash"
+msgstr "Basoria"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:230
+msgid "File System"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:361
+msgid "Removable Media"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:372
+msgid "Network"
+msgstr "Rede"
+
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:373
+msgid "Connect to Server"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1152
+msgid "Search…"
+msgstr ""
+
+#. generates a compiler warning due to the ellipse
+#: ../applets/mate-cairo-menu/mate-menu-builder.c:1169
+msgid "Launch…"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:161 ../applets/mate-yama/mate-yama.py:634
+#, c-format, python-format
+msgid "Unable to mount %s"
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:407 ../applets/mate-yama/mate-yama.py:613
+msgid "Clear the Recent Documents list?"
+msgstr ""
+
+#. Translators: This is taken from gnome-panel, when deleting the Recent Documents List.
+#. * Please use the same translation.
+#: ../applets/mate-cairo-menu/misc.c:411
+msgid ""
+"If you clear the Recent Documents list, you clear the following:\n"
+"• All items from the Places → Recent Documents menu item.\n"
+"• All items from the recent documents list in all applications."
+msgstr ""
+
+#: ../applets/mate-cairo-menu/misc.c:423 ../applets/mate-cairo-menu/misc.c:531
+#: ../applets/mate-yama/mate-yama.py:363 ../applets/mate-yama/mate-yama.py:618
+msgid "Clear Recent Documents"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:393
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:1
+msgid "Awn Mate MainMenu"
+msgstr ""
+
+#: ../applets/mate-mainmenu/applet.c:394
+msgid "Displays a list of all your applications"
+msgstr ""
+
+#: ../applets/mate-mainmenu/mate-mainmenu.desktop.in.in.h:2
+msgid "A Mate main menu for Awn"
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:1
+msgid "Action to perform when left clicking on the icon."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:2
+msgid "Command to execute if org.mate.SessionManager is not available."
+msgstr ""
+
+#: ../applets/mate-quit/awn-applet-mate-quit.schema-ini.in.h:3
+msgid "Command to execute if org.mate.ScreenSaver is not available."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:1
+msgid "MATE Quit-Log Out applet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.desktop.in.h:2
+msgid "Exit or log out from your MATE session"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:1
+#, fuzzy
+msgid "Lock MATE Screen"
+msgstr "Bloquiar pantalla"
+
+#: ../applets/mate-quit/mate-quit-lock-screen.desktop.in.h:2
+msgid "Protect your MATE Desktop from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:1
+msgid "Log out from Mate Session..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-log-out.desktop.in.h:2
+msgid "Log out of this Mate session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:1
+msgid "Shut Mate Desktop Computer Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit-shut-down.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:186
+msgid "Shut down the system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:34
+msgid "Mate Quit/Log Out"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:35
+msgid ""
+"An applet to lock your screen, log out of your session, or shut down the "
+"system"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:53
+#: ../applets/mate-quit/mate-quit.py:105 ../applets/mate-quit/mate-quit.py:115
+#: ../applets/mate-quit/mate-quit.py:232 ../applets/mate-quit/mate-quit.py:264
+msgid "Show Docklet"
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:48
+#: ../applets/mate-quit/mate-quit.py:59 ../applets/mate-quit/mate-quit.py:268
+msgid "Log Out"
+msgstr "Desconeutase"
+
+#: ../applets/mate-quit/mate-quit.py:40 ../applets/mate-quit/mate-quit.py:49
+#: ../applets/mate-quit/mate-quit.py:60 ../applets/mate-quit/mate-quit.py:90
+#: ../applets/mate-quit/mate-quit.py:91 ../applets/mate-quit/mate-quit.py:234
+#: ../applets/mate-quit/mate-quit.py:270
+msgid "Shut Down"
+msgstr ""
+
+#. Translators: %s is a username
+#. Translators: %s is a user name.
+#: ../applets/mate-quit/mate-quit.py:44 ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log Out %s..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:49 ../applets/mate-yama/mate-yama.py:186
+msgid "Shut Down..."
+msgstr ""
+
+#: ../applets/mate-quit/mate-quit.py:248
+msgid "Left click _action:"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:1
+msgid "Yet Another Menu Applet For Mate Desktop"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.desktop.in.h:2
+#: ../applets/mate-yama/mate-yama.py:53
+msgid "Main menu with places and recent documents"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:52
+msgid "MATE-YAMA"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:168
+msgid "Protect your computer from unauthorized use"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:182
+#, python-format
+msgid "Log out %s of this session to log in as a different user"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:200 ../applets/mintmenu/mintMenuAwn.py:43
+msgid "_Edit Menus"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Home Folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:275
+msgid "Open your personal folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:282
+msgid "Open the contents of your desktop in a folder"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to Server..."
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:333
+msgid "Connect to a remote computer or shared disk"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:363
+msgid "Clear all items from the recent documents list"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:416
+#, python-format
+msgid "Open '%s'"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:457
+#, python-format
+msgid "Mount %s"
+msgstr ""
+
+#: ../applets/mate-yama/mate-yama.py:619
+msgid ""
+"Clearing the Recent Documents list will clear the following:\n"
+"* All items from the Places > Recent Documents menu item.\n"
+"* All items from the recent documents list in all applications."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Log Out..."
+#~ msgstr "Desconeutase"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencies"
+
+#~ msgid "General"
+#~ msgstr "Xeneral"
+
+#~ msgid "None"
+#~ msgstr "Dengunu"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Login to "
+#~ msgstr "Coneutase a "
+
+#~ msgid "Online Calendar"
+#~ msgstr "Calendariu en llinia"
+
+#~ msgid "Calendar Username"
+#~ msgstr "Nume d'usuariu del calendariu"
+
+#~ msgid "Calendar Password"
+#~ msgstr "Contraseña del calendariu"
+
+#~ msgid "Save Password"
+#~ msgstr "Atroxar contraseña"
+
+#~ msgid ""
+#~ "You have chosen to save your password.  Although the password will be "
+#~ "stored in an encrypted format, there is always a remote possibility that "
+#~ "your password can be stolen and decrypted if your computer's security is "
+#~ "breached.  Are you still sure you want to save your password?"
+#~ msgstr ""
+#~ "Escoyiste atroxar la contraseña.  Magar que la contraseña va atroxase en "
+#~ "formatu cifráu, Hai siempres una remota posibilidá de que pueda robase y "
+#~ "descifrase la contraseña si se fraña la seguridá del to ordenador.  ¿Tas "
+#~ "seguru entá de que quies atroxar to contraseña?"
+
+#~ msgid "Classic LCD"
+#~ msgstr "LCD Clásicu"
+
+#~ msgid "Indy Glow LCD"
+#~ msgstr "LCD brillu Indy"
+
+#~ msgid "Backlit Amber LCD"
+#~ msgstr "LCD ámbar retroallumáu"
+
+#~ msgid "Backlit Green LCD"
+#~ msgstr "LCD verde retroallumáu"
+
+#~ msgid "Green LED"
+#~ msgstr "LED verde"
+
+#~ msgid "Red LED"
+#~ msgstr "LED bermeyu"
+
+#~ msgid "Blue LED"
+#~ msgstr "LED azul"
+
+#~ msgid "Plain White"
+#~ msgstr "Blancu simple"
+
+#~ msgid "Plain Black"
+#~ msgstr "Prietu simple"
+
+#~ msgid "Red"
+#~ msgstr "Bermeyu"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "Blue"
+#~ msgstr "Azul"
+
+#~ msgid "Gray"
+#~ msgstr "Buxu"
+
+#~ msgid "Black"
+#~ msgstr "Prietu"
+
+#~ msgid "Twelve Hour Clock"
+#~ msgstr "Reló de doce hores"
+
+#~ msgid "Clock Appearance"
+#~ msgstr "Aspeutu del reló"
+
+#~ msgid "Calendar Appearance"
+#~ msgstr "Aspeutu del calendariu"
+
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgid "Google Calendar"
+#~ msgstr "Google Calendar"
+
+#~ msgid "Outlook Web Access"
+#~ msgstr "Outlook Web Access"
+
+#~ msgid "Calendar Integration"
+#~ msgstr "Integración de calendariu"
+
+#~ msgid "Calendar URL"
+#~ msgstr "URL del calendariu"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendariu"
+
+#~ msgid ""
+#~ "Do you want to erase your calendar password from the calendar applet?  If "
+#~ "you choose to clear your password, you will be prompted again for your "
+#~ "calendar login credentials."
+#~ msgstr ""
+#~ "¿Quies desaniciar to contraseña de calendariu de la miniaplicación de "
+#~ "calendariu?  Si escueyes desaniciala, volverá a entrugate poles "
+#~ "credenciales de conexón al calendariu."
+
+#~ msgid "Open in "
+#~ msgstr "Abrir en "
+
+#~ msgid "Today"
+#~ msgstr "Güei"
+
+#~ msgid "Unable to read calendar data from external source."
+#~ msgstr "Nun puede lleese'l calendariu dende la fonte esterna."
+
+#~ msgid "No appointments."
+#~ msgstr "Nun hai cites."
+
+#~ msgid "No appointments"
+#~ msgstr "Nun hai cites"
+
+#~ msgid "Failed to download %s. Press \"next\" to try again."
+#~ msgstr "Falló la descarga de %s. Calca «siguiente» pa tentalo otra vuelta."
+
+#~ msgid "The URL is not a valid comic feed. Press \"next\" to try again"
+#~ msgstr ""
+#~ "La URL nun ye una transmisión de comic válida. Calca «siguiente» pa "
+#~ "tentalo otra vuelta"
+
+#~ msgid "Connecting to <i>%s</i>..."
+#~ msgstr "Coneutando a <i>%s</i>..."
+
+#~ msgid ""
+#~ "This guide has finished.\n"
+#~ "\n"
+#~ "Press \"apply\" to add <i>%s</i>."
+#~ msgstr ""
+#~ "Esta guía finó.\n"
+#~ "\n"
+#~ "Calca «aplicar» p'amestar <i>%s</i>."
+
+#~ msgid ""
+#~ "Found <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+#~ msgstr ""
+#~ "¡Alcontrose <b>%(name)s</b>!\n"
+#~ "\n"
+#~ "<i>%(description)s</i>"
+
+#~ msgid "Shared comics"
+#~ msgstr "Comics compartíos"
+
+#~ msgid "Your comics"
+#~ msgstr "Tos comics"
+
+#~ msgid "Failed to remove <i>%s</i>."
+#~ msgstr "Falló desaniciar <i>%s</i>."
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Comics"
+#~ msgstr "Comics"
+
+#~ msgid "There is a new strip of %s!"
+#~ msgstr "¡Hai una tira nueva de %s!"
+
+#~ msgid "%A %d %B"
+#~ msgstr "%A %d %B"
+
+#~ msgid "Failed to save <i>%s</i>."
+#~ msgstr "Falló atroxar <i>%s</i>."
+
+#~ msgid "Search"
+#~ msgstr "Guetar"
+
+#~ msgid "Username:"
+#~ msgstr "Usuariu:"
+
+#~ msgid "Password:"
+#~ msgstr "Contraseña:"
+
+#~ msgid "Filesystem"
+#~ msgstr "Sistema de ficheros"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Vaciar basoria"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Vaciar bas_oria"
+
+#~ msgid "Mail Applet"
+#~ msgstr "Miniaplicación de Corréu"
+
+#~ msgid "You have %d new message"
+#~ msgid_plural "You have %d new messages"
+#~ msgstr[0] "Tienes %d mensaxe nuevu"
+#~ msgstr[1] "Tienes %d mensaxes nuevos"
+
+#~ msgid "%d unread message"
+#~ msgid_plural "%d unread messages"
+#~ msgstr[0] "%d mensaxe ensin lleer"
+#~ msgstr[1] "%d mensaxes ensin lleer"
+
+#~ msgid "Mail Applet (Click to Log In)"
+#~ msgstr "Miniaplicación de Corréu (Calcar pa coneutase)"
+
+#~ msgid "Logging in as %s"
+#~ msgstr "Coneutando como %s"
+
+#~ msgid "New Mail - Mail Applet"
+#~ msgstr "Corréu Nuevu - Miniaplicación de Corréu"
+
+#~ msgid "Log In"
+#~ msgstr "Coneutase"
+
+#~ msgid "Backend"
+#~ msgstr "Motor"
+
+#~ msgid "[No Subject]"
+#~ msgstr "[Ensin Asuntu]"
+
+#~ msgid "Domain:"
+#~ msgstr "Dominiu:"
+
+#~ msgid "Spool Path:"
+#~ msgstr "Camín de la cola:"
+
+#~ msgid "Server:"
+#~ msgstr "Sirvidor:"
+
+#~ msgid "Use SSL encryption"
+#~ msgstr "Usar cifráu SSL"
+
+#~ msgid "Could not log in"
+#~ msgstr "Nun pudo coneutase"
+
+#~ msgid "Folder does not exst"
+#~ msgstr "Nun esiste la carpeta"
+
+#~ msgid "Get messages from only one folder"
+#~ msgstr "Coyer los mensaxes sólo d'una carpeta"
+
+#~ msgid "Folder:"
+#~ msgstr "Carpeta:"
+
+#~ msgid "An applet to check one's email"
+#~ msgstr "Miniaplicación pa comprobar el corréu"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientación"
+
+#~ msgid "The orientation of the tray."
+#~ msgstr "La orientación de la bandexa."
+
+#~ msgid "Width:"
+#~ msgstr "Anchor:"
+
+#~ msgid "Height:"
+#~ msgstr "Altor:"
+
+#~ msgid "Background"
+#~ msgstr "Fondu"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizáu"
+
+#~ msgid "Current Theme"
+#~ msgstr "Tema actual"
+
+#~ msgid "Butter"
+#~ msgstr "Mantega"
+
+#~ msgid "Chameleon"
+#~ msgstr "Camaleón"
+
+#~ msgid "Orange"
+#~ msgstr "Naranxa"
+
+#~ msgid "Sky Blue"
+#~ msgstr "Azul celeste"
+
+#~ msgid "Plum"
+#~ msgstr "Prunu"
+
+#~ msgid "Chocolate"
+#~ msgstr "Chocolate"
+
+#~ msgid "Scarlet Red"
+#~ msgstr "Escarlata"
+
+#~ msgid "Aluminium 1"
+#~ msgstr "Aluminiu 1"
+
+#~ msgid "Aluminium 2"
+#~ msgstr "Aluminiu 2"
+
+#~ msgid "Number of Items"
+#~ msgstr "Númberu d'oxetos"
+
+#~ msgid "Progress"
+#~ msgstr "Progresu"
+
+#~ msgid "Both"
+#~ msgstr "Dambos"
+
+#~ msgid "To-Do List Preferences"
+#~ msgstr "Preferencies de llista de coses por facer"
+
+#~ msgid "Priority"
+#~ msgstr "Prioridá"
+
+#~ msgid "Icon"
+#~ msgstr "Iconu"
+
+#~ msgid "Title"
+#~ msgstr "Títulu"
+
+#~ msgid "Confirm when removing..."
+#~ msgstr "Confirmar al desaniciar..."
+
+#~ msgid "_Items"
+#~ msgstr "Oxe_tos"
+
+#~ msgid "C_ategories"
+#~ msgstr "C_ategories"
+
+#~ msgid "Width"
+#~ msgstr "Anchor"
+
+#~ msgid "_Use Custom Width"
+#~ msgstr "_Usar anchor personalizáu"
+
+#~ msgid "Width (pixels)"
+#~ msgstr "Anchor (pixels)"
+
+#~ msgid "Low Priority"
+#~ msgstr "Prioridá baxa"
+
+#~ msgid "Medium Priority"
+#~ msgstr "Prioridá media"
+
+#~ msgid "High Priority"
+#~ msgstr "Prioridá alta"
+
+#~ msgid "Icon Color"
+#~ msgstr "Color d'iconu"
+
+#~ msgid "Custom Colors"
+#~ msgstr "Colores personalizaos"
+
+#~ msgid "Outer Border"
+#~ msgstr "Berbesu esterior"
+
+#~ msgid "Inner Border"
+#~ msgstr "Berbesu interior"
+
+#~ msgid "Main"
+#~ msgstr "Principal"
+
+#~ msgid "Text"
+#~ msgstr "Testu"
+
+#~ msgid "Icon Type"
+#~ msgstr "Tipu d'iconu"
+
+#~ msgid "To-Do List"
+#~ msgstr "Llista de coses por facer"
+
+#~ msgid "A simple To-Do List"
+#~ msgstr "Llista de coses por facer cenciella"
+
+#~ msgid "Remove item"
+#~ msgstr "Desaniciar oxetu"
+
+#~ msgid "Remove category"
+#~ msgstr "Desaniciar categoría"
+
+#~ msgid "View/Edit details"
+#~ msgstr "Ver/Editar detáis"
+
+#~ msgid "_Uncategorized"
+#~ msgstr "Ens_in categorizar"
+
+#~ msgid "_Category"
+#~ msgstr "_Categoría"
+
+#~ msgid "_To-Do item"
+#~ msgstr "Oxetu de llis_ta de xeres"
+
+#~ msgid "Priority: "
+#~ msgstr "Prioridá: "
+
+#~ msgid "_Neutral"
+#~ msgstr "_Neutral"
+
+#~ msgid "_Low"
+#~ msgstr "Ba_xu"
+
+#~ msgid "_Medium"
+#~ msgstr "_Mediu"
+
+#~ msgid "_High"
+#~ msgstr "A_ltu"
+
+#~ msgid "Progress(%): "
+#~ msgstr "Progresu(%): "
+
+#~ msgid ""
+#~ "Are you sure you want to remove the category \"%s?\"\n"
+#~ "All of its items will be removed."
+#~ msgstr ""
+#~ "¿Tas seguru que quies desaniciar la categoría «%s»?\n"
+#~ "Tolos elementos que contenga desaniciaránse."
+
+#~ msgid "Don't show this again."
+#~ msgstr "Nun amosar esto otra vuelta."
+
+#~ msgid "Are you sure you want to remove this item?"
+#~ msgstr "¿Tas seguru que quies desaniciar esti elementu?"
+
+#~ msgid "Forecast"
+#~ msgstr "Pronósticu"
+
+#~ msgid "for"
+#~ msgstr "pa"
+
+#~ msgid "WEEKDAY"
+#~ msgstr "DÍA de la SELMANA"
+
+#~ msgid "Tomorrow"
+#~ msgstr "Mañana"
+
+#~ msgid "DESCRIPTION"
+#~ msgstr "DESCRIPCIÓN"
+
+#~ msgid "Weather data provided by weather.com"
+#~ msgstr "Los datos del tiempu úfrelos weather.com"
+
+#~ msgid "Blowing Snow"
+#~ msgstr "Torberiu"
+
+#~ msgid "Blustery"
+#~ msgstr "Airón"
+
+#~ msgid "Clear"
+#~ msgstr "Espeyáu"
+
+#~ msgid "Cloudy"
+#~ msgstr "Nubláu"
+
+#~ msgid "Cold"
+#~ msgstr "Fríu"
+
+#~ msgid "Drizzle"
+#~ msgstr "Orpín"
+
+#~ msgid "Dust"
+#~ msgstr "Polvu"
+
+#~ msgid "Fair"
+#~ msgstr "Poco nubláu"
+
+#~ msgid "Fog"
+#~ msgstr "Borrina"
+
+#~ msgid "Freezing Drizzle"
+#~ msgstr "Orpín xeláu"
+
+#~ msgid "Freezing Rain"
+#~ msgstr "Lluvia xelada"
+
+#~ msgid "Hail"
+#~ msgstr "Granizu"
+
+#~ msgid "Haze"
+#~ msgstr "Nublina"
+
+#~ msgid "Heavy Snow"
+#~ msgstr "Nevarada"
+
+#~ msgid "Hot"
+#~ msgstr "Calor"
+
+#~ msgid "Hurricane"
+#~ msgstr "Furacán"
+
+#~ msgid "Isolated Thunderstorms"
+#~ msgstr "Truenes aisllaes"
+
+#~ msgid "Light Snow Showers"
+#~ msgstr "Neváes"
+
+#~ msgid "Mixed Precipitation"
+#~ msgstr "Lluvia amestada"
+
+#~ msgid "Mixed Rain and Hail"
+#~ msgstr "Xarabatos"
+
+#~ msgid "Mixed Rain and Sleet"
+#~ msgstr "Lluvia y aguanieve"
+
+#~ msgid "Mixed Rain and Snow"
+#~ msgstr "Aguanieve"
+
+#~ msgid "Mostly Cloudy"
+#~ msgstr "Enforma nubláu"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "Partly Cloudy"
+#~ msgstr "Parcialmente nubláu"
+
+#~ msgid "Scattered Showers"
+#~ msgstr "Bastios sueltos"
+
+#~ msgid "Scattered Snow Showers"
+#~ msgstr "Neváes sueltes"
+
+#~ msgid "Scattered Thunderstorms"
+#~ msgstr "Truenes sueltes"
+
+#~ msgid "Severe Thunderstorms"
+#~ msgstr "Temporales"
+
+#~ msgid "Showers"
+#~ msgstr "Bastios"
+
+#~ msgid "Sleet"
+#~ msgstr "Xaraza"
+
+#~ msgid "Smoke"
+#~ msgstr "Fumu"
+
+#~ msgid "Snow"
+#~ msgstr "Nieve"
+
+#~ msgid "Snow Flurries"
+#~ msgstr "Fallusques"
+
+#~ msgid "Snow Showers"
+#~ msgstr "Bastios de nieve"
+
+#~ msgid "Thunder Showers"
+#~ msgstr "Bastios con truenes"
+
+#~ msgid "Thunderstorms"
+#~ msgstr "Tormentes"
+
+#~ msgid "Tornado"
+#~ msgstr "Remolín"
+
+#~ msgid "Tropical Storm"
+#~ msgstr "Tormenta tropical"
+
+#~ msgid "Windy"
+#~ msgstr "Vientu"
+
+#~ msgid "Monday"
+#~ msgstr "Llunes"
+
+#~ msgid "Tuesday"
+#~ msgstr "Martes"
+
+#~ msgid "Wednesday"
+#~ msgstr "Miércoles"
+
+#~ msgid "Thursday"
+#~ msgstr "Xueves"
+
+#~ msgid "Friday"
+#~ msgstr "Vienres"
+
+#~ msgid "Saturday"
+#~ msgstr "Sábadu"
+
+#~ msgid "Sunday"
+#~ msgstr "Domingu"
+
+#~ msgid "Fetching conditions for"
+#~ msgstr "Restolando condiciones pa"
+
+#~ msgid "Searching..."
+#~ msgstr "Guetando..."
+
+#~ msgid "Open Location"
+#~ msgstr "Abrir llugar"
+
+#~ msgid ""
+#~ "There seem to be problems with our                     connection to your "
+#~ "account. Your best bet is probably                     to log out and try "
+#~ "again."
+#~ msgstr ""
+#~ "Paez qu'hai problemes cola                     conexón a to cuenta. "
+#~ "Seique lo meyor ye                     desconeutate y tentalo otra vuelta."
+
+#~ msgid "% done"
+#~ msgstr "% done"
