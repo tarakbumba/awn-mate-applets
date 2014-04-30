@@ -6,7 +6,7 @@ AC_INIT([awn-mate-applets],
 AM_INIT_AUTOMAKE([-Wno-portability 1.8 tar-ustar])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR(applets)
-AM_CONFIG_HEADER(config.h)
+AC_CONFIG_HEADERS(config.h)
 AM_MAINTAINER_MODE
 
 AC_ISC_POSIX
