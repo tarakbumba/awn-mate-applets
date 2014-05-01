@@ -645,7 +645,7 @@ if __name__ == "__main__":
         "version": __version__,
         "description": applet_description,
         "theme": applet_logo,
-        "author": "tarakbumba",
-        "copyright-year": "2014",
-        "authors": ["onox <denkpadje@gmail.com>"] ["tarakbumba <tarakbumba at tarakbumba dot com>"]},
+        "author": "2009-2010: onox - 2014: tarakbumba",
+        "copyright-year": "",
+        "authors": ["onox <denkpadje@gmail.com>","tarakbumba <tarakbumba at tarakbumba dot com>"]},
         ["no-tooltip"])
