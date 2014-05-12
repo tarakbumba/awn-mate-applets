@@ -49,10 +49,10 @@ struct _CairoMenuAppletPrivate {
 };
 
 
-static gchar * mate_run_cmds[] = { "synapse","gnome-do","kupfer","grun","gmrun","gnome-launch-box",
+static gchar * mate_run_cmds[] = { "mate-panel --run-dialog","synapse","gnome-do","kupfer","grun","gmrun","gnome-launch-box",
                           "gnome-panel-control --run-dialog","xfrun4",NULL};
 
-static gchar * mate_search_cmds[] = { "tracker-search-tool","gnome-do","mate-search-tool",NULL};
+static gchar * mate_search_cmds[] = { "mate-search-tool","tracker-search-tool","gnome-do",NULL};
 
 static gboolean _button_clicked_event (CairoMenuApplet *applet, GdkEventButton *event, gpointer null);
 
