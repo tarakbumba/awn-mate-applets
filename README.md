@@ -1,5 +1,5 @@
-=== AWN MATE APPLETS README FILE ===
-====================================
+AWN MATE APPLETS README FILE
+======
 
 These applets loosly based on awn-extras package applets and MintMenuAwn applet.
 I have only modified necessary parts to use on MATE Desktop.
